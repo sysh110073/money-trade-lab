@@ -231,6 +231,7 @@ def main() -> None:
     parser.add_argument("--rebalance-trigger", type=float, default=0.0)
     parser.add_argument("--enable-replacement", action=argparse.BooleanOptionalAction, default=True)
     parser.add_argument("--replacement-threshold", type=float, default=0.05)
+    parser.add_argument("--replacement-cost-score-scale", type=float, default=10.0)
     parser.add_argument("--trailing-stop-sell-pct", type=float, default=1.0, help="Fraction of shares to sell on trailing stop (0.5=50%%, 1.0=100%%)")
     parser.add_argument("--max-entry-volume-pct", type=float, default=0.01, help="Max shares to buy as a fraction of the previous trading day's volume.")
     parser.add_argument("--max-entry-notional", type=float, default=2_000_000)
@@ -354,6 +355,7 @@ def main() -> None:
         args.sentiment_overlay,
         args.enable_replacement,
         args.replacement_threshold,
+        args.replacement_cost_score_scale,
         args.trailing_stop_sell_pct,
         args.max_entry_volume_pct,
         args.max_entry_notional,
@@ -381,10 +383,16 @@ def main() -> None:
             "correlation_lookback": args.correlation_lookback,
             "max_positions_per_industry": args.max_positions_per_industry,
             "rebalance_trigger": args.rebalance_trigger,
+            "enable_replacement": args.enable_replacement,
+            "replacement_threshold": args.replacement_threshold,
+            "replacement_cost_score_scale": args.replacement_cost_score_scale,
             "max_entry_volume_pct": args.max_entry_volume_pct,
             "max_entry_notional": args.max_entry_notional,
             "score_sizing_spread": args.score_sizing_spread,
             "market_impact_slippage": args.market_impact_slippage,
+            "commission_rate": settings["trading"].get("commission_rate"),
+            "tax_rate": settings["trading"].get("tax_rate"),
+            "slippage": settings["trading"].get("slippage"),
             "min_trade_unit": args.min_trade_unit,
             "holding_period_max": args.holding_period_max,
             "drawdown_block_threshold": args.drawdown_block_threshold,

@@ -17,7 +17,7 @@ for item in [ROOT, PROJECT_ROOT, SCRIPT_ROOT, ML_SCRIPT_ROOT]:
 
 from scripts.check_data_health import _read_js_export  # noqa: E402
 from scripts.send_line_holdings import already_notified, write_notification_marker  # noqa: E402
-from run_portfolio_strategy_wfa import _run_portfolio  # noqa: E402
+from run_portfolio_strategy_wfa import _replacement_cost_penalty, _run_portfolio  # noqa: E402
 from run_rank_portfolio_backtest import _rank  # noqa: E402
 from src.feature_engine import FeatureEngine  # noqa: E402
 from src.labeler import Labeler  # noqa: E402
@@ -184,6 +184,52 @@ def check_gap_stop_uses_open_price() -> None:
     assert result["execution_stats"]["gap_stop_exits"] == 1
 
 
+def check_replacement_cost_gate_rejects_weak_switch() -> None:
+    assert abs(_replacement_cost_penalty(3000, 1000, 1_000_000, 10.0) - 0.04) < 1e-12
+
+    settings = _tiny_settings()
+    settings["trading"].update({"commission_rate": 0.01, "tax_rate": 0.01, "slippage": 0.01})
+    frame = pd.DataFrame(
+        {
+            "date": pd.to_datetime(
+                [
+                    "2026-01-01",
+                    "2026-01-01",
+                    "2026-01-02",
+                    "2026-01-02",
+                    "2026-01-03",
+                    "2026-01-03",
+                ]
+            ),
+            "symbol": ["2330", "2317", "2330", "2317", "2330", "2317"],
+            "open": [100.0] * 6,
+            "high": [101.0] * 6,
+            "low": [99.0] * 6,
+            "close": [100.0] * 6,
+            "volume": [100000] * 6,
+            "entry_signal": [1, 0, 0, 1, 0, 0],
+            "atr_14": [2.0] * 6,
+            "strategy_score": [0.50, 0.40, 0.50, 0.57, 0.50, 0.57],
+            "rank_signal_score": [1.0] * 6,
+        }
+    )
+    result = _run_portfolio(
+        frame,
+        settings,
+        100_000,
+        1.0,
+        1,
+        0.5,
+        1,
+        max_risk_per_trade=0.02,
+        replacement_threshold=0.05,
+        replacement_cost_score_scale=10.0,
+    )
+    assert result["trade_log"].empty
+    assert result["execution_stats"]["replacement_cost_gate_rejections"] == 1
+    assert result["open_positions"].iloc[0]["symbol"] == "2330"
+
+
 def check_js_export_parse() -> None:
     with tempfile.TemporaryDirectory() as tmp:
         path = Path(tmp) / "data.js"
@@ -213,6 +259,7 @@ def main() -> None:
     check_rank_is_same_day_cross_section()
     check_signal_execution_lag_and_limit_up_block()
     check_gap_stop_uses_open_price()
+    check_replacement_cost_gate_rejects_weak_switch()
     check_js_export_parse()
     check_line_notification_marker()
     print("test_pandas_logic: PASS")

@@ -24,6 +24,8 @@ execution:
   max_entry_volume_pct: 0.01
   max_entry_notional: 2000000
   market_impact_slippage: 0.10
+  replacement_threshold: 0.05
+  replacement_cost_score_scale: 10.0
 
 daily:
   forward_start_date: '2026-06-05'

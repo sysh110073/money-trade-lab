@@ -322,6 +322,12 @@ def _rank_weight(index: int, total: int, spread: float) -> float:
     return 1.0 + spread * (rank_pct - 0.5)
 
 
+def _replacement_cost_penalty(exit_cost: float, entry_cost: float, equity: float, score_scale: float) -> float:
+    if score_scale <= 0 or equity <= 0:
+        return 0.0
+    return (max(0.0, exit_cost) + max(0.0, entry_cost)) / equity * score_scale
+
+
 def _run_portfolio(
     signals: pd.DataFrame,
     settings: dict[str, Any],
@@ -340,6 +346,7 @@ def _run_portfolio(
     sentiment_overlay: bool = False,
     enable_replacement: bool = True,
     replacement_threshold: float = 0.05,
+    replacement_cost_score_scale: float = 10.0,
     trailing_stop_sell_pct: float = 1.0,
     max_entry_volume_pct: float = 0.0,
     max_entry_notional: float = 0.0,
@@ -365,6 +372,7 @@ def _run_portfolio(
         "gap_stop_exits": 0,
         "skipped_low_volume_buys": 0,
         "volume_capped_entries": 0,
+        "replacement_cost_gate_rejections": 0,
     }
     prev_day_rows: list[tuple[str, pd.Series]] = []
     peak_equity = start_capital
@@ -560,8 +568,9 @@ def _run_portfolio(
                         worst_score = pscore
                         worst_sym = psym
                 
-                cand_score = float(row.get("strategy_score", 0.0))
-                if cand_score > worst_score + replacement_threshold:
+                cand_score = _row_float(row, "strategy_score", 0.0)
+                score_edge = cand_score - worst_score
+                if score_edge > replacement_threshold and worst_sym is not None:
                     worst_pos = positions[worst_sym]
                     worst_bar = bars_by_symbol.get(worst_sym)
                     exit_price = float(worst_bar["open"]) if worst_bar is not None and "open" in worst_bar and pd.notna(worst_bar["open"]) else float(worst_bar["close"]) if worst_bar is not None else float(worst_pos.entry_price)
@@ -576,6 +585,26 @@ def _run_portfolio(
                     participation_rate = worst_pos.shares / exit_volume if exit_volume > 0 else 0.0
                     costs = _daily_cost(settings, exit_value, is_entry=False, participation_rate=participation_rate)
                     net = gross - costs
+                    candidate_positions = dict(positions)
+                    del candidate_positions[worst_sym]
+                    candidate_cash = cash + exit_value - costs
+                    candidate_open_equity, candidate_open_invested = _mark_to_market(candidate_positions, bars_by_symbol, candidate_cash, "open")
+                    candidate_remaining_target = max(0.0, candidate_open_equity * daily_target_exposure - candidate_open_invested)
+                    estimated_entry_notional = min(candidate_cash, candidate_remaining_target)
+                    if daily_max_position_pct > 0:
+                        estimated_entry_notional = min(estimated_entry_notional, candidate_open_equity * daily_max_position_pct)
+                    if max_entry_notional > 0:
+                        estimated_entry_notional = min(estimated_entry_notional, max_entry_notional)
+                    estimated_entry_cost = _daily_cost(settings, max(0.0, estimated_entry_notional), is_entry=True)
+                    required_edge = replacement_threshold + _replacement_cost_penalty(
+                        costs,
+                        estimated_entry_cost,
+                        candidate_open_equity,
+                        replacement_cost_score_scale,
+                    )
+                    if score_edge <= required_edge:
+                        execution_stats["replacement_cost_gate_rejections"] += 1
+                        continue
                     replacement_trade = PortfolioTrade(
                         symbol=worst_sym,
                         entry_date=worst_pos.entry_date,
@@ -595,11 +624,10 @@ def _run_portfolio(
                         selected_strategy_ids=worst_pos.selected_strategy_ids,
                     )
                     replacement_from = worst_sym
-                    working_positions = dict(positions)
-                    del working_positions[worst_sym]
-                    working_cash = cash + exit_value - costs
-                    working_open_equity, working_open_invested = _mark_to_market(working_positions, bars_by_symbol, working_cash, "open")
-                    working_remaining_target = max(0.0, working_open_equity * daily_target_exposure - working_open_invested)
+                    working_positions = candidate_positions
+                    working_cash = candidate_cash
+                    working_open_equity = candidate_open_equity
+                    working_remaining_target = candidate_remaining_target
 
             if len(working_positions) >= daily_max_positions or working_remaining_target <= 0 or working_cash <= 0:
                 if replacement_trade is not None:
@@ -738,6 +766,7 @@ def _run_portfolio(
         "replacement_switch_net_pnl": float(trade_log.loc[trade_log["exit_reason"].eq("replacement_switch"), "net_pnl"].sum()) if not trade_log.empty and "exit_reason" in trade_log else 0.0,
         "replacement_switch_exit_cost": float(trade_log.loc[trade_log["exit_reason"].eq("replacement_switch"), "cost"].sum()) if not trade_log.empty and "exit_reason" in trade_log and "cost" in trade_log else 0.0,
         "replacement_buy_cost": float(buy_log.loc[buy_log["buy_reason"].eq("replacement_buy"), "cost"].sum()) if not buy_log.empty and "buy_reason" in buy_log and "cost" in buy_log else 0.0,
+        "replacement_cost_gate_rejections": int(execution_stats["replacement_cost_gate_rejections"]),
     }
     final_equity = float(equity["equity"].iloc[-1]) if not equity.empty else start_capital
     final_date = pd.Timestamp(equity["date"].iloc[-1]) if not equity.empty else pd.NaT

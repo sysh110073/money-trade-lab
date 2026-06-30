@@ -25,15 +25,15 @@ export const dashboardData = {
   },
   "aggressive": {
     "name": "正式版 Risk Parity Best",
-    "totalReturn": 22.438697742710243,
-    "cagr": 0.2808925113205951,
-    "sharpe": 1.1441844822283125,
-    "maxDrawdown": 0.3650723130528328,
-    "winRate": 0.5716337522441651,
-    "profitFactor": 1.5616021851722532,
-    "calmar": 0.7694160890254768,
-    "utilization": 0.6543124956757322,
-    "trades": 2785.0,
+    "totalReturn": 31.826400657377597,
+    "cagr": 0.31520527448630986,
+    "sharpe": 1.2522790119930036,
+    "maxDrawdown": 0.34327524122918907,
+    "winRate": 0.5878274268104776,
+    "profitFactor": 1.6192547037371872,
+    "calmar": 0.918228979630552,
+    "utilization": 0.650052946120177,
+    "trades": 2596.0,
     "periodStart": "2013-05-08",
     "periodEnd": "2026-06-29"
   },
@@ -185,9 +185,9 @@ export const dashboardData = {
     }
   },
   "runContext": {
-    "runId": "20260629_20260630_124305_prod",
+    "runId": "20260629_20260630_130156_prod",
     "strategyVersion": "official_rank_portfolio",
     "asOfDate": "2026-06-29",
-    "configHash": "sha256:957723ee3bc7a1cc8fadf001905905da4611ab78ace8d0058337385b5a5a8db7"
+    "configHash": "sha256:0cfdb40509559b73495363bca0564b728688a7b1d536d797f31e734bb11a48d2"
   }
 };

@@ -74,6 +74,18 @@ def safe_pct(numerator: float, denominator: float) -> float | None:
     return numerator / denominator - 1
 
 
+def replacement_cost_penalty(exit_value: float, entry_value: float, capital: float, settings: dict) -> float:
+    scale = float(settings.get("replacement_cost_score_scale", 10.0))
+    if scale <= 0 or capital <= 0:
+        return 0.0
+    commission = float(settings.get("commission_rate", 0.001425))
+    tax = float(settings.get("tax_rate", 0.003))
+    slippage = float(settings.get("slippage", 0.001))
+    exit_cost = max(0.0, exit_value) * (commission + tax + slippage)
+    entry_cost = max(0.0, entry_value) * (commission + slippage)
+    return (exit_cost + entry_cost) / capital * scale
+
+
 def stop_risk_flags(row: pd.Series) -> list[str]:
     flags = []
     weak_market = safe_float(row.get("market_breadth_ma20"), 1.0) < 0.50 or safe_float(row.get("market_positive_return_5"), 1.0) < 0.50
@@ -615,12 +627,17 @@ def risk_parity_allocation(candidates: pd.DataFrame, settings: dict, lot: int, o
             
             if worst_pos:
                 worst_score = float(worst_pos.get("strategyScore", 0))
-                if cand_score > worst_score + replacement_threshold:
+                freed_cash = float(worst_pos.get("marketValue", 0))
+                entry_budget = min(max(0.0, cash + freed_cash), max(0.0, capital * max_position_pct))
+                max_entry_notional = float(settings.get("max_entry_notional", 0.0))
+                if max_entry_notional > 0:
+                    entry_budget = min(entry_budget, max_entry_notional)
+                required_edge = replacement_threshold + replacement_cost_penalty(freed_cash, entry_budget, capital, settings)
+                if cand_score > worst_score + required_edge:
                     is_replacement = True
                     replaced_symbol = worst_pos["symbol"]
                     replaced_symbols.add(replaced_symbol)
                     
-                    freed_cash = float(worst_pos.get("marketValue", 0))
                     cash += freed_cash
                     invested_cash -= freed_cash
 
@@ -1257,6 +1274,11 @@ def main() -> None:
         "trailing_stop_trigger": settings.get("risk", {}).get("trailing_stop_trigger", 0.3) if "risk" in settings else settings.get("trailing_stop_trigger", 0.3),
         "max_entry_volume_pct": settings.get("max_entry_volume_pct", 0.0),
         "max_entry_notional": settings.get("max_entry_notional", 0.0),
+        "replacement_threshold": settings.get("replacement_threshold", 0.05),
+        "replacement_cost_score_scale": settings.get("replacement_cost_score_scale", 10.0),
+        "commission_rate": settings.get("commission_rate", 0.001425),
+        "tax_rate": settings.get("tax_rate", 0.003),
+        "slippage": settings.get("slippage", 0.001),
     }
 
     stock_info = load_stock_info()

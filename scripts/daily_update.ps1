@@ -92,6 +92,8 @@ $TrailingStopAtr = Get-ConfigValue "risk.trailing_stop_atr" "3.5"
 $MaxEntryVolumePct = Get-ConfigValue "execution.max_entry_volume_pct" "0.01"
 $MaxEntryNotional = Get-ConfigValue "execution.max_entry_notional" "2000000"
 $MarketImpactSlippage = Get-ConfigValue "execution.market_impact_slippage" "0.10"
+$ReplacementThreshold = Get-ConfigValue "execution.replacement_threshold" "0.05"
+$ReplacementCostScoreScale = Get-ConfigValue "execution.replacement_cost_score_scale" "10.0"
 
 $LogDir = Join-Path $ProjectRoot "logs\daily_update"
 New-Item -ItemType Directory -Force -Path $LogDir | Out-Null
@@ -372,7 +374,9 @@ if (-not $SkipBacktest) {
         "--trailing-stop-sell-pct", $TrailingStopSellPct,
         "--max-entry-volume-pct", $MaxEntryVolumePct,
         "--max-entry-notional", $MaxEntryNotional,
-        "--market-impact-slippage", $MarketImpactSlippage
+        "--market-impact-slippage", $MarketImpactSlippage,
+        "--replacement-threshold", $ReplacementThreshold,
+        "--replacement-cost-score-scale", $ReplacementCostScoreScale
     )
     $rankArgs = $rankCommonArgs + @("--output-dir", $OfficialRankDir)
     $script:RankStatus = "RUNNING"

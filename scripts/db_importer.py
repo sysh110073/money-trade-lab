@@ -130,6 +130,8 @@ def init_db(conn):
             exit_price REAL,
             gross_pnl REAL,
             net_pnl REAL,
+            cost REAL,
+            participation_rate REAL,
             exit_reason TEXT,
             holding_days INTEGER,
             signal_tier TEXT,
@@ -140,6 +142,8 @@ def init_db(conn):
             FOREIGN KEY(run_id) REFERENCES backtest_runs(run_id)
         )
     ''')
+    ensure_column(conn, 'trade_log', 'cost', 'REAL')
+    ensure_column(conn, 'trade_log', 'participation_rate', 'REAL')
     
     # 6. equity_curve
     cursor.execute('''
@@ -374,7 +378,7 @@ def import_backtest_run(
                 df_trades['symbol'] = df_trades['symbol'].astype(str)
                 df_trades['win'] = df_trades['win'].astype(int) if 'win' in df_trades.columns else None
                 # drop unnecessary cols if they exist
-                trade_cols = [c for c in df_trades.columns if c in ['run_id', 'symbol', 'entry_date', 'exit_date', 'shares', 'entry_price', 'exit_price', 'gross_pnl', 'net_pnl', 'exit_reason', 'holding_days', 'signal_tier', 'strategy_score', 'selected_strategy_count', 'selected_strategy_ids', 'win']]
+                trade_cols = [c for c in df_trades.columns if c in ['run_id', 'symbol', 'entry_date', 'exit_date', 'shares', 'entry_price', 'exit_price', 'gross_pnl', 'net_pnl', 'cost', 'participation_rate', 'exit_reason', 'holding_days', 'signal_tier', 'strategy_score', 'selected_strategy_count', 'selected_strategy_ids', 'win']]
                 df_trades[trade_cols].to_sql('trade_log', conn, if_exists='append', index=False)
                 
         # Insert equity

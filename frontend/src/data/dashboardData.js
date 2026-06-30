@@ -16,7 +16,7 @@ export const dashboardData = {
     "suggestedPositions": 0,
     "suggestedUtilization": 0.0,
     "marketEnvironment": "high_vol",
-    "riskLevel": "中",
+    "riskLevel": "中高",
     "riskNotes": [
       "市場處於 bear/high_vol，不開追高新倉",
       "市場廣度或 5 日上漲家數偏弱，過熱股暫緩"
@@ -25,15 +25,15 @@ export const dashboardData = {
   },
   "aggressive": {
     "name": "正式版 Risk Parity Best",
-    "totalReturn": 39.152424720583646,
-    "cagr": 0.3361636718957175,
-    "sharpe": 1.3386825945000418,
-    "maxDrawdown": 0.319054812476987,
-    "winRate": 0.5932510885341074,
-    "profitFactor": 1.7019137638869861,
-    "calmar": 1.0536235742250857,
-    "utilization": 0.6448122559103091,
-    "trades": 2756.0,
+    "totalReturn": 22.438697742710243,
+    "cagr": 0.2808925113205951,
+    "sharpe": 1.1441844822283125,
+    "maxDrawdown": 0.3650723130528328,
+    "winRate": 0.5716337522441651,
+    "profitFactor": 1.5616021851722532,
+    "calmar": 0.7694160890254768,
+    "utilization": 0.6543124956757322,
+    "trades": 2785.0,
     "periodStart": "2013-05-08",
     "periodEnd": "2026-06-29"
   },
@@ -185,7 +185,7 @@ export const dashboardData = {
     }
   },
   "runContext": {
-    "runId": "20260629_20260630_122152_prod",
+    "runId": "20260629_20260630_124305_prod",
     "strategyVersion": "official_rank_portfolio",
     "asOfDate": "2026-06-29",
     "configHash": "sha256:957723ee3bc7a1cc8fadf001905905da4611ab78ace8d0058337385b5a5a8db7"

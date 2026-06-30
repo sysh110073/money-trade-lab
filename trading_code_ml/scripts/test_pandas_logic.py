@@ -10,14 +10,18 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 PROJECT_ROOT = ROOT.parent
 SCRIPT_ROOT = PROJECT_ROOT / "scripts"
-for item in [ROOT, PROJECT_ROOT, SCRIPT_ROOT]:
+ML_SCRIPT_ROOT = ROOT / "scripts"
+for item in [ROOT, PROJECT_ROOT, SCRIPT_ROOT, ML_SCRIPT_ROOT]:
     if str(item) not in sys.path:
         sys.path.insert(0, str(item))
 
 from scripts.check_data_health import _read_js_export  # noqa: E402
 from scripts.send_line_holdings import already_notified, write_notification_marker  # noqa: E402
+from run_portfolio_strategy_wfa import _run_portfolio  # noqa: E402
+from run_rank_portfolio_backtest import _rank  # noqa: E402
+from src.feature_engine import FeatureEngine  # noqa: E402
 from src.labeler import Labeler  # noqa: E402
-from src.risk_manager import PositionState, RiskManager  # noqa: E402
+from src.risk_manager import PositionState, RiskManager, calculate_position_size  # noqa: E402
 
 
 def check_labeler_no_current_day_leak() -> None:
@@ -63,6 +67,123 @@ def check_risk_manager_position_and_exit() -> None:
     assert should_exit and reason == "stop_loss"
 
 
+def check_shared_position_sizing_limits() -> None:
+    sizing = calculate_position_size(
+        capital=1_000_000,
+        price=50,
+        atr_value=2,
+        risk_pct=0.02,
+        atr_multiplier=5.0,
+        max_position_pct=0.20,
+        min_trade_unit=1000,
+        cash=1_000_000,
+        volume=1500,
+        max_volume_pct=1.0,
+    )
+    assert sizing.theoretical_shares == 2000
+    assert sizing.volume_limited_shares == 1000
+    assert sizing.shares == 1000
+
+
+def check_feature_columns_exclude_targets() -> None:
+    frame = pd.DataFrame(
+        {
+            "date": ["2026-01-01"],
+            "symbol": ["2330"],
+            "close": [100.0],
+            "future_return": [0.2],
+            "label": [1],
+            "target_binary": [1],
+            "target_3class": [1],
+        }
+    )
+    cols = FeatureEngine({}).feature_columns(frame)
+    assert "close" in cols
+    assert not {"future_return", "label", "target_binary", "target_3class"} & set(cols)
+
+
+def check_rank_is_same_day_cross_section() -> None:
+    frame = pd.DataFrame(
+        {
+            "date": ["2026-01-01", "2026-01-01", "2026-01-02", "2026-01-02"],
+            "symbol": ["A", "B", "A", "B"],
+            "score": [1.0, 2.0, 100.0, 50.0],
+        }
+    )
+    ranks = _rank(frame, "score")
+    assert ranks.tolist() == [0.5, 1.0, 1.0, 0.5]
+
+
+def _tiny_settings() -> dict:
+    return {
+        "trading": {
+            "holding_period_max": 10,
+            "commission_rate": 0.0,
+            "tax_rate": 0.0,
+            "slippage": 0.0,
+            "min_trade_unit": 1,
+        },
+        "risk": {
+            "max_risk_per_trade": 0.02,
+            "max_position_pct": 0.2,
+            "atr_stop_multiplier": 5.0,
+            "take_profit_pct": 1.0,
+            "trailing_stop_trigger": 0.3,
+            "trailing_stop_atr": 3.5,
+        },
+    }
+
+
+def check_signal_execution_lag_and_limit_up_block() -> None:
+    base = pd.DataFrame(
+        {
+            "date": pd.to_datetime(["2026-01-01", "2026-01-02"]),
+            "symbol": ["2330", "2330"],
+            "open": [100.0, 101.0],
+            "high": [101.0, 102.0],
+            "low": [99.0, 100.0],
+            "close": [100.0, 101.0],
+            "volume": [100000, 100000],
+            "entry_signal": [1, 0],
+            "atr_14": [2.0, 2.0],
+            "strategy_score": [1.0, 1.0],
+            "rank_signal_score": [1.0, 1.0],
+        }
+    )
+    result = _run_portfolio(base, _tiny_settings(), 1_000_000, 1.0, 1, 0.2, 1, max_risk_per_trade=0.02)
+    assert str(result["buy_log"].iloc[0]["date"])[:10] == "2026-01-02"
+    assert result["tca_summary"]["entry_cost"] == 0.0
+
+    limit_up = base.copy()
+    limit_up.loc[1, "open"] = 110.0
+    blocked = _run_portfolio(limit_up, _tiny_settings(), 1_000_000, 1.0, 1, 0.2, 1, max_risk_per_trade=0.02)
+    assert blocked["buy_log"].empty
+    assert blocked["execution_stats"]["blocked_limit_up_buys"] == 1
+
+
+def check_gap_stop_uses_open_price() -> None:
+    frame = pd.DataFrame(
+        {
+            "date": pd.to_datetime(["2026-01-01", "2026-01-02", "2026-01-03"]),
+            "symbol": ["2330", "2330", "2330"],
+            "open": [100.0, 100.0, 92.0],
+            "high": [101.0, 101.0, 93.0],
+            "low": [99.0, 99.0, 90.0],
+            "close": [100.0, 100.0, 92.0],
+            "volume": [100000, 100000, 100000],
+            "entry_signal": [1, 0, 0],
+            "atr_14": [1.0, 1.0, 1.0],
+            "strategy_score": [1.0, 1.0, 1.0],
+            "rank_signal_score": [1.0, 1.0, 1.0],
+        }
+    )
+    result = _run_portfolio(frame, _tiny_settings(), 1_000_000, 1.0, 1, 0.2, 1, max_risk_per_trade=0.02)
+    trade = result["trade_log"].iloc[0]
+    assert trade["exit_reason"] == "stop_loss"
+    assert trade["exit_price"] == 92.0
+    assert result["execution_stats"]["gap_stop_exits"] == 1
+
+
 def check_js_export_parse() -> None:
     with tempfile.TemporaryDirectory() as tmp:
         path = Path(tmp) / "data.js"
@@ -87,6 +208,11 @@ def check_line_notification_marker() -> None:
 def main() -> None:
     check_labeler_no_current_day_leak()
     check_risk_manager_position_and_exit()
+    check_shared_position_sizing_limits()
+    check_feature_columns_exclude_targets()
+    check_rank_is_same_day_cross_section()
+    check_signal_execution_lag_and_limit_up_block()
+    check_gap_stop_uses_open_price()
     check_js_export_parse()
     check_line_notification_marker()
     print("test_pandas_logic: PASS")

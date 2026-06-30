@@ -28,6 +28,7 @@ for item in [ROOT, TRADING_ROOT]:
 
 from src.config import load_settings, setting_path  # noqa: E402
 from src.institutional_overlay import overlay_recent_official_institutional_flow  # noqa: E402
+from src.risk_manager import calculate_position_size  # noqa: E402
 
 
 def configure_paths(args: argparse.Namespace) -> None:
@@ -634,11 +635,21 @@ def risk_parity_allocation(candidates: pd.DataFrame, settings: dict, lot: int, o
             notional = 0.0
         else:
             remaining_target = max(0.0, capital * target_exposure - invested_cash - invested)
-            risk_shares = (capital * risk_pct) / (atr * atr_multiplier)
-            desired_notional = min(risk_shares * close, capital * max_position_pct, remaining_target, cash)
-            shares = int(desired_notional // close // lot) * lot
-            if lot == 1:
-                shares = int(desired_notional // close)
+            sizing = calculate_position_size(
+                capital=capital,
+                price=close,
+                atr_value=atr,
+                risk_pct=risk_pct,
+                atr_multiplier=atr_multiplier,
+                max_position_pct=max_position_pct,
+                min_trade_unit=lot,
+                cash=cash,
+                target_notional=remaining_target,
+                max_notional=float(settings.get("max_entry_notional", 0.0)),
+                volume=safe_float(item.get("volume")),
+                max_volume_pct=float(settings.get("max_entry_volume_pct", 0.0)),
+            )
+            shares = sizing.shares
             if shares <= 0:
                 continue
 
@@ -656,7 +667,7 @@ def risk_parity_allocation(candidates: pd.DataFrame, settings: dict, lot: int, o
                 notional = 0.0
 
             if shares > 0:
-                notional = shares * close
+                notional = sizing.notional
                 cash -= notional
                 invested += notional
                 
@@ -691,6 +702,10 @@ def risk_parity_allocation(candidates: pd.DataFrame, settings: dict, lot: int, o
                 "close": close,
                 "currentPrice": close,
                 "shares": shares,
+                "theoreticalShares": sizing.theoretical_shares,
+                "volumeLimitedShares": sizing.volume_limited_shares,
+                "cashLimitedShares": sizing.cash_limited_shares,
+                "sizingBlockedReason": sizing.blocked_reason,
                 "notional": notional,
                 "pct": notional / capital,
                 "score": safe_float(item.get("strategy_score")),
@@ -1240,6 +1255,8 @@ def main() -> None:
         "target_exposure": settings.get("target_exposure", 1.0),
         "take_profit_pct": settings.get("risk", {}).get("take_profit_pct", 1.0) if "risk" in settings else settings.get("take_profit_pct", 1.0),
         "trailing_stop_trigger": settings.get("risk", {}).get("trailing_stop_trigger", 0.3) if "risk" in settings else settings.get("trailing_stop_trigger", 0.3),
+        "max_entry_volume_pct": settings.get("max_entry_volume_pct", 0.0),
+        "max_entry_notional": settings.get("max_entry_notional", 0.0),
     }
 
     stock_info = load_stock_info()

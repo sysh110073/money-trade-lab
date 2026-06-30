@@ -34,6 +34,7 @@ from run_cycle_strategy_wfa import (  # noqa: E402
 )
 from src.config import load_settings  # noqa: E402
 from src.data_fetcher import DataFetcher  # noqa: E402
+from src.risk_manager import calculate_position_size  # noqa: E402
 from src.strategy_catalog import add_strategy_ranks, build_strategy_catalog  # noqa: E402
 
 
@@ -68,6 +69,8 @@ class PortfolioTrade:
     exit_price: float
     gross_pnl: float
     net_pnl: float
+    cost: float
+    participation_rate: float
     exit_reason: str
     holding_days: int
     signal_tier: str
@@ -100,6 +103,14 @@ def _daily_cost(settings: dict[str, Any], value: float, is_entry: bool, particip
     slippage = value * slippage_rate
     tax = value * float(trading["tax_rate"]) if not is_entry else 0.0
     return commission + slippage + tax
+
+
+def _is_limit_up(prev_close: float, price: float) -> bool:
+    return prev_close > 0 and price >= prev_close * 1.095
+
+
+def _is_limit_down(prev_close: float, price: float) -> bool:
+    return prev_close > 0 and price <= prev_close * 0.905
 
 
 def _round_shares(raw_shares: float, lot: int) -> int:
@@ -160,14 +171,15 @@ def _exit_check(position: PortfolioPosition, bar: pd.Series, holding_period_max:
     return False, ""
 
 
-def _exit_price(position: PortfolioPosition, bar: pd.Series, reason: str) -> float:
+def _exit_price(position: PortfolioPosition, bar: pd.Series, reason: str) -> tuple[float, bool]:
+    open_price = float(bar.get("open", bar["close"]))
     if reason == "stop_loss":
-        return float(position.stop_loss)
+        return (open_price, True) if open_price < position.stop_loss else (float(position.stop_loss), False)
     if reason == "take_profit":
-        return float(position.take_profit)
+        return float(position.take_profit), False
     if reason == "trailing_stop":
-        return float(position.trailing_stop)
-    return float(bar["close"])
+        return (open_price, True) if open_price < position.trailing_stop else (float(position.trailing_stop), False)
+    return float(bar["close"]), False
 
 
 def _make_oos_signals(
@@ -335,6 +347,8 @@ def _run_portfolio(
 ) -> dict[str, Any]:
     data = signals.sort_values(["date", "symbol"]).reset_index(drop=True).copy()
     data["date"] = pd.to_datetime(data["date"])
+    if "prev_close" not in data.columns and "close" in data.columns:
+        data["prev_close"] = data.groupby("symbol")["close"].shift(1)
     grouped = {symbol: frame.set_index("date").sort_index() for symbol, frame in data.groupby("symbol")}
     dates = sorted(data["date"].dropna().unique())
     holding_period_max = int(settings["trading"].get("holding_period_max", 15))
@@ -345,6 +359,13 @@ def _run_portfolio(
     trades: list[PortfolioTrade] = []
     buy_rows: list[dict[str, Any]] = []
     equity_rows: list[dict[str, Any]] = []
+    execution_stats = {
+        "blocked_limit_up_buys": 0,
+        "blocked_limit_down_exits": 0,
+        "gap_stop_exits": 0,
+        "skipped_low_volume_buys": 0,
+        "volume_capped_entries": 0,
+    }
     prev_day_rows: list[tuple[str, pd.Series]] = []
     peak_equity = start_capital
 
@@ -374,7 +395,14 @@ def _run_portfolio(
             should_exit, reason = _exit_check(position, bar, holding_period_max, settings)
             if not should_exit:
                 continue
-            exit_price = _exit_price(position, bar, reason)
+            prev_close = _row_float(bar, "prev_close", _row_float(bar, "close", 0.0))
+            open_price = _row_float(bar, "open", _row_float(bar, "close", 0.0))
+            if reason in {"stop_loss", "trailing_stop"} and _is_limit_down(prev_close, open_price):
+                execution_stats["blocked_limit_down_exits"] += 1
+                continue
+            exit_price, gap_adjusted = _exit_price(position, bar, reason)
+            if gap_adjusted:
+                execution_stats["gap_stop_exits"] += 1
 
             # Partial sell for trailing_stop
             if reason == "trailing_stop" and 0 < trailing_stop_sell_pct < 1.0:
@@ -387,7 +415,8 @@ def _run_portfolio(
             exit_value = exit_price * sell_shares
             gross = (exit_price - position.entry_price) * sell_shares
             exit_volume = _row_float(bar, "volume", 0.0)
-            costs = _daily_cost(settings, exit_value, is_entry=False, participation_rate=sell_shares / exit_volume if exit_volume > 0 else 0.0)
+            participation_rate = sell_shares / exit_volume if exit_volume > 0 else 0.0
+            costs = _daily_cost(settings, exit_value, is_entry=False, participation_rate=participation_rate)
             net = gross - costs
             cash += exit_value - costs
             trades.append(
@@ -400,6 +429,8 @@ def _run_portfolio(
                     exit_price=exit_price,
                     gross_pnl=gross,
                     net_pnl=net,
+                    cost=costs,
+                    participation_rate=participation_rate,
                     exit_reason=reason,
                     holding_days=position.holding_days,
                     signal_tier=position.signal_tier,
@@ -433,7 +464,8 @@ def _run_portfolio(
                     continue
                 sell_value = sell_shares * open_price
                 sell_volume = _row_float(bar, "volume", 0.0)
-                costs = _daily_cost(settings, sell_value, is_entry=False, participation_rate=sell_shares / sell_volume if sell_volume > 0 else 0.0)
+                participation_rate = sell_shares / sell_volume if sell_volume > 0 else 0.0
+                costs = _daily_cost(settings, sell_value, is_entry=False, participation_rate=participation_rate)
                 gross = (open_price - position.entry_price) * sell_shares
                 net = gross - costs
                 cash += sell_value - costs
@@ -448,6 +480,8 @@ def _run_portfolio(
                         exit_price=open_price,
                         gross_pnl=gross,
                         net_pnl=net,
+                        cost=costs,
+                        participation_rate=participation_rate,
                         exit_reason="rebalance_trim",
                         holding_days=position.holding_days,
                         signal_tier=position.signal_tier,
@@ -504,6 +538,10 @@ def _run_portfolio(
             atr_value = float(row.get("atr_14", np.nan))
             if not np.isfinite(entry_price) or entry_price <= 0 or not np.isfinite(atr_value) or atr_value <= 0:
                 continue
+            prev_close = _row_float(row, "close", 0.0)
+            if _is_limit_up(prev_close, entry_price):
+                execution_stats["blocked_limit_up_buys"] += 1
+                continue
 
             can_buy_freely = len(positions) < daily_max_positions and remaining_target > 0 and cash > 0
             replacement_trade: PortfolioTrade | None = None
@@ -527,11 +565,16 @@ def _run_portfolio(
                     worst_pos = positions[worst_sym]
                     worst_bar = bars_by_symbol.get(worst_sym)
                     exit_price = float(worst_bar["open"]) if worst_bar is not None and "open" in worst_bar and pd.notna(worst_bar["open"]) else float(worst_bar["close"]) if worst_bar is not None else float(worst_pos.entry_price)
-                    
+                    worst_prev_close = _row_float(worst_bar, "prev_close", float(worst_pos.entry_price)) if worst_bar is not None else float(worst_pos.entry_price)
+                    if _is_limit_down(worst_prev_close, exit_price):
+                        execution_stats["blocked_limit_down_exits"] += 1
+                        continue
+
                     exit_value = exit_price * worst_pos.shares
                     gross = (exit_price - worst_pos.entry_price) * worst_pos.shares
                     exit_volume = _row_float(worst_bar, "volume", 0.0) if worst_bar is not None else 0.0
-                    costs = _daily_cost(settings, exit_value, is_entry=False, participation_rate=worst_pos.shares / exit_volume if exit_volume > 0 else 0.0)
+                    participation_rate = worst_pos.shares / exit_volume if exit_volume > 0 else 0.0
+                    costs = _daily_cost(settings, exit_value, is_entry=False, participation_rate=participation_rate)
                     net = gross - costs
                     replacement_trade = PortfolioTrade(
                         symbol=worst_sym,
@@ -542,6 +585,8 @@ def _run_portfolio(
                         exit_price=exit_price,
                         gross_pnl=gross,
                         net_pnl=net,
+                        cost=costs,
+                        participation_rate=participation_rate,
                         exit_reason="replacement_switch",
                         holding_days=worst_pos.holding_days,
                         signal_tier=worst_pos.signal_tier,
@@ -568,22 +613,32 @@ def _run_portfolio(
                     continue
             if not _passes_correlation_filter(symbol, working_positions, grouped, current_date, max_correlation, correlation_lookback):
                 continue
-            if position_sizing == "risk_parity":
-                risk_pct = float(daily_max_risk_per_trade if daily_max_risk_per_trade is not None else settings["risk"].get("max_risk_per_trade", 0.01))
-                atr_multiplier = float(settings["risk"].get("atr_stop_multiplier", DEFAULT_RISK_FALLBACK["atr_stop_multiplier"]))
-                risk_shares = (working_open_equity * risk_pct) / (atr_value * atr_multiplier)
-                desired_notional = min(risk_shares * entry_price, working_open_equity * daily_max_position_pct, working_remaining_target, working_cash)
-            else:
-                desired_notional = min(working_open_equity * daily_max_position_pct, working_remaining_target, working_cash)
-            desired_notional *= _rank_weight(candidate_index, len(ranked_opening_candidates), score_sizing_spread)
-            desired_notional = min(desired_notional, working_remaining_target, working_cash)
-            if max_entry_notional > 0:
-                desired_notional = min(desired_notional, max_entry_notional)
-            volume_cap = int(_row_float(row, "volume", 0.0) * max_entry_volume_pct) if max_entry_volume_pct > 0 else 0
-            raw_shares = desired_notional / entry_price
-            if volume_cap > 0:
-                raw_shares = min(raw_shares, volume_cap)
-            shares = _round_shares(raw_shares, min_trade_unit)
+            sizing_multiplier = _rank_weight(candidate_index, len(ranked_opening_candidates), score_sizing_spread)
+            risk_pct_for_size = (
+                float(daily_max_risk_per_trade if daily_max_risk_per_trade is not None else settings["risk"].get("max_risk_per_trade", 0.01))
+                if position_sizing == "risk_parity"
+                else 1_000_000.0
+            )
+            sizing = calculate_position_size(
+                capital=working_open_equity,
+                price=entry_price,
+                atr_value=atr_value,
+                risk_pct=risk_pct_for_size,
+                atr_multiplier=float(settings["risk"].get("atr_stop_multiplier", DEFAULT_RISK_FALLBACK["atr_stop_multiplier"])),
+                max_position_pct=daily_max_position_pct,
+                min_trade_unit=min_trade_unit,
+                cash=working_cash,
+                target_notional=working_remaining_target,
+                max_notional=max_entry_notional,
+                volume=_row_float(row, "volume", 0.0),
+                max_volume_pct=max_entry_volume_pct,
+                size_multiplier=sizing_multiplier if position_sizing == "risk_parity" else 1.0,
+            )
+            shares = sizing.shares
+            if sizing.blocked_reason == "low_volume":
+                execution_stats["skipped_low_volume_buys"] += 1
+            if sizing.volume_limited_shares < sizing.theoretical_shares:
+                execution_stats["volume_capped_entries"] += 1
             if shares <= 0:
                 continue
             notional = shares * entry_price
@@ -605,7 +660,6 @@ def _run_portfolio(
                 open_equity = working_open_equity
                 remaining_target = working_remaining_target
             cash -= notional + cost
-            sizing_multiplier = _rank_weight(candidate_index, len(ranked_opening_candidates), score_sizing_spread)
             buy_rows.append(
                 {
                     "date": current_date,
@@ -614,6 +668,11 @@ def _run_portfolio(
                     "entry_price": entry_price,
                     "notional": notional,
                     "cost": cost,
+                    "participation_rate": participation_rate,
+                    "theoretical_shares": sizing.theoretical_shares,
+                    "volume_limited_shares": sizing.volume_limited_shares,
+                    "cash_limited_shares": sizing.cash_limited_shares,
+                    "blocked_reason": sizing.blocked_reason,
                     "cash_after": cash,
                     "strategy_score": float(row.get("strategy_score", 0.0)),
                     "rank_signal_score": float(row.get("rank_signal_score", np.nan)),
@@ -670,6 +729,16 @@ def _run_portfolio(
     buy_log = pd.DataFrame(buy_rows)
     if not trade_log.empty:
         trade_log["win"] = trade_log["net_pnl"] > 0
+    tca_summary = {
+        "entry_cost": float(buy_log["cost"].sum()) if not buy_log.empty and "cost" in buy_log else 0.0,
+        "exit_cost": float(trade_log["cost"].sum()) if not trade_log.empty and "cost" in trade_log else 0.0,
+        "total_cost": float((buy_log["cost"].sum() if not buy_log.empty and "cost" in buy_log else 0.0) + (trade_log["cost"].sum() if not trade_log.empty and "cost" in trade_log else 0.0)),
+        "replacement_switch_trades": int(trade_log["exit_reason"].eq("replacement_switch").sum()) if not trade_log.empty and "exit_reason" in trade_log else 0,
+        "replacement_switch_gross_pnl": float(trade_log.loc[trade_log["exit_reason"].eq("replacement_switch"), "gross_pnl"].sum()) if not trade_log.empty and "exit_reason" in trade_log else 0.0,
+        "replacement_switch_net_pnl": float(trade_log.loc[trade_log["exit_reason"].eq("replacement_switch"), "net_pnl"].sum()) if not trade_log.empty and "exit_reason" in trade_log else 0.0,
+        "replacement_switch_exit_cost": float(trade_log.loc[trade_log["exit_reason"].eq("replacement_switch"), "cost"].sum()) if not trade_log.empty and "exit_reason" in trade_log and "cost" in trade_log else 0.0,
+        "replacement_buy_cost": float(buy_log.loc[buy_log["buy_reason"].eq("replacement_buy"), "cost"].sum()) if not buy_log.empty and "buy_reason" in buy_log and "cost" in buy_log else 0.0,
+    }
     final_equity = float(equity["equity"].iloc[-1]) if not equity.empty else start_capital
     final_date = pd.Timestamp(equity["date"].iloc[-1]) if not equity.empty else pd.NaT
     open_position_rows: list[dict[str, Any]] = []
@@ -713,6 +782,8 @@ def _run_portfolio(
         "open_positions": pd.DataFrame(open_position_rows, columns=open_position_columns),
         "start_capital": start_capital,
         "final_equity": final_equity,
+        "execution_stats": execution_stats,
+        "tca_summary": tca_summary,
     }
 
 

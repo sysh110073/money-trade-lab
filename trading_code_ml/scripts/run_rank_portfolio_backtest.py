@@ -368,6 +368,8 @@ def main() -> None:
         "beats_benchmark_cagr": bool(perf["cagr"] > benchmark["cagr"]) if benchmark.get("found") else None,
         "beats_benchmark_sharpe": bool(perf["sharpe"] > benchmark["sharpe"]) if benchmark.get("found") else None,
         "candidate_buy_signals": int(signals["entry_signal"].eq(1).sum()),
+        "execution_stats": result.get("execution_stats", {}),
+        "tca": result.get("tca_summary", {}),
         "settings": {
             "capital": args.capital,
             "target_exposure": args.target_exposure,
@@ -448,6 +450,7 @@ def main() -> None:
         "strategy_score",
         "rank_signal_score",
         "close",
+        "prev_close",
         "open",
         "atr_14",
         "market_breadth_ma20",

@@ -175,6 +175,8 @@ def _check_frontend_data(
     folder: Path,
     expected_date: str,
     skip_sentiment_generated_today: bool = False,
+    run_id: str = "",
+    config_hash: str = "",
 ) -> None:
     files = {
         "dashboard": folder / "dashboardData.js",
@@ -191,6 +193,17 @@ def _check_frontend_data(
             payloads[key] = _read_js_export(path)
         except Exception as exc:
             _add_check(checks, f"frontend_{key}.parseable", str(path), f"error: {exc}", "parseable")
+
+    if run_id or config_hash:
+        for key in ["dashboard", "rotation", "stock_search", "equity"]:
+            payload = payloads.get(key)
+            if not payload:
+                continue
+            context = payload.get("runContext", {})
+            if run_id:
+                _add_check(checks, f"frontend_{key}.run_id", str(files[key]), context.get("runId"), run_id)
+            if config_hash:
+                _add_check(checks, f"frontend_{key}.config_hash", str(files[key]), context.get("configHash"), config_hash)
 
     dashboard = payloads.get("dashboard")
     if dashboard:
@@ -286,6 +299,8 @@ def main() -> int:
     parser.add_argument("--data-update-dir", type=Path, default=DEFAULT_DATA_UPDATE_DIR)
     parser.add_argument("--front-data", type=Path, default=DEFAULT_FRONT_DATA)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
+    parser.add_argument("--run-id", default="")
+    parser.add_argument("--config-hash", default="")
     parser.add_argument(
         "--skip-sentiment-generated-today",
         action="store_true",
@@ -302,7 +317,14 @@ def main() -> int:
     _check_processed_features(checks, args.processed, expected_date)
     _check_data_update_status(checks, args.data_update_dir, expected_date)
     _check_rank_outputs(checks, args.rank_dir, expected_date)
-    _check_frontend_data(checks, args.front_data, expected_date, args.skip_sentiment_generated_today)
+    _check_frontend_data(
+        checks,
+        args.front_data,
+        expected_date,
+        args.skip_sentiment_generated_today,
+        args.run_id,
+        args.config_hash,
+    )
 
     json_path, csv_path = _write_reports(checks, args.output_dir, expected_date)
     failed = [item for item in checks if item["status"] == "fail"]

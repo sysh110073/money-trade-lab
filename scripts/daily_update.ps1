@@ -101,6 +101,25 @@ $RunId = "{0}_{1}_prod" -f ($EndDate -replace "-", ""), $Stamp
 $RunDir = Join-Path $ProjectRoot (Join-Path "runs\$EndDate" $RunId)
 New-Item -ItemType Directory -Force -Path $RunDir | Out-Null
 $ManifestPath = Join-Path $RunDir "run_manifest.json"
+$TaskStatusPath = Join-Path $RunDir "task_status.json"
+$LineMarkerPath = Join-Path $RunDir "line_notification.json"
+$ConfigHash = "sha256:$((Get-FileHash -LiteralPath $ConfigPath -Algorithm SHA256).Hash.ToLower())"
+$GitCommit = (& git -C $ProjectRoot rev-parse HEAD 2>$null)
+if ([string]::IsNullOrWhiteSpace($GitCommit)) { $GitCommit = "unknown" }
+$FeatureDataHash = if (Test-Path -LiteralPath $ProcessedFeaturesPath) {
+    "sha256:$((Get-FileHash -LiteralPath $ProcessedFeaturesPath -Algorithm SHA256).Hash.ToLower())"
+}
+else {
+    $null
+}
+$UniverseFile = Join-Path $ProjectRoot "stock_universe\selected_stocks_500_liquid.csv"
+$UniverseVersion = if (Test-Path -LiteralPath $UniverseFile) {
+    "selected_stocks_500_liquid:$((Get-FileHash -LiteralPath $UniverseFile -Algorithm SHA256).Hash.ToLower())"
+}
+else {
+    "unknown"
+}
+$ExecutionDate = ([datetime]::Parse($EndDate)).AddDays(1).ToString("yyyy-MM-dd")
 
 $script:RunStatus = "started"
 $script:RunError = $null
@@ -117,6 +136,7 @@ $script:SqliteOfficialStatus = "PENDING"
 $script:SqliteForwardStatus = "PENDING"
 $script:LineNotifyStatus = if ($SkipLineNotify) { "SKIPPED" } else { "PENDING" }
 $script:FundamentalSyncStatus = if ($SkipFundamentalSync) { "SKIPPED" } else { "PENDING" }
+$script:TaskRecords = @()
 
 function Write-Step {
     param([string]$Message)
@@ -133,18 +153,39 @@ function Existing-Or-Planned {
     return $Path
 }
 
+function Write-TaskStatus {
+    $payload = [ordered]@{
+        run_id = $RunId
+        generated_at = (Get-Date).ToString("o")
+        tasks = $script:TaskRecords
+    }
+    $payload | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $TaskStatusPath -Encoding UTF8
+}
+
 function Write-Manifest {
     $manifest = [ordered]@{
         run_id = $RunId
+        run_type = "production"
+        as_of_date = $EndDate
         expected_date = $EndDate
+        execution_date = $ExecutionDate
+        signal_available_at = (Get-Date).ToString("o")
         generated_at = (Get-Date).ToString("o")
         status = $script:RunStatus
         error = $script:RunError
         config_file = $ConfigPath
-        config_hash = "sha256:$((Get-FileHash -LiteralPath $ConfigPath -Algorithm SHA256).Hash.ToLower())"
+        config_hash = $ConfigHash
+        git_commit = $GitCommit.Trim()
+        universe_version = $UniverseVersion
+        feature_data_hash = $FeatureDataHash
+        price_source = Get-ConfigValue "data.source" "unknown"
+        institutional_source = "twse_t86_tpex"
+        strategy_version = $OfficialRunName
+        result_directory = Existing-Or-Planned $OfficialRankDir
         health_gate = $script:HealthStatus
         official_run_name = $OfficialRunName
         forward_run_name = $ForwardRunName
+        task_status_file = Existing-Or-Planned $TaskStatusPath
         steps = [ordered]@{
             api_fetch = $script:ApiFetchStatus
             official_rank = $script:RankStatus
@@ -197,11 +238,19 @@ trap {
             Set-Variable -Name $name -Scope Script -Value "FAIL"
         }
     }
+    foreach ($record in $script:TaskRecords) {
+        if ($record["status"] -eq "running") {
+            $record["status"] = "failed"
+            $record["finished_at"] = (Get-Date).ToString("o")
+            $record["error_message"] = $_.Exception.Message
+        }
+    }
     $script:RunStatus = "failed"
     $script:RunError = $_.Exception.Message
     if (Get-Command Write-Step -ErrorAction SilentlyContinue) {
         Write-Step "FAILED $script:RunError"
     }
+    Write-TaskStatus
     Write-Manifest
     throw
 }
@@ -217,6 +266,22 @@ function Invoke-Logged {
     $SafeTitle = ($Title -replace '[^a-zA-Z0-9_-]', '_')
     $StdOut = Join-Path $LogDir "$Stamp`_$SafeTitle.out.log"
     $StdErr = Join-Path $LogDir "$Stamp`_$SafeTitle.err.log"
+    $task = [ordered]@{
+        task_name = $SafeTitle
+        title = $Title
+        status = "running"
+        attempt = 1
+        started_at = (Get-Date).ToString("o")
+        finished_at = $null
+        exit_code = $null
+        input_hash = $ConfigHash
+        output_hash = $null
+        error_message = $null
+        stdout = $StdOut
+        stderr = $StdErr
+    }
+    $script:TaskRecords += $task
+    Write-TaskStatus
     Push-Location $WorkingDirectory
     try {
         $previousErrorActionPreference = $ErrorActionPreference
@@ -244,8 +309,17 @@ function Invoke-Logged {
         }
     }
     if ($exitCode -ne 0) {
+        $task["status"] = "failed"
+        $task["finished_at"] = (Get-Date).ToString("o")
+        $task["exit_code"] = $exitCode
+        $task["error_message"] = "$Title failed with exit code $exitCode"
+        Write-TaskStatus
         throw "$Title failed with exit code $exitCode"
     }
+    $task["status"] = "success"
+    $task["finished_at"] = (Get-Date).ToString("o")
+    $task["exit_code"] = $exitCode
+    Write-TaskStatus
     Write-Step "DONE $Title"
 }
 
@@ -324,7 +398,10 @@ Invoke-Logged -Title "Refresh dashboard data" -FilePath $Python -Arguments @(
     "--processed", $ProcessedFeaturesPath,
     "--official-rank-dir", $OfficialRankDir,
     "--forward-sim-dir", $ForwardSimDir,
-    "--front-data", $FrontDataDir
+    "--front-data", $FrontDataDir,
+    "--run-id", $RunId,
+    "--config-hash", $ConfigHash,
+    "--strategy-version", $OfficialRunName
 )
 $script:FrontendDataStatus = "PASS"
 
@@ -355,7 +432,9 @@ if (-not $SkipHealthCheck) {
         "--rank-dir", $OfficialRankDir,
         "--data-update-dir", $DataUpdateDir,
         "--front-data", $FrontDataDir,
-        "--output-dir", $DataHealthDir
+        "--output-dir", $DataHealthDir,
+        "--run-id", $RunId,
+        "--config-hash", $ConfigHash
     )
     if ($SkipSentiment) {
         $healthArgs += "--skip-sentiment-generated-today"
@@ -385,6 +464,8 @@ if (Test-Path -LiteralPath $latestSummary) {
     Invoke-Logged -Title "Sync SQLite Database Backtest Run" -FilePath $Python -Arguments @(
         "scripts\db_importer.py",
         "--import-backtest", $OfficialRunName,
+        "--run-uid", $RunId,
+        "--config-hash", $ConfigHash,
         "--summary", $latestSummary,
         "--trades", (Join-Path $OfficialRankDir "rank_portfolio_trades.csv"),
         "--equity", (Join-Path $OfficialRankDir "rank_portfolio_equity.csv"),
@@ -403,6 +484,8 @@ if (Test-Path -LiteralPath $forwardSummary) {
     Invoke-Logged -Title "Sync SQLite Database Forward Simulation" -FilePath $Python -Arguments @(
         "scripts\db_importer.py",
         "--import-backtest", $ForwardRunName,
+        "--run-uid", $RunId,
+        "--config-hash", $ConfigHash,
         "--summary", $forwardSummary,
         "--trades", (Join-Path $ForwardSimDir "rank_portfolio_trades.csv"),
         "--equity", (Join-Path $ForwardSimDir "rank_portfolio_equity.csv"),
@@ -419,7 +502,9 @@ if (-not $SkipLineNotify) {
     $script:LineNotifyStatus = "RUNNING"
     Invoke-Logged -Title "Send strategy holdings to LINE" -FilePath $Python -Arguments @(
         "scripts\send_line_holdings.py",
-        "--expected-date", $EndDate
+        "--expected-date", $EndDate,
+        "--run-id", $RunId,
+        "--notification-marker", $LineMarkerPath
     )
     $script:LineNotifyStatus = "PASS"
 }

@@ -650,6 +650,36 @@ def send_cloud_image(image_path: Path, url: str, push_key: str) -> None:
         raise RuntimeError(f"Cloud image push {response.status_code}: {response.text}")
 
 
+def already_notified(marker_path: Path | None, run_id: str) -> bool:
+    if not marker_path or not run_id or not marker_path.exists():
+        return False
+    try:
+        payload = json.loads(marker_path.read_text(encoding="utf-8"))
+    except Exception:
+        return False
+    return payload.get("run_id") == run_id and payload.get("status") == "sent"
+
+
+def write_notification_marker(marker_path: Path | None, run_id: str, as_of: str, source: Path) -> None:
+    if not marker_path or not run_id:
+        return
+    marker_path.parent.mkdir(parents=True, exist_ok=True)
+    marker_path.write_text(
+        json.dumps(
+            {
+                "run_id": run_id,
+                "as_of": as_of,
+                "source": str(source),
+                "status": "sent",
+                "sent_at": datetime.now().isoformat(),
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+
+
 def main() -> None:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
@@ -665,6 +695,8 @@ def main() -> None:
         help="dashboard sends the current strategy list shown in the UI.",
     )
     parser.add_argument("--expected-date", default="")
+    parser.add_argument("--run-id", default="")
+    parser.add_argument("--notification-marker", type=Path, default=None)
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--text-only", action="store_true")
     args = parser.parse_args()
@@ -731,6 +763,10 @@ def main() -> None:
             print(f"[card] {card_path}")
         return
 
+    if already_notified(args.notification_marker, args.run_id):
+        print(f"[line] skipped duplicate notification for run_id={args.run_id}")
+        return
+
     cloud_url = os.getenv("LINE_CLOUD_PUSH_URL", "").strip()
     cloud_key = os.getenv("LINE_CLOUD_PUSH_KEY", "").strip()
     if cloud_url:
@@ -740,6 +776,7 @@ def main() -> None:
             send_cloud_message(message, cloud_url, cloud_key)
         else:
             send_cloud_image(card_path, cloud_url, cloud_key)
+        write_notification_marker(args.notification_marker, args.run_id, args.expected_date, source)
         print(f"[line-cloud] sent daily card via {cloud_url}")
         return
 
@@ -756,6 +793,7 @@ def main() -> None:
         )
         return
     send_line_message(message, token, targets)
+    write_notification_marker(args.notification_marker, args.run_id, args.expected_date, source)
     print(f"[line] sent {len(positions)} holdings for {message.splitlines()[0].split('｜')[-1]}")
 
 

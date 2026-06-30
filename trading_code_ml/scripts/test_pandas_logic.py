@@ -9,11 +9,13 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 PROJECT_ROOT = ROOT.parent
-for item in [ROOT, PROJECT_ROOT]:
+SCRIPT_ROOT = PROJECT_ROOT / "scripts"
+for item in [ROOT, PROJECT_ROOT, SCRIPT_ROOT]:
     if str(item) not in sys.path:
         sys.path.insert(0, str(item))
 
 from scripts.check_data_health import _read_js_export  # noqa: E402
+from scripts.send_line_holdings import already_notified, write_notification_marker  # noqa: E402
 from src.labeler import Labeler  # noqa: E402
 from src.risk_manager import PositionState, RiskManager  # noqa: E402
 
@@ -64,14 +66,29 @@ def check_risk_manager_position_and_exit() -> None:
 def check_js_export_parse() -> None:
     with tempfile.TemporaryDirectory() as tmp:
         path = Path(tmp) / "data.js"
-        path.write_text('export const dashboardData = {"dataDate":"2026-06-29"};\n', encoding="utf-8")
-        assert _read_js_export(path)["dataDate"] == "2026-06-29"
+        path.write_text(
+            'export const dashboardData = {"dataDate":"2026-06-29","runContext":{"runId":"r1","configHash":"h1"}};\n',
+            encoding="utf-8",
+        )
+        payload = _read_js_export(path)
+        assert payload["dataDate"] == "2026-06-29"
+        assert payload["runContext"]["runId"] == "r1"
+
+
+def check_line_notification_marker() -> None:
+    with tempfile.TemporaryDirectory() as tmp:
+        marker = Path(tmp) / "line_notification.json"
+        assert not already_notified(marker, "run-1")
+        write_notification_marker(marker, "run-1", "2026-06-29", Path("dashboardData.js"))
+        assert already_notified(marker, "run-1")
+        assert not already_notified(marker, "run-2")
 
 
 def main() -> None:
     check_labeler_no_current_day_leak()
     check_risk_manager_position_and_exit()
     check_js_export_parse()
+    check_line_notification_marker()
     print("test_pandas_logic: PASS")
 
 

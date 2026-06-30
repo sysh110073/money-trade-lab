@@ -1218,7 +1218,11 @@ def main() -> None:
     parser.add_argument("--official-rank-dir", type=Path, default=None)
     parser.add_argument("--forward-sim-dir", type=Path, default=None)
     parser.add_argument("--front-data", type=Path, default=None)
-    configure_paths(parser.parse_args())
+    parser.add_argument("--run-id", default="")
+    parser.add_argument("--config-hash", default="")
+    parser.add_argument("--strategy-version", default="")
+    args = parser.parse_args()
+    configure_paths(args)
 
     official_summary_path = OFFICIAL_RANK_DIR / "rank_portfolio_summary.json"
     official_equity_path = OFFICIAL_RANK_DIR / "rank_portfolio_equity.csv"
@@ -1380,6 +1384,15 @@ def main() -> None:
         "periodEnd": equity["date"].max().strftime("%Y-%m-%d"),
         "points": points,
     }
+    run_context = {
+        "runId": args.run_id,
+        "strategyVersion": args.strategy_version,
+        "asOfDate": signal_date,
+        "configHash": args.config_hash,
+    }
+    for payload in [dashboard, rotation, equity_data, stock_search]:
+        payload["runContext"] = run_context
+
     write_js(FRONT_DATA / "dashboardData.js", "dashboardData", dashboard)
     write_js(FRONT_DATA / "rotationData.js", "rotationData", rotation)
     write_js(FRONT_DATA / "equityData.js", "equityData", equity_data)
@@ -1389,6 +1402,7 @@ def main() -> None:
         json.dumps(
             {
                 "status": "ok",
+                "run_id": args.run_id,
                 "official_summary": str(official_summary_path),
                 "signal_date": signal_date,
                 "rotation_date": rotation["summary"]["sourceDate"],

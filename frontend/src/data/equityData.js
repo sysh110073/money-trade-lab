@@ -5146,5 +5146,11 @@ export const equityData = {
       "utilization": 0.0869586338632763,
       "positions": 2
     }
-  ]
+  ],
+  "runContext": {
+    "runId": "20260629_20260630_122152_prod",
+    "strategyVersion": "official_rank_portfolio",
+    "asOfDate": "2026-06-29",
+    "configHash": "sha256:957723ee3bc7a1cc8fadf001905905da4611ab78ace8d0058337385b5a5a8db7"
+  }
 };

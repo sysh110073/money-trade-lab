@@ -11,6 +11,13 @@ ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "data" / "market_data.db"
 DEFAULT_FEATURES_PATH = ROOT / "data" / "processed" / "all_features.csv"
 
+def ensure_column(conn, table_name, column_name, definition):
+    cursor = conn.cursor()
+    columns = {row[1] for row in cursor.execute(f"PRAGMA table_info({table_name})")}
+    if column_name not in columns:
+        cursor.execute(f"ALTER TABLE {table_name} ADD COLUMN {column_name} {definition}")
+
+
 def init_db(conn):
     cursor = conn.cursor()
     
@@ -78,6 +85,8 @@ def init_db(conn):
         CREATE TABLE IF NOT EXISTS backtest_runs (
             run_id INTEGER PRIMARY KEY AUTOINCREMENT,
             run_name TEXT,
+            run_uid TEXT,
+            config_hash TEXT,
             sim_start_date DATE,
             sim_end_date DATE,
             strategy_type TEXT,
@@ -105,6 +114,8 @@ def init_db(conn):
             created_at DATETIME DEFAULT CURRENT_TIMESTAMP
         )
     ''')
+    ensure_column(conn, 'backtest_runs', 'run_uid', 'TEXT')
+    ensure_column(conn, 'backtest_runs', 'config_hash', 'TEXT')
     
     # 5. trade_log
     cursor.execute('''
@@ -267,12 +278,23 @@ def import_features(csv_path: Path):
     print("Features import complete.")
 
 
-def import_backtest_run(run_name: str, summary_json: Path, trades_csv: Path, equity_csv: Path, positions_csv: Path, buys_csv: Path | None = None):
+def import_backtest_run(
+    run_name: str,
+    summary_json: Path,
+    trades_csv: Path,
+    equity_csv: Path,
+    positions_csv: Path,
+    buys_csv: Path | None = None,
+    run_uid: str = "",
+    config_hash: str = "",
+):
     with sqlite3.connect(DB_PATH) as conn:
         cursor = conn.cursor()
         
-        # Check if run_name already exists to avoid duplicate logic or just insert new
-        cursor.execute("SELECT run_id FROM backtest_runs WHERE run_name = ?", (run_name,))
+        if run_uid:
+            cursor.execute("SELECT run_id FROM backtest_runs WHERE run_name = ? AND run_uid = ?", (run_name, run_uid))
+        else:
+            cursor.execute("SELECT run_id FROM backtest_runs WHERE run_name = ?", (run_name,))
         existing = cursor.fetchone()
         if existing:
             print(f"Run {run_name} already exists with run_id {existing[0]}. Updating records.")
@@ -295,6 +317,8 @@ def import_backtest_run(run_name: str, summary_json: Path, trades_csv: Path, equ
             
             run_data = {
                 'run_name': run_name,
+                'run_uid': run_uid or None,
+                'config_hash': config_hash or None,
                 'sim_start_date': bm.get('start', '').split('T')[0] if bm.get('start') else None,
                 'sim_end_date': bm.get('end', '').split('T')[0] if bm.get('end') else None,
                 'strategy_type': summary.get('strategy_name', 'rank_portfolio'),
@@ -397,6 +421,8 @@ if __name__ == "__main__":
     parser.add_argument('--equity', type=Path, help='Equity CSV path')
     parser.add_argument('--positions', type=Path, help='Positions CSV path')
     parser.add_argument('--buys', type=Path, help='Buys CSV path')
+    parser.add_argument('--run-uid', default='', help='Production run id from run_manifest.json')
+    parser.add_argument('--config-hash', default='', help='Production config hash from run_manifest.json')
     
     args = parser.parse_args()
     
@@ -407,4 +433,13 @@ if __name__ == "__main__":
         import_features(args.import_features)
         
     if args.import_backtest:
-        import_backtest_run(args.import_backtest, args.summary, args.trades, args.equity, args.positions, args.buys)
+        import_backtest_run(
+            args.import_backtest,
+            args.summary,
+            args.trades,
+            args.equity,
+            args.positions,
+            args.buys,
+            args.run_uid,
+            args.config_hash,
+        )

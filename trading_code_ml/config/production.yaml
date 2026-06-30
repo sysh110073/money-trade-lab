@@ -1,0 +1,48 @@
+production:
+  official_run_name: official_rank_portfolio
+  forward_run_name: forward_sim_20260605_1m
+
+paths:
+  processed_features: C:/Users/huang/Desktop/trading_code/data/processed/all_features.csv
+  raw_dir: C:/Users/huang/Desktop/trading_code/data/raw
+  official_rank_dir: trading_code_ml/results/rank_portfolio_optimized_risk_long_20pct_norebalance
+  forward_sim_dir: trading_code_ml/results/forward_simulation
+  data_update_dir: trading_code_ml/results/data_update
+  frontend_data_dir: frontend/src/data
+  data_health_dir: logs/data_health
+  sqlite_db: data/market_data.db
+
+portfolio:
+  initial_capital: 1000000
+  target_exposure: 1.0
+  max_positions: 8
+  max_position_pct: 0.20
+  max_risk_per_trade: 0.02
+  position_sizing: risk_parity
+
+execution:
+  max_entry_volume_pct: 0.01
+  max_entry_notional: 2000000
+  market_impact_slippage: 0.10
+
+daily:
+  forward_start_date: '2026-06-05'
+  trailing_stop_sell_pct: 0.5
+
+strategy:
+  official_run_name: rank_portfolio_production_v1
+  top_n: 12
+  min_strategy_score: 0.62
+  allowed_signal_regimes:
+    - bull
+    - neutral
+    - recovery
+
+risk:
+  atr_stop_multiplier: 5.0
+  take_profit_pct: 1.0
+  trailing_stop_trigger: 0.30
+  trailing_stop_atr: 3.5
+  min_market_breadth_ma20: 0.42
+  min_market_positive_return_5: 0.22
+  max_market_volatility_20: 0.055

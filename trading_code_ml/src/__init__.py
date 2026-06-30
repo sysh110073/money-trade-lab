@@ -1,0 +1,2 @@
+"""Trading research pipeline package."""
+

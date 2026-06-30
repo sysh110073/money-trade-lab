@@ -472,7 +472,9 @@ if (-not $SkipHealthCheck) {
         "--front-data", $FrontDataDir,
         "--output-dir", $DataHealthDir,
         "--run-id", $RunId,
-        "--config-hash", $ConfigHash
+        "--config-hash", $ConfigHash,
+        "--warn-only",
+        "--strict-checks", "processed_features.exists,processed_features.date,rank_summary.exists,rank_signals.exists,rank_equity.exists,frontend.dashboardData.date"
     )
     if ($SkipSentiment) {
         $healthArgs += "--skip-sentiment-generated-today"

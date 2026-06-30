@@ -17,6 +17,7 @@ if str(ROOT) not in sys.path:
 
 from src.backtester import Backtester
 from src.config import load_settings
+from src.corporate_actions import ensure_price_series_contract
 from src.regime import market_regime_by_date
 from src.strategy_catalog import StrategySpec, add_strategy_ranks, build_strategy_catalog, strategy_signal
 
@@ -39,6 +40,7 @@ def _load_data(path: Path, max_symbols: int | None, max_rows: int | None) -> pd.
     df["date"] = pd.to_datetime(df["date"])
     df["symbol"] = df["symbol"].astype(str)
     df = df.sort_values(["date", "symbol"]).reset_index(drop=True)
+    df = ensure_price_series_contract(df)
     if max_symbols is not None and max_symbols > 0:
         symbols = sorted(df["symbol"].dropna().unique().tolist())[:max_symbols]
         df = df[df["symbol"].isin(symbols)].copy()

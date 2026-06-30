@@ -19,6 +19,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.config import load_settings, setting_path  # noqa: E402
+from src.corporate_actions import ensure_price_series_contract  # noqa: E402
 from src.data_fetcher import DataFetcher  # noqa: E402
 from src.feature_engine import FeatureEngine  # noqa: E402
 from src.institutional_overlay import overlay_recent_official_institutional_flow  # noqa: E402
@@ -203,6 +204,7 @@ def main() -> None:
     processed = pd.concat(frames, ignore_index=True)
     processed["symbol"] = processed["symbol"].astype(str)
     processed = processed.sort_values(["date", "symbol"]).reset_index(drop=True)
+    processed = ensure_price_series_contract(processed)
     processed = overlay_recent_official_institutional_flow(processed, log_prefix="data-update-flow-overlay")
     args.output.parent.mkdir(parents=True, exist_ok=True)
     if args.output.exists():

@@ -16,11 +16,14 @@ for item in [ROOT, PROJECT_ROOT, SCRIPT_ROOT, ML_SCRIPT_ROOT]:
         sys.path.insert(0, str(item))
 
 from scripts.check_data_health import _read_js_export  # noqa: E402
+from scripts.export_feature_snapshot import export_snapshot  # noqa: E402
 from scripts.send_line_holdings import already_notified, write_notification_marker  # noqa: E402
 from run_portfolio_strategy_wfa import _replacement_cost_penalty, _run_portfolio  # noqa: E402
 from run_rank_portfolio_backtest import _rank, _signal_diagnostics  # noqa: E402
+from src.corporate_actions import ensure_price_series_contract, normalize_corporate_actions  # noqa: E402
 from src.feature_engine import FeatureEngine  # noqa: E402
 from src.labeler import Labeler  # noqa: E402
+from src.research_metrics import deflated_sharpe_ratio, probabilistic_sharpe_ratio  # noqa: E402
 from src.risk_manager import PositionState, RiskManager, calculate_position_size  # noqa: E402
 
 
@@ -100,6 +103,42 @@ def check_feature_columns_exclude_targets() -> None:
     cols = FeatureEngine({}).feature_columns(frame)
     assert "close" in cols
     assert not {"future_return", "label", "target_binary", "target_3class"} & set(cols)
+
+
+def check_price_series_contract_defaults() -> None:
+    frame = pd.DataFrame({"date": ["2026-01-01"], "symbol": ["2330"], "open": [99], "high": [101], "low": [98], "close": [100]})
+    contracted = ensure_price_series_contract(frame)
+    assert contracted.loc[0, "raw_close"] == 100
+    assert contracted.loc[0, "adjusted_close"] == 100
+    assert contracted.loc[0, "price_adjustment_factor"] == 1.0
+    assert contracted.loc[0, "split_ratio"] == 1.0
+
+    actions = normalize_corporate_actions(pd.DataFrame({"stock_id": ["2330"], "ex_date": ["2026-01-02"], "cashDividend": [2.5]}))
+    assert actions.loc[0, "symbol"] == "2330"
+    assert actions.loc[0, "corporate_action_effective_date"] == "2026-01-02"
+    assert actions.loc[0, "cash_dividend"] == 2.5
+
+
+def check_research_metrics_bounds() -> None:
+    psr = probabilistic_sharpe_ratio(sharpe=1.0, benchmark_sharpe=0.5, observations=252)
+    dsr = deflated_sharpe_ratio(sharpe=1.0, observations=252, trial_count=20)
+    assert 0.0 <= psr <= 1.0
+    assert 0.0 <= dsr <= 1.0
+    assert dsr <= probabilistic_sharpe_ratio(sharpe=1.0, benchmark_sharpe=0.0, observations=252)
+
+
+def check_feature_snapshot_export() -> None:
+    with tempfile.TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        csv_path = root / "features.csv"
+        parquet_path = root / "features.parquet"
+        manifest_path = root / "manifest.json"
+        pd.DataFrame({"date": ["2026-01-01", "2026-01-02"], "symbol": ["2330", "2330"], "close": [100, 101]}).to_csv(csv_path, index=False)
+        manifest = export_snapshot(csv_path, parquet_path, manifest_path)
+        assert parquet_path.exists()
+        assert manifest_path.exists()
+        assert manifest["rows"] == 2
+        assert manifest["latest_date"] == "2026-01-02"
 
 
 def check_rank_is_same_day_cross_section() -> None:
@@ -279,6 +318,9 @@ def main() -> None:
     check_risk_manager_position_and_exit()
     check_shared_position_sizing_limits()
     check_feature_columns_exclude_targets()
+    check_price_series_contract_defaults()
+    check_research_metrics_bounds()
+    check_feature_snapshot_export()
     check_rank_is_same_day_cross_section()
     check_signal_diagnostics_explains_no_entries()
     check_signal_execution_lag_and_limit_up_block()

@@ -11,6 +11,7 @@ paths:
   frontend_data_dir: frontend/src/data
   data_health_dir: logs/data_health
   sqlite_db: data/market_data.db
+  feature_parquet: data/processed/all_features_latest.parquet
 
 portfolio:
   initial_capital: 1000000

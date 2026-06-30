@@ -14,6 +14,12 @@ import pandas as pd
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+TRADING_ROOT = PROJECT_ROOT / "trading_code_ml"
+if str(TRADING_ROOT) not in sys.path:
+    sys.path.insert(0, str(TRADING_ROOT))
+
+from src.corporate_actions import PRICE_SERIES_CONTRACT_COLUMNS  # noqa: E402
+
 DEFAULT_PROCESSED = PROJECT_ROOT / "data" / "processed" / "all_features.csv"
 DEFAULT_RANK_DIR = PROJECT_ROOT / "trading_code_ml" / "results" / "rank_portfolio_optimized_risk_long_20pct_norebalance"
 DEFAULT_DATA_UPDATE_DIR = PROJECT_ROOT / "trading_code_ml" / "results" / "data_update"
@@ -87,6 +93,7 @@ def _check_processed_features(checks: list[dict[str, Any]], path: Path, expected
 
     required = ["date", "symbol", "close", "foreign_net", "trust_net", "total_net"]
     try:
+        columns = set(pd.read_csv(path, nrows=0).columns)
         frame = pd.read_csv(path, usecols=required)
     except Exception as exc:
         _add_check(checks, "processed_features.readable", str(path), f"error: {exc}", "readable")
@@ -114,6 +121,16 @@ def _check_processed_features(checks: list[dict[str, Any]], path: Path, expected
         int((total_net != 0).sum()) > 0,
         True,
         detail=f"latest_total_net_sum={float(total_net.sum()):.3f}; nonzero_rows={int((total_net != 0).sum())}",
+    )
+    missing_price_contract = [column for column in PRICE_SERIES_CONTRACT_COLUMNS if column not in columns]
+    _add_check(
+        checks,
+        "processed_features.price_series_contract",
+        str(path),
+        not missing_price_contract,
+        True,
+        detail=f"missing={','.join(missing_price_contract[:10])}",
+        severity="warning",
     )
 
 

@@ -66,6 +66,7 @@ $DataUpdateDir = Resolve-ConfiguredPath (Get-ConfigValue "paths.data_update_dir"
 $FrontDataDir = Resolve-ConfiguredPath (Get-ConfigValue "paths.frontend_data_dir") (Join-Path $ProjectRoot "frontend\src\data")
 $DataHealthDir = Resolve-ConfiguredPath (Get-ConfigValue "paths.data_health_dir") (Join-Path $ProjectRoot "logs\data_health")
 $SqliteDb = Resolve-ConfiguredPath (Get-ConfigValue "paths.sqlite_db") (Join-Path $ProjectRoot "data\market_data.db")
+$FeatureParquetPath = Resolve-ConfiguredPath (Get-ConfigValue "paths.feature_parquet") (Join-Path $ProjectRoot "data\processed\all_features_latest.parquet")
 
 $OfficialRunName = Get-ConfigValue "production.official_run_name" "official_rank_portfolio"
 $ForwardRunName = Get-ConfigValue "production.forward_run_name" "forward_sim_20260605_1m"
@@ -128,6 +129,7 @@ $script:RunError = $null
 $script:HealthStatus = if ($SkipHealthCheck) { "SKIPPED" } else { "PENDING" }
 $script:HealthReport = $null
 $script:ApiFetchStatus = if ($SkipApiFetch) { "SKIPPED" } else { "PENDING" }
+$script:FeatureSnapshotStatus = "PENDING"
 $script:RankStatus = if ($SkipBacktest) { "SKIPPED" } else { "PENDING" }
 $script:ForwardStatus = if ($SkipBacktest) { "SKIPPED" } else { "PENDING" }
 $script:FrontendDataStatus = "PENDING"
@@ -136,6 +138,7 @@ $script:BuildStatus = if ($SkipBuild) { "SKIPPED" } else { "PENDING" }
 $script:SqliteFeaturesStatus = "PENDING"
 $script:SqliteOfficialStatus = "PENDING"
 $script:SqliteForwardStatus = "PENDING"
+$script:ExperimentRegistryStatus = "PENDING"
 $script:LineNotifyStatus = if ($SkipLineNotify) { "SKIPPED" } else { "PENDING" }
 $script:FundamentalSyncStatus = if ($SkipFundamentalSync) { "SKIPPED" } else { "PENDING" }
 $script:TaskRecords = @()
@@ -190,6 +193,7 @@ function Write-Manifest {
         task_status_file = Existing-Or-Planned $TaskStatusPath
         steps = [ordered]@{
             api_fetch = $script:ApiFetchStatus
+            feature_snapshot = $script:FeatureSnapshotStatus
             official_rank = $script:RankStatus
             forward_sim = $script:ForwardStatus
             frontend_data = $script:FrontendDataStatus
@@ -198,6 +202,7 @@ function Write-Manifest {
             sqlite_features_import = $script:SqliteFeaturesStatus
             sqlite_official_import = $script:SqliteOfficialStatus
             sqlite_forward_import = $script:SqliteForwardStatus
+            experiment_registry = $script:ExperimentRegistryStatus
             line_notify = $script:LineNotifyStatus
             fundamental_sync = $script:FundamentalSyncStatus
         }
@@ -206,6 +211,9 @@ function Write-Manifest {
             forward_sim_dir = Existing-Or-Planned $ForwardSimDir
             frontend_data_dir = Existing-Or-Planned $FrontDataDir
             sqlite_db = Existing-Or-Planned $SqliteDb
+            feature_parquet = Existing-Or-Planned $FeatureParquetPath
+            feature_snapshot_manifest = Existing-Or-Planned (Join-Path $RunDir "feature_snapshot_manifest.json")
+            experiment_registry = Existing-Or-Planned (Join-Path $ProjectRoot "research\experiment_registry.csv")
             data_health_report = $script:HealthReport
             log_file = Existing-Or-Planned $LogFile
         }
@@ -225,6 +233,7 @@ trap {
     }
     foreach ($name in @(
         "ApiFetchStatus",
+        "FeatureSnapshotStatus",
         "RankStatus",
         "ForwardStatus",
         "FrontendDataStatus",
@@ -233,6 +242,7 @@ trap {
         "SqliteFeaturesStatus",
         "SqliteOfficialStatus",
         "SqliteForwardStatus",
+        "ExperimentRegistryStatus",
         "LineNotifyStatus",
         "FundamentalSyncStatus"
     )) {
@@ -347,6 +357,15 @@ if (-not $SkipApiFetch) {
 else {
     Write-Step "SKIP API fetch"
 }
+
+$script:FeatureSnapshotStatus = "RUNNING"
+Invoke-Logged -Title "Export feature Parquet snapshot" -FilePath $Python -Arguments @(
+    "scripts\export_feature_snapshot.py",
+    "--csv", $ProcessedFeaturesPath,
+    "--parquet", $FeatureParquetPath,
+    "--manifest", (Join-Path $RunDir "feature_snapshot_manifest.json")
+)
+$script:FeatureSnapshotStatus = "PASS"
 
 if (-not $SkipBacktest) {
     $rankCommonArgs = @(
@@ -500,6 +519,25 @@ if (Test-Path -LiteralPath $forwardSummary) {
 }
 else {
     $script:SqliteForwardStatus = "SKIPPED_NO_SUMMARY"
+}
+
+if (Test-Path -LiteralPath $latestSummary) {
+    $script:ExperimentRegistryStatus = "RUNNING"
+    Invoke-Logged -Title "Register official experiment" -FilePath $Python -Arguments @(
+        "scripts\register_experiment.py",
+        "--summary", $latestSummary,
+        "--equity", (Join-Path $OfficialRankDir "rank_portfolio_equity.csv"),
+        "--registry", (Join-Path $ProjectRoot "research\experiment_registry.csv"),
+        "--experiment-id", $OfficialRunName,
+        "--run-id", $RunId,
+        "--config-hash", $ConfigHash,
+        "--trial-count", "6",
+        "--notes", "daily official production run"
+    )
+    $script:ExperimentRegistryStatus = "PASS"
+}
+else {
+    $script:ExperimentRegistryStatus = "SKIPPED_NO_SUMMARY"
 }
 
 if (-not $SkipLineNotify) {

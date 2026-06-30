@@ -128,6 +128,54 @@ def check_research_metrics_bounds() -> None:
     assert dsr <= probabilistic_sharpe_ratio(sharpe=1.0, benchmark_sharpe=0.0, observations=252)
 
 
+def check_no_lookahead_in_revenue() -> None:
+    """月營收不能在每月前 10 天使用當月資料（_lag_monthly_revenue_features 防偷看檢查）。
+
+    backtest_pitfalls_guide.md 規定：月初 10 日前不得使用當月最新營收，
+    否則等同偷看尚未公布的資料。本測試確認 _lag_monthly_revenue_features() 會：
+    1. 把月初 1~10 日的 revenue 清為 NaN（阻止當月未公布資料洩漏）。
+    2. 以 ffill 向前填充前一個月的合法 revenue（不是空值）。
+    3. 若前面完全沒有合法 revenue，則月初仍保持 NaN。
+    """
+    from src.feature_engine import _lag_monthly_revenue_features  # noqa: E402
+
+    # 情境 A：月初有前月資料可以 ffill
+    # 假設 1 月 11 日公布了 1000 的月營收，2 月 3 日尚未公布 2 月 revenue
+    dates_a = pd.to_datetime(
+        [
+            "2026-01-05",  # 月初第 5 天（無前月資料）→ 應為 NaN
+            "2026-01-11",  # 月初第 11 天 → revenue=1000 合法可用
+            "2026-02-03",  # 2 月月初（10 日前）→ 被清 NaN 後 ffill 到上月的 1000
+        ]
+    )
+    frame_a = pd.DataFrame(
+        {
+            "date": dates_a,
+            "revenue": [1000.0, 1000.0, 1200.0],  # 2 月月初原本有 1200 但不應使用
+        }
+    )
+    result_a = _lag_monthly_revenue_features(frame_a.copy())
+
+    # 1 月 5 日：完全沒有前月合法值 → 應為 NaN
+    assert pd.isna(result_a.loc[0, "revenue"]), (
+        "2026-01-05 revenue should be NaN — no prior valid value to ffill from"
+    )
+    # 1 月 11 日：已過 10 日，合法 → 應保留 1000
+    assert result_a.loc[1, "revenue"] == 1000.0, "2026-01-11 revenue should be 1000"
+    # 2 月 3 日：雖然原本是 1200（當月），但月初前 10 天不可用
+    # ffill 後應拿前面合法的 1000（上個月），而非 1200
+    assert result_a.loc[2, "revenue"] == 1000.0, (
+        "2026-02-03 revenue should be 1000 (ffill from Jan) not the leaked 1200"
+    )
+
+    # 情境 B：確認月初 11 日後可以使用當月新值（不會被清掉）
+    dates_b = pd.to_datetime(["2026-03-11", "2026-03-15"])
+    frame_b = pd.DataFrame({"date": dates_b, "revenue": [1500.0, 1500.0]})
+    result_b = _lag_monthly_revenue_features(frame_b.copy())
+    assert not pd.isna(result_b.loc[0, "revenue"]), "2026-03-11 revenue should be available (day > 10)"
+    assert not pd.isna(result_b.loc[1, "revenue"]), "2026-03-15 revenue should be available (day > 10)"
+
+
 def check_feature_snapshot_export() -> None:
     with tempfile.TemporaryDirectory() as tmp:
         root = Path(tmp)
@@ -330,6 +378,7 @@ def main() -> None:
     check_feature_columns_exclude_targets()
     check_price_series_contract_defaults()
     check_research_metrics_bounds()
+    check_no_lookahead_in_revenue()
     check_feature_snapshot_export()
     check_portfolio_api_storage()
     check_rank_is_same_day_cross_section()

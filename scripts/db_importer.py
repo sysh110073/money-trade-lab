@@ -213,7 +213,36 @@ def init_db(conn):
             FOREIGN KEY(run_id) REFERENCES backtest_runs(run_id)
         )
     ''')
+
+    # 9. strategy_action_log（若存在則保留既有結構）
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS strategy_action_log (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            date DATE,
+            symbol TEXT,
+            action TEXT,
+            reason TEXT,
+            created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+        )
+    ''')
+
+    # ── 查詢加速 Index ──────────────────────────────────────────────────────────
+    # 讓以日期範圍或 symbol 為條件的查詢不必做全表掃描
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_prices_date     ON stock_daily_prices(date)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_prices_symbol   ON stock_daily_prices(symbol)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_features_date   ON stock_daily_features(date)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_features_symbol ON stock_daily_features(symbol)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_inst_date       ON institutional_flow(date)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_trades_run      ON trade_log(run_id)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_trades_symbol   ON trade_log(symbol)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_trades_exit_dt  ON trade_log(exit_date)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_equity_run      ON equity_curve(run_id)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_buys_run        ON buy_log(run_id)")
+    cursor.execute("CREATE INDEX IF NOT EXISTS idx_buys_date       ON buy_log(date)")
+    # ───────────────────────────────────────────────────────────────────────────
+
     conn.commit()
+
 
 
 def upsert_df(df, table_name, conn, primary_keys):

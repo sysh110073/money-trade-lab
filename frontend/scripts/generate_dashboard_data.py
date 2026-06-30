@@ -15,6 +15,7 @@ import requests
 ROOT = Path(__file__).resolve().parents[2]
 TRADING_ROOT = ROOT / "trading_code_ml"
 FRONT_DATA = ROOT / "frontend" / "src" / "data"
+FRONT_PUBLIC_DATA = ROOT / "frontend" / "public" / "data"  # 大型資料 JSON 用 fetch() lazy load
 DAILY_DIR = ROOT / "trading_code_ml" / "results" / "daily_signals"
 OFFICIAL_RANK_DIR = ROOT / "trading_code_ml" / "results" / "rank_portfolio_optimized_risk_long_20pct_norebalance"
 FORWARD_SIM_DIR = ROOT / "trading_code_ml" / "results" / "forward_simulation"
@@ -53,6 +54,12 @@ def write_js(path: Path, name: str, payload: dict) -> None:
         f"export const {name} = " + json.dumps(payload, ensure_ascii=False, indent=2) + ";\n",
         encoding="utf-8",
     )
+
+
+def write_json(path: Path, payload: dict) -> None:
+    """Write a pure JSON file for lazy fetch (used for large data bundles)."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def portable_path(value: object) -> object:
@@ -1505,6 +1512,13 @@ def main() -> None:
     write_js(FRONT_DATA / "equityData.js", "equityData", equity_data)
     write_js(FRONT_DATA / "stockSearchData.js", "stockSearchData", stock_search)
     write_js(FRONT_DATA / "attributionData.js", "attributionData", attribution)
+
+    # ── 大型資料另存 JSON 到 public/data/，支援前端 lazy fetch ──────────────────
+    # stockSearchData.js (~1.4MB) 和 rotationData.js (~211KB) 是 bundle 最大的兩個，
+    # 前端可改用 fetch('/data/stockSearchData.json') 做 lazy load 以縮小初始 bundle
+    write_json(FRONT_PUBLIC_DATA / "stockSearchData.json", stock_search)
+    write_json(FRONT_PUBLIC_DATA / "rotationData.json", rotation)
+    # ───────────────────────────────────────────────────────────────────────────
 
     print(
         json.dumps(

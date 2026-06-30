@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Any
 import os
 
@@ -78,6 +79,23 @@ def _lag_monthly_revenue_features(data: pd.DataFrame) -> pd.DataFrame:
 class FeatureEngine:
     settings: dict[str, Any]
 
+    def _data_history_dir(self) -> Path:
+        """Resolve the data_history base directory.
+
+        Priority:
+        1. settings["paths"]["data_history_dir"] (supports relative or absolute).
+        2. PROJECT_ROOT / "data_history" as fallback.
+        """
+        PROJECT_ROOT = Path(__file__).resolve().parents[2]
+        raw = (
+            self.settings.get("paths", {})
+            .get("data_history_dir", "")
+        )
+        if raw:
+            candidate = Path(raw)
+            return candidate if candidate.is_absolute() else PROJECT_ROOT / candidate
+        return PROJECT_ROOT / "data_history"
+
     def transform(self, df: pd.DataFrame, symbol: str | None = None, benchmark: pd.DataFrame | None = None) -> pd.DataFrame:
         data = df.copy()
         data = data.sort_values("date").reset_index(drop=True)
@@ -85,7 +103,8 @@ class FeatureEngine:
         data["date"] = pd.to_datetime(data["date"])
 
         if symbol:
-            inst_path = f"c:/Users/huang/Desktop/money_trade/data_history/institutional/{symbol}.csv"
+            _data_hist = self._data_history_dir()
+            inst_path = _data_hist / "institutional" / f"{symbol}.csv"
             if os.path.exists(inst_path):
                 try:
                     inst_df = pd.read_csv(inst_path)
@@ -100,7 +119,7 @@ class FeatureEngine:
                 except Exception as e:
                     print(f"Error loading institutional data for {symbol}: {e}")
 
-            rev_path = f"c:/Users/huang/Desktop/money_trade/data_history/revenue/{symbol}.csv"
+            rev_path = _data_hist / "revenue" / f"{symbol}.csv"
             if os.path.exists(rev_path):
                 try:
                     rev_df = pd.read_csv(rev_path)

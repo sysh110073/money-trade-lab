@@ -325,11 +325,22 @@ def main() -> int:
         help="Skip only the sentiment generated-at freshness check, for daily runs that explicitly skip sentiment refresh.",
     )
     parser.add_argument("--warn-only", action="store_true", help="Write the report but exit 0 even when checks fail.")
+    parser.add_argument(
+        "--strict-checks",
+        default="",
+        help=(
+            "Comma-separated list of check names that must pass even under --warn-only. "
+            "Example: 'processed_features.exists,rank_summary.exists,frontend.dashboardData.date'. "
+            "A failed strict check returns exit code 1 regardless of --warn-only."
+        ),
+    )
     args = parser.parse_args()
 
     expected_date = _date_only(args.expected_date)
     if expected_date is None:
         raise ValueError(f"Invalid --expected-date: {args.expected_date}")
+
+    strict_set: set[str] = {s.strip() for s in args.strict_checks.split(",") if s.strip()}
 
     checks: list[dict[str, Any]] = []
     _check_processed_features(checks, args.processed, expected_date)
@@ -354,8 +365,19 @@ def main() -> int:
             f"[data-health][FAIL] {item['name']} actual={item['actual']} "
             f"expected={item['expected']} source={item['source']}"
         )
+
     if failed and not args.warn_only:
         return 1
+
+    if failed and args.warn_only and strict_set:
+        strict_failures = [item for item in failed if item["name"] in strict_set]
+        if strict_failures:
+            print(
+                f"[data-health][STRICT-FAIL] {len(strict_failures)} critical check(s) failed "
+                f"despite --warn-only: {[f['name'] for f in strict_failures]}"
+            )
+            return 1
+
     return 0
 
 

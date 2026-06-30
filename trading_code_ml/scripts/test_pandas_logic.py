@@ -18,7 +18,7 @@ for item in [ROOT, PROJECT_ROOT, SCRIPT_ROOT, ML_SCRIPT_ROOT]:
 from scripts.check_data_health import _read_js_export  # noqa: E402
 from scripts.send_line_holdings import already_notified, write_notification_marker  # noqa: E402
 from run_portfolio_strategy_wfa import _replacement_cost_penalty, _run_portfolio  # noqa: E402
-from run_rank_portfolio_backtest import _rank  # noqa: E402
+from run_rank_portfolio_backtest import _rank, _signal_diagnostics  # noqa: E402
 from src.feature_engine import FeatureEngine  # noqa: E402
 from src.labeler import Labeler  # noqa: E402
 from src.risk_manager import PositionState, RiskManager, calculate_position_size  # noqa: E402
@@ -112,6 +112,29 @@ def check_rank_is_same_day_cross_section() -> None:
     )
     ranks = _rank(frame, "score")
     assert ranks.tolist() == [0.5, 1.0, 1.0, 0.5]
+
+
+def check_signal_diagnostics_explains_no_entries() -> None:
+    frame = pd.DataFrame(
+        {
+            "date": ["2026-06-05", "2026-06-05"],
+            "market_regime": ["high_vol", "high_vol"],
+            "entry_signal": [0, 0],
+            "strategy_score": [0.9, 0.8],
+            "signal_rank_gate": [True, True],
+            "signal_score_gate": [True, True],
+            "signal_regime_gate": [False, False],
+            "signal_breadth_gate": [True, True],
+            "signal_positive_return_gate": [True, True],
+            "signal_volatility_gate": [True, True],
+            "signal_overheat_gate": [True, True],
+            "signal_market_gate": [False, False],
+        }
+    )
+    diagnostics = _signal_diagnostics(frame)
+    assert diagnostics["entry_signals"] == 0
+    assert diagnostics["market_regime_counts"] == {"high_vol": 2}
+    assert diagnostics["no_entry_primary_blocker"] == "signal_regime_gate"
 
 
 def _tiny_settings() -> dict:
@@ -257,6 +280,7 @@ def main() -> None:
     check_shared_position_sizing_limits()
     check_feature_columns_exclude_targets()
     check_rank_is_same_day_cross_section()
+    check_signal_diagnostics_explains_no_entries()
     check_signal_execution_lag_and_limit_up_block()
     check_gap_stop_uses_open_price()
     check_replacement_cost_gate_rejects_weak_switch()

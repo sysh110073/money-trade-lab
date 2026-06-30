@@ -196,16 +196,24 @@ def _make_rank_signals(
     scored["strategy_score"] = _build_score(scored, weights)
     scored["rank_signal_score"] = scored.groupby("date")["strategy_score"].rank(ascending=False, method="first")
     market_ok = pd.Series(True, index=scored.index)
+    scored["signal_rank_gate"] = scored["rank_signal_score"] <= top_n
+    scored["signal_score_gate"] = scored["strategy_score"] >= min_score
     if allowed_signal_regimes:
-        market_ok &= scored["market_regime"].astype(str).isin(allowed_signal_regimes)
+        scored["signal_regime_gate"] = scored["market_regime"].astype(str).isin(allowed_signal_regimes)
     if min_market_breadth_ma20 is not None:
-        market_ok &= pd.to_numeric(scored["market_breadth_ma20"], errors="coerce") >= min_market_breadth_ma20
+        scored["signal_breadth_gate"] = pd.to_numeric(scored["market_breadth_ma20"], errors="coerce") >= min_market_breadth_ma20
     if min_market_positive_return_5 is not None:
-        market_ok &= pd.to_numeric(scored["market_positive_return_5"], errors="coerce") >= min_market_positive_return_5
+        scored["signal_positive_return_gate"] = pd.to_numeric(scored["market_positive_return_5"], errors="coerce") >= min_market_positive_return_5
     if max_market_volatility_20 is not None:
-        market_ok &= pd.to_numeric(scored["market_volatility_20"], errors="coerce") <= max_market_volatility_20
-    market_ok &= ~_overheated_weak_market(scored)
-    entry = (scored["rank_signal_score"] <= top_n) & (scored["strategy_score"] >= min_score) & market_ok
+        scored["signal_volatility_gate"] = pd.to_numeric(scored["market_volatility_20"], errors="coerce") <= max_market_volatility_20
+    for gate in ["signal_regime_gate", "signal_breadth_gate", "signal_positive_return_gate", "signal_volatility_gate"]:
+        if gate not in scored.columns:
+            scored[gate] = True
+        market_ok &= scored[gate]
+    scored["signal_overheat_gate"] = ~_overheated_weak_market(scored)
+    market_ok &= scored["signal_overheat_gate"]
+    scored["signal_market_gate"] = market_ok
+    entry = scored["signal_rank_gate"] & scored["signal_score_gate"] & scored["signal_market_gate"]
     scored["signal"] = 0
     scored["entry_signal"] = 0
     scored.loc[entry, ["signal", "entry_signal"]] = 1
@@ -213,6 +221,38 @@ def _make_rank_signals(
     scored["selected_strategy_count"] = np.where(entry, 1, 0)
     scored["selected_strategy_ids"] = np.where(entry, "rank_multi_factor", "")
     return scored
+
+
+def _signal_diagnostics(signals: pd.DataFrame) -> dict[str, Any]:
+    gate_names = [
+        "signal_rank_gate",
+        "signal_score_gate",
+        "signal_regime_gate",
+        "signal_breadth_gate",
+        "signal_positive_return_gate",
+        "signal_volatility_gate",
+        "signal_overheat_gate",
+        "signal_market_gate",
+    ]
+    diagnostics: dict[str, Any] = {
+        "rows": int(len(signals)),
+        "dates": int(pd.Series(signals["date"]).nunique()) if "date" in signals else 0,
+        "entry_signals": int(signals["entry_signal"].sum()) if "entry_signal" in signals else 0,
+        "max_strategy_score": float(pd.to_numeric(signals.get("strategy_score"), errors="coerce").max()) if "strategy_score" in signals else None,
+        "market_regime_counts": {
+            str(key): int(value)
+            for key, value in signals.get("market_regime", pd.Series(dtype=object)).astype(str).value_counts().sort_index().items()
+        },
+    }
+    for gate in gate_names:
+        diagnostics[f"{gate}_rows"] = int(signals[gate].fillna(False).sum()) if gate in signals else None
+    diagnostics["no_entry_primary_blocker"] = None
+    if diagnostics["entry_signals"] == 0:
+        for gate in ["signal_rank_gate", "signal_score_gate", "signal_regime_gate", "signal_breadth_gate", "signal_positive_return_gate", "signal_volatility_gate", "signal_overheat_gate", "signal_market_gate"]:
+            if diagnostics.get(f"{gate}_rows") == 0:
+                diagnostics["no_entry_primary_blocker"] = gate
+                break
+    return diagnostics
 
 
 def main() -> None:
@@ -370,6 +410,7 @@ def main() -> None:
         "beats_benchmark_cagr": bool(perf["cagr"] > benchmark["cagr"]) if benchmark.get("found") else None,
         "beats_benchmark_sharpe": bool(perf["sharpe"] > benchmark["sharpe"]) if benchmark.get("found") else None,
         "candidate_buy_signals": int(signals["entry_signal"].eq(1).sum()),
+        "signal_diagnostics": _signal_diagnostics(signals),
         "execution_stats": result.get("execution_stats", {}),
         "tca": result.get("tca_summary", {}),
         "settings": {
@@ -471,6 +512,14 @@ def main() -> None:
         "sentiment_max_positions_multiplier",
         "sentiment_target_exposure_multiplier",
         "sentiment_block_entries",
+        "signal_rank_gate",
+        "signal_score_gate",
+        "signal_regime_gate",
+        "signal_breadth_gate",
+        "signal_positive_return_gate",
+        "signal_volatility_gate",
+        "signal_overheat_gate",
+        "signal_market_gate",
     ]
     signals.loc[:, [col for col in signal_cols if col in signals.columns]].to_csv(signals_path, index=False, encoding="utf-8-sig")
     summary_path.write_text(json.dumps(summary, ensure_ascii=False, indent=2, default=_json_default), encoding="utf-8")

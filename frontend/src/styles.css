@@ -256,6 +256,44 @@ button {
   color: var(--green);
 }
 
+.attribution-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+  gap: 14px;
+}
+
+.attribution-side {
+  display: grid;
+  gap: 10px;
+}
+
+.attribution-side > div {
+  padding: 12px;
+  border: 1px solid var(--soft-line);
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.attribution-side h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+}
+
+.attribution-side p {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 6px 0;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.attribution-side strong {
+  color: var(--ink);
+  text-align: right;
+}
+
 .action-bucket--wait {
   border-color: rgba(161, 92, 17, 0.24);
 }

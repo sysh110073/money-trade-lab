@@ -1,12 +1,17 @@
 param(
-    [string]$ProjectRoot = "C:\Users\huang\Desktop\money_trade",
+    [string]$ProjectRoot = "",
     [string]$TaskName = "MoneyTrade Daily Update",
     [string]$StartTime = "16:35"
 )
 
 $ErrorActionPreference = "Stop"
 
-$ProjectRoot = (Resolve-Path -LiteralPath $ProjectRoot).Path
+$ProjectRoot = if ([string]::IsNullOrWhiteSpace($ProjectRoot)) {
+    (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot "..")).Path
+}
+else {
+    (Resolve-Path -LiteralPath $ProjectRoot).Path
+}
 $UpdateScript = Join-Path $ProjectRoot "scripts\daily_update.ps1"
 
 if (-not (Test-Path -LiteralPath $UpdateScript)) {

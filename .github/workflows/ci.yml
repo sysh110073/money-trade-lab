@@ -18,10 +18,10 @@ jobs:
           cache: npm
           cache-dependency-path: frontend/package-lock.json
       - name: Install Python check deps
-        run: python -m pip install pandas numpy requests Pillow python-dotenv pyyaml
+        run: python -m pip install pandas numpy requests Pillow python-dotenv pyyaml pyarrow
       - name: Python compile
         run: |
-          python -m py_compile scripts/check_data_health.py scripts/send_line_holdings.py scripts/db_importer.py trading_code_ml/scripts/test_pandas_logic.py frontend/scripts/generate_dashboard_data.py trading_code_ml/src/risk_manager.py trading_code_ml/scripts/run_portfolio_strategy_wfa.py trading_code_ml/scripts/run_rank_portfolio_backtest.py
+          python -m py_compile scripts/check_data_health.py scripts/send_line_holdings.py scripts/db_importer.py scripts/portfolio_api.py scripts/register_experiment.py scripts/export_feature_snapshot.py trading_code_ml/scripts/test_pandas_logic.py frontend/scripts/generate_dashboard_data.py trading_code_ml/src/risk_manager.py trading_code_ml/src/corporate_actions.py trading_code_ml/src/research_metrics.py trading_code_ml/scripts/run_portfolio_strategy_wfa.py trading_code_ml/scripts/run_rank_portfolio_backtest.py
       - name: Python self-check
         run: python trading_code_ml/scripts/test_pandas_logic.py
       - name: Frontend build

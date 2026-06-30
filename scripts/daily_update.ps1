@@ -1,7 +1,7 @@
 param(
-    [string]$ProjectRoot = "C:\Users\huang\Desktop\money_trade",
+    [string]$ProjectRoot = "",
     [string]$ConfigPath = "trading_code_ml\config\production.yaml",
-    [string]$FundamentalAnalysisRoot = "C:\Users\huang\Desktop\Fundamental Analysis",
+    [string]$FundamentalAnalysisRoot = "",
     [string]$ProcessedFeaturesPath = "",
     [string]$EndDate = "",
     [switch]$SkipApiFetch,
@@ -15,11 +15,26 @@ param(
 
 $ErrorActionPreference = "Stop"
 
+$ProjectRoot = if ([string]::IsNullOrWhiteSpace($ProjectRoot)) {
+    (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot "..")).Path
+}
+else {
+    (Resolve-Path -LiteralPath $ProjectRoot).Path
+}
+
+if ([string]::IsNullOrWhiteSpace($FundamentalAnalysisRoot)) {
+    $FundamentalAnalysisRoot = if (-not [string]::IsNullOrWhiteSpace($env:FUNDAMENTAL_ANALYSIS_ROOT)) {
+        $env:FUNDAMENTAL_ANALYSIS_ROOT
+    }
+    else {
+        Join-Path (Split-Path -Parent $ProjectRoot) "Fundamental Analysis"
+    }
+}
+
 if ([string]::IsNullOrWhiteSpace($EndDate)) {
     $EndDate = Get-Date -Format "yyyy-MM-dd"
 }
 
-$ProjectRoot = (Resolve-Path -LiteralPath $ProjectRoot).Path
 $Python = "python"
 if (-not [System.IO.Path]::IsPathRooted($ConfigPath)) {
     $ConfigPath = Join-Path $ProjectRoot $ConfigPath

@@ -7,6 +7,7 @@ const FundRotation = lazy(() => import("./components/FundRotation"));
 const StockSearchPanel = lazy(() => import("./components/StockSearchPanel"));
 const RealPortfolioPanel = lazy(() => import("./components/RealPortfolioPanel"));
 const StrategyPortfolioPanel = lazy(() => import("./components/StrategyPortfolioPanel"));
+const StrategyAttributionPanel = lazy(() => import("./components/StrategyAttributionPanel"));
 const InvestmentPlannerPanel = lazy(() => import("./components/InvestmentPlannerPanel"));
 
 const pct = (value, digits = 1) =>
@@ -156,6 +157,10 @@ export default function App() {
 
       <Suspense fallback={<section className="panel chart-loading">策略理論持股面板載入中...</section>}>
         <StrategyPortfolioPanel />
+      </Suspense>
+
+      <Suspense fallback={<section className="panel chart-loading">Strategy attribution loading...</section>}>
+        <StrategyAttributionPanel />
       </Suspense>
 
       <Suspense fallback={<section className="panel chart-loading">真實持股面板載入中...</section>}>

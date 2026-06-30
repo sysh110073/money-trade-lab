@@ -15,7 +15,7 @@ export const rotationData = {
     "sources": [
       "C:\\Users\\huang\\Desktop\\trading_code\\data\\processed\\all_features.csv",
       "C:\\Users\\huang\\Desktop\\money_trade\\stock_universe\\selected_stocks_500_liquid.csv",
-      "C:\\Users\\huang\\Desktop\\money_trade\\trading_code_ml\\results\\rank_portfolio_optimized_risk_long_20pct_norebalance\\rank_portfolio_signals.csv"
+      "trading_code_ml\\results\\rank_portfolio_optimized_risk_long_20pct_norebalance\\rank_portfolio_signals.csv"
     ],
     "institutionalSource": "TWSE/TPEx official institutional flow"
   },
@@ -7141,9 +7141,9 @@ export const rotationData = {
     ]
   },
   "runContext": {
-    "runId": "20260629_20260630_130156_prod",
+    "runId": "20260629_20260630_134927_prod",
     "strategyVersion": "official_rank_portfolio",
     "asOfDate": "2026-06-29",
-    "configHash": "sha256:0cfdb40509559b73495363bca0564b728688a7b1d536d797f31e734bb11a48d2"
+    "configHash": "sha256:3465b1265fb586109894068d3bdb4460b57d8f593126d806f65e24e36bd31ac4"
   }
 };

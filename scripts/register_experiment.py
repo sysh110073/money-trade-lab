@@ -50,6 +50,13 @@ def _finite(value: Any, default: float = 0.0) -> float:
     return number if pd.notna(number) else default
 
 
+def display_path(path: Path) -> str:
+    try:
+        return path.resolve().relative_to(PROJECT_ROOT).as_posix()
+    except ValueError:
+        return str(path)
+
+
 def build_registry_row(
     summary_path: Path,
     equity_path: Path,
@@ -75,8 +82,8 @@ def build_registry_row(
         "registered_at": datetime.now().isoformat(timespec="seconds"),
         "run_id": run_id,
         "config_hash": config_hash,
-        "summary_path": str(summary_path),
-        "equity_path": str(equity_path),
+        "summary_path": display_path(summary_path),
+        "equity_path": display_path(equity_path),
         "period_start": str(equity["date"].min().date()) if not equity.empty else "",
         "period_end": str(equity["date"].max().date()) if not equity.empty else "",
         "observations": observations,

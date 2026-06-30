@@ -55,6 +55,71 @@ def write_js(path: Path, name: str, payload: dict) -> None:
     )
 
 
+def portable_path(value: object) -> object:
+    if not isinstance(value, str) or not value:
+        return value
+    try:
+        path = Path(value)
+    except (OSError, ValueError):
+        return value
+    if not path.is_absolute():
+        return value
+    try:
+        return path.relative_to(ROOT).as_posix()
+    except ValueError:
+        return path.name
+
+
+def public_benchmark(benchmark: dict) -> dict:
+    output = dict(benchmark or {})
+    for key in ("api_path", "path", "cache_path"):
+        if key in output:
+            output[key] = portable_path(output[key])
+    return output
+
+
+def build_attribution_data(summary: dict, signals_path: Path, trades_path: Path) -> dict:
+    signals = pd.read_csv(signals_path) if signals_path.exists() else pd.DataFrame()
+    trades = pd.read_csv(trades_path) if trades_path.exists() else pd.DataFrame()
+    gate_keys = [
+        "signal_rank_gate",
+        "signal_score_gate",
+        "signal_regime_gate",
+        "signal_breadth_gate",
+        "signal_positive_return_gate",
+        "signal_volatility_gate",
+        "signal_overheat_gate",
+        "signal_market_gate",
+    ]
+    gate_rows = []
+    for key in gate_keys:
+        if key in signals:
+            passed = int(signals[key].fillna(False).sum())
+            gate_rows.append({"key": key, "passed": passed, "total": int(len(signals)), "rate": passed / len(signals) if len(signals) else 0.0})
+    exit_reasons = []
+    if not trades.empty and "exit_reason" in trades:
+        for reason, count in trades["exit_reason"].fillna("").value_counts().items():
+            exit_reasons.append({"reason": str(reason), "count": int(count)})
+    latest_gates = []
+    if not signals.empty and "date" in signals:
+        latest = signals[signals["date"].astype(str).eq(str(signals["date"].max()))]
+        for key in gate_keys:
+            if key in latest:
+                passed = int(latest[key].fillna(False).sum())
+                latest_gates.append({"key": key, "passed": passed, "total": int(len(latest)), "rate": passed / len(latest) if len(latest) else 0.0})
+    return {
+        "performance": summary.get("performance", {}),
+        "benchmark": public_benchmark(summary.get("benchmark", {})),
+        "weights": summary.get("settings", {}).get("weights", {}),
+        "signalDiagnostics": summary.get("signal_diagnostics", {}),
+        "gateRows": gate_rows,
+        "latestGateRows": latest_gates,
+        "executionStats": summary.get("execution_stats", {}),
+        "tca": summary.get("tca", {}),
+        "exitReasons": exit_reasons,
+    }
+
+
 def pct_rank_reason(value: float) -> str:
     return f"相對強度排名前 {max(1, round((1 - value) * 100))}%"
 
@@ -1258,6 +1323,8 @@ def main() -> None:
 
     official_summary_path = OFFICIAL_RANK_DIR / "rank_portfolio_summary.json"
     official_equity_path = OFFICIAL_RANK_DIR / "rank_portfolio_equity.csv"
+    official_signals_path = OFFICIAL_RANK_DIR / "rank_portfolio_signals.csv"
+    official_trades_path = OFFICIAL_RANK_DIR / "rank_portfolio_trades.csv"
     baseline_summary_path = BASELINE_RANK_DIR / "rank_portfolio_summary.json"
     summary = json.loads(official_summary_path.read_text(encoding="utf-8"))
     baseline_summary = json.loads(baseline_summary_path.read_text(encoding="utf-8"))
@@ -1393,6 +1460,7 @@ def main() -> None:
         disposition_by_symbol=disposition_by_symbol,
         disposition_as_of=disposition_as_of,
     )
+    attribution = build_attribution_data(summary, official_signals_path, official_trades_path)
 
     benchmark_frame = None
     cache_files = sorted(BENCHMARK_CACHE_DIR.glob("benchmark_0050_*.csv"))
@@ -1429,13 +1497,14 @@ def main() -> None:
         "asOfDate": signal_date,
         "configHash": args.config_hash,
     }
-    for payload in [dashboard, rotation, equity_data, stock_search]:
+    for payload in [dashboard, rotation, equity_data, stock_search, attribution]:
         payload["runContext"] = run_context
 
     write_js(FRONT_DATA / "dashboardData.js", "dashboardData", dashboard)
     write_js(FRONT_DATA / "rotationData.js", "rotationData", rotation)
     write_js(FRONT_DATA / "equityData.js", "equityData", equity_data)
     write_js(FRONT_DATA / "stockSearchData.js", "stockSearchData", stock_search)
+    write_js(FRONT_DATA / "attributionData.js", "attributionData", attribution)
 
     print(
         json.dumps(

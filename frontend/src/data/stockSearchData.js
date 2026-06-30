@@ -39,9 +39,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.3179253481121946,
       "volumeRatio20": 1.9256659282756337,
       "revenueMom21d": 0.0,
-      "foreign5": 1200.5370000000019,
-      "trust5": 4440.0,
-      "totalNet5": 5640.537000000002,
+      "foreign5": 3826.4230000000016,
+      "trust5": 3464.0,
+      "totalNet5": 7290.423000000002,
       "foreignNet": 80.613,
       "trustNet": 1408.0,
       "totalNet": 1554.438,
@@ -70,33 +70,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 94",
         "相對強度排名前 7%",
-        "趨勢結構分數 91",
-        "法人資金分數 87"
+        "法人資金分數 92",
+        "趨勢結構分數 91"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2564,
+          "contribution": 0.2529,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.253,
+          "contribution": 0.2496,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Trend Structure",
-          "contribution": 0.2483,
-          "detail": "ADX 與 MA20 趨勢結構"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.2367,
+          "contribution": 0.2471,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Trend Structure",
+          "contribution": 0.245,
+          "detail": "ADX 與 MA20 趨勢結構"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.0055,
+          "contribution": 0.0054,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -130,9 +130,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8105516727788562,
       "volumeRatio20": 0.7506589775861434,
       "revenueMom21d": 0.0,
-      "foreign5": -9473.560999999994,
-      "trust5": 12440.313,
-      "totalNet5": 2966.752000000006,
+      "foreign5": -5677.606999999993,
+      "trust5": 9052.137,
+      "totalNet5": 3374.530000000008,
       "foreignNet": 3152.275,
       "trustNet": 1796.423,
       "totalNet": 4422.259,
@@ -162,32 +162,32 @@ export const stockSearchData = {
         "趨勢結構分數 96",
         "相對強度排名前 6%",
         "量能分數 68",
-        "法人資金分數 53"
+        "法人資金分數 55"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.298,
+          "contribution": 0.2965,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2909,
+          "contribution": 0.2894,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.212,
+          "contribution": 0.211,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1647,
+          "contribution": 0.1688,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0345,
+          "contribution": 0.0343,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -221,9 +221,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7911684350053914,
       "volumeRatio20": 1.1792985114431336,
       "revenueMom21d": 0.0348654878352898,
-      "foreign5": 14392.086,
-      "trust5": 11299.712999999998,
-      "totalNet5": 25691.799,
+      "foreign5": 24502.718,
+      "trust5": 6994.249999999999,
+      "totalNet5": 31496.968,
       "foreignNet": 2358.882,
       "trustNet": 1906.125,
       "totalNet": 4309.01,
@@ -258,27 +258,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2751,
+          "contribution": 0.2747,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2709,
+          "contribution": 0.2717,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.213,
+          "contribution": 0.2128,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1867,
+          "contribution": 0.1865,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0544,
+          "contribution": 0.0543,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -312,9 +312,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.781211185617834,
       "volumeRatio20": 1.238576959465966,
       "revenueMom21d": 0.0,
-      "foreign5": -237741.11800000007,
-      "trust5": 26778.774999999987,
-      "totalNet5": -210962.34300000008,
+      "foreign5": -197736.29700000008,
+      "trust5": 9660.774999999989,
+      "totalNet5": -188075.52200000008,
       "foreignNet": -6080.377,
       "trustNet": 111.666,
       "totalNet": -3546.912,
@@ -344,27 +344,27 @@ export const stockSearchData = {
         "相對強度排名前 3%",
         "趨勢結構分數 93",
         "量能分數 74",
-        "法人資金分數 49"
+        "法人資金分數 48"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.3034,
+          "contribution": 0.304,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2909,
+          "contribution": 0.2914,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2333,
+          "contribution": 0.2337,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1522,
+          "contribution": 0.1506,
           "detail": "外資與投信近5日買超排名"
         },
         {
@@ -403,9 +403,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4651811579904614,
       "volumeRatio20": 0.1511584553703751,
       "revenueMom21d": 0.0,
-      "foreign5": 33.74799999999999,
-      "trust5": -3.0,
-      "totalNet5": 30.74799999999999,
+      "foreign5": 50.0,
+      "trust5": -4.0,
+      "totalNet5": 46.0,
       "foreignNet": 20.0,
       "trustNet": 0.0,
       "totalNet": 22.0,
@@ -450,28 +450,28 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 2%",
         "趨勢結構分數 98",
-        "法人資金分數 44",
+        "法人資金分數 45",
         "量能分數 7"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.394,
+          "contribution": 0.3926,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.3921,
+          "contribution": 0.3907,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1778,
+          "contribution": 0.1808,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0271,
+          "contribution": 0.027,
           "detail": "5日與20日量能放大排名"
         },
         {
@@ -510,9 +510,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7598871764315944,
       "volumeRatio20": 1.4115240821172177,
       "revenueMom21d": 0.0,
-      "foreign5": -9886.821000000004,
-      "trust5": 9936.679,
-      "totalNet5": 49.85799999999654,
+      "foreign5": -8416.536000000004,
+      "trust5": 13111.093,
+      "totalNet5": 4694.556999999997,
       "foreignNet": -5431.078,
       "trustNet": 3479.0,
       "totalNet": -1813.827,
@@ -542,32 +542,32 @@ export const stockSearchData = {
         "相對強度排名前 4%",
         "趨勢結構分數 77",
         "量能分數 74",
-        "法人資金分數 52"
+        "法人資金分數 54"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.3119,
+          "contribution": 0.3102,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2481,
+          "contribution": 0.2468,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.239,
+          "contribution": 0.2377,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1691,
+          "contribution": 0.1734,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.032,
+          "contribution": 0.0318,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -601,9 +601,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.1315578298642259,
       "volumeRatio20": 0.1764116538903792,
       "revenueMom21d": 0.0,
-      "foreign5": -1212.4530000000002,
+      "foreign5": -1503.4530000000002,
       "trust5": 0.0,
-      "totalNet5": -1212.4530000000002,
+      "totalNet5": -1503.4530000000002,
       "foreignNet": -21.551,
       "trustNet": 0.0,
       "totalNet": -21.551,
@@ -654,17 +654,17 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.4208,
+          "contribution": 0.4206,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.3939,
+          "contribution": 0.3937,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1771,
+          "contribution": 0.1775,
           "detail": "外資與投信近5日買超排名"
         },
         {
@@ -708,9 +708,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5680996451877032,
       "volumeRatio20": 1.0231493476518676,
       "revenueMom21d": 0.0,
-      "foreign5": 6658.533000000001,
-      "trust5": 18.00000000000003,
-      "totalNet5": 6676.533000000001,
+      "foreign5": 4639.366000000001,
+      "trust5": 25.00000000000003,
+      "totalNet5": 4664.366000000001,
       "foreignNet": -1191.283,
       "trustNet": 5.0,
       "totalNet": -1140.442,
@@ -739,28 +739,28 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 3%",
         "趨勢結構分數 97",
-        "法人資金分數 83",
+        "法人資金分數 84",
         "量能分數 56"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2863,
+          "contribution": 0.2858,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2852,
+          "contribution": 0.2847,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2456,
+          "contribution": 0.247,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.165,
+          "contribution": 0.1648,
           "detail": "5日與20日量能放大排名"
         },
         {
@@ -799,9 +799,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5428106335863787,
       "volumeRatio20": 0.0765071341979374,
       "revenueMom21d": 0.0,
-      "foreign5": -444.5350000000006,
-      "trust5": 3476.1719999999996,
-      "totalNet5": 3031.636999999999,
+      "foreign5": 1148.3529999999992,
+      "trust5": 1048.1719999999996,
+      "totalNet5": 2196.5249999999987,
       "foreignNet": -46.871,
       "trustNet": 340.172,
       "totalNet": 299.301,
@@ -846,33 +846,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 96",
         "相對強度排名前 8%",
-        "法人資金分數 68",
+        "法人資金分數 85",
         "量能分數 11"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3546,
+          "contribution": 0.3331,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.342,
+          "contribution": 0.3212,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2505,
+          "contribution": 0.2961,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0416,
+          "contribution": 0.039,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0112,
+          "contribution": 0.0106,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -906,9 +906,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4045835287099676,
       "volumeRatio20": 0.4206001595491683,
       "revenueMom21d": 0.0,
-      "foreign5": -20219.914000000008,
-      "trust5": 8944.5,
-      "totalNet5": -11275.414000000008,
+      "foreign5": -4104.565000000004,
+      "trust5": 2372.5,
+      "totalNet5": -1732.0650000000041,
       "foreignNet": 1538.322,
       "trustNet": 2.0,
       "totalNet": 1479.096,
@@ -953,33 +953,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 90",
         "相對強度排名前 13%",
-        "法人資金分數 51",
+        "法人資金分數 54",
         "量能分數 20"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3635,
+          "contribution": 0.3584,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.3493,
+          "contribution": 0.3444,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2039,
+          "contribution": 0.2151,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0792,
+          "contribution": 0.0781,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0041,
+          "contribution": 0.004,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -1013,9 +1013,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.638455838239437,
       "volumeRatio20": 1.455401867235362,
       "revenueMom21d": 0.0,
-      "foreign5": 5436.464,
+      "foreign5": 4807.059,
       "trust5": 0.0,
-      "totalNet5": 5436.464,
+      "totalNet5": 4807.059,
       "foreignNet": 1024.83,
       "trustNet": 0.0,
       "totalNet": 730.403,
@@ -1045,32 +1045,32 @@ export const stockSearchData = {
         "量能分數 94",
         "趨勢結構分數 92",
         "相對強度排名前 17%",
-        "法人資金分數 72"
+        "法人資金分數 73"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2727,
+          "contribution": 0.272,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2671,
+          "contribution": 0.2665,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2394,
+          "contribution": 0.2389,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2079,
+          "contribution": 0.2098,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0129,
+          "contribution": 0.0128,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -1104,9 +1104,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5258165292857738,
       "volumeRatio20": 0.6554736807076649,
       "revenueMom21d": 0.0,
-      "foreign5": 94361.28599999998,
-      "trust5": -140655.626,
-      "totalNet5": -46294.34000000001,
+      "foreign5": 40352.001999999986,
+      "trust5": -117705.52299999999,
+      "totalNet5": -77353.52100000001,
       "foreignNet": 10372.333,
       "trustNet": -26113.192,
       "totalNet": -17217.867,
@@ -1135,33 +1135,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 96",
         "相對強度排名前 7%",
-        "法人資金分數 50",
+        "法人資金分數 49",
         "量能分數 43"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3244,
+          "contribution": 0.325,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.315,
+          "contribution": 0.3155,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1682,
+          "contribution": 0.1668,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.144,
+          "contribution": 0.1442,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0484,
+          "contribution": 0.0485,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -1195,9 +1195,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6202491674036967,
       "volumeRatio20": 0.6166992305999229,
       "revenueMom21d": 0.522835909775363,
-      "foreign5": -52314.96399999999,
-      "trust5": 49235.103,
-      "totalNet5": -3079.86099999999,
+      "foreign5": -57263.22299999998,
+      "trust5": 51791.14,
+      "totalNet5": -5472.082999999984,
       "foreignNet": -2700.682,
       "trustNet": 3370.159,
       "totalNet": -2163.148,
@@ -1232,22 +1232,22 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.3358,
+          "contribution": 0.3362,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.3006,
+          "contribution": 0.3009,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.185,
+          "contribution": 0.184,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1727,
+          "contribution": 0.1729,
           "detail": "5日與20日量能放大排名"
         },
         {
@@ -1286,9 +1286,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.3322147015984697,
       "volumeRatio20": 0.3305891882235226,
       "revenueMom21d": 0.0,
-      "foreign5": -33026.46500000001,
-      "trust5": 70192.84100000001,
-      "totalNet5": 37166.376000000004,
+      "foreign5": -44237.83400000002,
+      "trust5": 80871.205,
+      "totalNet5": 36633.370999999985,
       "foreignNet": -625.937,
       "trustNet": 7505.877,
       "totalNet": 5610.06,
@@ -1333,28 +1333,28 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 2%",
         "趨勢結構分數 91",
-        "法人資金分數 52",
+        "法人資金分數 51",
         "波動控制分數 12"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.3721,
+          "contribution": 0.3726,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.3443,
+          "contribution": 0.3447,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1955,
+          "contribution": 0.1946,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0459,
+          "contribution": 0.046,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
@@ -1393,9 +1393,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.453282867620376,
       "volumeRatio20": 0.5770414914891028,
       "revenueMom21d": 0.0,
-      "foreign5": -45.39000000000047,
+      "foreign5": 1514.7199999999996,
       "trust5": 0.0,
-      "totalNet5": -45.39000000000047,
+      "totalNet5": 1514.7199999999996,
       "foreignNet": 198.15,
       "trustNet": 0.0,
       "totalNet": 195.15,
@@ -1424,33 +1424,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 97",
         "相對強度排名前 4%",
-        "法人資金分數 54",
+        "法人資金分數 68",
         "量能分數 33"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3346,
+          "contribution": 0.3185,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.3321,
+          "contribution": 0.3162,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1858,
+          "contribution": 0.2248,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1126,
+          "contribution": 0.1072,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.035,
+          "contribution": 0.0333,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -1484,9 +1484,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6393104367167086,
       "volumeRatio20": 0.9629657961205772,
       "revenueMom21d": 0.0,
-      "foreign5": 10134.629999999996,
-      "trust5": 1482.3,
-      "totalNet5": 11616.929999999995,
+      "foreign5": 9760.696999999996,
+      "trust5": 2390.3,
+      "totalNet5": 12150.996999999996,
       "foreignNet": -1707.723,
       "trustNet": 1.0,
       "totalNet": -1550.323,
@@ -1514,34 +1514,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "相對強度排名前 2%",
-        "法人資金分數 92",
+        "法人資金分數 93",
         "趨勢結構分數 68",
         "量能分數 60"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2978,
+          "contribution": 0.2961,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2773,
+          "contribution": 0.2813,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2048,
+          "contribution": 0.2037,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1828,
+          "contribution": 0.1818,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0373,
+          "contribution": 0.0371,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -1575,9 +1575,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6264885653928003,
       "volumeRatio20": 0.0967333143278325,
       "revenueMom21d": 0.0,
-      "foreign5": -522.5720000000003,
+      "foreign5": 3052.7959999999994,
       "trust5": 0.0,
-      "totalNet5": -522.5720000000003,
+      "totalNet5": 3052.7959999999994,
       "foreignNet": 427.959,
       "trustNet": 0.0,
       "totalNet": 428.959,
@@ -1622,33 +1622,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 95",
         "相對強度排名前 13%",
-        "法人資金分數 46",
+        "法人資金分數 71",
         "量能分數 18"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3713,
+          "contribution": 0.3387,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.3421,
+          "contribution": 0.312,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1803,
+          "contribution": 0.2524,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0699,
+          "contribution": 0.0638,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0363,
+          "contribution": 0.0331,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -1682,9 +1682,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7027311445868979,
       "volumeRatio20": 1.0060860644886287,
       "revenueMom21d": 0.0,
-      "foreign5": 2526.993,
-      "trust5": -4.0,
-      "totalNet5": 2522.993,
+      "foreign5": 3411.798,
+      "trust5": -5.0,
+      "totalNet5": 3406.798,
       "foreignNet": -576.064,
       "trustNet": 0.0,
       "totalNet": -609.413,
@@ -1714,32 +1714,32 @@ export const stockSearchData = {
         "相對強度排名前 4%",
         "趨勢結構分數 91",
         "量能分數 65",
-        "法人資金分數 58"
+        "法人資金分數 59"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2808,
+          "contribution": 0.28,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2648,
+          "contribution": 0.264,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1893,
+          "contribution": 0.1887,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1699,
+          "contribution": 0.1723,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0952,
+          "contribution": 0.0949,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -1773,9 +1773,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.2830321408418789,
       "volumeRatio20": 0.2035191933054272,
       "revenueMom21d": 0.0,
-      "foreign5": 967.8489999999999,
+      "foreign5": 1116.779,
       "trust5": -3.0,
-      "totalNet5": 964.8489999999999,
+      "totalNet5": 1113.779,
       "foreignNet": 111.0,
       "trustNet": 0.0,
       "totalNet": 88.0,
@@ -1820,33 +1820,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 98",
         "相對強度排名前 3%",
-        "法人資金分數 54",
+        "法人資金分數 56",
         "波動控制分數 20"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3594,
+          "contribution": 0.3569,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.3557,
+          "contribution": 0.3532,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1998,
+          "contribution": 0.2052,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0729,
+          "contribution": 0.0724,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0123,
+          "contribution": 0.0122,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -1880,9 +1880,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8199694448408099,
       "volumeRatio20": 0.2067884492418753,
       "revenueMom21d": 0.0,
-      "foreign5": 453.2010000000005,
+      "foreign5": 1111.0970000000004,
       "trust5": 0.0,
-      "totalNet5": 453.2010000000005,
+      "totalNet5": 1111.0970000000004,
       "foreignNet": 97.242,
       "trustNet": 0.0,
       "totalNet": 64.139,
@@ -1927,33 +1927,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 99",
         "相對強度排名前 6%",
-        "法人資金分數 61",
+        "法人資金分數 67",
         "量能分數 35"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3333,
+          "contribution": 0.3268,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.3192,
+          "contribution": 0.313,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2064,
+          "contribution": 0.2219,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1178,
+          "contribution": 0.1155,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0232,
+          "contribution": 0.0228,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -1987,9 +1987,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6548752545190779,
       "volumeRatio20": 0.5914826212924551,
       "revenueMom21d": 0.0,
-      "foreign5": -135782.569,
-      "trust5": 100622.50199999998,
-      "totalNet5": -35160.06700000001,
+      "foreign5": -132865.209,
+      "trust5": 130383.10299999999,
+      "totalNet5": -2482.1060000000143,
       "foreignNet": -20610.326,
       "trustNet": 11985.901,
       "totalNet": -11955.431,
@@ -2024,22 +2024,22 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.3228,
+          "contribution": 0.3227,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.3015,
+          "contribution": 0.3014,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1776,
+          "contribution": 0.1779,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1723,
+          "contribution": 0.1722,
           "detail": "5日與20日量能放大排名"
         },
         {
@@ -2078,9 +2078,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.1064225083885624,
       "volumeRatio20": 1.4197478053728867,
       "revenueMom21d": 0.0,
-      "foreign5": 97310.35900000011,
-      "trust5": -349.0739999999964,
-      "totalNet5": 96961.28500000012,
+      "foreign5": 47117.2200000001,
+      "trust5": -254.07399999999637,
+      "totalNet5": 46863.14600000011,
       "foreignNet": 177670.132,
       "trustNet": -308.947,
       "totalNet": 180796.091,
@@ -2110,27 +2110,27 @@ export const stockSearchData = {
         "相對強度排名前 3%",
         "量能分數 89",
         "趨勢結構分數 88",
-        "法人資金分數 58"
+        "法人資金分數 57"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.288,
+          "contribution": 0.2885,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2656,
+          "contribution": 0.2661,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2629,
+          "contribution": 0.2633,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1715,
+          "contribution": 0.17,
           "detail": "外資與投信近5日買超排名"
         },
         {
@@ -2169,9 +2169,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4870535276835452,
       "volumeRatio20": 0.2830698899670917,
       "revenueMom21d": 0.0,
-      "foreign5": 1298.8719999999998,
-      "trust5": 33.0,
-      "totalNet5": 1331.8719999999998,
+      "foreign5": 530.0350000000001,
+      "trust5": -129.0,
+      "totalNet5": 401.0350000000001,
       "foreignNet": 378.493,
       "trustNet": 16.0,
       "totalNet": 294.292,
@@ -2215,34 +2215,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "趨勢結構分數 83",
-        "法人資金分數 79",
         "相對強度排名前 27%",
+        "法人資金分數 46",
         "量能分數 14"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3204,
+          "contribution": 0.368,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.3061,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Relative Strength",
-          "contribution": 0.2829,
+          "contribution": 0.3249,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2031,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.0561,
+          "contribution": 0.0644,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0345,
+          "contribution": 0.0396,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -2276,9 +2276,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.2381791370088524,
       "volumeRatio20": 0.2971032131685751,
       "revenueMom21d": 0.0,
-      "foreign5": 2392.7650000000003,
+      "foreign5": 2639.2090000000003,
       "trust5": 173.0,
-      "totalNet5": 2565.7650000000003,
+      "totalNet5": 2812.2090000000003,
       "foreignNet": -351.929,
       "trustNet": 0.0,
       "totalNet": -373.564,
@@ -2323,33 +2323,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 96",
         "相對強度排名前 7%",
-        "法人資金分數 83",
+        "法人資金分數 85",
         "波動控制分數 13"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3257,
+          "contribution": 0.3237,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.3173,
+          "contribution": 0.3153,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2835,
+          "contribution": 0.2879,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0447,
+          "contribution": 0.0444,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0289,
+          "contribution": 0.0287,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -2383,9 +2383,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0658841242484045,
       "volumeRatio20": 0.9513729087810426,
       "revenueMom21d": 0.0,
-      "foreign5": 1538.1550000000007,
-      "trust5": 647.251,
-      "totalNet5": 2185.406000000001,
+      "foreign5": 995.7890000000007,
+      "trust5": 667.0,
+      "totalNet5": 1662.7890000000007,
       "foreignNet": 439.746,
       "trustNet": -1.0,
       "totalNet": 473.441,
@@ -2414,33 +2414,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 1%",
         "趨勢結構分數 98",
-        "法人資金分數 84",
+        "法人資金分數 83",
         "量能分數 83"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2425,
+          "contribution": 0.2432,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2409,
+          "contribution": 0.2415,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2071,
+          "contribution": 0.2051,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2036,
+          "contribution": 0.2041,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1058,
+          "contribution": 0.1061,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -2474,9 +2474,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.1797155988352646,
       "volumeRatio20": 1.5659420225982474,
       "revenueMom21d": 0.0,
-      "foreign5": 745.283,
-      "trust5": 3248.0,
-      "totalNet5": 3993.283,
+      "foreign5": 988.093,
+      "trust5": 2241.0,
+      "totalNet5": 3229.093,
       "foreignNet": -122.202,
       "trustNet": 907.0,
       "totalNet": 820.958,
@@ -2506,32 +2506,32 @@ export const stockSearchData = {
         "相對強度排名前 2%",
         "量能分數 91",
         "趨勢結構分數 85",
-        "法人資金分數 83"
+        "法人資金分數 85"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2679,
+          "contribution": 0.2665,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2483,
+          "contribution": 0.2469,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2331,
+          "contribution": 0.2318,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.227,
+          "contribution": 0.2313,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0237,
+          "contribution": 0.0236,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -2565,9 +2565,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7917255126792176,
       "volumeRatio20": 1.3268323191258231,
       "revenueMom21d": 0.0,
-      "foreign5": -77017.85200000001,
-      "trust5": 2372.0,
-      "totalNet5": -74645.85200000001,
+      "foreign5": -11756.730000000018,
+      "trust5": 84.0,
+      "totalNet5": -11672.730000000018,
       "foreignNet": 23080.431,
       "trustNet": 0.0,
       "totalNet": 23456.376,
@@ -2597,27 +2597,27 @@ export const stockSearchData = {
         "相對強度排名前 15%",
         "趨勢結構分數 82",
         "量能分數 77",
-        "法人資金分數 46"
+        "法人資金分數 44"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2922,
+          "contribution": 0.2945,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2829,
+          "contribution": 0.2851,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2641,
+          "contribution": 0.2662,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1595,
+          "contribution": 0.1528,
           "detail": "外資與投信近5日買超排名"
         },
         {
@@ -2656,9 +2656,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5178924804023691,
       "volumeRatio20": 0.2060541918204693,
       "revenueMom21d": 0.0,
-      "foreign5": 1074.8099999999997,
-      "trust5": 69.90899999999999,
-      "totalNet5": 1144.7189999999996,
+      "foreign5": 1056.1069999999997,
+      "trust5": -1106.0910000000003,
+      "totalNet5": -49.984000000000606,
       "foreignNet": 252.907,
       "trustNet": -57.274,
       "totalNet": 175.561,
@@ -2702,34 +2702,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "相對強度排名前 6%",
-        "法人資金分數 79",
         "趨勢結構分數 74",
+        "法人資金分數 45",
         "量能分數 12"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.3537,
+          "contribution": 0.405,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.295,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.2791,
+          "contribution": 0.3196,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1925,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.0443,
+          "contribution": 0.0507,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.028,
+          "contribution": 0.0321,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -2763,9 +2763,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8706012913301439,
       "volumeRatio20": 1.2133813140163257,
       "revenueMom21d": 0.0,
-      "foreign5": -724.397,
+      "foreign5": -452.42400000000004,
       "trust5": -2.0,
-      "totalNet5": -726.397,
+      "totalNet5": -454.42400000000004,
       "foreignNet": -30.564,
       "trustNet": 0.0,
       "totalNet": -30.564,
@@ -2800,27 +2800,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2808,
+          "contribution": 0.2784,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2486,
+          "contribution": 0.2464,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2427,
+          "contribution": 0.2406,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1235,
+          "contribution": 0.1224,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1043,
+          "contribution": 0.1121,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -2854,9 +2854,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6573595315928146,
       "volumeRatio20": 0.8328968675825928,
       "revenueMom21d": 0.0,
-      "foreign5": -1517.480999999999,
+      "foreign5": -4452.4259999999995,
       "trust5": 0.0,
-      "totalNet5": -1517.480999999999,
+      "totalNet5": -4452.4259999999995,
       "foreignNet": -238.31,
       "trustNet": 0.0,
       "totalNet": -297.062,
@@ -2886,32 +2886,32 @@ export const stockSearchData = {
         "趨勢結構分數 90",
         "相對強度排名前 15%",
         "量能分數 59",
-        "法人資金分數 40"
+        "法人資金分數 35"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3224,
+          "contribution": 0.3287,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.3045,
+          "contribution": 0.3104,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2101,
+          "contribution": 0.2142,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1435,
+          "contribution": 0.1268,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0195,
+          "contribution": 0.0199,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -2945,9 +2945,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.4955049743053732,
       "volumeRatio20": 1.7562437448973958,
       "revenueMom21d": 0.0,
-      "foreign5": 3559.6290000000013,
-      "trust5": 1066.0,
-      "totalNet5": 4625.629000000001,
+      "foreign5": 6018.068000000001,
+      "trust5": 1277.0,
+      "totalNet5": 7295.068000000001,
       "foreignNet": 663.052,
       "trustNet": 750.0,
       "totalNet": 1086.506,
@@ -2976,33 +2976,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 4%",
         "量能分數 95",
-        "法人資金分數 88",
+        "法人資金分數 91",
         "趨勢結構分數 77"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2576,
+          "contribution": 0.2556,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.254,
+          "contribution": 0.252,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2362,
+          "contribution": 0.2423,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2051,
+          "contribution": 0.2035,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.047,
+          "contribution": 0.0466,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -3036,9 +3036,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.2184321428721409,
       "volumeRatio20": 0.2713227134061454,
       "revenueMom21d": 0.0,
-      "foreign5": 12754.400000000001,
-      "trust5": -3030.0,
-      "totalNet5": 9724.400000000001,
+      "foreign5": 4980.764000000001,
+      "trust5": 4546.0,
+      "totalNet5": 9526.764000000001,
       "foreignNet": 1884.897,
       "trustNet": -1058.0,
       "totalNet": 552.339,
@@ -3081,35 +3081,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 94",
         "趨勢結構分數 87",
         "相對強度排名前 17%",
-        "法人資金分數 51",
         "量能分數 6"
       ],
       "explainability": [
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.3401,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.3749,
+          "contribution": 0.317,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.3574,
+          "contribution": 0.3022,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2194,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.0256,
+          "contribution": 0.0217,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0226,
+          "contribution": 0.0191,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -3143,9 +3143,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7454069998525508,
       "volumeRatio20": 0.9878286982915132,
       "revenueMom21d": 0.0,
-      "foreign5": -33187.867000000006,
-      "trust5": 16324.524000000005,
-      "totalNet5": -16863.343,
+      "foreign5": -22433.92000000001,
+      "trust5": -3715.805999999998,
+      "totalNet5": -26149.726000000006,
       "foreignNet": -1713.399,
       "trustNet": 73.755,
       "totalNet": -1736.78,
@@ -3175,33 +3175,33 @@ export const stockSearchData = {
         "相對強度排名前 23%",
         "趨勢結構分數 72",
         "量能分數 68",
-        "法人資金分數 50"
+        "波動控制分數 32"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2576,
+          "contribution": 0.3025,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2396,
+          "contribution": 0.2814,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2278,
+          "contribution": 0.2675,
           "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1684,
-          "detail": "外資與投信近5日買超排名"
+          "factor": "Volatility Control",
+          "contribution": 0.1252,
+          "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Volatility Control",
-          "contribution": 0.1066,
-          "detail": "20日波動相對分數，越高代表越穩定"
+          "factor": "Institutional Flow",
+          "contribution": 0.0234,
+          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -3234,9 +3234,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4294881336572068,
       "volumeRatio20": 0.5084399359905314,
       "revenueMom21d": 0.0,
-      "foreign5": 16428.042,
-      "trust5": 4.0,
-      "totalNet5": 16432.042,
+      "foreign5": -799.0310000000009,
+      "trust5": 12.0,
+      "totalNet5": -787.0310000000009,
       "foreignNet": -2179.024,
       "trustNet": 0.0,
       "totalNet": -2179.674,
@@ -3263,35 +3263,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 84",
         "相對強度排名前 21%",
+        "法人資金分數 55",
         "趨勢結構分數 52",
         "量能分數 27"
       ],
       "explainability": [
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.3477,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Relative Strength",
-          "contribution": 0.3262,
+          "contribution": 0.3701,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.26,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.2139,
+          "contribution": 0.2427,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1114,
+          "contribution": 0.1263,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0008,
+          "contribution": 0.0009,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -3325,9 +3325,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7293408437592335,
       "volumeRatio20": 1.0828385033658323,
       "revenueMom21d": 0.0,
-      "foreign5": -21833.546000000002,
-      "trust5": 4736.985000000001,
-      "totalNet5": -17096.561,
+      "foreign5": -12404.160000000003,
+      "trust5": 8482.541000000001,
+      "totalNet5": -3921.6190000000024,
       "foreignNet": -2028.734,
       "trustNet": 1544.77,
       "totalNet": -428.312,
@@ -3356,33 +3356,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 19%",
         "量能分數 70",
-        "法人資金分數 50",
+        "法人資金分數 52",
         "趨勢結構分數 46"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2965,
+          "contribution": 0.2948,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2563,
+          "contribution": 0.2549,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1836,
+          "contribution": 0.1881,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1702,
+          "contribution": 0.1693,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0935,
+          "contribution": 0.0929,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -3416,9 +3416,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.648893156473302,
       "volumeRatio20": 0.4287232904335274,
       "revenueMom21d": 0.0,
-      "foreign5": 1192.0789999999977,
-      "trust5": -89.50499999999954,
-      "totalNet5": 1102.5739999999983,
+      "foreign5": 829.1589999999977,
+      "trust5": -115.31399999999954,
+      "totalNet5": 713.8449999999982,
       "foreignNet": 72.513,
       "trustNet": -30.576,
       "totalNet": 21.569,
@@ -3463,33 +3463,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 12%",
         "趨勢結構分數 73",
-        "法人資金分數 50",
-        "波動控制分數 49"
+        "波動控制分數 49",
+        "法人資金分數 48"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2966,
+          "contribution": 0.299,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2462,
+          "contribution": 0.2481,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1679,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volatility Control",
-          "contribution": 0.1662,
+          "contribution": 0.1675,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1613,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.1231,
+          "contribution": 0.1241,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -3523,9 +3523,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4767780528321678,
       "volumeRatio20": 0.3392137678323066,
       "revenueMom21d": 0.0,
-      "foreign5": 96.79899999999988,
-      "trust5": 60.391000000000204,
-      "totalNet5": 157.19000000000008,
+      "foreign5": 198.82899999999987,
+      "trust5": 43.3640000000002,
+      "totalNet5": 242.19300000000007,
       "foreignNet": 5.943,
       "trustNet": 8.389,
       "totalNet": 9.383,
@@ -3554,33 +3554,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 91",
         "相對強度排名前 16%",
-        "法人資金分數 69",
+        "法人資金分數 72",
         "波動控制分數 24"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.32,
+          "contribution": 0.3171,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2936,
+          "contribution": 0.2909,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2441,
+          "contribution": 0.251,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0837,
+          "contribution": 0.083,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0585,
+          "contribution": 0.058,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -3614,9 +3614,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7951630069619755,
       "volumeRatio20": 0.572095005417854,
       "revenueMom21d": 0.0,
-      "foreign5": 125.093,
+      "foreign5": -63.93200000000001,
       "trust5": 0.0,
-      "totalNet5": 125.093,
+      "totalNet5": -63.93200000000001,
       "foreignNet": 3.021,
       "trustNet": 0.0,
       "totalNet": 3.461,
@@ -3645,33 +3645,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 6%",
         "趨勢結構分數 86",
-        "法人資金分數 57",
-        "量能分數 57"
+        "量能分數 57",
+        "法人資金分數 54"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2742,
+          "contribution": 0.2768,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.252,
+          "contribution": 0.2544,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1683,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.1676,
+          "contribution": 0.1692,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1604,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.138,
+          "contribution": 0.1393,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -3705,9 +3705,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.2812640156019872,
       "volumeRatio20": 0.3358012079925431,
       "revenueMom21d": 0.0,
-      "foreign5": 45.62600000000003,
+      "foreign5": 1326.614,
       "trust5": 0.0,
-      "totalNet5": 45.62600000000003,
+      "totalNet5": 1326.614,
       "foreignNet": -31.132,
       "trustNet": 0.0,
       "totalNet": -31.132,
@@ -3751,34 +3751,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "相對強度排名前 18%",
+        "法人資金分數 68",
         "趨勢結構分數 59",
-        "法人資金分數 55",
         "波動控制分數 16"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.3683,
+          "contribution": 0.3488,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Trend Structure",
-          "contribution": 0.264,
-          "detail": "ADX 與 MA20 趨勢結構"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.2492,
+          "contribution": 0.2889,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Trend Structure",
+          "contribution": 0.25,
+          "detail": "ADX 與 MA20 趨勢結構"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.0709,
+          "contribution": 0.0671,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0477,
+          "contribution": 0.0452,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -3812,9 +3812,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7219873912029543,
       "volumeRatio20": 1.0584462742956668,
       "revenueMom21d": 0.0,
-      "foreign5": -5039.632999999999,
+      "foreign5": -10448.251,
       "trust5": 0.0,
-      "totalNet5": -5039.632999999999,
+      "totalNet5": -10448.251,
       "foreignNet": -0.811,
       "trustNet": 0.0,
       "totalNet": 0.177,
@@ -3844,32 +3844,32 @@ export const stockSearchData = {
         "趨勢結構分數 83",
         "相對強度排名前 19%",
         "量能分數 69",
-        "法人資金分數 34"
+        "法人資金分數 31"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2962,
+          "contribution": 0.2992,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.291,
+          "contribution": 0.294,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2463,
+          "contribution": 0.2488,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1217,
+          "contribution": 0.1127,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0448,
+          "contribution": 0.0453,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -3903,9 +3903,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7736583199176651,
       "volumeRatio20": 0.190553677408861,
       "revenueMom21d": 0.0,
-      "foreign5": -161.33700000000056,
-      "trust5": 307.3,
-      "totalNet5": 145.96299999999945,
+      "foreign5": 116.34799999999944,
+      "trust5": -0.7,
+      "totalNet5": 115.64799999999944,
       "foreignNet": 111.043,
       "trustNet": 0.0,
       "totalNet": 87.054,
@@ -3949,34 +3949,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "趨勢結構分數 69",
-        "法人資金分數 67",
         "相對強度排名前 34%",
+        "法人資金分數 49",
         "量能分數 30"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2974,
+          "contribution": 0.322,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2887,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Relative Strength",
-          "contribution": 0.2821,
+          "contribution": 0.3055,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2298,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.1283,
+          "contribution": 0.139,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0035,
+          "contribution": 0.0038,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -4010,9 +4010,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.2689160885255353,
       "volumeRatio20": 0.8482361565585801,
       "revenueMom21d": 0.0,
-      "foreign5": 1072.5599999999997,
+      "foreign5": 192.01699999999977,
       "trust5": -260.0,
-      "totalNet5": 812.5599999999997,
+      "totalNet5": -67.98300000000023,
       "foreignNet": -250.962,
       "trustNet": -260.0,
       "totalNet": -509.593,
@@ -4058,32 +4058,32 @@ export const stockSearchData = {
         "趨勢結構分數 93",
         "相對強度排名前 7%",
         "量能分數 83",
-        "法人資金分數 48"
+        "法人資金分數 40"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2838,
+          "contribution": 0.2902,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2828,
+          "contribution": 0.2892,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2536,
+          "contribution": 0.2594,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1453,
+          "contribution": 0.1259,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0345,
+          "contribution": 0.0353,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -4117,9 +4117,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4888437971081384,
       "volumeRatio20": 0.5349674113496105,
       "revenueMom21d": 0.0,
-      "foreign5": 17973.084,
+      "foreign5": 17396.71,
       "trust5": 0.0,
-      "totalNet5": 17973.084,
+      "totalNet5": 17396.71,
       "foreignNet": 13958.782,
       "trustNet": 0.0,
       "totalNet": 13918.27,
@@ -4146,7 +4146,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 75",
+        "法人資金分數 74",
         "相對強度排名前 29%",
         "趨勢結構分數 67",
         "量能分數 32"
@@ -4154,22 +4154,22 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3005,
+          "contribution": 0.2997,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2874,
+          "contribution": 0.2878,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2715,
+          "contribution": 0.2718,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1292,
+          "contribution": 0.1294,
           "detail": "5日與20日量能放大排名"
         },
         {
@@ -4208,9 +4208,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.55099266481512,
       "volumeRatio20": 0.978678905358461,
       "revenueMom21d": 0.0,
-      "foreign5": 46749.68999999999,
-      "trust5": 4594.0,
-      "totalNet5": 51343.68999999999,
+      "foreign5": -55870.00700000002,
+      "trust5": 3647.0,
+      "totalNet5": -52223.00700000002,
       "foreignNet": -26786.141,
       "trustNet": 114.0,
       "totalNet": -27449.022,
@@ -4237,35 +4237,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 96",
         "相對強度排名前 14%",
         "趨勢結構分數 71",
-        "量能分數 54"
+        "量能分數 54",
+        "法人資金分數 47"
       ],
       "explainability": [
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.3046,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Relative Strength",
-          "contribution": 0.2725,
+          "contribution": 0.3221,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2257,
+          "contribution": 0.2668,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1702,
+          "contribution": 0.2012,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1781,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.0269,
+          "contribution": 0.0318,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -4299,9 +4299,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5132239476190557,
       "volumeRatio20": 0.6779187031973343,
       "revenueMom21d": 0.0,
-      "foreign5": 32537.99400000002,
-      "trust5": -24734.576,
-      "totalNet5": 7803.41800000002,
+      "foreign5": 19409.640000000014,
+      "trust5": -21984.642,
+      "totalNet5": -2575.001999999986,
       "foreignNet": -442.086,
       "trustNet": -1393.129,
       "totalNet": -1764.575,
@@ -4330,33 +4330,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 17%",
         "趨勢結構分數 71",
-        "法人資金分數 50",
+        "法人資金分數 49",
         "量能分數 43"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2932,
+          "contribution": 0.2936,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2511,
+          "contribution": 0.2515,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1744,
+          "contribution": 0.1732,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1513,
+          "contribution": 0.1515,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.13,
+          "contribution": 0.1302,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -4390,9 +4390,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.067057169893877,
       "volumeRatio20": 0.2714496541185896,
       "revenueMom21d": 0.0,
-      "foreign5": 874.9439999999972,
+      "foreign5": 648.5109999999972,
       "trust5": -179.0,
-      "totalNet5": 695.9439999999972,
+      "totalNet5": 469.51099999999724,
       "foreignNet": -317.306,
       "trustNet": 0.0,
       "totalNet": -232.306,
@@ -4438,32 +4438,32 @@ export const stockSearchData = {
         "相對強度排名前 29%",
         "趨勢結構分數 62",
         "量能分數 48",
-        "法人資金分數 47"
+        "法人資金分數 46"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2852,
+          "contribution": 0.2872,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.247,
+          "contribution": 0.2487,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1901,
+          "contribution": 0.1914,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1889,
+          "contribution": 0.1833,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0888,
+          "contribution": 0.0894,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -4497,9 +4497,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5200949313550505,
       "volumeRatio20": 0.4496334297698151,
       "revenueMom21d": 0.0,
-      "foreign5": 398.35600000000005,
+      "foreign5": 334.048,
       "trust5": 0.0,
-      "totalNet5": 398.35600000000005,
+      "totalNet5": 334.048,
       "foreignNet": 26.705,
       "trustNet": 0.0,
       "totalNet": 26.705,
@@ -4544,28 +4544,28 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 94",
         "相對強度排名前 11%",
-        "法人資金分數 60",
+        "法人資金分數 61",
         "量能分數 28"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3423,
+          "contribution": 0.3411,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.3266,
+          "contribution": 0.3254,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2208,
+          "contribution": 0.2236,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1037,
+          "contribution": 0.1033,
           "detail": "5日與20日量能放大排名"
         },
         {
@@ -4604,9 +4604,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4812168872932695,
       "volumeRatio20": 0.7957092732174007,
       "revenueMom21d": 0.0,
-      "foreign5": 505.6719999999999,
+      "foreign5": -2368.6280000000006,
       "trust5": 0.0,
-      "totalNet5": 505.6719999999999,
+      "totalNet5": -2368.6280000000006,
       "foreignNet": -16.524,
       "trustNet": 0.0,
       "totalNet": -16.524,
@@ -4635,33 +4635,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 91",
         "相對強度排名前 16%",
-        "法人資金分數 62",
-        "量能分數 45"
+        "量能分數 45",
+        "法人資金分數 39"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2996,
+          "contribution": 0.3237,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2748,
+          "contribution": 0.2969,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2024,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.1483,
+          "contribution": 0.1603,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1383,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.0748,
+          "contribution": 0.0808,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -4695,9 +4695,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5252637910996967,
       "volumeRatio20": 0.5575042320229386,
       "revenueMom21d": 0.0,
-      "foreign5": 7755.0689999999995,
+      "foreign5": -2833.975,
       "trust5": 0.0,
-      "totalNet5": 7755.0689999999995,
+      "totalNet5": -2833.975,
       "foreignNet": 761.61,
       "trustNet": 0.0,
       "totalNet": 762.61,
@@ -4726,33 +4726,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 90",
         "相對強度排名前 22%",
-        "法人資金分數 73",
+        "法人資金分數 37",
         "量能分數 35"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3182,
+          "contribution": 0.3637,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2766,
+          "contribution": 0.3161,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2567,
+          "contribution": 0.1506,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1249,
+          "contribution": 0.1427,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0235,
+          "contribution": 0.0269,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -4786,9 +4786,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.221665212977053,
       "volumeRatio20": 0.1404965041019962,
       "revenueMom21d": 0.0,
-      "foreign5": -488.19499999999994,
+      "foreign5": 1911.305,
       "trust5": 0.0,
-      "totalNet5": -488.19499999999994,
+      "totalNet5": 1911.305,
       "foreignNet": 544.0,
       "trustNet": 0.0,
       "totalNet": 517.0,
@@ -4833,33 +4833,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 9%",
         "趨勢結構分數 89",
-        "法人資金分數 47",
+        "法人資金分數 69",
         "波動控制分數 15"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.3741,
+          "contribution": 0.342,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.3693,
+          "contribution": 0.3377,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1928,
+          "contribution": 0.262,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.06,
+          "contribution": 0.0549,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0038,
+          "contribution": 0.0034,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -4893,9 +4893,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9252462367861356,
       "volumeRatio20": 0.9771792998632284,
       "revenueMom21d": 0.0,
-      "foreign5": 1430.492,
-      "trust5": 403.0,
-      "totalNet5": 1833.492,
+      "foreign5": 1331.515,
+      "trust5": 372.0,
+      "totalNet5": 1703.515,
       "foreignNet": 90.605,
       "trustNet": 181.0,
       "totalNet": 316.145,
@@ -4923,34 +4923,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "相對強度排名前 9%",
-        "法人資金分數 83",
+        "法人資金分數 84",
         "量能分數 79",
         "趨勢結構分數 71"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.252,
+          "contribution": 0.2516,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.231,
+          "contribution": 0.2323,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2189,
+          "contribution": 0.2185,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1981,
+          "contribution": 0.1978,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0999,
+          "contribution": 0.0997,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -4984,9 +4984,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.3164079051072188,
       "volumeRatio20": 0.5495694185667254,
       "revenueMom21d": 0.0,
-      "foreign5": -2005.8569999999975,
-      "trust5": 978.0,
-      "totalNet5": -1027.8569999999975,
+      "foreign5": -1736.0419999999976,
+      "trust5": 610.0,
+      "totalNet5": -1126.0419999999976,
       "foreignNet": -46.736,
       "trustNet": 0.0,
       "totalNet": -33.791,
@@ -5015,33 +5015,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 24%",
         "趨勢結構分數 69",
-        "法人資金分數 56",
+        "法人資金分數 58",
         "量能分數 27"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.3192,
+          "contribution": 0.3169,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2904,
+          "contribution": 0.2884,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2345,
+          "contribution": 0.24,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1118,
+          "contribution": 0.111,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.044,
+          "contribution": 0.0437,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -5075,9 +5075,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4236773212167053,
       "volumeRatio20": 0.1756415328580282,
       "revenueMom21d": 0.0,
-      "foreign5": 2997.922,
+      "foreign5": -75.16499999999994,
       "trust5": 0.0,
-      "totalNet5": 2997.922,
+      "totalNet5": -75.16499999999994,
       "foreignNet": 189.049,
       "trustNet": 0.0,
       "totalNet": 190.634,
@@ -5106,33 +5106,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 84",
         "相對強度排名前 29%",
-        "法人資金分數 70",
+        "法人資金分數 54",
         "量能分數 6"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3544,
+          "contribution": 0.381,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.3031,
+          "contribution": 0.3258,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2972,
+          "contribution": 0.2444,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.024,
+          "contribution": 0.0258,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0214,
+          "contribution": 0.023,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -5166,9 +5166,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9675654973728756,
       "volumeRatio20": 0.802234428245525,
       "revenueMom21d": 0.0,
-      "foreign5": -970.1399999999996,
-      "trust5": 0.0,
-      "totalNet5": -970.1399999999996,
+      "foreign5": -1883.0109999999995,
+      "trust5": 1.0,
+      "totalNet5": -1882.0109999999995,
       "foreignNet": -402.448,
       "trustNet": -1.0,
       "totalNet": -443.533,
@@ -5203,27 +5203,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2496,
+          "contribution": 0.245,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2332,
+          "contribution": 0.2288,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2232,
+          "contribution": 0.219,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1697,
+          "contribution": 0.1666,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1244,
+          "contribution": 0.1406,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -5257,9 +5257,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.3335653306036355,
       "volumeRatio20": 0.5366958224131934,
       "revenueMom21d": 0.0,
-      "foreign5": 3494.888,
-      "trust5": -14.825,
-      "totalNet5": 3480.063,
+      "foreign5": 2586.119,
+      "trust5": -9.278,
+      "totalNet5": 2576.8410000000003,
       "foreignNet": 176.292,
       "trustNet": 0.0,
       "totalNet": 179.292,
@@ -5294,27 +5294,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3201,
+          "contribution": 0.3206,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2973,
+          "contribution": 0.2977,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.209,
+          "contribution": 0.2078,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0957,
+          "contribution": 0.0958,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.078,
+          "contribution": 0.0781,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -5348,9 +5348,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5815593107089951,
       "volumeRatio20": 0.7817677969401201,
       "revenueMom21d": 0.0,
-      "foreign5": -219.76100000000005,
+      "foreign5": -619.541,
       "trust5": 0.0,
-      "totalNet5": -219.76100000000005,
+      "totalNet5": -619.541,
       "foreignNet": -30.0,
       "trustNet": 0.0,
       "totalNet": -24.987,
@@ -5380,32 +5380,32 @@ export const stockSearchData = {
         "趨勢結構分數 85",
         "相對強度排名前 16%",
         "量能分數 52",
-        "法人資金分數 51"
+        "法人資金分數 46"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2964,
+          "contribution": 0.3014,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2912,
+          "contribution": 0.2961,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1813,
+          "contribution": 0.1843,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1769,
+          "contribution": 0.163,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0542,
+          "contribution": 0.0551,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -5439,9 +5439,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9329630866301998,
       "volumeRatio20": 0.6579312022276401,
       "revenueMom21d": 0.0,
-      "foreign5": 849.0820000000003,
+      "foreign5": 302.6420000000004,
       "trust5": 0.0,
-      "totalNet5": 849.0820000000003,
+      "totalNet5": 302.6420000000004,
       "foreignNet": 454.028,
       "trustNet": 0.0,
       "totalNet": 456.691,
@@ -5471,32 +5471,32 @@ export const stockSearchData = {
         "趨勢結構分數 84",
         "相對強度排名前 23%",
         "量能分數 70",
-        "法人資金分數 64"
+        "法人資金分數 61"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2638,
+          "contribution": 0.2667,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2409,
+          "contribution": 0.2435,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2206,
+          "contribution": 0.223,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2023,
+          "contribution": 0.1936,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0725,
+          "contribution": 0.0733,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -5530,9 +5530,9 @@ export const stockSearchData = {
       "volumeRatio5": 2.04499840082544,
       "volumeRatio20": 2.9440030387242087,
       "revenueMom21d": 0.0,
-      "foreign5": 315.4029999999996,
-      "trust5": 616.995,
-      "totalNet5": 932.3979999999997,
+      "foreign5": 566.5979999999997,
+      "trust5": 558.3430000000001,
+      "totalNet5": 1124.9409999999998,
       "foreignNet": 524.52,
       "trustNet": 335.0,
       "totalNet": 897.71,
@@ -5562,32 +5562,32 @@ export const stockSearchData = {
         "量能分數 98",
         "相對強度排名前 5%",
         "趨勢結構分數 82",
-        "法人資金分數 76"
+        "法人資金分數 80"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2383,
+          "contribution": 0.2361,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2298,
+          "contribution": 0.2277,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1994,
+          "contribution": 0.1976,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1852,
+          "contribution": 0.1927,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1473,
+          "contribution": 0.1459,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -5621,9 +5621,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.222910022927248,
       "volumeRatio20": 1.050880323538569,
       "revenueMom21d": 0.0,
-      "foreign5": -1037.530999999999,
-      "trust5": 563.0000000000014,
-      "totalNet5": -474.5309999999977,
+      "foreign5": 684.7950000000011,
+      "trust5": 1603.0000000000014,
+      "totalNet5": 2287.7950000000023,
       "foreignNet": -483.532,
       "trustNet": 129.0,
       "totalNet": -354.076,
@@ -5653,32 +5653,32 @@ export const stockSearchData = {
         "量能分數 88",
         "相對強度排名前 13%",
         "趨勢結構分數 86",
-        "法人資金分數 59"
+        "法人資金分數 83"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2585,
+          "contribution": 0.2413,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2536,
+          "contribution": 0.2368,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2514,
+          "contribution": 0.2347,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.172,
+          "contribution": 0.2269,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0645,
+          "contribution": 0.0603,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -5712,9 +5712,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.2946110576182304,
       "volumeRatio20": 0.2232446048458094,
       "revenueMom21d": 0.0,
-      "foreign5": 65.98500000000067,
-      "trust5": 895.0,
-      "totalNet5": 960.9850000000007,
+      "foreign5": 1245.4840000000008,
+      "trust5": 927.0,
+      "totalNet5": 2172.484000000001,
       "foreignNet": 189.42,
       "trustNet": 75.0,
       "totalNet": 245.597,
@@ -5758,34 +5758,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "相對強度排名前 13%",
-        "法人資金分數 73",
+        "法人資金分數 85",
         "趨勢結構分數 71",
         "波動控制分數 8"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.3562,
+          "contribution": 0.3392,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2997,
+          "contribution": 0.3332,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2914,
+          "contribution": 0.2775,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.034,
+          "contribution": 0.0324,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0187,
+          "contribution": 0.0178,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -5819,9 +5819,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4766501176205485,
       "volumeRatio20": 0.2672240163521536,
       "revenueMom21d": 0.0,
-      "foreign5": -3078.082000000001,
+      "foreign5": -2778.833000000001,
       "trust5": 0.0,
-      "totalNet5": -3078.082000000001,
+      "totalNet5": -2778.833000000001,
       "foreignNet": 575.411,
       "trustNet": 0.0,
       "totalNet": 574.411,
@@ -5850,33 +5850,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 68",
         "相對強度排名前 36%",
-        "法人資金分數 36",
+        "法人資金分數 38",
         "量能分數 12"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.368,
+          "contribution": 0.3654,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.3462,
+          "contribution": 0.3437,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1972,
+          "contribution": 0.2029,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0655,
+          "contribution": 0.065,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0231,
+          "contribution": 0.0229,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -5910,9 +5910,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.345669188279439,
       "volumeRatio20": 1.0159546858743518,
       "revenueMom21d": 0.0,
-      "foreign5": 863.3240000000004,
-      "trust5": -15.0,
-      "totalNet5": 848.3240000000004,
+      "foreign5": 614.7450000000005,
+      "trust5": -13.0,
+      "totalNet5": 601.7450000000005,
       "foreignNet": 387.555,
       "trustNet": 0.0,
       "totalNet": 393.116,
@@ -5941,33 +5941,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 89",
         "相對強度排名前 21%",
-        "法人資金分數 51",
-        "趨勢結構分數 50"
+        "趨勢結構分數 50",
+        "法人資金分數 50"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2891,
+          "contribution": 0.2903,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2574,
+          "contribution": 0.2584,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.167,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.1639,
+          "contribution": 0.1645,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1635,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.1226,
+          "contribution": 0.1232,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -6001,9 +6001,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9279681915842865,
       "volumeRatio20": 1.2115836851078163,
       "revenueMom21d": 0.0,
-      "foreign5": -757.3960000000003,
-      "trust5": -1.0,
-      "totalNet5": -758.3960000000003,
+      "foreign5": -891.1550000000003,
+      "trust5": 0.0,
+      "totalNet5": -891.1550000000003,
       "foreignNet": -229.763,
       "trustNet": 0.0,
       "totalNet": -228.846,
@@ -6033,32 +6033,32 @@ export const stockSearchData = {
         "量能分數 82",
         "相對強度排名前 37%",
         "趨勢結構分數 57",
-        "法人資金分數 35"
+        "法人資金分數 44"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.342,
+          "contribution": 0.3294,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2602,
+          "contribution": 0.2507,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2374,
+          "contribution": 0.2287,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1452,
+          "contribution": 0.1767,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0151,
+          "contribution": 0.0146,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -6092,9 +6092,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5635777603483968,
       "volumeRatio20": 0.590456863392691,
       "revenueMom21d": 0.0,
-      "foreign5": -1908.6670000000004,
-      "trust5": 269.6019999999995,
-      "totalNet5": -1639.065000000001,
+      "foreign5": -1873.641,
+      "trust5": 521.8129999999995,
+      "totalNet5": -1351.8280000000004,
       "foreignNet": 148.733,
       "trustNet": 52.0,
       "totalNet": 183.555,
@@ -6123,33 +6123,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 33%",
         "趨勢結構分數 59",
-        "法人資金分數 54",
+        "法人資金分數 57",
         "量能分數 41"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2847,
+          "contribution": 0.2807,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2528,
+          "contribution": 0.2492,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2292,
+          "contribution": 0.2399,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1751,
+          "contribution": 0.1726,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0584,
+          "contribution": 0.0575,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -6183,9 +6183,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9189185663184142,
       "volumeRatio20": 1.0380270773041114,
       "revenueMom21d": 0.0,
-      "foreign5": 980.8329999999999,
-      "trust5": 88.164,
-      "totalNet5": 1068.9969999999998,
+      "foreign5": 460.19499999999994,
+      "trust5": 92.164,
+      "totalNet5": 552.3589999999999,
       "foreignNet": -274.653,
       "trustNet": 80.164,
       "totalNet": -173.662,
@@ -6214,33 +6214,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 14%",
         "量能分數 80",
-        "法人資金分數 78",
+        "法人資金分數 77",
         "趨勢結構分數 71"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.232,
+          "contribution": 0.233,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2171,
+          "contribution": 0.218,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2108,
+          "contribution": 0.2076,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1923,
+          "contribution": 0.1931,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1478,
+          "contribution": 0.1484,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -6274,9 +6274,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7485241389020393,
       "volumeRatio20": 0.504476835515446,
       "revenueMom21d": 0.0,
-      "foreign5": 1269.8679999999972,
-      "trust5": 2.0,
-      "totalNet5": 1271.8679999999972,
+      "foreign5": 751.426999999997,
+      "trust5": 5.0,
+      "totalNet5": 756.426999999997,
       "foreignNet": 669.165,
       "trustNet": 0.0,
       "totalNet": 681.58,
@@ -6303,7 +6303,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 76",
+        "法人資金分數 74",
         "相對強度排名前 35%",
         "量能分數 48",
         "趨勢結構分數 46"
@@ -6311,27 +6311,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3081,
+          "contribution": 0.3041,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2622,
+          "contribution": 0.2637,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1958,
+          "contribution": 0.1969,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1855,
+          "contribution": 0.1866,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0484,
+          "contribution": 0.0487,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -6365,9 +6365,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6376798104185559,
       "volumeRatio20": 0.6809432861062678,
       "revenueMom21d": 0.0,
-      "foreign5": 624.7949999999996,
-      "trust5": 301.0,
-      "totalNet5": 925.7949999999996,
+      "foreign5": 379.0389999999997,
+      "trust5": 469.0,
+      "totalNet5": 848.0389999999998,
       "foreignNet": -198.401,
       "trustNet": 100.0,
       "totalNet": -102.329,
@@ -6402,22 +6402,22 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2692,
+          "contribution": 0.2694,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2513,
+          "contribution": 0.2508,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2409,
+          "contribution": 0.2411,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1693,
+          "contribution": 0.1695,
           "detail": "5日與20日量能放大排名"
         },
         {
@@ -6456,9 +6456,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5085761331189715,
       "volumeRatio20": 0.2933096435070659,
       "revenueMom21d": 0.0,
-      "foreign5": 564.3230000000002,
+      "foreign5": 386.10200000000015,
       "trust5": 1.0,
-      "totalNet5": 565.3230000000002,
+      "totalNet5": 387.10200000000015,
       "foreignNet": 88.697,
       "trustNet": 0.0,
       "totalNet": 91.194,
@@ -6493,27 +6493,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2974,
+          "contribution": 0.2976,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2739,
+          "contribution": 0.274,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2538,
+          "contribution": 0.2533,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1159,
+          "contribution": 0.116,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.059,
+          "contribution": 0.0591,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -6547,9 +6547,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5527375382037488,
       "volumeRatio20": 0.8763090718409123,
       "revenueMom21d": 0.0,
-      "foreign5": 68010.005,
-      "trust5": -3130.0,
-      "totalNet5": 64880.005000000005,
+      "foreign5": -17541.648999999998,
+      "trust5": -7071.0,
+      "totalNet5": -24612.648999999998,
       "foreignNet": -20271.919,
       "trustNet": 157.0,
       "totalNet": -21660.595,
@@ -6577,35 +6577,35 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "相對強度排名前 25%",
-        "法人資金分數 53",
         "趨勢結構分數 52",
-        "量能分數 51"
+        "量能分數 51",
+        "波動控制分數 18"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.3009,
+          "contribution": 0.3723,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2129,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.2076,
+          "contribution": 0.2569,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2056,
+          "contribution": 0.2544,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.073,
+          "contribution": 0.0903,
           "detail": "20日波動相對分數，越高代表越穩定"
+        },
+        {
+          "factor": "Institutional Flow",
+          "contribution": 0.0261,
+          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -6638,9 +6638,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9184893150455298,
       "volumeRatio20": 1.2446447733303447,
       "revenueMom21d": 0.0,
-      "foreign5": -531.203,
+      "foreign5": -525.213,
       "trust5": 0.0,
-      "totalNet5": -531.203,
+      "totalNet5": -525.213,
       "foreignNet": -11.997,
       "trustNet": 0.0,
       "totalNet": 30.892,
@@ -6670,32 +6670,32 @@ export const stockSearchData = {
         "相對強度排名前 14%",
         "量能分數 82",
         "趨勢結構分數 73",
-        "法人資金分數 46"
+        "法人資金分數 47"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.278,
+          "contribution": 0.2773,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2667,
+          "contribution": 0.266,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2346,
+          "contribution": 0.234,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1482,
+          "contribution": 0.1504,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0725,
+          "contribution": 0.0724,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -6729,9 +6729,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.2885232107264242,
       "volumeRatio20": 0.9642741996768714,
       "revenueMom21d": 0.0,
-      "foreign5": -339.84800000000047,
-      "trust5": 174.0,
-      "totalNet5": -165.84800000000047,
+      "foreign5": -221.43200000000047,
+      "trust5": -20.0,
+      "totalNet5": -241.43200000000047,
       "foreignNet": -13.425,
       "trustNet": 16.0,
       "totalNet": 5.86,
@@ -6761,33 +6761,33 @@ export const stockSearchData = {
         "量能分數 86",
         "趨勢結構分數 75",
         "相對強度排名前 34%",
-        "法人資金分數 63"
+        "波動控制分數 49"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2548,
+          "contribution": 0.2769,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2206,
+          "contribution": 0.2397,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1931,
+          "contribution": 0.2098,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1868,
-          "detail": "外資與投信近5日買超排名"
+          "factor": "Volatility Control",
+          "contribution": 0.1572,
+          "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Volatility Control",
-          "contribution": 0.1447,
-          "detail": "20日波動相對分數，越高代表越穩定"
+          "factor": "Institutional Flow",
+          "contribution": 0.1164,
+          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -6820,9 +6820,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4534857196833264,
       "volumeRatio20": 0.9263219059380364,
       "revenueMom21d": 0.0,
-      "foreign5": 8704.924,
+      "foreign5": 2249.534000000001,
       "trust5": 0.0,
-      "totalNet5": 8704.924,
+      "totalNet5": 2249.534000000001,
       "foreignNet": -3553.766,
       "trustNet": 0.0,
       "totalNet": -4060.985,
@@ -6851,33 +6851,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 18%",
         "趨勢結構分數 77",
-        "法人資金分數 73",
+        "法人資金分數 70",
         "量能分數 46"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2814,
+          "contribution": 0.2843,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2645,
+          "contribution": 0.2673,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2505,
+          "contribution": 0.2426,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1579,
+          "contribution": 0.1595,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0457,
+          "contribution": 0.0462,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -6911,9 +6911,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7475833613344139,
       "volumeRatio20": 0.6049918673407705,
       "revenueMom21d": 0.0,
-      "foreign5": 4669.532999999999,
+      "foreign5": -3382.1989999999996,
       "trust5": 0.0,
-      "totalNet5": 4669.532999999999,
+      "totalNet5": -3382.1989999999996,
       "foreignNet": -663.855,
       "trustNet": 0.0,
       "totalNet": -638.296,
@@ -6942,33 +6942,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 94",
         "相對強度排名前 7%",
-        "法人資金分數 71",
-        "量能分數 56"
+        "量能分數 56",
+        "法人資金分數 36"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2766,
+          "contribution": 0.3084,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2762,
+          "contribution": 0.3078,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2105,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.165,
+          "contribution": 0.184,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1199,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.0716,
+          "contribution": 0.0798,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -7002,9 +7002,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7226463719073408,
       "volumeRatio20": 0.5193398616790532,
       "revenueMom21d": 0.0,
-      "foreign5": 221.342,
+      "foreign5": -119.548,
       "trust5": 0.0,
-      "totalNet5": 221.342,
+      "totalNet5": -119.548,
       "foreignNet": 40.436,
       "trustNet": 0.0,
       "totalNet": 28.575,
@@ -7031,7 +7031,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 58",
+        "法人資金分數 53",
         "相對強度排名前 47%",
         "量能分數 48",
         "趨勢結構分數 39"
@@ -7039,27 +7039,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2792,
+          "contribution": 0.2596,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2516,
+          "contribution": 0.2585,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2278,
+          "contribution": 0.234,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1863,
+          "contribution": 0.1914,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.055,
+          "contribution": 0.0565,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -7093,9 +7093,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5486022446829171,
       "volumeRatio20": 0.5787479555475953,
       "revenueMom21d": 0.0,
-      "foreign5": 2974.547999999998,
-      "trust5": -883.8559999999991,
-      "totalNet5": 2090.691999999999,
+      "foreign5": 53.9079999999982,
+      "trust5": -699.455999999999,
+      "totalNet5": -645.5480000000008,
       "foreignNet": 385.102,
       "trustNet": -239.0,
       "totalNet": 69.905,
@@ -7124,33 +7124,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 26%",
         "趨勢結構分數 64",
-        "法人資金分數 49",
-        "量能分數 39"
+        "量能分數 39",
+        "法人資金分數 36"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.288,
+          "contribution": 0.3036,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.25,
+          "contribution": 0.2636,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.193,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.1519,
+          "contribution": 0.1601,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1493,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.1171,
+          "contribution": 0.1234,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -7184,9 +7184,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.3156448196306716,
       "volumeRatio20": 1.23849437350471,
       "revenueMom21d": 0.0,
-      "foreign5": -115.9359999999997,
-      "trust5": -221.42699999999982,
-      "totalNet5": -337.3629999999995,
+      "foreign5": -620.1219999999997,
+      "trust5": -209.0439999999998,
+      "totalNet5": -829.1659999999995,
       "foreignNet": 188.341,
       "trustNet": -280.945,
       "totalNet": -85.011,
@@ -7216,32 +7216,32 @@ export const stockSearchData = {
         "量能分數 91",
         "趨勢結構分數 77",
         "相對強度排名前 29%",
-        "法人資金分數 35"
+        "法人資金分數 27"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3209,
+          "contribution": 0.3293,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2709,
+          "contribution": 0.278,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2516,
+          "contribution": 0.2582,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1222,
+          "contribution": 0.0994,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0343,
+          "contribution": 0.0352,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -7275,9 +7275,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.2156439385459342,
       "volumeRatio20": 0.1725827721897868,
       "revenueMom21d": 0.0,
-      "foreign5": 2089.2019999999998,
+      "foreign5": 1314.788,
       "trust5": 0.0,
-      "totalNet5": 2089.2019999999998,
+      "totalNet5": 1314.788,
       "foreignNet": 63.911,
       "trustNet": 0.0,
       "totalNet": 11.953,
@@ -7320,7 +7320,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 69",
+        "法人資金分數 68",
         "相對強度排名前 35%",
         "趨勢結構分數 36",
         "波動控制分數 21"
@@ -7328,22 +7328,22 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3573,
+          "contribution": 0.3546,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.3367,
+          "contribution": 0.3381,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1901,
+          "contribution": 0.1909,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1095,
+          "contribution": 0.11,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
@@ -7382,9 +7382,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.2128331881030174,
       "volumeRatio20": 0.5686772616663176,
       "revenueMom21d": 0.0,
-      "foreign5": 6436.419000000011,
-      "trust5": -2683.8409999999844,
-      "totalNet5": 3752.5780000000263,
+      "foreign5": 11897.167000000012,
+      "trust5": 9644.842000000017,
+      "totalNet5": 21542.009000000027,
       "foreignNet": 8248.799,
       "trustNet": -2342.986,
       "totalNet": 4631.573,
@@ -7411,36 +7411,36 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 96",
         "趨勢結構分數 91",
         "相對強度排名前 14%",
-        "量能分數 70",
-        "波動控制分數 52"
+        "量能分數 70"
       ],
       "explainability": [
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2423,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.2606,
+          "contribution": 0.2303,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.247,
+          "contribution": 0.2182,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2007,
+          "contribution": 0.1774,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1492,
+          "contribution": 0.1319,
           "detail": "20日波動相對分數，越高代表越穩定"
-        },
-        {
-          "factor": "Institutional Flow",
-          "contribution": 0.1426,
-          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -7473,9 +7473,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8578621980822788,
       "volumeRatio20": 1.721532950766201,
       "revenueMom21d": 0.0,
-      "foreign5": -3324.6669999999986,
-      "trust5": 954.0,
-      "totalNet5": -2370.6669999999986,
+      "foreign5": -2387.4969999999985,
+      "trust5": 853.0,
+      "totalNet5": -1534.4969999999985,
       "foreignNet": -133.383,
       "trustNet": 1.0,
       "totalNet": -393.831,
@@ -7505,32 +7505,32 @@ export const stockSearchData = {
         "量能分數 82",
         "相對強度排名前 29%",
         "趨勢結構分數 68",
-        "法人資金分數 53"
+        "法人資金分數 56"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2913,
+          "contribution": 0.2878,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.253,
+          "contribution": 0.25,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2441,
+          "contribution": 0.2412,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1894,
+          "contribution": 0.1989,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0223,
+          "contribution": 0.0221,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -7564,9 +7564,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.506722955267431,
       "volumeRatio20": 2.068114062510356,
       "revenueMom21d": 0.0,
-      "foreign5": -236.47699999999998,
-      "trust5": 870.0,
-      "totalNet5": 633.523,
+      "foreign5": 59.428000000000054,
+      "trust5": 852.0,
+      "totalNet5": 911.4280000000001,
       "foreignNet": -460.472,
       "trustNet": 470.0,
       "totalNet": 11.977,
@@ -7596,32 +7596,32 @@ export const stockSearchData = {
         "量能分數 96",
         "相對強度排名前 5%",
         "趨勢結構分數 87",
-        "法人資金分數 67"
+        "法人資金分數 75"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2454,
+          "contribution": 0.241,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2427,
+          "contribution": 0.2384,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2221,
+          "contribution": 0.2181,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1731,
+          "contribution": 0.1878,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1166,
+          "contribution": 0.1145,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -7655,9 +7655,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.3261164183967045,
       "volumeRatio20": 0.6646079749582771,
       "revenueMom21d": 0.0,
-      "foreign5": 39232.354999999974,
-      "trust5": -14862.748,
-      "totalNet5": 24369.606999999975,
+      "foreign5": 46259.504999999976,
+      "trust5": -15801.416,
+      "totalNet5": 30458.088999999978,
       "foreignNet": 19106.129,
       "trustNet": 3402.772,
       "totalNet": 22602.268,
@@ -7746,9 +7746,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4406756609418338,
       "volumeRatio20": 0.4179536220876848,
       "revenueMom21d": 0.4761413904729485,
-      "foreign5": 3628.5849999999964,
-      "trust5": -254.0,
-      "totalNet5": 3374.5849999999964,
+      "foreign5": -2225.631000000004,
+      "trust5": 45.0,
+      "totalNet5": -2180.631000000004,
       "foreignNet": -603.791,
       "trustNet": 14.0,
       "totalNet": -682.548,
@@ -7777,33 +7777,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 37%",
         "趨勢結構分數 55",
-        "法人資金分數 53",
+        "法人資金分數 52",
         "波動控制分數 26"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2906,
+          "contribution": 0.2915,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2499,
+          "contribution": 0.2506,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.242,
+          "contribution": 0.2397,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1203,
+          "contribution": 0.1207,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0972,
+          "contribution": 0.0975,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -7837,9 +7837,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8606300280478951,
       "volumeRatio20": 0.8849195932289737,
       "revenueMom21d": 0.0,
-      "foreign5": -3041.826999999998,
-      "trust5": 1622.03,
-      "totalNet5": -1419.796999999998,
+      "foreign5": -5676.5819999999985,
+      "trust5": 1832.6080000000002,
+      "totalNet5": -3843.9739999999983,
       "foreignNet": -347.427,
       "trustNet": 824.037,
       "totalNet": 441.338,
@@ -7869,32 +7869,32 @@ export const stockSearchData = {
         "趨勢結構分數 90",
         "相對強度排名前 15%",
         "量能分數 74",
-        "法人資金分數 55"
+        "法人資金分數 52"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.29,
+          "contribution": 0.2922,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2761,
+          "contribution": 0.2782,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2385,
+          "contribution": 0.2403,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1765,
+          "contribution": 0.1703,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0189,
+          "contribution": 0.0191,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -7928,9 +7928,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0719684893717811,
       "volumeRatio20": 0.6181604109567724,
       "revenueMom21d": 0.0,
-      "foreign5": -499.092,
+      "foreign5": -72.33999999999997,
       "trust5": 0.0,
-      "totalNet5": -499.092,
+      "totalNet5": -72.33999999999997,
       "foreignNet": -381.917,
       "trustNet": 0.0,
       "totalNet": -273.778,
@@ -7960,32 +7960,32 @@ export const stockSearchData = {
         "趨勢結構分數 88",
         "相對強度排名前 23%",
         "量能分數 73",
-        "法人資金分數 47"
+        "法人資金分數 54"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2945,
+          "contribution": 0.2877,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2572,
+          "contribution": 0.2513,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2423,
+          "contribution": 0.2367,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1555,
+          "contribution": 0.175,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0505,
+          "contribution": 0.0494,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -8019,9 +8019,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5466404925243266,
       "volumeRatio20": 0.5977821130136981,
       "revenueMom21d": 0.0,
-      "foreign5": 5863.039999999998,
-      "trust5": 330.0,
-      "totalNet5": 6193.039999999998,
+      "foreign5": 772.2479999999986,
+      "trust5": 23.0,
+      "totalNet5": 795.2479999999986,
       "foreignNet": -814.969,
       "trustNet": -1.0,
       "totalNet": -832.005,
@@ -8064,7 +8064,7 @@ export const stockSearchData = {
       "isDispositionEntering": true,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 87",
+        "法人資金分數 76",
         "相對強度排名前 33%",
         "趨勢結構分數 64",
         "量能分數 40"
@@ -8072,27 +8072,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3348,
+          "contribution": 0.3044,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2559,
+          "contribution": 0.2676,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2435,
+          "contribution": 0.2546,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1535,
+          "contribution": 0.1605,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0124,
+          "contribution": 0.0129,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -8126,9 +8126,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.630505100154583,
       "volumeRatio20": 0.5135923044370944,
       "revenueMom21d": 0.0,
-      "foreign5": -6892.432,
-      "trust5": 6392.0,
-      "totalNet5": -500.4319999999998,
+      "foreign5": -11546.957999999999,
+      "trust5": 6945.0,
+      "totalNet5": -4601.957999999999,
       "foreignNet": -1535.626,
       "trustNet": 1674.0,
       "totalNet": 139.199,
@@ -8158,32 +8158,32 @@ export const stockSearchData = {
         "趨勢結構分數 88",
         "相對強度排名前 21%",
         "波動控制分數 54",
-        "法人資金分數 53"
+        "法人資金分數 52"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.28,
+          "contribution": 0.2815,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2498,
+          "contribution": 0.251,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1719,
+          "contribution": 0.1728,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.169,
+          "contribution": 0.1648,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1293,
+          "contribution": 0.1299,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -8217,9 +8217,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7709358027505897,
       "volumeRatio20": 0.6046260095372763,
       "revenueMom21d": 0.0,
-      "foreign5": 903.7989999999996,
+      "foreign5": 203.79599999999965,
       "trust5": 0.0,
-      "totalNet5": 903.7989999999996,
+      "totalNet5": 203.79599999999965,
       "foreignNet": 62.0,
       "trustNet": 0.0,
       "totalNet": 62.0,
@@ -8248,33 +8248,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 15%",
         "趨勢結構分數 85",
-        "法人資金分數 65",
+        "法人資金分數 60",
         "量能分數 58"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.278,
+          "contribution": 0.2828,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2761,
+          "contribution": 0.2808,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2113,
+          "contribution": 0.1979,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1884,
+          "contribution": 0.1917,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0461,
+          "contribution": 0.0469,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -8308,9 +8308,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9618204525023282,
       "volumeRatio20": 0.1800182915417865,
       "revenueMom21d": 0.0,
-      "foreign5": 94.29499999999999,
-      "trust5": -113.0,
-      "totalNet5": -18.705000000000013,
+      "foreign5": 128.999,
+      "trust5": -136.0,
+      "totalNet5": -7.001000000000005,
       "foreignNet": 64.08,
       "trustNet": -30.0,
       "totalNet": 34.08,
@@ -8361,27 +8361,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2524,
+          "contribution": 0.2527,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2279,
+          "contribution": 0.227,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2267,
+          "contribution": 0.227,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1913,
+          "contribution": 0.1915,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1017,
+          "contribution": 0.1018,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -8415,9 +8415,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5213513607318874,
       "volumeRatio20": 0.4439938751032914,
       "revenueMom21d": 0.0,
-      "foreign5": -480.83799999999985,
+      "foreign5": 976.128,
       "trust5": 0.0,
-      "totalNet5": -480.83799999999985,
+      "totalNet5": 976.128,
       "foreignNet": 190.384,
       "trustNet": 0.0,
       "totalNet": 188.975,
@@ -8446,33 +8446,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 85",
         "相對強度排名前 17%",
-        "法人資金分數 47",
+        "法人資金分數 66",
         "波動控制分數 42"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2976,
+          "contribution": 0.2792,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2917,
+          "contribution": 0.2736,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1653,
+          "contribution": 0.217,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1463,
+          "contribution": 0.1372,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0991,
+          "contribution": 0.0929,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -8506,9 +8506,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.3962389567586098,
       "volumeRatio20": 2.2517078723639314,
       "revenueMom21d": 0.0,
-      "foreign5": 2231.868,
-      "trust5": 1059.0699999999983,
-      "totalNet5": 3290.9379999999983,
+      "foreign5": 3475.893,
+      "trust5": 694.2259999999983,
+      "totalNet5": 4170.118999999999,
       "foreignNet": 450.75,
       "trustNet": 1076.574,
       "totalNet": 1630.562,
@@ -8537,33 +8537,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 5%",
         "量能分數 95",
-        "法人資金分數 86",
+        "法人資金分數 88",
         "趨勢結構分數 71"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2524,
+          "contribution": 0.2511,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.252,
+          "contribution": 0.2506,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2287,
+          "contribution": 0.2328,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1884,
+          "contribution": 0.1874,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0786,
+          "contribution": 0.0781,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -8597,9 +8597,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4689413144282774,
       "volumeRatio20": 0.3962348969237143,
       "revenueMom21d": 0.0,
-      "foreign5": -2552.5819999999994,
-      "trust5": 2339.396,
-      "totalNet5": -213.18599999999924,
+      "foreign5": -78.08099999999911,
+      "trust5": 476.37100000000004,
+      "totalNet5": 398.29000000000093,
       "foreignNet": -22.75,
       "trustNet": 20.177,
       "totalNet": 14.894,
@@ -8626,35 +8626,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 70",
         "相對強度排名前 42%",
-        "法人資金分數 56",
         "波動控制分數 34",
         "趨勢結構分數 34"
       ],
       "explainability": [
         {
-          "factor": "Relative Strength",
-          "contribution": 0.284,
-          "detail": "10日動能、52週位置與均線乖離綜合排名"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.2757,
+          "contribution": 0.3211,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Relative Strength",
+          "contribution": 0.2662,
+          "detail": "10日動能、52週位置與均線乖離綜合排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.1686,
+          "contribution": 0.158,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1671,
+          "contribution": 0.1566,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1046,
+          "contribution": 0.0981,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -8688,9 +8688,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9928556572314738,
       "volumeRatio20": 1.465452107943358,
       "revenueMom21d": 0.0,
-      "foreign5": 793.3240000000001,
-      "trust5": -463.543,
-      "totalNet5": 329.78100000000006,
+      "foreign5": 1764.2069999999999,
+      "trust5": -440.198,
+      "totalNet5": 1324.009,
       "foreignNet": -12.016,
       "trustNet": -133.275,
       "totalNet": -151.547,
@@ -8725,27 +8725,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2393,
+          "contribution": 0.2362,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2392,
+          "contribution": 0.2361,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2367,
+          "contribution": 0.2336,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1619,
+          "contribution": 0.1598,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1231,
+          "contribution": 0.1344,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -8779,9 +8779,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4127381582802593,
       "volumeRatio20": 0.4886902717902766,
       "revenueMom21d": 0.0,
-      "foreign5": 11788.407999999996,
-      "trust5": 75.0,
-      "totalNet5": 11863.407999999996,
+      "foreign5": 4446.414999999995,
+      "trust5": 85.0,
+      "totalNet5": 4531.414999999995,
       "foreignNet": 678.121,
       "trustNet": 25.0,
       "totalNet": 693.529,
@@ -8816,27 +8816,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2977,
+          "contribution": 0.2955,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2776,
+          "contribution": 0.2784,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2682,
+          "contribution": 0.269,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0863,
+          "contribution": 0.0865,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0703,
+          "contribution": 0.0705,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -8870,9 +8870,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.728156106513599,
       "volumeRatio20": 0.393903572731494,
       "revenueMom21d": 0.0,
-      "foreign5": -819.8930000000001,
-      "trust5": -10.171000000001811,
-      "totalNet5": -830.0640000000019,
+      "foreign5": 667.14,
+      "trust5": 13.072999999998189,
+      "totalNet5": 680.2129999999981,
       "foreignNet": -946.975,
       "trustNet": -2.0,
       "totalNet": -948.975,
@@ -8899,36 +8899,36 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 75",
         "趨勢結構分數 71",
         "相對強度排名前 42%",
-        "波動控制分數 41",
-        "量能分數 40"
+        "波動控制分數 41"
       ],
       "explainability": [
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2644,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.2933,
+          "contribution": 0.2481,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2421,
+          "contribution": 0.2048,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1701,
+          "contribution": 0.1439,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1642,
+          "contribution": 0.1389,
           "detail": "5日與20日量能放大排名"
-        },
-        {
-          "factor": "Institutional Flow",
-          "contribution": 0.1303,
-          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -8961,9 +8961,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.538511617580373,
       "volumeRatio20": 0.5110321180410152,
       "revenueMom21d": 0.0,
-      "foreign5": -29619.580000000013,
-      "trust5": 909.9999999999964,
-      "totalNet5": -28709.580000000016,
+      "foreign5": -45165.337000000014,
+      "trust5": 264.99999999999636,
+      "totalNet5": -44900.337000000014,
       "foreignNet": 4902.715,
       "trustNet": -6.0,
       "totalNet": 5820.293,
@@ -8992,33 +8992,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 25%",
         "趨勢結構分數 57",
-        "法人資金分數 46",
+        "法人資金分數 43",
         "量能分數 33"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.3139,
+          "contribution": 0.3182,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2367,
+          "contribution": 0.2399,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1925,
+          "contribution": 0.1815,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1392,
+          "contribution": 0.1411,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1177,
+          "contribution": 0.1193,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -9052,9 +9052,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.388150129072678,
       "volumeRatio20": 0.6652083763948896,
       "revenueMom21d": 0.0,
-      "foreign5": -8506.559000000001,
+      "foreign5": -3669.659000000002,
       "trust5": 0.0,
-      "totalNet5": -8506.559000000001,
+      "totalNet5": -3669.659000000002,
       "foreignNet": 2114.86,
       "trustNet": 0.0,
       "totalNet": 2346.282,
@@ -9084,32 +9084,32 @@ export const stockSearchData = {
         "量能分數 79",
         "相對強度排名前 26%",
         "趨勢結構分數 58",
-        "法人資金分數 32"
+        "法人資金分數 36"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3114,
+          "contribution": 0.3065,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2917,
+          "contribution": 0.2871,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2261,
+          "contribution": 0.2226,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1248,
+          "contribution": 0.1384,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.046,
+          "contribution": 0.0453,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -9143,9 +9143,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6618075371473012,
       "volumeRatio20": 0.7635558323029338,
       "revenueMom21d": 0.0,
-      "foreign5": -3723.7619999999965,
-      "trust5": -6545.859999999999,
-      "totalNet5": -10269.621999999996,
+      "foreign5": -4016.8819999999964,
+      "trust5": -5846.7429999999995,
+      "totalNet5": -9863.624999999996,
       "foreignNet": 1125.6,
       "trustNet": -615.665,
       "totalNet": 752.025,
@@ -9180,27 +9180,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3122,
+          "contribution": 0.3125,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2708,
+          "contribution": 0.2711,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1994,
+          "contribution": 0.1996,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1555,
+          "contribution": 0.1557,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.062,
+          "contribution": 0.061,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -9234,9 +9234,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4942143487010821,
       "volumeRatio20": 0.4509653465013669,
       "revenueMom21d": 0.0,
-      "foreign5": -5662.194000000003,
-      "trust5": -11.0,
-      "totalNet5": -5673.194000000003,
+      "foreign5": -3394.2930000000033,
+      "trust5": -13.0,
+      "totalNet5": -3407.2930000000033,
       "foreignNet": -1017.608,
       "trustNet": 0.0,
       "totalNet": -1018.371,
@@ -9266,32 +9266,32 @@ export const stockSearchData = {
         "趨勢結構分數 67",
         "相對強度排名前 37%",
         "量能分數 27",
-        "法人資金分數 21"
+        "法人資金分數 23"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3427,
+          "contribution": 0.3401,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.3228,
+          "contribution": 0.3204,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1405,
+          "contribution": 0.1394,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1078,
+          "contribution": 0.1147,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0861,
+          "contribution": 0.0854,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -9325,9 +9325,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.3145342600290463,
       "volumeRatio20": 0.4175393942805054,
       "revenueMom21d": 0.0,
-      "foreign5": 349.494,
+      "foreign5": 327.733,
       "trust5": -2.0,
-      "totalNet5": 347.494,
+      "totalNet5": 325.733,
       "foreignNet": -108.198,
       "trustNet": 0.0,
       "totalNet": -97.066,
@@ -9371,29 +9371,29 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "相對強度排名前 40%",
-        "法人資金分數 50",
+        "法人資金分數 51",
         "趨勢結構分數 45",
         "量能分數 18"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.3444,
+          "contribution": 0.3433,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2898,
+          "contribution": 0.292,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2575,
+          "contribution": 0.2566,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1013,
+          "contribution": 0.101,
           "detail": "5日與20日量能放大排名"
         },
         {
@@ -9432,9 +9432,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.3808610976859904,
       "volumeRatio20": 0.9526867998804948,
       "revenueMom21d": 0.0,
-      "foreign5": -1447.7529999999992,
+      "foreign5": -2149.671,
       "trust5": 125.0,
-      "totalNet5": -1322.7529999999992,
+      "totalNet5": -2024.6709999999998,
       "foreignNet": -551.35,
       "trustNet": 25.0,
       "totalNet": -508.982,
@@ -9469,27 +9469,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.3007,
+          "contribution": 0.3009,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2892,
+          "contribution": 0.2894,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1937,
+          "contribution": 0.1931,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1578,
+          "contribution": 0.1579,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0586,
+          "contribution": 0.0587,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -9523,9 +9523,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0885825898982906,
       "volumeRatio20": 1.7283383987299656,
       "revenueMom21d": 0.0,
-      "foreign5": 160.973,
+      "foreign5": 83.94200000000004,
       "trust5": 0.0,
-      "totalNet5": 160.973,
+      "totalNet5": 83.94200000000004,
       "foreignNet": -78.0,
       "trustNet": 0.0,
       "totalNet": -96.978,
@@ -9560,7 +9560,7 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2992,
+          "contribution": 0.2993,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
@@ -9575,12 +9575,12 @@ export const stockSearchData = {
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1746,
+          "contribution": 0.1744,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0519,
+          "contribution": 0.052,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -9614,9 +9614,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5874447338651746,
       "volumeRatio20": 0.9288475999577256,
       "revenueMom21d": 0.0,
-      "foreign5": -23635.680999999997,
-      "trust5": -4.0,
-      "totalNet5": -23639.680999999997,
+      "foreign5": -15108.983999999999,
+      "trust5": -6.0,
+      "totalNet5": -15114.983999999999,
       "foreignNet": -3402.794,
       "trustNet": -6.0,
       "totalNet": -3454.798,
@@ -9646,32 +9646,32 @@ export const stockSearchData = {
         "相對強度排名前 38%",
         "趨勢結構分數 62",
         "量能分數 56",
-        "法人資金分數 18"
+        "法人資金分數 17"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.3024,
+          "contribution": 0.3039,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.299,
+          "contribution": 0.3004,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.27,
+          "contribution": 0.2713,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0893,
+          "contribution": 0.0849,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0393,
+          "contribution": 0.0395,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -9705,9 +9705,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0252046394370833,
       "volumeRatio20": 0.6428408948297818,
       "revenueMom21d": 0.0,
-      "foreign5": 1253.9789999999991,
+      "foreign5": -1622.4880000000007,
       "trust5": 0.0,
-      "totalNet5": 1253.9789999999991,
+      "totalNet5": -1622.4880000000007,
       "foreignNet": -305.823,
       "trustNet": 0.0,
       "totalNet": -306.452,
@@ -9737,32 +9737,32 @@ export const stockSearchData = {
         "趨勢結構分數 92",
         "相對強度排名前 20%",
         "量能分數 72",
-        "法人資金分數 67"
+        "法人資金分數 41"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2799,
+          "contribution": 0.3033,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2415,
+          "contribution": 0.2617,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2187,
+          "contribution": 0.237,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2023,
+          "contribution": 0.1356,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0576,
+          "contribution": 0.0624,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -9796,9 +9796,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5689578102014275,
       "volumeRatio20": 0.4399794104902373,
       "revenueMom21d": 0.0,
-      "foreign5": -2853.455,
+      "foreign5": -2387.201,
       "trust5": 0.0,
-      "totalNet5": -2853.455,
+      "totalNet5": -2387.201,
       "foreignNet": 29.255,
       "trustNet": 0.0,
       "totalNet": 27.295,
@@ -9828,32 +9828,32 @@ export const stockSearchData = {
         "相對強度排名前 37%",
         "趨勢結構分數 49",
         "波動控制分數 44",
-        "法人資金分數 37"
+        "法人資金分數 39"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2801,
+          "contribution": 0.2773,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2179,
+          "contribution": 0.2158,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1976,
+          "contribution": 0.1957,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.164,
+          "contribution": 0.1722,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1403,
+          "contribution": 0.139,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -9887,9 +9887,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.3211396348436985,
       "volumeRatio20": 0.3888709903472002,
       "revenueMom21d": 0.0,
-      "foreign5": -10233.649999999992,
-      "trust5": 1754.0,
-      "totalNet5": -8479.649999999992,
+      "foreign5": -4762.046999999994,
+      "trust5": -1.0,
+      "totalNet5": -4763.046999999994,
       "foreignNet": -1571.872,
       "trustNet": -7.0,
       "totalNet": -1490.382,
@@ -9918,33 +9918,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 15%",
         "趨勢結構分數 69",
-        "法人資金分數 50",
-        "波動控制分數 25"
+        "波動控制分數 25",
+        "法人資金分數 25"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.3492,
+          "contribution": 0.3887,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2815,
+          "contribution": 0.3134,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2033,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volatility Control",
-          "contribution": 0.1018,
+          "contribution": 0.1134,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1131,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.0642,
+          "contribution": 0.0714,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -9978,9 +9978,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.2663001112730753,
       "volumeRatio20": 0.5750715143476276,
       "revenueMom21d": 0.0,
-      "foreign5": 2931.142,
+      "foreign5": 772.5320000000002,
       "trust5": 0.0,
-      "totalNet5": 2931.142,
+      "totalNet5": 772.5320000000002,
       "foreignNet": -378.595,
       "trustNet": 0.0,
       "totalNet": -378.595,
@@ -10009,33 +10009,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 20%",
         "趨勢結構分數 74",
-        "法人資金分數 70",
+        "法人資金分數 65",
         "量能分數 27"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2963,
+          "contribution": 0.3019,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2764,
+          "contribution": 0.2817,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2593,
+          "contribution": 0.2452,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.102,
+          "contribution": 0.104,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.066,
+          "contribution": 0.0673,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -10069,9 +10069,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9079891003117884,
       "volumeRatio20": 0.6896398231456113,
       "revenueMom21d": 0.0,
-      "foreign5": -525.5609999999999,
-      "trust5": 92.62699999999998,
-      "totalNet5": -432.93399999999997,
+      "foreign5": -488.41999999999985,
+      "trust5": -87.15400000000001,
+      "totalNet5": -575.5739999999998,
       "foreignNet": 0.354,
       "trustNet": -1.0,
       "totalNet": -0.192,
@@ -10100,34 +10100,34 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 71",
         "相對強度排名前 33%",
-        "法人資金分數 59",
-        "波動控制分數 37"
+        "波動控制分數 37",
+        "趨勢結構分數 33"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.267,
+          "contribution": 0.2994,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2502,
+          "contribution": 0.2806,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2219,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volatility Control",
-          "contribution": 0.1378,
+          "contribution": 0.1546,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1231,
+          "contribution": 0.138,
           "detail": "ADX 與 MA20 趨勢結構"
+        },
+        {
+          "factor": "Institutional Flow",
+          "contribution": 0.1274,
+          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -10160,9 +10160,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.869462601227516,
       "volumeRatio20": 0.7692550311733565,
       "revenueMom21d": 0.0,
-      "foreign5": -11772.19900000002,
-      "trust5": 89618.66100000001,
-      "totalNet5": 77846.46199999998,
+      "foreign5": -53627.96800000002,
+      "trust5": 97609.57299999999,
+      "totalNet5": 43981.60499999997,
       "foreignNet": 5684.181,
       "trustNet": 5203.004,
       "totalNet": 11001.629,
@@ -10197,27 +10197,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2488,
+          "contribution": 0.2506,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2479,
+          "contribution": 0.2496,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1902,
+          "contribution": 0.1915,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1709,
+          "contribution": 0.1721,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1422,
+          "contribution": 0.1362,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -10251,9 +10251,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7867920184347702,
       "volumeRatio20": 0.8594126793568319,
       "revenueMom21d": 0.0,
-      "foreign5": 17424.236999999994,
-      "trust5": -56951.35,
-      "totalNet5": -39527.113000000005,
+      "foreign5": 18913.444999999992,
+      "trust5": -60428.522,
+      "totalNet5": -41515.077000000005,
       "foreignNet": 6352.373,
       "trustNet": -9368.819,
       "totalNet": -2566.402,
@@ -10288,27 +10288,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2417,
+          "contribution": 0.2415,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2174,
+          "contribution": 0.2173,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2104,
+          "contribution": 0.2102,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1942,
+          "contribution": 0.1941,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1362,
+          "contribution": 0.1369,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -10342,9 +10342,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5459074456307361,
       "volumeRatio20": 0.6938456580454381,
       "revenueMom21d": 0.0,
-      "foreign5": 1166.9569999999999,
+      "foreign5": 1928.3499999999997,
       "trust5": 0.0,
-      "totalNet5": 1166.9569999999999,
+      "totalNet5": 1928.3499999999997,
       "foreignNet": 240.388,
       "trustNet": 0.0,
       "totalNet": 223.378,
@@ -10371,7 +10371,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 66",
+        "法人資金分數 70",
         "量能分數 46",
         "趨勢結構分數 41",
         "相對強度排名前 80%"
@@ -10379,27 +10379,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3774,
+          "contribution": 0.3887,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2627,
+          "contribution": 0.258,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2311,
+          "contribution": 0.2269,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1138,
+          "contribution": 0.1118,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0149,
+          "contribution": 0.0147,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -10433,9 +10433,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4285305441698537,
       "volumeRatio20": 0.9384233827812362,
       "revenueMom21d": 0.0,
-      "foreign5": 683.43,
+      "foreign5": -1393.313,
       "trust5": 5.0,
-      "totalNet5": 688.43,
+      "totalNet5": -1388.313,
       "foreignNet": -159.167,
       "trustNet": 0.0,
       "totalNet": -253.644,
@@ -10464,33 +10464,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 87",
         "相對強度排名前 18%",
-        "法人資金分數 73",
+        "法人資金分數 52",
         "量能分數 45"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2865,
+          "contribution": 0.3078,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2701,
+          "contribution": 0.2901,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2398,
+          "contribution": 0.1833,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1492,
+          "contribution": 0.1603,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0544,
+          "contribution": 0.0584,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -10524,9 +10524,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9005822523415787,
       "volumeRatio20": 0.9118927464024909,
       "revenueMom21d": 0.0,
-      "foreign5": 22407.553000000007,
-      "trust5": -8299.0,
-      "totalNet5": 14108.553000000007,
+      "foreign5": -14555.39,
+      "trust5": -11400.0,
+      "totalNet5": -25955.39,
       "foreignNet": -17488.518,
       "trustNet": 172.0,
       "totalNet": -18669.591,
@@ -10554,34 +10554,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 76",
-        "法人資金分數 51",
         "趨勢結構分數 47",
-        "相對強度排名前 62%"
+        "相對強度排名前 62%",
+        "法人資金分數 5"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3535,
+          "contribution": 0.4472,
           "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2338,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.2165,
+          "contribution": 0.2739,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1737,
+          "contribution": 0.2197,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.0308,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.0224,
+          "contribution": 0.0284,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -10615,9 +10615,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.3718230225715177,
       "volumeRatio20": 0.3467595396373172,
       "revenueMom21d": 0.0,
-      "foreign5": -5265.905000000001,
-      "trust5": 13.0,
-      "totalNet5": -5252.905000000001,
+      "foreign5": -2767.418,
+      "trust5": 12.0,
+      "totalNet5": -2755.418,
       "foreignNet": 512.698,
       "trustNet": 13.0,
       "totalNet": 508.527,
@@ -10646,33 +10646,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 36%",
         "趨勢結構分數 62",
-        "法人資金分數 45",
+        "法人資金分數 48",
         "波動控制分數 45"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2813,
+          "contribution": 0.2767,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.273,
+          "contribution": 0.2686,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1953,
+          "contribution": 0.2084,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1953,
+          "contribution": 0.1921,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0552,
+          "contribution": 0.0543,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -10706,9 +10706,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4877340141385485,
       "volumeRatio20": 0.7142263893515086,
       "revenueMom21d": 0.0,
-      "foreign5": -7038.9289999999955,
-      "trust5": 441.3,
-      "totalNet5": -6597.628999999995,
+      "foreign5": -8792.257999999996,
+      "trust5": -1952.7,
+      "totalNet5": -10744.957999999997,
       "foreignNet": -231.02,
       "trustNet": 13.0,
       "totalNet": -697.544,
@@ -10735,35 +10735,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 48",
         "量能分數 44",
         "相對強度排名前 58%",
-        "趨勢結構分數 30"
+        "趨勢結構分數 30",
+        "法人資金分數 9"
       ],
       "explainability": [
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2924,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.2626,
+          "contribution": 0.3444,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2555,
+          "contribution": 0.3351,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.181,
+          "contribution": 0.2373,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.0719,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.0085,
+          "contribution": 0.0112,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -10797,9 +10797,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8259623257548461,
       "volumeRatio20": 0.68419759791146,
       "revenueMom21d": 0.0,
-      "foreign5": 24595.028999999988,
-      "trust5": -18970.218,
-      "totalNet5": 5624.810999999987,
+      "foreign5": 8166.748999999987,
+      "trust5": -10777.024,
+      "totalNet5": -2610.2750000000124,
       "foreignNet": 4591.511,
       "trustNet": 1142.6,
       "totalNet": 6479.822,
@@ -10834,27 +10834,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2489,
+          "contribution": 0.2495,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2299,
+          "contribution": 0.2304,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1924,
+          "contribution": 0.1928,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.186,
+          "contribution": 0.1864,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1428,
+          "contribution": 0.1409,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -10888,9 +10888,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5532552245317764,
       "volumeRatio20": 0.6673789063235323,
       "revenueMom21d": 0.0,
-      "foreign5": -1253.8010000000002,
-      "trust5": 446.072,
-      "totalNet5": -807.7290000000002,
+      "foreign5": -1456.795,
+      "trust5": 441.072,
+      "totalNet5": -1015.7230000000001,
       "foreignNet": -61.001,
       "trustNet": 53.072,
       "totalNet": -7.56,
@@ -10919,33 +10919,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 19%",
         "趨勢結構分數 79",
-        "法人資金分數 57",
+        "法人資金分數 58",
         "量能分數 45"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2737,
+          "contribution": 0.273,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2669,
+          "contribution": 0.2663,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1938,
+          "contribution": 0.1957,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1528,
+          "contribution": 0.1524,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1128,
+          "contribution": 0.1125,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -10979,9 +10979,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.2695946945614665,
       "volumeRatio20": 0.5816991207402402,
       "revenueMom21d": 0.0,
-      "foreign5": 5868.427999999999,
+      "foreign5": 4617.526,
       "trust5": 0.0,
-      "totalNet5": 5868.427999999999,
+      "totalNet5": 4617.526,
       "foreignNet": -204.905,
       "trustNet": 0.0,
       "totalNet": -204.256,
@@ -11016,22 +11016,22 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2929,
+          "contribution": 0.2925,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2902,
+          "contribution": 0.2899,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.271,
+          "contribution": 0.2719,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1071,
+          "contribution": 0.107,
           "detail": "5日與20日量能放大排名"
         },
         {
@@ -11070,9 +11070,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6936946094399872,
       "volumeRatio20": 0.6914477063896034,
       "revenueMom21d": 0.0,
-      "foreign5": -1919.6819999999998,
-      "trust5": 613.28,
-      "totalNet5": -1306.4019999999998,
+      "foreign5": 2341.6709999999994,
+      "trust5": 403.1249999999999,
+      "totalNet5": 2744.7959999999994,
       "foreignNet": 3813.727,
       "trustNet": 466.0,
       "totalNet": 4442.992,
@@ -11099,35 +11099,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 86",
         "相對強度排名前 30%",
         "量能分數 57",
-        "法人資金分數 55",
         "波動控制分數 48"
       ],
       "explainability": [
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2874,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.2599,
+          "contribution": 0.2332,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2125,
+          "contribution": 0.1907,
           "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2058,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volatility Control",
-          "contribution": 0.1802,
+          "contribution": 0.1617,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1416,
+          "contribution": 0.127,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -11161,9 +11161,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7284721241189899,
       "volumeRatio20": 0.8759648970774018,
       "revenueMom21d": 0.0,
-      "foreign5": 6669.639999999998,
-      "trust5": -8897.0,
-      "totalNet5": -2227.3600000000024,
+      "foreign5": -132.54900000000043,
+      "trust5": -8532.0,
+      "totalNet5": -8664.549,
       "foreignNet": -1843.27,
       "trustNet": -539.0,
       "totalNet": -2614.962,
@@ -11198,27 +11198,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.235,
+          "contribution": 0.2511,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2116,
+          "contribution": 0.2262,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2017,
+          "contribution": 0.2156,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1944,
+          "contribution": 0.2078,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1574,
+          "contribution": 0.0993,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -11252,9 +11252,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4988158928279978,
       "volumeRatio20": 0.4958762670169972,
       "revenueMom21d": 0.0,
-      "foreign5": 717.752,
-      "trust5": 3.0,
-      "totalNet5": 720.752,
+      "foreign5": 144.861,
+      "trust5": 5.0,
+      "totalNet5": 149.861,
       "foreignNet": 62.694,
       "trustNet": 2.0,
       "totalNet": 56.213,
@@ -11281,7 +11281,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 73",
+        "法人資金分數 68",
         "相對強度排名前 38%",
         "趨勢結構分數 37",
         "波動控制分數 35"
@@ -11289,27 +11289,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.308,
+          "contribution": 0.2942,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2626,
+          "contribution": 0.2678,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1553,
+          "contribution": 0.1583,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1463,
+          "contribution": 0.1492,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1279,
+          "contribution": 0.1304,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -11343,9 +11343,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4156589811548171,
       "volumeRatio20": 0.6472344370553246,
       "revenueMom21d": 0.0,
-      "foreign5": 540.3630000000005,
+      "foreign5": -290.9959999999998,
       "trust5": 71.0,
-      "totalNet5": 611.3630000000005,
+      "totalNet5": -219.9959999999998,
       "foreignNet": -209.7,
       "trustNet": 21.0,
       "totalNet": -198.921,
@@ -11372,35 +11372,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 75",
         "趨勢結構分數 75",
         "相對強度排名前 27%",
+        "法人資金分數 63",
         "量能分數 36"
       ],
       "explainability": [
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2749,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.273,
+          "contribution": 0.2854,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2656,
+          "contribution": 0.2776,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2421,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.1317,
+          "contribution": 0.1377,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0548,
+          "contribution": 0.0572,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -11434,9 +11434,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7846721636326085,
       "volumeRatio20": 0.8921157610022115,
       "revenueMom21d": 0.0,
-      "foreign5": -460.77799999999866,
-      "trust5": -418.84099999999864,
-      "totalNet5": -879.6189999999973,
+      "foreign5": -531.2689999999986,
+      "trust5": -581.9209999999986,
+      "totalNet5": -1113.1899999999973,
       "foreignNet": -195.811,
       "trustNet": -170.258,
       "totalNet": -330.272,
@@ -11471,27 +11471,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.284,
+          "contribution": 0.2861,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2479,
+          "contribution": 0.2498,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2172,
+          "contribution": 0.2189,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1356,
+          "contribution": 0.1366,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1153,
+          "contribution": 0.1086,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -11525,9 +11525,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.3792006356831954,
       "volumeRatio20": 0.4491934865172605,
       "revenueMom21d": 0.0,
-      "foreign5": 52577.416,
-      "trust5": -12387.968999999996,
-      "totalNet5": 40189.447,
+      "foreign5": 42988.15899999999,
+      "trust5": -14682.478999999996,
+      "totalNet5": 28305.679999999997,
       "foreignNet": -2745.001,
       "trustNet": -345.741,
       "totalNet": -3038.767,
@@ -11562,27 +11562,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.338,
+          "contribution": 0.3389,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2287,
+          "contribution": 0.2293,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2212,
+          "contribution": 0.2192,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1196,
+          "contribution": 0.1199,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0925,
+          "contribution": 0.0928,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -11616,9 +11616,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6620000319033117,
       "volumeRatio20": 0.9415562646938036,
       "revenueMom21d": 0.0,
-      "foreign5": 430.0259999999999,
-      "trust5": -6.0,
-      "totalNet5": 424.0259999999999,
+      "foreign5": 114.27499999999992,
+      "trust5": -7.0,
+      "totalNet5": 107.27499999999992,
       "foreignNet": 119.536,
       "trustNet": 0.0,
       "totalNet": 120.009,
@@ -11648,32 +11648,32 @@ export const stockSearchData = {
         "相對強度排名前 20%",
         "量能分數 62",
         "波動控制分數 52",
-        "法人資金分數 49"
+        "法人資金分數 45"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2786,
+          "contribution": 0.2825,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2157,
+          "contribution": 0.2186,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1808,
+          "contribution": 0.1833,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1719,
+          "contribution": 0.1605,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.153,
+          "contribution": 0.1551,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -11707,9 +11707,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.9304871457683737,
       "volumeRatio20": 2.0463568544334,
       "revenueMom21d": 0.0359988382920415,
-      "foreign5": -975.4820000000002,
-      "trust5": 1635.1,
-      "totalNet5": 659.6179999999997,
+      "foreign5": -1665.0750000000003,
+      "trust5": 1728.1,
+      "totalNet5": 63.024999999999636,
       "foreignNet": -258.147,
       "trustNet": 1070.0,
       "totalNet": 884.716,
@@ -11738,33 +11738,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 97",
         "相對強度排名前 20%",
-        "法人資金分數 61",
+        "法人資金分數 60",
         "波動控制分數 54"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2881,
+          "contribution": 0.2894,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2362,
+          "contribution": 0.2373,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1817,
+          "contribution": 0.178,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1595,
+          "contribution": 0.1602,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1346,
+          "contribution": 0.1352,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -11798,9 +11798,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6458404246258809,
       "volumeRatio20": 0.6368962652240632,
       "revenueMom21d": 0.0,
-      "foreign5": 4875.896000000001,
-      "trust5": -5813.527999999998,
-      "totalNet5": -937.6319999999978,
+      "foreign5": 4809.0,
+      "trust5": -5651.653999999998,
+      "totalNet5": -842.6539999999977,
       "foreignNet": 3273.598,
       "trustNet": -2703.0,
       "totalNet": 367.915,
@@ -11828,34 +11828,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 51",
-        "法人資金分數 48",
+        "法人資金分數 49",
         "趨勢結構分數 47",
         "相對強度排名前 66%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2485,
+          "contribution": 0.2466,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2331,
+          "contribution": 0.2388,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2316,
+          "contribution": 0.2299,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.167,
+          "contribution": 0.1657,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1198,
+          "contribution": 0.1189,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -11889,9 +11889,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6611579931168778,
       "volumeRatio20": 0.6701249268988004,
       "revenueMom21d": 0.0,
-      "foreign5": 424.75999999999993,
+      "foreign5": -521.984,
       "trust5": 0.0,
-      "totalNet5": 424.75999999999993,
+      "totalNet5": -521.984,
       "foreignNet": -125.29,
       "trustNet": 0.0,
       "totalNet": -110.803,
@@ -11920,33 +11920,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 21%",
         "波動控制分數 65",
-        "法人資金分數 61",
-        "量能分數 54"
+        "量能分數 54",
+        "法人資金分數 47"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2633,
+          "contribution": 0.2764,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2174,
+          "contribution": 0.2282,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2034,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.1816,
+          "contribution": 0.1906,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1639,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.1343,
+          "contribution": 0.141,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -11980,9 +11980,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.3127956643728311,
       "volumeRatio20": 0.4105185104607937,
       "revenueMom21d": 0.0,
-      "foreign5": 140056.61400000003,
-      "trust5": -107365.798,
-      "totalNet5": 32690.816000000035,
+      "foreign5": 37241.787000000004,
+      "trust5": -3.0,
+      "totalNet5": 37238.787000000004,
       "foreignNet": 5987.87,
       "trustNet": -10.0,
       "totalNet": 5976.018,
@@ -12011,33 +12011,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 15%",
         "趨勢結構分數 71",
-        "法人資金分數 50",
+        "法人資金分數 64",
         "波動控制分數 24"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.346,
+          "contribution": 0.3274,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2865,
+          "contribution": 0.2711,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2034,
+          "contribution": 0.2461,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0958,
+          "contribution": 0.0906,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0683,
+          "contribution": 0.0647,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -12071,9 +12071,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6038416679668975,
       "volumeRatio20": 0.6247598854413262,
       "revenueMom21d": 0.0,
-      "foreign5": 2212.9069999999997,
+      "foreign5": -1468.2330000000002,
       "trust5": 0.0,
-      "totalNet5": 2212.9069999999997,
+      "totalNet5": -1468.2330000000002,
       "foreignNet": -859.83,
       "trustNet": 0.0,
       "totalNet": -861.83,
@@ -12102,33 +12102,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 85",
         "相對強度排名前 16%",
-        "法人資金分數 69",
-        "量能分數 47"
+        "量能分數 47",
+        "法人資金分數 42"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2834,
+          "contribution": 0.3115,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2815,
+          "contribution": 0.3093,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2298,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.156,
+          "contribution": 0.1715,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1535,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.0493,
+          "contribution": 0.0542,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -12162,9 +12162,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.372342208039247,
       "volumeRatio20": 0.2844093697339639,
       "revenueMom21d": 0.0,
-      "foreign5": -4246.700000000008,
+      "foreign5": -9539.190000000008,
       "trust5": 0.0,
-      "totalNet5": -4246.700000000008,
+      "totalNet5": -9539.190000000008,
       "foreignNet": 1125.0,
       "trustNet": 0.0,
       "totalNet": 1101.841,
@@ -12193,33 +12193,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 58",
         "相對強度排名前 62%",
-        "法人資金分數 35",
+        "法人資金分數 31",
         "量能分數 9"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.4035,
+          "contribution": 0.4134,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2643,
+          "contribution": 0.2708,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2429,
+          "contribution": 0.2243,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0654,
+          "contribution": 0.067,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0239,
+          "contribution": 0.0245,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -12253,9 +12253,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0199084770086548,
       "volumeRatio20": 0.7828400828423996,
       "revenueMom21d": 0.0,
-      "foreign5": -413.8200000000005,
-      "trust5": -1090.0,
-      "totalNet5": -1503.8200000000006,
+      "foreign5": 414.8679999999995,
+      "trust5": -1069.0,
+      "totalNet5": -654.1320000000005,
       "foreignNet": 659.83,
       "trustNet": -252.0,
       "totalNet": 448.791,
@@ -12285,32 +12285,32 @@ export const stockSearchData = {
         "量能分數 78",
         "趨勢結構分數 66",
         "相對強度排名前 50%",
-        "法人資金分數 27"
+        "法人資金分數 41"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3247,
+          "contribution": 0.3073,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2745,
+          "contribution": 0.2598,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.208,
+          "contribution": 0.1969,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1143,
+          "contribution": 0.1617,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0784,
+          "contribution": 0.0742,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -12344,9 +12344,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.780993075001578,
       "volumeRatio20": 0.5207274570965382,
       "revenueMom21d": 0.0,
-      "foreign5": 2118.5699999999974,
-      "trust5": -2846.2900000000004,
-      "totalNet5": -727.720000000003,
+      "foreign5": 1541.5629999999974,
+      "trust5": -2673.2900000000004,
+      "totalNet5": -1131.727000000003,
       "foreignNet": -67.585,
       "trustNet": 391.71,
       "totalNet": 216.2,
@@ -12381,27 +12381,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2471,
+          "contribution": 0.2476,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2292,
+          "contribution": 0.2297,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2034,
+          "contribution": 0.2016,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.162,
+          "contribution": 0.1624,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1583,
+          "contribution": 0.1587,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -12435,9 +12435,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9427477802656749,
       "volumeRatio20": 0.7486656974720474,
       "revenueMom21d": 0.0,
-      "foreign5": 1308.7449999999988,
-      "trust5": -1257.7760000000012,
-      "totalNet5": 50.96899999999755,
+      "foreign5": 1101.3899999999987,
+      "trust5": -1148.0260000000012,
+      "totalNet5": -46.63600000000247,
       "foreignNet": 67.288,
       "trustNet": -9.723,
       "totalNet": 58.738,
@@ -12465,34 +12465,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 74",
-        "法人資金分數 46",
         "波動控制分數 45",
+        "法人資金分數 45",
         "相對強度排名前 68%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3355,
+          "contribution": 0.3369,
           "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2074,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volatility Control",
-          "contribution": 0.2042,
+          "contribution": 0.2051,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2042,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1453,
+          "contribution": 0.1459,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1076,
+          "contribution": 0.108,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -12526,9 +12526,9 @@ export const stockSearchData = {
       "volumeRatio5": 2.337461493068943,
       "volumeRatio20": 1.5546161536153031,
       "revenueMom21d": 0.0,
-      "foreign5": -507.7199999999998,
-      "trust5": -11.381,
-      "totalNet5": -519.1009999999998,
+      "foreign5": -425.7199999999998,
+      "trust5": -13.363,
+      "totalNet5": -439.0829999999998,
       "foreignNet": -196.0,
       "trustNet": -1.963,
       "totalNet": -191.415,
@@ -12563,27 +12563,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3691,
+          "contribution": 0.3684,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2432,
+          "contribution": 0.2428,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1502,
+          "contribution": 0.1499,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1286,
+          "contribution": 0.1303,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1089,
+          "contribution": 0.1087,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -12617,9 +12617,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.425182959602561,
       "volumeRatio20": 0.6402891705686689,
       "revenueMom21d": 0.0,
-      "foreign5": 2249.7659999999987,
-      "trust5": 4.0,
-      "totalNet5": 2253.7659999999987,
+      "foreign5": -817.5160000000017,
+      "trust5": 10.0,
+      "totalNet5": -807.5160000000017,
       "foreignNet": 1482.718,
       "trustNet": 0.0,
       "totalNet": 1518.462,
@@ -12647,34 +12647,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "相對強度排名前 20%",
-        "法人資金分數 79",
         "趨勢結構分數 72",
+        "法人資金分數 55",
         "量能分數 36"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2788,
+          "contribution": 0.3039,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.273,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.2511,
+          "contribution": 0.2736,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2078,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.1254,
+          "contribution": 0.1366,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0716,
+          "contribution": 0.0781,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -12708,9 +12708,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5623293183916387,
       "volumeRatio20": 0.3635169483064696,
       "revenueMom21d": 0.0,
-      "foreign5": -8629.798000000003,
+      "foreign5": -5169.291000000001,
       "trust5": 0.0,
-      "totalNet5": -8629.798000000003,
+      "totalNet5": -5169.291000000001,
       "foreignNet": 1628.227,
       "trustNet": 0.0,
       "totalNet": 1242.103,
@@ -12739,33 +12739,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 61%",
         "趨勢結構分數 38",
-        "波動控制分數 33",
-        "法人資金分數 32"
+        "法人資金分數 34",
+        "波動控制分數 33"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2367,
+          "contribution": 0.2339,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2262,
+          "contribution": 0.2234,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
-          "factor": "Volatility Control",
-          "contribution": 0.1994,
-          "detail": "20日波動相對分數，越高代表越穩定"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.1906,
+          "contribution": 0.2003,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Volatility Control",
+          "contribution": 0.197,
+          "detail": "20日波動相對分數，越高代表越穩定"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.1471,
+          "contribution": 0.1454,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -12799,9 +12799,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.1260447744510766,
       "volumeRatio20": 0.5896473334324955,
       "revenueMom21d": 0.0,
-      "foreign5": -6100.398999999992,
-      "trust5": -9655.774000000007,
-      "totalNet5": -15756.172999999999,
+      "foreign5": -12129.640999999992,
+      "trust5": -2084.2770000000073,
+      "totalNet5": -14213.918,
       "foreignNet": -2022.388,
       "trustNet": -67.465,
       "totalNet": -1721.869,
@@ -12836,27 +12836,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2744,
+          "contribution": 0.2753,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2431,
+          "contribution": 0.2439,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2297,
+          "contribution": 0.2305,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.225,
+          "contribution": 0.2257,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0278,
+          "contribution": 0.0246,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -12890,9 +12890,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.8170306502107996,
       "volumeRatio20": 2.903201026694789,
       "revenueMom21d": 0.0,
-      "foreign5": -89.05599999999913,
+      "foreign5": -918.6309999999991,
       "trust5": 0.0,
-      "totalNet5": -89.05599999999913,
+      "totalNet5": -918.6309999999991,
       "foreignNet": 34.517,
       "trustNet": 0.0,
       "totalNet": 228.876,
@@ -12922,33 +12922,33 @@ export const stockSearchData = {
         "量能分數 97",
         "相對強度排名前 14%",
         "趨勢結構分數 55",
-        "法人資金分數 53"
+        "波動控制分數 51"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.285,
+          "contribution": 0.2927,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2506,
+          "contribution": 0.2573,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1598,
+          "contribution": 0.1641,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1549,
-          "detail": "外資與投信近5日買超排名"
+          "factor": "Volatility Control",
+          "contribution": 0.1538,
+          "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Volatility Control",
-          "contribution": 0.1497,
-          "detail": "20日波動相對分數，越高代表越穩定"
+          "factor": "Institutional Flow",
+          "contribution": 0.1321,
+          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -12981,9 +12981,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.783475937240293,
       "volumeRatio20": 0.4424556120941382,
       "revenueMom21d": 0.0,
-      "foreign5": 2611.1900000000005,
-      "trust5": -3758.999999999998,
-      "totalNet5": -1147.8099999999977,
+      "foreign5": 4538.47,
+      "trust5": -3961.999999999998,
+      "totalNet5": 576.4700000000021,
       "foreignNet": -453.33,
       "trustNet": -590.0,
       "totalNet": -1310.461,
@@ -13010,35 +13010,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 49",
         "量能分數 47",
-        "法人資金分數 46",
         "趨勢結構分數 31",
         "相對強度排名前 79%"
       ],
       "explainability": [
         {
-          "factor": "Volume Expansion",
-          "contribution": 0.2894,
-          "detail": "5日與20日量能放大排名"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.2832,
+          "contribution": 0.2937,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Volume Expansion",
+          "contribution": 0.2852,
+          "detail": "5日與20日量能放大排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.1913,
+          "contribution": 0.1885,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.13,
+          "contribution": 0.1281,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1061,
+          "contribution": 0.1046,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -13072,9 +13072,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7840781128050224,
       "volumeRatio20": 0.8586203139905307,
       "revenueMom21d": 0.0,
-      "foreign5": -49854.22199999996,
-      "trust5": -4792.107,
-      "totalNet5": -54646.328999999954,
+      "foreign5": -63473.78899999996,
+      "trust5": 2655.302,
+      "totalNet5": -60818.48699999996,
       "foreignNet": -1912.49,
       "trustNet": 919.216,
       "totalNet": 3.576,
@@ -13109,27 +13109,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.311,
+          "contribution": 0.2709,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2565,
+          "contribution": 0.2235,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2382,
+          "contribution": 0.2074,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1788,
+          "contribution": 0.1557,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0155,
+          "contribution": 0.1425,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -13163,9 +13163,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.3650743923052789,
       "volumeRatio20": 0.5416854012521041,
       "revenueMom21d": 0.0,
-      "foreign5": 78.27400000000026,
-      "trust5": 364.035,
-      "totalNet5": 442.3090000000003,
+      "foreign5": 167.74100000000024,
+      "trust5": 386.60900000000004,
+      "totalNet5": 554.3500000000003,
       "foreignNet": 44.518,
       "trustNet": 120.934,
       "totalNet": 153.829,
@@ -13194,33 +13194,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 85",
         "相對強度排名前 25%",
-        "法人資金分數 72",
+        "法人資金分數 75",
         "波動控制分數 52"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2723,
+          "contribution": 0.2702,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2403,
+          "contribution": 0.2385,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2323,
+          "contribution": 0.2383,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1681,
+          "contribution": 0.1668,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.087,
+          "contribution": 0.0863,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -13254,9 +13254,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.2320558212746353,
       "volumeRatio20": 1.0124494573374836,
       "revenueMom21d": 0.0,
-      "foreign5": -553.9319999999996,
-      "trust5": -1123.9160000000004,
-      "totalNet5": -1677.848,
+      "foreign5": -1549.0239999999997,
+      "trust5": -859.9160000000004,
+      "totalNet5": -2408.94,
       "foreignNet": 394.27,
       "trustNet": -321.977,
       "totalNet": 87.759,
@@ -13291,27 +13291,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3088,
+          "contribution": 0.3136,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2257,
+          "contribution": 0.2292,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2116,
+          "contribution": 0.2149,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1662,
+          "contribution": 0.1688,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0878,
+          "contribution": 0.0735,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -13345,9 +13345,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6626340075524323,
       "volumeRatio20": 0.4295307107624101,
       "revenueMom21d": 0.0,
-      "foreign5": 1064.52,
+      "foreign5": -652.983,
       "trust5": 0.0,
-      "totalNet5": 1064.52,
+      "totalNet5": -652.983,
       "foreignNet": -164.305,
       "trustNet": 0.0,
       "totalNet": -165.305,
@@ -13374,35 +13374,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 66",
         "趨勢結構分數 60",
         "相對強度排名前 43%",
+        "法人資金分數 46",
         "量能分數 38"
       ],
       "explainability": [
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2764,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.2541,
+          "contribution": 0.2776,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.24,
+          "contribution": 0.2621,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2096,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.1615,
+          "contribution": 0.1764,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.068,
+          "contribution": 0.0743,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -13436,9 +13436,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4851726536783601,
       "volumeRatio20": 0.320792274702966,
       "revenueMom21d": 0.0,
-      "foreign5": -12257.450999999995,
-      "trust5": 22.0,
-      "totalNet5": -12235.450999999995,
+      "foreign5": -9929.097999999996,
+      "trust5": 29.0,
+      "totalNet5": -9900.097999999996,
       "foreignNet": -31.673,
       "trustNet": 10.0,
       "totalNet": -145.349,
@@ -13466,34 +13466,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "相對強度排名前 52%",
-        "法人資金分數 42",
+        "法人資金分數 43",
         "波動控制分數 26",
         "趨勢結構分數 16"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.3212,
+          "contribution": 0.3181,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2808,
+          "contribution": 0.2878,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1786,
+          "contribution": 0.1768,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1111,
+          "contribution": 0.11,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1084,
+          "contribution": 0.1073,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -13527,9 +13527,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.3526370619541377,
       "volumeRatio20": 1.0639057413927422,
       "revenueMom21d": 0.0,
-      "foreign5": -36600.02799999999,
-      "trust5": -425.5429999999998,
-      "totalNet5": -37025.57099999999,
+      "foreign5": -33503.003,
+      "trust5": 2329.4200000000005,
+      "totalNet5": -31173.582999999995,
       "foreignNet": -12158.61,
       "trustNet": -30.49,
       "totalNet": -12414.831,
@@ -13559,33 +13559,33 @@ export const stockSearchData = {
         "量能分數 90",
         "趨勢結構分數 79",
         "相對強度排名前 38%",
-        "波動控制分數 46"
+        "法人資金分數 48"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3147,
+          "contribution": 0.2772,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2745,
+          "contribution": 0.2417,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2171,
+          "contribution": 0.1912,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Volatility Control",
-          "contribution": 0.1623,
-          "detail": "20日波動相對分數，越高代表越穩定"
+          "factor": "Institutional Flow",
+          "contribution": 0.147,
+          "detail": "外資與投信近5日買超排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.0314,
-          "detail": "外資與投信近5日買超排名"
+          "factor": "Volatility Control",
+          "contribution": 0.1429,
+          "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
     },
@@ -13618,9 +13618,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7601965503618148,
       "volumeRatio20": 0.6175262812021018,
       "revenueMom21d": 0.0,
-      "foreign5": 153.495,
-      "trust5": 101.1,
-      "totalNet5": 254.595,
+      "foreign5": -1193.7749999999999,
+      "trust5": -14.9,
+      "totalNet5": -1208.675,
       "foreignNet": 202.471,
       "trustNet": -1.0,
       "totalNet": 99.097,
@@ -13648,35 +13648,35 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "相對強度排名前 28%",
-        "法人資金分數 71",
         "量能分數 58",
-        "趨勢結構分數 58"
+        "趨勢結構分數 58",
+        "波動控制分數 29"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2497,
+          "contribution": 0.2933,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2463,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.2015,
+          "contribution": 0.2367,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2001,
+          "contribution": 0.235,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1023,
+          "contribution": 0.1202,
           "detail": "20日波動相對分數，越高代表越穩定"
+        },
+        {
+          "factor": "Institutional Flow",
+          "contribution": 0.1148,
+          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -13709,9 +13709,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.071671437938453,
       "volumeRatio20": 0.2618177178122883,
       "revenueMom21d": 0.0306477834253291,
-      "foreign5": -459.7500000000009,
-      "trust5": 1606.0,
-      "totalNet5": 1146.249999999999,
+      "foreign5": 1520.736999999999,
+      "trust5": -591.0,
+      "totalNet5": 929.736999999999,
       "foreignNet": 122.593,
       "trustNet": 0.0,
       "totalNet": -47.922,
@@ -13754,7 +13754,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 66",
+        "法人資金分數 48",
         "量能分數 47",
         "相對強度排名前 69%",
         "趨勢結構分數 25"
@@ -13762,27 +13762,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3814,
+          "contribution": 0.3106,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2728,
+          "contribution": 0.3041,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1792,
+          "contribution": 0.1997,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1443,
+          "contribution": 0.1609,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0223,
+          "contribution": 0.0248,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -13816,9 +13816,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.6785974111642268,
       "volumeRatio20": 0.8685913465522073,
       "revenueMom21d": 0.0,
-      "foreign5": 5403.045999999999,
-      "trust5": 9600.369,
-      "totalNet5": 15003.415,
+      "foreign5": 4274.289999999999,
+      "trust5": 10111.369,
+      "totalNet5": 14385.659,
       "foreignNet": 1726.988,
       "trustNet": 4003.369,
       "totalNet": 5663.185,
@@ -13845,7 +13845,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 93",
+        "法人資金分數 94",
         "量能分數 87",
         "趨勢結構分數 74",
         "相對強度排名前 28%"
@@ -13853,27 +13853,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2489,
+          "contribution": 0.2505,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2321,
+          "contribution": 0.2316,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1983,
+          "contribution": 0.1979,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1931,
+          "contribution": 0.1926,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1277,
+          "contribution": 0.1274,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -13907,9 +13907,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8616736420090453,
       "volumeRatio20": 0.584493264837598,
       "revenueMom21d": 0.0,
-      "foreign5": -103.27600000000005,
-      "trust5": -1.0000000000000284,
-      "totalNet5": -104.27600000000008,
+      "foreign5": -292.70500000000004,
+      "trust5": -1.8210000000000284,
+      "totalNet5": -294.52600000000007,
       "foreignNet": -66.482,
       "trustNet": 0.0,
       "totalNet": -78.927,
@@ -13944,27 +13944,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2552,
+          "contribution": 0.258,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2307,
+          "contribution": 0.2332,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2064,
+          "contribution": 0.2086,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1643,
+          "contribution": 0.1661,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1434,
+          "contribution": 0.1341,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -13998,9 +13998,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8660899788516397,
       "volumeRatio20": 0.597833625985637,
       "revenueMom21d": 0.0,
-      "foreign5": -1317.4630000000025,
-      "trust5": 224.0,
-      "totalNet5": -1093.4630000000025,
+      "foreign5": -310.5010000000027,
+      "trust5": 344.0,
+      "totalNet5": 33.498999999997295,
       "foreignNet": 1003.974,
       "trustNet": 251.0,
       "totalNet": 1270.095,
@@ -14027,35 +14027,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 65",
         "量能分數 63",
-        "法人資金分數 55",
         "趨勢結構分數 50",
         "波動控制分數 40"
       ],
       "explainability": [
         {
-          "factor": "Volume Expansion",
-          "contribution": 0.2641,
-          "detail": "5日與20日量能放大排名"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.2308,
+          "contribution": 0.2607,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Volume Expansion",
+          "contribution": 0.2538,
+          "detail": "5日與20日量能放大排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.2077,
+          "contribution": 0.1996,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1651,
+          "contribution": 0.1587,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1323,
+          "contribution": 0.1271,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -14089,9 +14089,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7596634486994517,
       "volumeRatio20": 0.5271588472094784,
       "revenueMom21d": 0.0,
-      "foreign5": 557.5929999999998,
-      "trust5": -40.0,
-      "totalNet5": 517.5929999999998,
+      "foreign5": 262.2919999999999,
+      "trust5": 0.0,
+      "totalNet5": 262.2919999999999,
       "foreignNet": 155.267,
       "trustNet": 0.0,
       "totalNet": 182.788,
@@ -14118,35 +14118,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 60",
         "量能分數 51",
-        "法人資金分數 47",
         "相對強度排名前 54%",
         "趨勢結構分數 43"
       ],
       "explainability": [
         {
-          "factor": "Volume Expansion",
-          "contribution": 0.2423,
-          "detail": "5日與20日量能放大排名"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.225,
+          "contribution": 0.2694,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Volume Expansion",
+          "contribution": 0.2284,
+          "detail": "5日與20日量能放大排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.2175,
+          "contribution": 0.2051,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2049,
+          "contribution": 0.1931,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1103,
+          "contribution": 0.104,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -14180,9 +14180,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6012073772503398,
       "volumeRatio20": 0.6302122057939764,
       "revenueMom21d": 0.0,
-      "foreign5": -2174.404000000007,
-      "trust5": -16125.651000000002,
-      "totalNet5": -18300.055000000008,
+      "foreign5": -8442.664000000008,
+      "trust5": -15398.057,
+      "totalNet5": -23840.72100000001,
       "foreignNet": 2069.576,
       "trustNet": -1136.882,
       "totalNet": 1179.022,
@@ -14217,27 +14217,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2895,
+          "contribution": 0.3001,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2625,
+          "contribution": 0.2721,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2234,
+          "contribution": 0.2315,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.152,
+          "contribution": 0.1575,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0726,
+          "contribution": 0.0388,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -14271,9 +14271,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.855485003678621,
       "volumeRatio20": 0.7668968345261248,
       "revenueMom21d": 0.0,
-      "foreign5": 1057.1800000000044,
+      "foreign5": 1949.5990000000043,
       "trust5": 0.0,
-      "totalNet5": 1057.1800000000044,
+      "totalNet5": 1949.5990000000043,
       "foreignNet": 698.29,
       "trustNet": 0.0,
       "totalNet": 697.246,
@@ -14301,34 +14301,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 71",
-        "法人資金分數 66",
+        "法人資金分數 70",
         "趨勢結構分數 58",
         "相對強度排名前 42%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2423,
+          "contribution": 0.239,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2245,
+          "contribution": 0.235,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.198,
+          "contribution": 0.1953,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.197,
+          "contribution": 0.1943,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1382,
+          "contribution": 0.1364,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -14362,9 +14362,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6413952880289634,
       "volumeRatio20": 0.6559430621242142,
       "revenueMom21d": 0.0,
-      "foreign5": 61.41400000000027,
+      "foreign5": -56.05799999999974,
       "trust5": 0.0,
-      "totalNet5": 61.41400000000027,
+      "totalNet5": -56.05799999999974,
       "foreignNet": 198.0,
       "trustNet": 0.0,
       "totalNet": 166.0,
@@ -14391,7 +14391,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 56",
+        "法人資金分數 55",
         "量能分數 52",
         "趨勢結構分數 48",
         "相對強度排名前 75%"
@@ -14399,27 +14399,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2963,
+          "contribution": 0.2925,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.275,
+          "contribution": 0.2765,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2557,
+          "contribution": 0.2571,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1354,
+          "contribution": 0.1361,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0376,
+          "contribution": 0.0378,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -14453,9 +14453,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.7313005108694877,
       "volumeRatio20": 1.7461490155032953,
       "revenueMom21d": 0.0,
-      "foreign5": 3877.335,
+      "foreign5": 1982.037,
       "trust5": 0.0,
-      "totalNet5": 3877.335,
+      "totalNet5": 1982.037,
       "foreignNet": 1747.81,
       "trustNet": 0.0,
       "totalNet": 1778.029,
@@ -14483,34 +14483,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 96",
-        "法人資金分數 71",
+        "法人資金分數 70",
         "相對強度排名前 31%",
         "波動控制分數 57"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2752,
+          "contribution": 0.2761,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2036,
+          "contribution": 0.2011,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1995,
+          "contribution": 0.2002,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1643,
+          "contribution": 0.1648,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1573,
+          "contribution": 0.1578,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -14544,9 +14544,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5718962078848007,
       "volumeRatio20": 0.4040234037920894,
       "revenueMom21d": 0.0,
-      "foreign5": 1055.5689999999995,
-      "trust5": -67.52200000000045,
-      "totalNet5": 988.0469999999991,
+      "foreign5": -1492.0019999999995,
+      "trust5": -57.88600000000045,
+      "totalNet5": -1549.888,
       "foreignNet": -1387.0,
       "trustNet": -12.059,
       "totalNet": -1671.317,
@@ -14576,33 +14576,33 @@ export const stockSearchData = {
         "波動控制分數 74",
         "趨勢結構分數 66",
         "相對強度排名前 40%",
-        "法人資金分數 50"
+        "量能分數 29"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2664,
+          "contribution": 0.2919,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2375,
+          "contribution": 0.2602,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2148,
+          "contribution": 0.2353,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1785,
-          "detail": "外資與投信近5日買超排名"
+          "factor": "Volume Expansion",
+          "contribution": 0.1126,
+          "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Volume Expansion",
-          "contribution": 0.1028,
-          "detail": "5日與20日量能放大排名"
+          "factor": "Institutional Flow",
+          "contribution": 0.0999,
+          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -14635,9 +14635,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5825727498268897,
       "volumeRatio20": 0.2885488646922668,
       "revenueMom21d": 0.0,
-      "foreign5": -656.9489999999996,
+      "foreign5": -2071.3169999999996,
       "trust5": 0.0,
-      "totalNet5": -656.9489999999996,
+      "totalNet5": -2071.3169999999996,
       "foreignNet": -186.966,
       "trustNet": 0.0,
       "totalNet": -210.788,
@@ -14665,34 +14665,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "趨勢結構分數 53",
-        "法人資金分數 45",
         "相對強度排名前 58%",
+        "法人資金分數 40",
         "量能分數 22"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3037,
+          "contribution": 0.3122,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2582,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Relative Strength",
-          "contribution": 0.2392,
+          "contribution": 0.2459,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2375,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.1246,
+          "contribution": 0.1281,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0742,
+          "contribution": 0.0763,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -14726,9 +14726,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.549156394667314,
       "volumeRatio20": 1.1835499254123685,
       "revenueMom21d": 0.0,
-      "foreign5": -593.499,
-      "trust5": 527.944,
-      "totalNet5": -65.55500000000006,
+      "foreign5": -62.233999999999924,
+      "trust5": 650.2389999999998,
+      "totalNet5": 588.0049999999999,
       "foreignNet": 800.086,
       "trustNet": 76.969,
       "totalNet": 901.499,
@@ -14756,34 +14756,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 92",
+        "法人資金分數 71",
         "波動控制分數 68",
-        "法人資金分數 62",
         "相對強度排名前 40%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2811,
+          "contribution": 0.2729,
           "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Volatility Control",
-          "contribution": 0.2072,
-          "detail": "20日波動相對分數，越高代表越穩定"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.1883,
+          "contribution": 0.212,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Volatility Control",
+          "contribution": 0.2012,
+          "detail": "20日波動相對分數，越高代表越穩定"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1839,
+          "contribution": 0.1785,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1395,
+          "contribution": 0.1354,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -14817,9 +14817,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7594729418875749,
       "volumeRatio20": 0.3523037050211356,
       "revenueMom21d": 0.0,
-      "foreign5": -3609.5719999999983,
-      "trust5": 2.0,
-      "totalNet5": -3607.5719999999983,
+      "foreign5": -2732.547999999998,
+      "trust5": 5.0,
+      "totalNet5": -2727.547999999998,
       "foreignNet": -237.465,
       "trustNet": 0.0,
       "totalNet": -398.626,
@@ -14846,35 +14846,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 48",
         "相對強度排名前 54%",
-        "法人資金分數 45",
         "量能分數 38",
         "趨勢結構分數 38"
       ],
       "explainability": [
         {
-          "factor": "Relative Strength",
-          "contribution": 0.2325,
-          "detail": "10日動能、52週位置與均線乖離綜合排名"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.2261,
+          "contribution": 0.2378,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Relative Strength",
+          "contribution": 0.229,
+          "detail": "10日動能、52週位置與均線乖離綜合排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.1921,
+          "contribution": 0.1892,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1905,
+          "contribution": 0.1876,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1588,
+          "contribution": 0.1564,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -14908,9 +14908,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5876258448102443,
       "volumeRatio20": 0.5088845008258224,
       "revenueMom21d": 0.0,
-      "foreign5": -1850.2730000000001,
+      "foreign5": -3431.384,
       "trust5": 0.0,
-      "totalNet5": -1850.2730000000001,
+      "totalNet5": -3431.384,
       "foreignNet": 1228.0,
       "trustNet": 0.0,
       "totalNet": 1260.239,
@@ -14939,33 +14939,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 50%",
         "波動控制分數 42",
-        "法人資金分數 39",
-        "量能分數 37"
+        "量能分數 37",
+        "法人資金分數 36"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2604,
+          "contribution": 0.2646,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2215,
+          "contribution": 0.2251,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2054,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.195,
+          "contribution": 0.1982,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1925,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.1177,
+          "contribution": 0.1196,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -14999,9 +14999,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.652536816913357,
       "volumeRatio20": 0.6436215814658,
       "revenueMom21d": 0.0,
-      "foreign5": 43770.35300000009,
-      "trust5": -2153.6090000000145,
-      "totalNet5": 41616.74400000008,
+      "foreign5": 46686.60600000009,
+      "trust5": 1341.8549999999855,
+      "totalNet5": 48028.461000000076,
       "foreignNet": -5959.106,
       "trustNet": 3548.534,
       "totalNet": -2241.811,
@@ -15028,35 +15028,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 94",
         "相對強度排名前 8%",
         "趨勢結構分數 90",
-        "波動控制分數 82",
-        "法人資金分數 54"
+        "波動控制分數 82"
       ],
       "explainability": [
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2298,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.249,
+          "contribution": 0.2243,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2436,
+          "contribution": 0.2195,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2214,
+          "contribution": 0.1995,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1452,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.1408,
+          "contribution": 0.1269,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -15090,9 +15090,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0571946813416253,
       "volumeRatio20": 0.6793075099298306,
       "revenueMom21d": 0.0,
-      "foreign5": -479.70899999999995,
+      "foreign5": -1163.7089999999998,
       "trust5": 0.0,
-      "totalNet5": -479.70899999999995,
+      "totalNet5": -1163.7089999999998,
       "foreignNet": -555.8,
       "trustNet": 0.0,
       "totalNet": -546.58,
@@ -15120,34 +15120,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 75",
-        "法人資金分數 47",
+        "法人資金分數 43",
         "趨勢結構分數 39",
         "波動控制分數 34"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3387,
+          "contribution": 0.3453,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2124,
+          "contribution": 0.197,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1766,
+          "contribution": 0.1801,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1539,
+          "contribution": 0.1569,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1184,
+          "contribution": 0.1207,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -15181,9 +15181,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8595004968952609,
       "volumeRatio20": 1.1789549712083902,
       "revenueMom21d": 0.0,
-      "foreign5": -9842.250999999997,
-      "trust5": -5788.763000000001,
-      "totalNet5": -15631.013999999997,
+      "foreign5": -10190.837999999996,
+      "trust5": -6130.847000000001,
+      "totalNet5": -16321.684999999998,
       "foreignNet": 233.391,
       "trustNet": -79.656,
       "totalNet": 709.298,
@@ -15218,27 +15218,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.4309,
+          "contribution": 0.4311,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2337,
+          "contribution": 0.2338,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1584,
+          "contribution": 0.1585,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1366,
+          "contribution": 0.1367,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0404,
+          "contribution": 0.0399,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -15272,9 +15272,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5006680840729795,
       "volumeRatio20": 0.5625522696239502,
       "revenueMom21d": 0.0,
-      "foreign5": 493.3549999999999,
+      "foreign5": 908.1959999999999,
       "trust5": 0.0,
-      "totalNet5": 493.3549999999999,
+      "totalNet5": 908.1959999999999,
       "foreignNet": 281.496,
       "trustNet": 0.0,
       "totalNet": 282.066,
@@ -15302,34 +15302,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "趨勢結構分數 70",
+        "法人資金分數 66",
         "相對強度排名前 36%",
-        "法人資金分數 61",
         "量能分數 34"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2714,
+          "contribution": 0.267,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
-          "factor": "Relative Strength",
-          "contribution": 0.2479,
-          "detail": "10日動能、52週位置與均線乖離綜合排名"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.2383,
+          "contribution": 0.2506,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Relative Strength",
+          "contribution": 0.2439,
+          "detail": "10日動能、52週位置與均線乖離綜合排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.1334,
+          "contribution": 0.1312,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.109,
+          "contribution": 0.1073,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -15363,9 +15363,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6914398712645987,
       "volumeRatio20": 0.8578982620724536,
       "revenueMom21d": 0.0,
-      "foreign5": -1432.700999999994,
-      "trust5": -1630.8710000000003,
-      "totalNet5": -3063.5719999999947,
+      "foreign5": -2526.3269999999943,
+      "trust5": 30.16300000000001,
+      "totalNet5": -2496.1639999999943,
       "foreignNet": 700.306,
       "trustNet": 431.434,
       "totalNet": 1065.157,
@@ -15395,33 +15395,33 @@ export const stockSearchData = {
         "趨勢結構分數 80",
         "相對強度排名前 23%",
         "量能分數 61",
-        "波動控制分數 49"
+        "法人資金分數 50"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2802,
+          "contribution": 0.2524,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2684,
+          "contribution": 0.2418,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.213,
+          "contribution": 0.1919,
           "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Volatility Control",
-          "contribution": 0.1726,
-          "detail": "20日波動相對分數，越高代表越穩定"
+          "factor": "Institutional Flow",
+          "contribution": 0.1584,
+          "detail": "外資與投信近5日買超排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.0658,
-          "detail": "外資與投信近5日買超排名"
+          "factor": "Volatility Control",
+          "contribution": 0.1555,
+          "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
     },
@@ -15454,9 +15454,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4902223728088165,
       "volumeRatio20": 0.5453958778132719,
       "revenueMom21d": 0.0,
-      "foreign5": -2676.323999999996,
+      "foreign5": -2671.5909999999963,
       "trust5": 0.0,
-      "totalNet5": -2676.323999999996,
+      "totalNet5": -2671.5909999999963,
       "foreignNet": 133.0,
       "trustNet": 0.0,
       "totalNet": 130.113,
@@ -15484,34 +15484,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "相對強度排名前 60%",
-        "法人資金分數 37",
+        "法人資金分數 38",
         "量能分數 33",
         "趨勢結構分數 27"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2487,
+          "contribution": 0.2474,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2319,
+          "contribution": 0.2358,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2064,
+          "contribution": 0.2053,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1666,
+          "contribution": 0.1658,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1464,
+          "contribution": 0.1457,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -15545,9 +15545,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5635695092631877,
       "volumeRatio20": 0.2594802797742205,
       "revenueMom21d": 0.0,
-      "foreign5": -2549.234,
+      "foreign5": -3042.5280000000002,
       "trust5": 0.0,
-      "totalNet5": -2549.234,
+      "totalNet5": -3042.5280000000002,
       "foreignNet": -310.572,
       "trustNet": 0.0,
       "totalNet": -335.845,
@@ -15582,27 +15582,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3178,
+          "contribution": 0.3188,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2711,
+          "contribution": 0.2719,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1969,
+          "contribution": 0.1943,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1206,
+          "contribution": 0.121,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0935,
+          "contribution": 0.0938,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -15636,9 +15636,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9215475725895343,
       "volumeRatio20": 0.6490862046066033,
       "revenueMom21d": 0.0,
-      "foreign5": 1876.7999999999981,
+      "foreign5": 4676.799999999998,
       "trust5": 0.0,
-      "totalNet5": 1876.7999999999981,
+      "totalNet5": 4676.799999999998,
       "foreignNet": 358.02,
       "trustNet": 0.0,
       "totalNet": 340.082,
@@ -15667,33 +15667,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 16%",
         "趨勢結構分數 79",
-        "量能分數 69",
-        "法人資金分數 68"
+        "法人資金分數 73",
+        "量能分數 69"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2452,
+          "contribution": 0.2421,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2302,
+          "contribution": 0.2273,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
-          "factor": "Volume Expansion",
-          "contribution": 0.2017,
-          "detail": "5日與20日量能放大排名"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.1983,
+          "contribution": 0.2085,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Volume Expansion",
+          "contribution": 0.1991,
+          "detail": "5日與20日量能放大排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.1247,
+          "contribution": 0.1231,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -15727,9 +15727,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7041213607127688,
       "volumeRatio20": 0.4274241935835021,
       "revenueMom21d": 0.0,
-      "foreign5": 13158.04,
-      "trust5": -24906.745999999996,
-      "totalNet5": -11748.705999999995,
+      "foreign5": 9517.057,
+      "trust5": -24333.175999999996,
+      "totalNet5": -14816.118999999995,
       "foreignNet": 1761.56,
       "trustNet": -4640.55,
       "totalNet": -2878.99,
@@ -15764,27 +15764,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2591,
+          "contribution": 0.2589,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2089,
+          "contribution": 0.2096,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1874,
+          "contribution": 0.1873,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1736,
+          "contribution": 0.1735,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.171,
+          "contribution": 0.1708,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -15818,9 +15818,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0890460411804903,
       "volumeRatio20": 1.008866687161972,
       "revenueMom21d": 0.0,
-      "foreign5": 18.72400000000019,
-      "trust5": -70.71299999999995,
-      "totalNet5": -51.98899999999976,
+      "foreign5": -59.42599999999979,
+      "trust5": -73.69999999999995,
+      "totalNet5": -133.12599999999975,
       "foreignNet": 114.172,
       "trustNet": -172.0,
       "totalNet": -59.503,
@@ -15848,34 +15848,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 85",
-        "法人資金分數 39",
+        "法人資金分數 38",
         "相對強度排名前 72%",
         "波動控制分數 27"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.4198,
+          "contribution": 0.4217,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1912,
+          "contribution": 0.1876,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1365,
+          "contribution": 0.1371,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1355,
+          "contribution": 0.1361,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.117,
+          "contribution": 0.1176,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -15909,9 +15909,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5748354025195279,
       "volumeRatio20": 0.7694607456845285,
       "revenueMom21d": 0.0,
-      "foreign5": 118692.92900000002,
-      "trust5": 249.21499999999907,
-      "totalNet5": 118942.14400000001,
+      "foreign5": 151446.462,
+      "trust5": 250.21499999999907,
+      "totalNet5": 151696.677,
       "foreignNet": 455.221,
       "trustNet": -147.705,
       "totalNet": 761.763,
@@ -15946,27 +15946,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2319,
+          "contribution": 0.2318,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2284,
+          "contribution": 0.2288,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2174,
+          "contribution": 0.2173,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1944,
+          "contribution": 0.1943,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1279,
+          "contribution": 0.1278,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -16000,9 +16000,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6341655370543038,
       "volumeRatio20": 0.2066655959656391,
       "revenueMom21d": 0.0,
-      "foreign5": 401.6370000000014,
+      "foreign5": 1328.0920000000012,
       "trust5": 0.0,
-      "totalNet5": 401.6370000000014,
+      "totalNet5": 1328.0920000000012,
       "foreignNet": 1202.445,
       "trustNet": 0.0,
       "totalNet": 1201.445,
@@ -16029,7 +16029,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 61",
+        "法人資金分數 68",
         "相對強度排名前 59%",
         "趨勢結構分數 22",
         "量能分數 21"
@@ -16037,27 +16037,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3897,
+          "contribution": 0.4174,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2644,
+          "contribution": 0.2524,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1437,
+          "contribution": 0.1372,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1333,
+          "contribution": 0.1272,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0689,
+          "contribution": 0.0658,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -16091,9 +16091,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6413068562850603,
       "volumeRatio20": 0.4257677824650788,
       "revenueMom21d": 0.0,
-      "foreign5": -5556.601,
+      "foreign5": 130.862,
       "trust5": 0.0,
-      "totalNet5": -5556.601,
+      "totalNet5": 130.862,
       "foreignNet": 92.076,
       "trustNet": 0.0,
       "totalNet": 86.308,
@@ -16120,35 +16120,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 58",
         "趨勢結構分數 58",
         "相對強度排名前 52%",
-        "量能分數 36",
-        "法人資金分數 34"
+        "量能分數 36"
       ],
       "explainability": [
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2851,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.3232,
+          "contribution": 0.2844,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.265,
+          "contribution": 0.2331,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1984,
+          "contribution": 0.1746,
           "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1875,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volatility Control",
-          "contribution": 0.0259,
+          "contribution": 0.0228,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -16182,9 +16182,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7789856326591683,
       "volumeRatio20": 0.5750853270720331,
       "revenueMom21d": 0.0,
-      "foreign5": -1725.1919999999998,
-      "trust5": -603.0,
-      "totalNet5": -2328.192,
+      "foreign5": -3452.271999999999,
+      "trust5": -1030.0,
+      "totalNet5": -4482.271999999999,
       "foreignNet": 357.28,
       "trustNet": 0.0,
       "totalNet": 279.523,
@@ -16214,32 +16214,32 @@ export const stockSearchData = {
         "量能分數 55",
         "波動控制分數 25",
         "相對強度排名前 76%",
-        "法人資金分數 19"
+        "法人資金分數 15"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.4239,
+          "contribution": 0.4392,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1919,
+          "contribution": 0.1988,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1831,
+          "contribution": 0.1897,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1462,
+          "contribution": 0.1154,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0549,
+          "contribution": 0.0569,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -16273,9 +16273,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9690988864288946,
       "volumeRatio20": 0.6459222097611491,
       "revenueMom21d": 0.3500453880679812,
-      "foreign5": 230.80900000000003,
-      "trust5": 295.0,
-      "totalNet5": 525.809,
+      "foreign5": 621.556,
+      "trust5": 3.0,
+      "totalNet5": 624.556,
       "foreignNet": 306.274,
       "trustNet": 1.0,
       "totalNet": 337.915,
@@ -16302,7 +16302,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 74",
+        "法人資金分數 73",
         "量能分數 71",
         "波動控制分數 62",
         "相對強度排名前 54%"
@@ -16310,27 +16310,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2521,
+          "contribution": 0.2501,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2418,
+          "contribution": 0.2425,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2129,
+          "contribution": 0.2134,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1575,
+          "contribution": 0.158,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1357,
+          "contribution": 0.1361,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -16364,9 +16364,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5850677988268645,
       "volumeRatio20": 0.3273260796277185,
       "revenueMom21d": 0.0,
-      "foreign5": -896.6100000000002,
-      "trust5": -22.0,
-      "totalNet5": -918.6100000000002,
+      "foreign5": 844.889,
+      "trust5": -13.0,
+      "totalNet5": 831.889,
       "foreignNet": 192.6,
       "trustNet": -2.0,
       "totalNet": 212.6,
@@ -16396,32 +16396,32 @@ export const stockSearchData = {
         "相對強度排名前 27%",
         "波動控制分數 72",
         "趨勢結構分數 72",
-        "法人資金分數 29"
+        "法人資金分數 52"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.271,
+          "contribution": 0.2503,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2673,
+          "contribution": 0.2468,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2654,
+          "contribution": 0.2451,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1079,
+          "contribution": 0.1761,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0885,
+          "contribution": 0.0817,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -16455,9 +16455,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8794881708263805,
       "volumeRatio20": 0.3092638244299396,
       "revenueMom21d": 0.0,
-      "foreign5": -3165.063000000018,
-      "trust5": 4664.659000000003,
-      "totalNet5": 1499.5959999999855,
+      "foreign5": 3620.597999999982,
+      "trust5": 6065.659000000003,
+      "totalNet5": 9686.256999999985,
       "foreignNet": -2265.056,
       "trustNet": 4657.18,
       "totalNet": 2143.86,
@@ -16484,7 +16484,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 56",
+        "法人資金分數 92",
         "趨勢結構分數 49",
         "量能分數 43",
         "相對強度排名前 66%"
@@ -16492,27 +16492,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2638,
+          "contribution": 0.3705,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2287,
+          "contribution": 0.1956,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.204,
+          "contribution": 0.1745,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.162,
+          "contribution": 0.1385,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1414,
+          "contribution": 0.1209,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -16546,9 +16546,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0617269947063932,
       "volumeRatio20": 1.281954633592992,
       "revenueMom21d": -0.0556183887277128,
-      "foreign5": 121.06600000000036,
-      "trust5": 282.6609999999997,
-      "totalNet5": 403.7270000000001,
+      "foreign5": 5.6930000000003425,
+      "trust5": 290.73599999999976,
+      "totalNet5": 296.4290000000001,
       "foreignNet": 8.364,
       "trustNet": 31.736,
       "totalNet": 41.115,
@@ -16583,27 +16583,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2505,
+          "contribution": 0.2511,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2081,
+          "contribution": 0.2086,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2076,
+          "contribution": 0.2055,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2033,
+          "contribution": 0.2038,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1306,
+          "contribution": 0.1309,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -16637,9 +16637,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7107088676928695,
       "volumeRatio20": 1.0352131101943518,
       "revenueMom21d": 0.0,
-      "foreign5": -114.79299999999995,
-      "trust5": -18.0,
-      "totalNet5": -132.79299999999995,
+      "foreign5": -0.1339999999999577,
+      "trust5": 0.0,
+      "totalNet5": -0.1339999999999577,
       "foreignNet": 91.0,
       "trustNet": 0.0,
       "totalNet": 95.133,
@@ -16669,32 +16669,32 @@ export const stockSearchData = {
         "趨勢結構分數 90",
         "相對強度排名前 32%",
         "量能分數 67",
-        "法人資金分數 39"
+        "法人資金分數 56"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3187,
+          "contribution": 0.3005,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2406,
+          "contribution": 0.2269,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.238,
+          "contribution": 0.2244,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1375,
+          "contribution": 0.1867,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0652,
+          "contribution": 0.0615,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -16728,9 +16728,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6295646341023503,
       "volumeRatio20": 0.2031777452603085,
       "revenueMom21d": 0.0,
-      "foreign5": 4518.121,
+      "foreign5": 666.1039999999995,
       "trust5": 0.0,
-      "totalNet5": 4518.121,
+      "totalNet5": 666.1039999999995,
       "foreignNet": 297.588,
       "trustNet": 0.0,
       "totalNet": 223.778,
@@ -16757,7 +16757,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 71",
+        "法人資金分數 64",
         "趨勢結構分數 44",
         "波動控制分數 36",
         "相對強度排名前 74%"
@@ -16765,27 +16765,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3604,
+          "contribution": 0.337,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2205,
+          "contribution": 0.2285,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1842,
+          "contribution": 0.1909,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1337,
+          "contribution": 0.1386,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1013,
+          "contribution": 0.105,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -16819,9 +16819,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.1094798960897607,
       "volumeRatio20": 0.7172501558101199,
       "revenueMom21d": 0.0,
-      "foreign5": 81.50999999999974,
+      "foreign5": 110.80999999999973,
       "trust5": 0.0,
-      "totalNet5": 81.50999999999974,
+      "totalNet5": 110.80999999999973,
       "foreignNet": 122.02,
       "trustNet": 0.0,
       "totalNet": 172.984,
@@ -16850,33 +16850,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 79",
         "相對強度排名前 41%",
-        "法人資金分數 57",
+        "法人資金分數 58",
         "波動控制分數 56"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2662,
+          "contribution": 0.2651,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1982,
+          "contribution": 0.1974,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1918,
+          "contribution": 0.1951,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1889,
+          "contribution": 0.1881,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.155,
+          "contribution": 0.1544,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -16910,9 +16910,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8376961621000133,
       "volumeRatio20": 0.5105110112799485,
       "revenueMom21d": 0.0,
-      "foreign5": -1686.8700000000001,
-      "trust5": -6.0,
-      "totalNet5": -1692.8700000000001,
+      "foreign5": -1877.7440000000001,
+      "trust5": -8.0,
+      "totalNet5": -1885.7440000000001,
       "foreignNet": -196.223,
       "trustNet": 0.0,
       "totalNet": -207.381,
@@ -16947,27 +16947,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.288,
+          "contribution": 0.2884,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2864,
+          "contribution": 0.2868,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1794,
+          "contribution": 0.1797,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1456,
+          "contribution": 0.1442,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1007,
+          "contribution": 0.1009,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -17001,9 +17001,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7052608126058675,
       "volumeRatio20": 0.5719240874484499,
       "revenueMom21d": 0.0,
-      "foreign5": -1351.579,
-      "trust5": 2.0,
-      "totalNet5": -1349.579,
+      "foreign5": -2483.5789999999997,
+      "trust5": 3.0,
+      "totalNet5": -2480.5789999999997,
       "foreignNet": -161.147,
       "trustNet": 1.0,
       "totalNet": -157.991,
@@ -17031,34 +17031,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "相對強度排名前 43%",
-        "法人資金分數 50",
         "量能分數 49",
+        "法人資金分數 48",
         "趨勢結構分數 33"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2579,
+          "contribution": 0.2599,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2235,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.2228,
+          "contribution": 0.2245,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2176,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.1508,
+          "contribution": 0.152,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1449,
+          "contribution": 0.146,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -17092,9 +17092,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4252550320658633,
       "volumeRatio20": 0.5758327414231003,
       "revenueMom21d": 0.0,
-      "foreign5": 5081.536999999999,
+      "foreign5": 1760.798,
       "trust5": 0.0,
-      "totalNet5": 5081.536999999999,
+      "totalNet5": 1760.798,
       "foreignNet": -1078.24,
       "trustNet": 0.0,
       "totalNet": -1191.193,
@@ -17121,7 +17121,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 72",
+        "法人資金分數 69",
         "相對強度排名前 43%",
         "趨勢結構分數 41",
         "量能分數 32"
@@ -17129,27 +17129,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3234,
+          "contribution": 0.3149,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2592,
+          "contribution": 0.2624,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1841,
+          "contribution": 0.1864,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1422,
+          "contribution": 0.144,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0912,
+          "contribution": 0.0923,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -17183,9 +17183,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.3098163714709103,
       "volumeRatio20": 0.8977314544804901,
       "revenueMom21d": 0.0,
-      "foreign5": 1635.998999999998,
-      "trust5": -3638.771999999999,
-      "totalNet5": -2002.773000000001,
+      "foreign5": 1261.674999999998,
+      "trust5": -3139.008999999999,
+      "totalNet5": -1877.3340000000012,
       "foreignNet": -2847.658,
       "trustNet": 1976.631,
       "totalNet": -776.336,
@@ -17220,27 +17220,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2422,
+          "contribution": 0.2423,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.214,
+          "contribution": 0.2141,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2138,
+          "contribution": 0.2139,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2028,
+          "contribution": 0.2029,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1271,
+          "contribution": 0.1269,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -17274,9 +17274,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8002003293537081,
       "volumeRatio20": 0.2766899333010476,
       "revenueMom21d": 0.0,
-      "foreign5": 77.49099999999977,
+      "foreign5": -60.77500000000022,
       "trust5": 0.0,
-      "totalNet5": 77.49099999999977,
+      "totalNet5": -60.77500000000022,
       "foreignNet": 17.329,
       "trustNet": 0.0,
       "totalNet": -14.03,
@@ -17303,7 +17303,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 56",
+        "法人資金分數 54",
         "量能分數 38",
         "相對強度排名前 66%",
         "趨勢結構分數 27"
@@ -17311,27 +17311,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.34,
+          "contribution": 0.3319,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2271,
+          "contribution": 0.2299,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.207,
+          "contribution": 0.2096,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1601,
+          "contribution": 0.1621,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0658,
+          "contribution": 0.0666,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -17365,9 +17365,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.4160376984241956,
       "volumeRatio20": 1.1354911401477927,
       "revenueMom21d": 0.0,
-      "foreign5": -499.54000000000025,
-      "trust5": 782.156,
-      "totalNet5": 282.6159999999997,
+      "foreign5": 354.6849999999997,
+      "trust5": 784.156,
+      "totalNet5": 1138.8409999999997,
       "foreignNet": -184.423,
       "trustNet": 466.587,
       "totalNet": 292.687,
@@ -17396,33 +17396,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 94",
         "量能分數 91",
-        "相對強度排名前 26%",
-        "法人資金分數 63"
+        "法人資金分數 79",
+        "相對強度排名前 26%"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2708,
+          "contribution": 0.2591,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2618,
+          "contribution": 0.2504,
           "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Relative Strength",
-          "contribution": 0.2137,
-          "detail": "10日動能、52週位置與均線乖離綜合排名"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.1827,
+          "contribution": 0.2182,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Relative Strength",
+          "contribution": 0.2044,
+          "detail": "10日動能、52週位置與均線乖離綜合排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.071,
+          "contribution": 0.0679,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -17456,9 +17456,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5900871274399258,
       "volumeRatio20": 0.4363410212348518,
       "revenueMom21d": 0.0,
-      "foreign5": 2031.5340000000003,
+      "foreign5": 522.8420000000006,
       "trust5": 0.0,
-      "totalNet5": 2031.5340000000003,
+      "totalNet5": 522.8420000000006,
       "foreignNet": 45.052,
       "trustNet": 0.0,
       "totalNet": 48.627,
@@ -17488,32 +17488,32 @@ export const stockSearchData = {
         "趨勢結構分數 75",
         "波動控制分數 70",
         "相對強度排名前 30%",
-        "法人資金分數 68"
+        "法人資金分數 63"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.238,
+          "contribution": 0.2417,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2223,
+          "contribution": 0.2258,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2208,
+          "contribution": 0.2243,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2158,
+          "contribution": 0.2033,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1032,
+          "contribution": 0.1048,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -17547,9 +17547,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9494957170573752,
       "volumeRatio20": 0.6677756242653878,
       "revenueMom21d": 0.0,
-      "foreign5": -8377.709,
-      "trust5": 0.0,
-      "totalNet5": -8377.709,
+      "foreign5": -3019.5869999999995,
+      "trust5": -2.0,
+      "totalNet5": -3021.5869999999995,
       "foreignNet": 4.05,
       "trustNet": 0.0,
       "totalNet": 61.183,
@@ -17584,27 +17584,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2702,
+          "contribution": 0.2756,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2592,
+          "contribution": 0.2644,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2146,
+          "contribution": 0.2189,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.14,
+          "contribution": 0.1428,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.116,
+          "contribution": 0.0983,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -17638,9 +17638,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5779114661438185,
       "volumeRatio20": 0.4830772803320477,
       "revenueMom21d": 0.0,
-      "foreign5": -67936.081,
-      "trust5": 66018.61899999999,
-      "totalNet5": -1917.462000000014,
+      "foreign5": -75853.24799999999,
+      "trust5": 77694.739,
+      "totalNet5": 1841.491000000009,
       "foreignNet": -1294.079,
       "trustNet": 3708.369,
       "totalNet": 3090.459,
@@ -17675,27 +17675,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2708,
+          "contribution": 0.2709,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2608,
+          "contribution": 0.2609,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1802,
+          "contribution": 0.1803,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.17,
+          "contribution": 0.1697,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1181,
+          "contribution": 0.1182,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -17729,9 +17729,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.9917668035628315,
       "volumeRatio20": 1.4408677450890228,
       "revenueMom21d": 0.0,
-      "foreign5": -565.9000000000001,
+      "foreign5": -839.5710000000001,
       "trust5": 0.0,
-      "totalNet5": -565.9000000000001,
+      "totalNet5": -839.5710000000001,
       "foreignNet": -1388.086,
       "trustNet": 0.0,
       "totalNet": -1095.945,
@@ -17761,32 +17761,32 @@ export const stockSearchData = {
         "量能分數 95",
         "相對強度排名前 14%",
         "趨勢結構分數 64",
-        "法人資金分數 46"
+        "法人資金分數 44"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2913,
+          "contribution": 0.2924,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2637,
+          "contribution": 0.2648,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1968,
+          "contribution": 0.1976,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.139,
+          "contribution": 0.1355,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1092,
+          "contribution": 0.1097,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -17820,9 +17820,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5605091963448309,
       "volumeRatio20": 0.6998235856315083,
       "revenueMom21d": 0.0,
-      "foreign5": 727.5159999999998,
-      "trust5": 42.0,
-      "totalNet5": 769.5159999999998,
+      "foreign5": -599.829,
+      "trust5": 52.0,
+      "totalNet5": -547.829,
       "foreignNet": 871.767,
       "trustNet": 20.0,
       "totalNet": 917.573,
@@ -17849,35 +17849,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 76",
         "相對強度排名前 30%",
+        "法人資金分數 59",
         "量能分數 48",
         "波動控制分數 46"
       ],
       "explainability": [
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2689,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Relative Strength",
-          "contribution": 0.2492,
+          "contribution": 0.2649,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2227,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.1694,
+          "contribution": 0.1801,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.164,
+          "contribution": 0.1743,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1486,
+          "contribution": 0.158,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -17911,9 +17911,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.3084362188154348,
       "volumeRatio20": 0.3332644155113184,
       "revenueMom21d": 0.0,
-      "foreign5": -16712.377000000008,
-      "trust5": 20.0,
-      "totalNet5": -16692.377000000008,
+      "foreign5": -51024.59700000001,
+      "trust5": 17.0,
+      "totalNet5": -51007.59700000001,
       "foreignNet": -717.0,
       "trustNet": 20.0,
       "totalNet": -1145.214,
@@ -17941,34 +17941,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "趨勢結構分數 44",
-        "法人資金分數 41",
+        "法人資金分數 39",
         "相對強度排名前 65%",
         "波動控制分數 25"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2831,
+          "contribution": 0.2877,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2637,
+          "contribution": 0.2516,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2232,
+          "contribution": 0.2268,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1616,
+          "contribution": 0.1642,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0685,
+          "contribution": 0.0696,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -18002,9 +18002,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8561716057164415,
       "volumeRatio20": 0.4841681960660071,
       "revenueMom21d": 0.0,
-      "foreign5": 686.7270000000003,
+      "foreign5": -273.61299999999966,
       "trust5": 0.0,
-      "totalNet5": 686.7270000000003,
+      "totalNet5": -273.61299999999966,
       "foreignNet": 82.017,
       "trustNet": 0.0,
       "totalNet": 82.017,
@@ -18033,34 +18033,34 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 26%",
         "波動控制分數 69",
-        "法人資金分數 63",
-        "趨勢結構分數 62"
+        "趨勢結構分數 62",
+        "量能分數 55"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.228,
+          "contribution": 0.2377,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2143,
+          "contribution": 0.2233,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1962,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.1911,
+          "contribution": 0.1992,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1704,
+          "contribution": 0.1776,
           "detail": "5日與20日量能放大排名"
+        },
+        {
+          "factor": "Institutional Flow",
+          "contribution": 0.1621,
+          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -18093,9 +18093,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.96065819236337,
       "volumeRatio20": 0.6444385389294329,
       "revenueMom21d": 0.0,
-      "foreign5": 228.544,
-      "trust5": 2.3,
-      "totalNet5": 230.84400000000002,
+      "foreign5": 202.30499999999998,
+      "trust5": -0.7,
+      "totalNet5": 201.605,
       "foreignNet": 39.047,
       "trustNet": 0.0,
       "totalNet": 38.858,
@@ -18123,34 +18123,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 70",
-        "法人資金分數 68",
+        "法人資金分數 51",
         "波動控制分數 47",
         "趨勢結構分數 37"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2765,
+          "contribution": 0.2962,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2669,
+          "contribution": 0.2147,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1843,
+          "contribution": 0.1975,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.147,
+          "contribution": 0.1575,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1253,
+          "contribution": 0.1342,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -18184,9 +18184,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.905181608952301,
       "volumeRatio20": 0.5981954150905924,
       "revenueMom21d": 0.0,
-      "foreign5": 30670.006999999998,
-      "trust5": -422.692,
-      "totalNet5": 30247.315,
+      "foreign5": 43772.549999999996,
+      "trust5": -293.692,
+      "totalNet5": 43478.85799999999,
       "foreignNet": 3421.97,
       "trustNet": -192.806,
       "totalNet": 3153.164,
@@ -18221,27 +18221,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2375,
+          "contribution": 0.2372,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2339,
+          "contribution": 0.2336,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2185,
+          "contribution": 0.2182,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1673,
+          "contribution": 0.1671,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1429,
+          "contribution": 0.1438,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -18275,9 +18275,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7693437338682793,
       "volumeRatio20": 0.8200801239136437,
       "revenueMom21d": 0.0,
-      "foreign5": 1524.1829999999986,
-      "trust5": -4873.479000000001,
-      "totalNet5": -3349.2960000000026,
+      "foreign5": 3954.642999999998,
+      "trust5": -5886.033000000001,
+      "totalNet5": -1931.390000000003,
       "foreignNet": 1593.754,
       "trustNet": -1541.781,
       "totalNet": 46.493,
@@ -18305,34 +18305,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 66",
-        "法人資金分數 44",
+        "法人資金分數 48",
         "波動控制分數 31",
         "相對強度排名前 74%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3737,
+          "contribution": 0.3658,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.248,
+          "contribution": 0.264,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1749,
+          "contribution": 0.1711,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1497,
+          "contribution": 0.1465,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0537,
+          "contribution": 0.0526,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -18366,9 +18366,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.646467174857543,
       "volumeRatio20": 0.4537196053582215,
       "revenueMom21d": 0.0,
-      "foreign5": -241.11799999999997,
+      "foreign5": -256.787,
       "trust5": 0.0,
-      "totalNet5": -241.11799999999997,
+      "totalNet5": -256.787,
       "foreignNet": 38.91,
       "trustNet": 0.0,
       "totalNet": 38.91,
@@ -18403,27 +18403,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3237,
+          "contribution": 0.3242,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2505,
+          "contribution": 0.2504,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2013,
+          "contribution": 0.2011,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1197,
+          "contribution": 0.1196,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1048,
+          "contribution": 0.1047,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -18457,9 +18457,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4224360265735579,
       "volumeRatio20": 0.5667081397732147,
       "revenueMom21d": 0.0,
-      "foreign5": -4334.674999999998,
+      "foreign5": 2016.626000000001,
       "trust5": 0.0,
-      "totalNet5": -4334.674999999998,
+      "totalNet5": 2016.626000000001,
       "foreignNet": -2131.906,
       "trustNet": 0.0,
       "totalNet": -2147.896,
@@ -18486,35 +18486,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 70",
         "相對強度排名前 52%",
         "趨勢結構分數 42",
-        "法人資金分數 35",
         "量能分數 30"
       ],
       "explainability": [
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.3335,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.276,
+          "contribution": 0.2296,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2418,
+          "contribution": 0.2011,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1986,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.1722,
+          "contribution": 0.1432,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1113,
+          "contribution": 0.0926,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -18548,9 +18548,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.811361138411191,
       "volumeRatio20": 1.595118893171075,
       "revenueMom21d": 0.0,
-      "foreign5": 1013.8669999999988,
-      "trust5": -258.0,
-      "totalNet5": 755.8669999999988,
+      "foreign5": 516.074999999999,
+      "trust5": -128.0,
+      "totalNet5": 388.074999999999,
       "foreignNet": -201.301,
       "trustNet": -4.0,
       "totalNet": -187.791,
@@ -18585,27 +18585,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2584,
+          "contribution": 0.2596,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2318,
+          "contribution": 0.2329,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1993,
+          "contribution": 0.2002,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1828,
+          "contribution": 0.1837,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1277,
+          "contribution": 0.1236,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -18639,9 +18639,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4036769833446265,
       "volumeRatio20": 0.3745258706281841,
       "revenueMom21d": 0.0,
-      "foreign5": 3934.402,
+      "foreign5": -3562.9269999999997,
       "trust5": 0.0,
-      "totalNet5": 3934.402,
+      "totalNet5": -3562.9269999999997,
       "foreignNet": 1745.104,
       "trustNet": 0.0,
       "totalNet": 1738.782,
@@ -18668,35 +18668,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 71",
         "相對強度排名前 61%",
         "波動控制分數 38",
+        "法人資金分數 36",
         "趨勢結構分數 23"
       ],
       "explainability": [
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.3798,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Relative Strength",
-          "contribution": 0.2073,
+          "contribution": 0.2552,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2051,
+          "contribution": 0.2526,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2363,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.1225,
+          "contribution": 0.1509,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0853,
+          "contribution": 0.105,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -18730,9 +18730,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9586243376946963,
       "volumeRatio20": 0.483699428041701,
       "revenueMom21d": 0.0,
-      "foreign5": -17443.276000000005,
-      "trust5": 5093.346,
-      "totalNet5": -12349.930000000006,
+      "foreign5": -21953.822000000007,
+      "trust5": 5047.432000000001,
+      "totalNet5": -16906.390000000007,
       "foreignNet": -3988.892,
       "trustNet": 2890.964,
       "totalNet": -1075.657,
@@ -18767,27 +18767,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2168,
+          "contribution": 0.217,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2057,
+          "contribution": 0.206,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2024,
+          "contribution": 0.2026,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1915,
+          "contribution": 0.1917,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1836,
+          "contribution": 0.1827,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -18821,9 +18821,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.893484179121584,
       "volumeRatio20": 0.7219971913560895,
       "revenueMom21d": 0.0,
-      "foreign5": -55107.739999999976,
-      "trust5": 89163.053,
-      "totalNet5": 34055.313000000024,
+      "foreign5": -40137.65699999998,
+      "trust5": 88162.648,
+      "totalNet5": 48024.99100000002,
       "foreignNet": -6826.601,
       "trustNet": 15256.513,
       "totalNet": 8786.15,
@@ -18858,27 +18858,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2419,
+          "contribution": 0.2414,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2258,
+          "contribution": 0.2254,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2225,
+          "contribution": 0.2221,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1812,
+          "contribution": 0.1808,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1286,
+          "contribution": 0.1304,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -18912,9 +18912,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8240523780063037,
       "volumeRatio20": 0.3874111115458611,
       "revenueMom21d": 0.0,
-      "foreign5": -4518.1050000000005,
+      "foreign5": -4740.533,
       "trust5": 0.0,
-      "totalNet5": -4518.1050000000005,
+      "totalNet5": -4740.533,
       "foreignNet": -43.42,
       "trustNet": 0.0,
       "totalNet": -11.834,
@@ -18949,27 +18949,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2882,
+          "contribution": 0.2887,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.271,
+          "contribution": 0.2715,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2143,
+          "contribution": 0.2128,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1246,
+          "contribution": 0.1248,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1019,
+          "contribution": 0.1021,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -19003,9 +19003,9 @@ export const stockSearchData = {
       "volumeRatio5": 2.592609452750929,
       "volumeRatio20": 2.6575039077897897,
       "revenueMom21d": 0.0,
-      "foreign5": -2934.2739999999985,
-      "trust5": 9263.000000000004,
-      "totalNet5": 6328.726000000005,
+      "foreign5": -2764.4569999999985,
+      "trust5": 9275.000000000004,
+      "totalNet5": 6510.543000000005,
       "foreignNet": 2423.308,
       "trustNet": 5647.0,
       "totalNet": 8216.644,
@@ -19033,34 +19033,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 99",
+        "法人資金分數 59",
         "趨勢結構分數 59",
-        "法人資金分數 57",
         "相對強度排名前 47%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3219,
+          "contribution": 0.3202,
           "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Trend Structure",
-          "contribution": 0.1924,
-          "detail": "ADX 與 MA20 趨勢結構"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.1875,
+          "contribution": 0.192,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Trend Structure",
+          "contribution": 0.1914,
+          "detail": "ADX 與 MA20 趨勢結構"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1716,
+          "contribution": 0.1706,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1265,
+          "contribution": 0.1258,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -19094,9 +19094,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0650042318253323,
       "volumeRatio20": 0.6814298487708133,
       "revenueMom21d": 0.0,
-      "foreign5": 460.2280000000029,
-      "trust5": -34.504000000000225,
-      "totalNet5": 425.72400000000266,
+      "foreign5": 744.7010000000029,
+      "trust5": -22.515000000000228,
+      "totalNet5": 722.1860000000027,
       "foreignNet": 597.419,
       "trustNet": -2.062,
       "totalNet": 670.808,
@@ -19125,33 +19125,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 76",
         "波動控制分數 58",
-        "趨勢結構分數 47",
-        "法人資金分數 46"
+        "法人資金分數 49",
+        "趨勢結構分數 47"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2809,
+          "contribution": 0.2779,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2143,
+          "contribution": 0.212,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Trend Structure",
-          "contribution": 0.1727,
-          "detail": "ADX 與 MA20 趨勢結構"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.1723,
+          "contribution": 0.1812,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Trend Structure",
+          "contribution": 0.1708,
+          "detail": "ADX 與 MA20 趨勢結構"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1598,
+          "contribution": 0.1581,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -19185,9 +19185,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5780275107494373,
       "volumeRatio20": 0.5923323686805254,
       "revenueMom21d": 0.0,
-      "foreign5": -107937.23300000002,
-      "trust5": 113654.50399999999,
-      "totalNet5": 5717.270999999964,
+      "foreign5": -101755.58800000002,
+      "trust5": 110688.62099999998,
+      "totalNet5": 8933.032999999967,
       "foreignNet": -1454.927,
       "trustNet": 3953.962,
       "totalNet": 3051.703,
@@ -19222,22 +19222,22 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2524,
+          "contribution": 0.2525,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2499,
+          "contribution": 0.25,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.239,
+          "contribution": 0.2391,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1404,
+          "contribution": 0.1402,
           "detail": "外資與投信近5日買超排名"
         },
         {
@@ -19276,9 +19276,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6615962908974425,
       "volumeRatio20": 0.6910313126647792,
       "revenueMom21d": 0.0,
-      "foreign5": -574.0500000000013,
-      "trust5": -119.5429999999995,
-      "totalNet5": -693.5930000000008,
+      "foreign5": -1186.8560000000014,
+      "trust5": 492.3550000000005,
+      "totalNet5": -694.5010000000009,
       "foreignNet": 312.425,
       "trustNet": 214.187,
       "totalNet": 546.54,
@@ -19305,35 +19305,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 59",
         "量能分數 56",
         "波動控制分數 46",
-        "相對強度排名前 60%",
-        "法人資金分數 29"
+        "相對強度排名前 60%"
       ],
       "explainability": [
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2617,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.2845,
+          "contribution": 0.246,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2359,
+          "contribution": 0.204,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2024,
+          "contribution": 0.1751,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1464,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.1309,
+          "contribution": 0.1132,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -19367,9 +19367,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.3647131564350352,
       "volumeRatio20": 0.2940164833665767,
       "revenueMom21d": 0.0,
-      "foreign5": -1543.3000000000002,
+      "foreign5": -1378.3000000000002,
       "trust5": 0.0,
-      "totalNet5": -1543.3000000000002,
+      "totalNet5": -1378.3000000000002,
       "foreignNet": -118.0,
       "trustNet": 0.0,
       "totalNet": -118.0,
@@ -19396,35 +19396,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 42",
         "波動控制分數 41",
-        "法人資金分數 40",
         "相對強度排名前 60%",
         "趨勢結構分數 34"
       ],
       "explainability": [
         {
-          "factor": "Volatility Control",
-          "contribution": 0.2499,
-          "detail": "20日波動相對分數，越高代表越穩定"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.2429,
+          "contribution": 0.2529,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Volatility Control",
+          "contribution": 0.2466,
+          "detail": "20日波動相對分數，越高代表越穩定"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.2426,
+          "contribution": 0.2393,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.204,
+          "contribution": 0.2013,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0606,
+          "contribution": 0.0598,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -19458,9 +19458,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5322442002355814,
       "volumeRatio20": 0.2332371280561286,
       "revenueMom21d": 0.0,
-      "foreign5": -895.5189999999998,
-      "trust5": -2.0,
-      "totalNet5": -897.5189999999998,
+      "foreign5": -678.6919999999999,
+      "trust5": -9.0,
+      "totalNet5": -687.6919999999999,
       "foreignNet": 337.192,
       "trustNet": 0.0,
       "totalNet": 338.109,
@@ -19489,33 +19489,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 42%",
         "趨勢結構分數 53",
-        "法人資金分數 33",
+        "法人資金分數 32",
         "波動控制分數 27"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.312,
+          "contribution": 0.3137,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2865,
+          "contribution": 0.288,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1796,
+          "contribution": 0.1751,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1454,
+          "contribution": 0.1462,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0765,
+          "contribution": 0.077,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -19549,9 +19549,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.1280803848174614,
       "volumeRatio20": 0.5693048491837304,
       "revenueMom21d": 0.0,
-      "foreign5": 1146.619,
+      "foreign5": 72.13499999999993,
       "trust5": 0.0,
-      "totalNet5": 1146.619,
+      "totalNet5": 72.13499999999993,
       "foreignNet": 226.0,
       "trustNet": 0.0,
       "totalNet": 225.0,
@@ -19579,34 +19579,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 69",
-        "法人資金分數 66",
+        "法人資金分數 57",
         "趨勢結構分數 27",
         "相對強度排名前 77%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3393,
+          "contribution": 0.3545,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3232,
+          "contribution": 0.2929,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1314,
+          "contribution": 0.1373,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1103,
+          "contribution": 0.1152,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0958,
+          "contribution": 0.1001,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -19640,9 +19640,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7849929891841013,
       "volumeRatio20": 0.2578365978933843,
       "revenueMom21d": 0.0,
-      "foreign5": -6711.882,
-      "trust5": 10883.705,
-      "totalNet5": 4171.823,
+      "foreign5": -14578.516,
+      "trust5": 13173.396,
+      "totalNet5": -1405.119999999999,
       "foreignNet": -695.137,
       "trustNet": 2930.53,
       "totalNet": 2500.569,
@@ -19670,34 +19670,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 57",
-        "法人資金分數 54",
         "相對強度排名前 47%",
+        "法人資金分數 52",
         "趨勢結構分數 45"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2361,
+          "contribution": 0.2385,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2228,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Relative Strength",
-          "contribution": 0.2173,
+          "contribution": 0.2195,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.215,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.1837,
+          "contribution": 0.1856,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1401,
+          "contribution": 0.1415,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -19731,9 +19731,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0889301600252672,
       "volumeRatio20": 0.842303320046632,
       "revenueMom21d": 0.0,
-      "foreign5": -159.8330000000005,
-      "trust5": -385.3339999999999,
-      "totalNet5": -545.1670000000004,
+      "foreign5": 151.28899999999945,
+      "trust5": -295.2839999999999,
+      "totalNet5": -143.99500000000043,
       "foreignNet": 0.432,
       "trustNet": 0.833,
       "totalNet": 3.061,
@@ -19762,33 +19762,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 81",
         "波動控制分數 63",
-        "法人資金分數 33",
+        "法人資金分數 39",
         "相對強度排名前 74%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3536,
+          "contribution": 0.3442,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2764,
+          "contribution": 0.269,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1444,
+          "contribution": 0.1672,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1157,
+          "contribution": 0.1126,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1099,
+          "contribution": 0.107,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -19822,9 +19822,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0251097114794836,
       "volumeRatio20": 0.8842555464642732,
       "revenueMom21d": 0.0,
-      "foreign5": 26847.669000000013,
-      "trust5": -866.712,
-      "totalNet5": 25980.957000000013,
+      "foreign5": 55197.576000000015,
+      "trust5": -153.266,
+      "totalNet5": 55044.31000000001,
       "foreignNet": 9844.813,
       "trustNet": -116.315,
       "totalNet": 9762.951,
@@ -19859,27 +19859,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2412,
+          "contribution": 0.2393,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2143,
+          "contribution": 0.2127,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2042,
+          "contribution": 0.2026,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2021,
+          "contribution": 0.2005,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1382,
+          "contribution": 0.145,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -19913,9 +19913,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9438446711207048,
       "volumeRatio20": 0.5515337557722861,
       "revenueMom21d": 0.0,
-      "foreign5": -1123.23,
+      "foreign5": -1230.844,
       "trust5": 0.0,
-      "totalNet5": -1123.23,
+      "totalNet5": -1230.844,
       "foreignNet": 203.669,
       "trustNet": 0.0,
       "totalNet": 198.549,
@@ -19950,27 +19950,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2935,
+          "contribution": 0.2927,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2846,
+          "contribution": 0.2838,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1942,
+          "contribution": 0.1964,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1296,
+          "contribution": 0.1292,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0981,
+          "contribution": 0.0979,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -20004,9 +20004,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7568305265324269,
       "volumeRatio20": 0.3901368215094464,
       "revenueMom21d": 0.0,
-      "foreign5": -702.118,
+      "foreign5": -2146.665,
       "trust5": 0.0,
-      "totalNet5": -702.118,
+      "totalNet5": -2146.665,
       "foreignNet": -169.317,
       "trustNet": 0.0,
       "totalNet": -207.101,
@@ -20033,35 +20033,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 45",
         "量能分數 41",
+        "法人資金分數 40",
         "波動控制分數 36",
         "趨勢結構分數 35"
       ],
       "explainability": [
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2438,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.2237,
+          "contribution": 0.2297,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2232,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.1944,
+          "contribution": 0.1997,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1905,
+          "contribution": 0.1957,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1476,
+          "contribution": 0.1516,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -20095,9 +20095,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.759353813155173,
       "volumeRatio20": 0.688854952376635,
       "revenueMom21d": 0.0,
-      "foreign5": 408.15999999999974,
-      "trust5": -585.475,
-      "totalNet5": -177.31500000000028,
+      "foreign5": 245.9769999999997,
+      "trust5": -986.475,
+      "totalNet5": -740.4980000000003,
       "foreignNet": -108.5,
       "trustNet": -31.857,
       "totalNet": -140.797,
@@ -20126,28 +20126,28 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 62",
         "趨勢結構分數 55",
-        "法人資金分數 41",
+        "法人資金分數 39",
         "相對強度排名前 82%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3526,
+          "contribution": 0.3567,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.3128,
+          "contribution": 0.3164,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.232,
+          "contribution": 0.223,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1027,
+          "contribution": 0.1039,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
@@ -20186,9 +20186,9 @@ export const stockSearchData = {
       "volumeRatio5": 2.1567498985838838,
       "volumeRatio20": 3.192572983328981,
       "revenueMom21d": 0.0,
-      "foreign5": 3921.58700000001,
-      "trust5": 4362.0,
-      "totalNet5": 8283.58700000001,
+      "foreign5": 3246.98400000001,
+      "trust5": 4927.0,
+      "totalNet5": 8173.9840000000095,
       "foreignNet": 483.315,
       "trustNet": 2793.0,
       "totalNet": 3379.196,
@@ -20216,34 +20216,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 99",
-        "法人資金分數 91",
+        "法人資金分數 92",
         "相對強度排名前 32%",
         "趨勢結構分數 67"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2627,
+          "contribution": 0.2623,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2415,
+          "contribution": 0.2427,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1812,
+          "contribution": 0.1809,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1782,
+          "contribution": 0.1779,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1363,
+          "contribution": 0.1361,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -20277,9 +20277,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.9031226824213408,
       "volumeRatio20": 1.4372884753956063,
       "revenueMom21d": 0.0702049574723704,
-      "foreign5": 996.1120000000001,
-      "trust5": 95.0,
-      "totalNet5": 1091.112,
+      "foreign5": 664.8880000000001,
+      "trust5": 45.0,
+      "totalNet5": 709.8880000000001,
       "foreignNet": 282.627,
       "trustNet": 45.0,
       "totalNet": 329.629,
@@ -20308,33 +20308,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 95",
         "波動控制分數 93",
-        "法人資金分數 78",
+        "法人資金分數 77",
         "相對強度排名前 27%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.234,
+          "contribution": 0.2348,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2288,
+          "contribution": 0.2296,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1934,
+          "contribution": 0.1904,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1804,
+          "contribution": 0.1811,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1635,
+          "contribution": 0.1641,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -20368,9 +20368,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9021376409331656,
       "volumeRatio20": 0.4383202990213509,
       "revenueMom21d": 0.0,
-      "foreign5": 65.3950000000001,
-      "trust5": -5.0,
-      "totalNet5": 60.395000000000095,
+      "foreign5": 811.802,
+      "trust5": -6.0,
+      "totalNet5": 805.802,
       "foreignNet": 265.418,
       "trustNet": 0.0,
       "totalNet": 249.96,
@@ -20398,34 +20398,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 54",
-        "法人資金分數 45",
+        "法人資金分數 53",
         "波動控制分數 35",
         "趨勢結構分數 23"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3083,
+          "contribution": 0.2942,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2532,
+          "contribution": 0.2871,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1986,
+          "contribution": 0.1896,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1315,
+          "contribution": 0.1255,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1085,
+          "contribution": 0.1036,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -20459,9 +20459,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8931270493127798,
       "volumeRatio20": 0.6489254866171954,
       "revenueMom21d": 0.0,
-      "foreign5": -2009.4499999999991,
+      "foreign5": -2083.882999999999,
       "trust5": 12.388,
-      "totalNet5": -1997.0619999999992,
+      "totalNet5": -2071.494999999999,
       "foreignNet": -372.48,
       "trustNet": 12.388,
       "totalNet": -367.738,
@@ -20496,27 +20496,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2309,
+          "contribution": 0.2295,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2265,
+          "contribution": 0.2251,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2094,
+          "contribution": 0.2081,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1819,
+          "contribution": 0.1808,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1512,
+          "contribution": 0.1565,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -20550,9 +20550,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5739867130383437,
       "volumeRatio20": 0.1936290305697328,
       "revenueMom21d": 0.0,
-      "foreign5": -327.85400000000004,
+      "foreign5": -407.586,
       "trust5": 0.0,
-      "totalNet5": -327.85400000000004,
+      "totalNet5": -407.586,
       "foreignNet": 172.332,
       "trustNet": 0.0,
       "totalNet": 173.332,
@@ -20581,33 +20581,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 63",
         "趨勢結構分數 52",
-        "法人資金分數 49",
+        "法人資金分數 48",
         "相對強度排名前 60%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2865,
+          "contribution": 0.2879,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2358,
+          "contribution": 0.237,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.225,
+          "contribution": 0.221,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1827,
+          "contribution": 0.1836,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.07,
+          "contribution": 0.0704,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -20641,9 +20641,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.2632388536961845,
       "volumeRatio20": 0.7338006620069195,
       "revenueMom21d": 0.0,
-      "foreign5": -746.8309999999991,
-      "trust5": -143.879,
-      "totalNet5": -890.7099999999991,
+      "foreign5": -156.9829999999991,
+      "trust5": -148.777,
+      "totalNet5": -305.7599999999991,
       "foreignNet": 192.442,
       "trustNet": -117.838,
       "totalNet": 38.273,
@@ -20673,33 +20673,33 @@ export const stockSearchData = {
         "量能分數 81",
         "波動控制分數 72",
         "趨勢結構分數 42",
-        "相對強度排名前 72%"
+        "法人資金分數 34"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3242,
+          "contribution": 0.3153,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2884,
+          "contribution": 0.2806,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1682,
+          "contribution": 0.1636,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
-          "factor": "Relative Strength",
-          "contribution": 0.1108,
-          "detail": "10日動能、52週位置與均線乖離綜合排名"
+          "factor": "Institutional Flow",
+          "contribution": 0.1328,
+          "detail": "外資與投信近5日買超排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1085,
-          "detail": "外資與投信近5日買超排名"
+          "factor": "Relative Strength",
+          "contribution": 0.1077,
+          "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
     },
@@ -20732,9 +20732,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5256958806099344,
       "volumeRatio20": 0.3552766846250808,
       "revenueMom21d": 0.0,
-      "foreign5": 2874.027999999995,
-      "trust5": -2962.554,
-      "totalNet5": -88.5260000000053,
+      "foreign5": 1838.2699999999948,
+      "trust5": -2855.554,
+      "totalNet5": -1017.2840000000053,
       "foreignNet": 77.896,
       "trustNet": -33.554,
       "totalNet": 109.643,
@@ -20762,34 +20762,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 67",
-        "法人資金分數 47",
+        "法人資金分數 46",
         "趨勢結構分數 27",
         "量能分數 21"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3647,
+          "contribution": 0.3661,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2575,
+          "contribution": 0.2546,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1498,
+          "contribution": 0.1503,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1149,
+          "contribution": 0.1154,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1131,
+          "contribution": 0.1135,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -20823,9 +20823,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8104625631301725,
       "volumeRatio20": 0.5553396701294219,
       "revenueMom21d": 0.0,
-      "foreign5": -84.91,
+      "foreign5": -164.237,
       "trust5": 0.0,
-      "totalNet5": -84.91,
+      "totalNet5": -164.237,
       "foreignNet": 35.0,
       "trustNet": 0.0,
       "totalNet": 35.096,
@@ -20855,32 +20855,32 @@ export const stockSearchData = {
         "波動控制分數 61",
         "量能分數 57",
         "相對強度排名前 47%",
-        "法人資金分數 53"
+        "法人資金分數 52"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2263,
+          "contribution": 0.2272,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2099,
+          "contribution": 0.2107,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1952,
+          "contribution": 0.1961,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1952,
+          "contribution": 0.1919,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1734,
+          "contribution": 0.1741,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -20914,9 +20914,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5073782494406041,
       "volumeRatio20": 0.2807613348828037,
       "revenueMom21d": 0.0,
-      "foreign5": 195.47799999999998,
+      "foreign5": 107.85799999999998,
       "trust5": -1.0,
-      "totalNet5": 194.47799999999998,
+      "totalNet5": 106.85799999999998,
       "foreignNet": 61.614,
       "trustNet": -1.0,
       "totalNet": 60.614,
@@ -20951,27 +20951,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2711,
+          "contribution": 0.2715,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2342,
+          "contribution": 0.2346,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2283,
+          "contribution": 0.2272,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1936,
+          "contribution": 0.1939,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0727,
+          "contribution": 0.0728,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -21005,9 +21005,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5552276557713104,
       "volumeRatio20": 0.5073566733330839,
       "revenueMom21d": 0.0,
-      "foreign5": -6363.621000000003,
-      "trust5": 40.00000000000023,
-      "totalNet5": -6323.621000000003,
+      "foreign5": -10841.950000000004,
+      "trust5": 37.00000000000023,
+      "totalNet5": -10804.950000000004,
       "foreignNet": -2404.075,
       "trustNet": 0.0,
       "totalNet": -2723.427,
@@ -21035,34 +21035,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "相對強度排名前 44%",
-        "法人資金分數 45",
+        "法人資金分數 43",
         "波動控制分數 42",
         "量能分數 34"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2768,
+          "contribution": 0.2794,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2233,
+          "contribution": 0.2159,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2073,
+          "contribution": 0.2093,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1685,
+          "contribution": 0.1701,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1241,
+          "contribution": 0.1253,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -21096,9 +21096,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4521148653494914,
       "volumeRatio20": 0.5979789500892968,
       "revenueMom21d": 0.0,
-      "foreign5": -455.116,
+      "foreign5": -942.3309999999999,
       "trust5": 0.0,
-      "totalNet5": -455.116,
+      "totalNet5": -942.3309999999999,
       "foreignNet": 152.49,
       "trustNet": 0.0,
       "totalNet": 136.745,
@@ -21126,34 +21126,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 50",
-        "法人資金分數 48",
         "相對強度排名前 53%",
+        "法人資金分數 44",
         "趨勢結構分數 42"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2248,
+          "contribution": 0.2288,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2154,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Relative Strength",
-          "contribution": 0.2138,
+          "contribution": 0.2176,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2016,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.1901,
+          "contribution": 0.1934,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1558,
+          "contribution": 0.1586,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -21187,9 +21187,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0529722406904207,
       "volumeRatio20": 0.5894642917350769,
       "revenueMom21d": 0.0,
-      "foreign5": 1643.0949999999993,
-      "trust5": 224.05499999999984,
-      "totalNet5": 1867.1499999999992,
+      "foreign5": -2800.4170000000004,
+      "trust5": 621.055,
+      "totalNet5": -2179.3620000000005,
       "foreignNet": -2518.243,
       "trustNet": 1477.194,
       "totalNet": -1262.877,
@@ -21217,34 +21217,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 83",
-        "法人資金分數 83",
         "量能分數 69",
+        "法人資金分數 54",
         "相對強度排名前 49%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2535,
+          "contribution": 0.2773,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2519,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.2106,
+          "contribution": 0.2304,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1815,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1554,
+          "contribution": 0.17,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1286,
+          "contribution": 0.1407,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -21278,9 +21278,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.94677679555138,
       "volumeRatio20": 1.485909752898703,
       "revenueMom21d": 0.0,
-      "foreign5": 385.81600000000003,
-      "trust5": 486.029,
-      "totalNet5": 871.845,
+      "foreign5": 319.827,
+      "trust5": 501.0,
+      "totalNet5": 820.827,
       "foreignNet": 455.437,
       "trustNet": 269.0,
       "totalNet": 779.62,
@@ -21315,27 +21315,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.298,
+          "contribution": 0.2971,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2388,
+          "contribution": 0.2409,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1936,
+          "contribution": 0.1931,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1373,
+          "contribution": 0.1369,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1323,
+          "contribution": 0.1319,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -21369,9 +21369,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6239760149176918,
       "volumeRatio20": 0.3225761965836671,
       "revenueMom21d": 0.0,
-      "foreign5": -3144.3740000000007,
+      "foreign5": -3919.4230000000007,
       "trust5": 0.0,
-      "totalNet5": -3144.3740000000007,
+      "totalNet5": -3919.4230000000007,
       "foreignNet": -420.975,
       "trustNet": 0.0,
       "totalNet": -438.513,
@@ -21400,33 +21400,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 51%",
         "趨勢結構分數 49",
-        "法人資金分數 36",
+        "法人資金分數 35",
         "波動控制分數 30"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.258,
+          "contribution": 0.2589,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2563,
+          "contribution": 0.2571,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1895,
+          "contribution": 0.1869,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1595,
+          "contribution": 0.16,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1366,
+          "contribution": 0.1371,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -21460,9 +21460,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6538172158566942,
       "volumeRatio20": 0.6124175045937502,
       "revenueMom21d": 0.0,
-      "foreign5": 173.0149999999997,
-      "trust5": 174.0,
-      "totalNet5": 347.0149999999997,
+      "foreign5": -67.94400000000027,
+      "trust5": 179.0,
+      "totalNet5": 111.05599999999973,
       "foreignNet": 65.917,
       "trustNet": 40.0,
       "totalNet": 106.911,
@@ -21489,7 +21489,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 72",
+        "法人資金分數 69",
         "量能分數 50",
         "相對強度排名前 50%",
         "波動控制分數 48"
@@ -21497,27 +21497,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2896,
+          "contribution": 0.2795,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2023,
+          "contribution": 0.2051,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2013,
+          "contribution": 0.2042,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1937,
+          "contribution": 0.1965,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1131,
+          "contribution": 0.1147,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -21551,9 +21551,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8123161381030984,
       "volumeRatio20": 0.6123031304704981,
       "revenueMom21d": 0.0,
-      "foreign5": -9292.848,
-      "trust5": 155.99999999999977,
-      "totalNet5": -9136.848,
+      "foreign5": -4806.973,
+      "trust5": 197.99999999999977,
+      "totalNet5": -4608.973,
       "foreignNet": -794.72,
       "trustNet": 82.0,
       "totalNet": -733.6,
@@ -21581,34 +21581,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 62",
+        "法人資金分數 49",
         "波動控制分數 49",
-        "法人資金分數 46",
         "相對強度排名前 74%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3184,
+          "contribution": 0.3132,
           "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Volatility Control",
-          "contribution": 0.25,
-          "detail": "20日波動相對分數，越高代表越穩定"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.2344,
+          "contribution": 0.2469,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Volatility Control",
+          "contribution": 0.2459,
+          "detail": "20日波動相對分數，越高代表越穩定"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1345,
+          "contribution": 0.1323,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0627,
+          "contribution": 0.0617,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -21642,9 +21642,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5487422415848149,
       "volumeRatio20": 0.2087155962880413,
       "revenueMom21d": 0.0,
-      "foreign5": -667.2989999999999,
+      "foreign5": -692.0989999999999,
       "trust5": 0.0,
-      "totalNet5": -667.2989999999999,
+      "totalNet5": -692.0989999999999,
       "foreignNet": -87.825,
       "trustNet": 0.0,
       "totalNet": -87.825,
@@ -21679,27 +21679,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3826,
+          "contribution": 0.3842,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2272,
+          "contribution": 0.2266,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1871,
+          "contribution": 0.1866,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1222,
+          "contribution": 0.1219,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0809,
+          "contribution": 0.0807,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -21733,9 +21733,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9705468183437744,
       "volumeRatio20": 0.4811093865171596,
       "revenueMom21d": 0.0,
-      "foreign5": 1145.2440000000001,
+      "foreign5": 1000.4800000000001,
       "trust5": 0.0,
-      "totalNet5": 1145.2440000000001,
+      "totalNet5": 1000.4800000000001,
       "foreignNet": 422.779,
       "trustNet": 0.0,
       "totalNet": 468.94,
@@ -21770,27 +21770,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2688,
+          "contribution": 0.2694,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2431,
+          "contribution": 0.2429,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2254,
+          "contribution": 0.2252,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1365,
+          "contribution": 0.1364,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1263,
+          "contribution": 0.1262,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -21824,9 +21824,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4583166995937922,
       "volumeRatio20": 0.3262947716300864,
       "revenueMom21d": 0.0,
-      "foreign5": -29359.427999999993,
-      "trust5": -15.0,
-      "totalNet5": -29374.427999999993,
+      "foreign5": -40959.494999999995,
+      "trust5": -8.0,
+      "totalNet5": -40967.494999999995,
       "foreignNet": -2927.225,
       "trustNet": 0.0,
       "totalNet": -3161.399,
@@ -21855,33 +21855,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 42",
         "相對強度排名前 72%",
-        "法人資金分數 16",
+        "法人資金分數 15",
         "量能分數 15"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3862,
+          "contribution": 0.3887,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2605,
+          "contribution": 0.2622,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1459,
+          "contribution": 0.1403,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1352,
+          "contribution": 0.1361,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0722,
+          "contribution": 0.0727,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -21915,9 +21915,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8289983593517346,
       "volumeRatio20": 0.5186817094463165,
       "revenueMom21d": 0.0,
-      "foreign5": 74.12800000000001,
-      "trust5": -1183.0,
-      "totalNet5": -1108.872,
+      "foreign5": -624.3870000000001,
+      "trust5": -870.0,
+      "totalNet5": -1494.3870000000002,
       "foreignNet": 123.938,
       "trustNet": -235.0,
       "totalNet": -118.243,
@@ -21946,33 +21946,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 56",
         "波動控制分數 51",
-        "法人資金分數 35",
-        "相對強度排名前 75%"
+        "相對強度排名前 75%",
+        "法人資金分數 25"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.299,
+          "contribution": 0.3175,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2718,
+          "contribution": 0.2886,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1903,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Relative Strength",
-          "contribution": 0.1334,
+          "contribution": 0.1416,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1403,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.1055,
+          "contribution": 0.112,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -22006,9 +22006,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7281869724034522,
       "volumeRatio20": 0.4631097666702241,
       "revenueMom21d": 0.0,
-      "foreign5": 1793.959999999998,
+      "foreign5": -3423.040000000002,
       "trust5": 0.0,
-      "totalNet5": 1793.959999999998,
+      "totalNet5": -3423.040000000002,
       "foreignNet": -1665.0,
       "trustNet": 0.0,
       "totalNet": -1657.0,
@@ -22038,33 +22038,33 @@ export const stockSearchData = {
         "波動控制分數 95",
         "相對強度排名前 25%",
         "趨勢結構分數 73",
-        "法人資金分數 68"
+        "量能分數 45"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2667,
+          "contribution": 0.2929,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2107,
+          "contribution": 0.2314,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2046,
+          "contribution": 0.2247,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1911,
-          "detail": "外資與投信近5日買超排名"
+          "factor": "Volume Expansion",
+          "contribution": 0.1393,
+          "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Volume Expansion",
-          "contribution": 0.1268,
-          "detail": "5日與20日量能放大排名"
+          "factor": "Institutional Flow",
+          "contribution": 0.1117,
+          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -22097,9 +22097,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4625472385450157,
       "volumeRatio20": 0.3693998960533308,
       "revenueMom21d": 0.0,
-      "foreign5": -12356.488000000003,
-      "trust5": 13349.967,
-      "totalNet5": 993.4789999999975,
+      "foreign5": -11613.771000000002,
+      "trust5": 13866.184,
+      "totalNet5": 2252.412999999997,
       "foreignNet": -1041.7,
       "trustNet": 730.604,
       "totalNet": -391.825,
@@ -22129,32 +22129,32 @@ export const stockSearchData = {
         "相對強度排名前 30%",
         "波動控制分數 57",
         "趨勢結構分數 55",
-        "法人資金分數 52"
+        "法人資金分數 53"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2782,
+          "contribution": 0.2771,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2255,
+          "contribution": 0.2246,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2183,
+          "contribution": 0.2174,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2062,
+          "contribution": 0.2094,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0718,
+          "contribution": 0.0715,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -22188,9 +22188,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.3387350502373529,
       "volumeRatio20": 0.3758793643825644,
       "revenueMom21d": 0.0,
-      "foreign5": 744.736,
+      "foreign5": 411.525,
       "trust5": 0.0,
-      "totalNet5": 744.736,
+      "totalNet5": 411.525,
       "foreignNet": 18.0,
       "trustNet": 0.0,
       "totalNet": -0.074,
@@ -22218,34 +22218,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "相對強度排名前 33%",
-        "法人資金分數 64",
         "趨勢結構分數 63",
+        "法人資金分數 62",
         "波動控制分數 29"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2822,
+          "contribution": 0.2836,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2686,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.2654,
+          "contribution": 0.2667,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2648,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.1212,
+          "contribution": 0.1218,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0627,
+          "contribution": 0.063,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -22279,9 +22279,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4914046174753759,
       "volumeRatio20": 0.4684773512633606,
       "revenueMom21d": 0.0,
-      "foreign5": -2324.8109999999974,
+      "foreign5": -3123.8579999999974,
       "trust5": 0.0,
-      "totalNet5": -2324.8109999999974,
+      "totalNet5": -3123.8579999999974,
       "foreignNet": -1099.652,
       "trustNet": 0.0,
       "totalNet": -1083.491,
@@ -22310,33 +22310,33 @@ export const stockSearchData = {
       "reasons": [
         "趨勢結構分數 74",
         "相對強度排名前 32%",
-        "法人資金分數 38",
+        "法人資金分數 37",
         "波動控制分數 35"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.3053,
+          "contribution": 0.3067,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2778,
+          "contribution": 0.2791,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1552,
+          "contribution": 0.1513,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1454,
+          "contribution": 0.1461,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1163,
+          "contribution": 0.1169,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -22370,9 +22370,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6154330251469987,
       "volumeRatio20": 0.3194439323743984,
       "revenueMom21d": 0.0,
-      "foreign5": -32068.339,
+      "foreign5": -13223.887999999997,
       "trust5": 0.0,
-      "totalNet5": -32068.339,
+      "totalNet5": -13223.887999999997,
       "foreignNet": -3805.0,
       "trustNet": 0.0,
       "totalNet": -3797.531,
@@ -22399,7 +22399,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 29",
+        "法人資金分數 30",
         "趨勢結構分數 26",
         "量能分數 25",
         "相對強度排名前 76%"
@@ -22407,27 +22407,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2379,
+          "contribution": 0.2467,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2174,
+          "contribution": 0.2149,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2057,
+          "contribution": 0.2033,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1985,
+          "contribution": 0.1962,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1405,
+          "contribution": 0.1389,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -22461,9 +22461,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.1889818725951799,
       "volumeRatio20": 0.4606783756693863,
       "revenueMom21d": 0.0,
-      "foreign5": 201.65299999999996,
+      "foreign5": -113.29900000000004,
       "trust5": 0.0,
-      "totalNet5": 201.65299999999996,
+      "totalNet5": -113.29900000000004,
       "foreignNet": -59.0,
       "trustNet": 0.0,
       "totalNet": -59.0,
@@ -22492,33 +22492,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 32%",
         "趨勢結構分數 67",
-        "法人資金分數 58",
+        "法人資金分數 53",
         "波動控制分數 21"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2916,
+          "contribution": 0.2982,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2855,
+          "contribution": 0.292,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.249,
+          "contribution": 0.232,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0891,
+          "contribution": 0.0911,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0848,
+          "contribution": 0.0867,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -22552,9 +22552,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.3622629022503311,
       "volumeRatio20": 0.4217181553183765,
       "revenueMom21d": 0.0,
-      "foreign5": 12487.021000000004,
-      "trust5": 40.0,
-      "totalNet5": 12527.021000000004,
+      "foreign5": 4859.157000000004,
+      "trust5": 81.0,
+      "totalNet5": 4940.157000000004,
       "foreignNet": -798.853,
       "trustNet": 30.0,
       "totalNet": -949.056,
@@ -22589,27 +22589,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3618,
+          "contribution": 0.3628,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2548,
+          "contribution": 0.2544,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1873,
+          "contribution": 0.1869,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1175,
+          "contribution": 0.1173,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0787,
+          "contribution": 0.0786,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -22643,9 +22643,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6219202401567804,
       "volumeRatio20": 0.6689641621663461,
       "revenueMom21d": 0.0,
-      "foreign5": -10.222999999999757,
-      "trust5": -166.643,
-      "totalNet5": -176.86599999999976,
+      "foreign5": -317.3749999999998,
+      "trust5": -177.559,
+      "totalNet5": -494.93399999999974,
       "foreignNet": 215.808,
       "trustNet": 14.046,
       "totalNet": 239.478,
@@ -22674,33 +22674,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 50",
         "波動控制分數 43",
-        "法人資金分數 37",
-        "相對強度排名前 65%"
+        "相對強度排名前 65%",
+        "法人資金分數 31"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2759,
+          "contribution": 0.2854,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2366,
+          "contribution": 0.2448,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2024,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Relative Strength",
-          "contribution": 0.1928,
+          "contribution": 0.1994,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.175,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.0923,
+          "contribution": 0.0955,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -22734,9 +22734,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8109613395718931,
       "volumeRatio20": 0.6039475885130698,
       "revenueMom21d": 0.0,
-      "foreign5": -38.59100000000034,
+      "foreign5": 244.92899999999963,
       "trust5": 0.0,
-      "totalNet5": -38.59100000000034,
+      "totalNet5": 244.92899999999963,
       "foreignNet": -7.805,
       "trustNet": 0.0,
       "totalNet": -7.805,
@@ -22764,34 +22764,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 61",
-        "法人資金分數 54",
+        "法人資金分數 60",
         "趨勢結構分數 34",
         "相對強度排名前 87%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3588,
+          "contribution": 0.3465,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3143,
+          "contribution": 0.3377,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1983,
+          "contribution": 0.1915,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0732,
+          "contribution": 0.0707,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0555,
+          "contribution": 0.0536,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -22825,9 +22825,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6264955396852643,
       "volumeRatio20": 0.7272759272840399,
       "revenueMom21d": 0.0,
-      "foreign5": 8889.552000000001,
-      "trust5": -1502.6509999999998,
-      "totalNet5": 7386.901000000002,
+      "foreign5": 9001.170000000002,
+      "trust5": -332.365,
+      "totalNet5": 8668.805000000002,
       "foreignNet": 1841.079,
       "trustNet": 28.67,
       "totalNet": 1769.457,
@@ -22856,33 +22856,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 71",
         "相對強度排名前 33%",
-        "量能分數 54",
-        "法人資金分數 52"
+        "法人資金分數 54",
+        "量能分數 54"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2464,
+          "contribution": 0.2443,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2325,
+          "contribution": 0.2306,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Volume Expansion",
-          "contribution": 0.1875,
-          "detail": "5日與20日量能放大排名"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.1811,
+          "contribution": 0.188,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Volume Expansion",
+          "contribution": 0.1859,
+          "detail": "5日與20日量能放大排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.1525,
+          "contribution": 0.1512,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -22916,9 +22916,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5202555354261355,
       "volumeRatio20": 0.2498463508636974,
       "revenueMom21d": 0.0,
-      "foreign5": 535.039,
-      "trust5": -473.0,
-      "totalNet5": 62.03899999999999,
+      "foreign5": 476.743,
+      "trust5": -426.0,
+      "totalNet5": 50.742999999999995,
       "foreignNet": -15.0,
       "trustNet": -1.0,
       "totalNet": -13.098,
@@ -22948,32 +22948,32 @@ export const stockSearchData = {
         "波動控制分數 86",
         "趨勢結構分數 66",
         "相對強度排名前 49%",
-        "法人資金分數 42"
+        "法人資金分數 43"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3314,
+          "contribution": 0.3302,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.255,
+          "contribution": 0.2541,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1965,
+          "contribution": 0.1958,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1634,
+          "contribution": 0.1663,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0538,
+          "contribution": 0.0536,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -23007,9 +23007,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8788049095698132,
       "volumeRatio20": 0.435752191127114,
       "revenueMom21d": 0.0,
-      "foreign5": 869.4699999999999,
+      "foreign5": 1207.553,
       "trust5": 0.0,
-      "totalNet5": 869.4699999999999,
+      "totalNet5": 1207.553,
       "foreignNet": 366.362,
       "trustNet": 0.0,
       "totalNet": 352.737,
@@ -23036,7 +23036,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 64",
+        "法人資金分數 67",
         "趨勢結構分數 58",
         "量能分數 53",
         "波動控制分數 43"
@@ -23044,27 +23044,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2557,
+          "contribution": 0.2642,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.231,
+          "contribution": 0.2284,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2082,
+          "contribution": 0.2058,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1722,
+          "contribution": 0.1702,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1329,
+          "contribution": 0.1314,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -23098,9 +23098,9 @@ export const stockSearchData = {
       "volumeRatio5": 2.0452953749850544,
       "volumeRatio20": 3.3703775685679305,
       "revenueMom21d": 0.0,
-      "foreign5": -1566.2360000000017,
+      "foreign5": -1500.4600000000019,
       "trust5": 3400.0,
-      "totalNet5": 1833.7639999999983,
+      "totalNet5": 1899.5399999999981,
       "foreignNet": -3706.74,
       "trustNet": 2075.0,
       "totalNet": -1342.912,
@@ -23130,32 +23130,32 @@ export const stockSearchData = {
         "量能分數 99",
         "波動控制分數 76",
         "相對強度排名前 31%",
-        "法人資金分數 59"
+        "法人資金分數 62"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.276,
+          "contribution": 0.2745,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2131,
+          "contribution": 0.2119,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.194,
+          "contribution": 0.1929,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1661,
+          "contribution": 0.1707,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1508,
+          "contribution": 0.15,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -23189,9 +23189,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4438928675443772,
       "volumeRatio20": 0.3343829459283094,
       "revenueMom21d": 0.0,
-      "foreign5": -51.09800000000001,
+      "foreign5": -41.079000000000015,
       "trust5": 0.0,
-      "totalNet5": -51.09800000000001,
+      "totalNet5": -41.079000000000015,
       "foreignNet": -1.3,
       "trustNet": 0.0,
       "totalNet": -1.3,
@@ -23219,34 +23219,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 79",
-        "法人資金分數 53",
+        "法人資金分數 55",
         "相對強度排名前 51%",
         "趨勢結構分數 32"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.347,
+          "contribution": 0.3449,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.235,
+          "contribution": 0.2397,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2139,
+          "contribution": 0.2126,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1398,
+          "contribution": 0.1389,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0643,
+          "contribution": 0.0639,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -23280,9 +23280,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.2504506463182627,
       "volumeRatio20": 0.2939364934846849,
       "revenueMom21d": 0.4439627500342635,
-      "foreign5": 1498.6599999999996,
+      "foreign5": -13.319000000000472,
       "trust5": 0.0,
-      "totalNet5": 1498.6599999999996,
+      "totalNet5": -13.319000000000472,
       "foreignNet": -206.341,
       "trustNet": 0.0,
       "totalNet": -208.94,
@@ -23309,7 +23309,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 67",
+        "法人資金分數 55",
         "波動控制分數 54",
         "相對強度排名前 51%",
         "趨勢結構分數 23"
@@ -23317,27 +23317,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3333,
+          "contribution": 0.2915,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2651,
+          "contribution": 0.2817,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2441,
+          "contribution": 0.2594,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.116,
+          "contribution": 0.1233,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0415,
+          "contribution": 0.0441,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -23371,9 +23371,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7774984051332007,
       "volumeRatio20": 1.257545850405845,
       "revenueMom21d": 0.0,
-      "foreign5": -82518.96,
-      "trust5": 77536.257,
-      "totalNet5": -4982.703000000009,
+      "foreign5": -70900.82100000001,
+      "trust5": 69179.33499999999,
+      "totalNet5": -1721.486000000019,
       "foreignNet": -8184.359,
       "trustNet": 6694.108,
       "totalNet": -1159.807,
@@ -23408,27 +23408,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2664,
+          "contribution": 0.2666,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2126,
+          "contribution": 0.2127,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.203,
+          "contribution": 0.2031,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1738,
+          "contribution": 0.1739,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1442,
+          "contribution": 0.1437,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -23462,9 +23462,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.937367373829208,
       "volumeRatio20": 0.7742180932433878,
       "revenueMom21d": 0.0,
-      "foreign5": -84.18699999999953,
-      "trust5": -55.0,
-      "totalNet5": -139.18699999999953,
+      "foreign5": -167.51199999999955,
+      "trust5": -65.0,
+      "totalNet5": -232.51199999999955,
       "foreignNet": 54.223,
       "trustNet": 0.0,
       "totalNet": 63.576,
@@ -23499,27 +23499,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2828,
+          "contribution": 0.2848,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.249,
+          "contribution": 0.2508,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1952,
+          "contribution": 0.1966,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1484,
+          "contribution": 0.1495,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1247,
+          "contribution": 0.1182,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -23553,9 +23553,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7151750857012259,
       "volumeRatio20": 0.5137135401828824,
       "revenueMom21d": 0.0,
-      "foreign5": -10447.021999999999,
-      "trust5": -27.0,
-      "totalNet5": -10474.021999999999,
+      "foreign5": -13291.715999999999,
+      "trust5": -32.0,
+      "totalNet5": -13323.715999999999,
       "foreignNet": -1470.9,
       "trustNet": 0.0,
       "totalNet": -1573.765,
@@ -23590,27 +23590,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3001,
+          "contribution": 0.3041,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2219,
+          "contribution": 0.2248,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1876,
+          "contribution": 0.19,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1837,
+          "contribution": 0.1861,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1067,
+          "contribution": 0.095,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -23644,9 +23644,9 @@ export const stockSearchData = {
       "volumeRatio5": 2.528638409171837,
       "volumeRatio20": 4.098022037332177,
       "revenueMom21d": 0.0,
-      "foreign5": -2691.3250000000035,
+      "foreign5": -4566.838000000003,
       "trust5": -14.0,
-      "totalNet5": -2705.3250000000035,
+      "totalNet5": -4580.838000000003,
       "foreignNet": -3355.072,
       "trustNet": -10.0,
       "totalNet": -2693.854,
@@ -23681,27 +23681,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3021,
+          "contribution": 0.3058,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2488,
+          "contribution": 0.2518,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2085,
+          "contribution": 0.2111,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1673,
+          "contribution": 0.1693,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0734,
+          "contribution": 0.0619,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -23735,9 +23735,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6582977139775921,
       "volumeRatio20": 0.362209622609861,
       "revenueMom21d": 0.0,
-      "foreign5": -4318.333999999995,
-      "trust5": 3064.865999999999,
-      "totalNet5": -1253.4679999999962,
+      "foreign5": -3968.8789999999954,
+      "trust5": 3735.865999999999,
+      "totalNet5": -233.01299999999628,
       "foreignNet": -840.479,
       "trustNet": 1412.236,
       "totalNet": 662.456,
@@ -23765,34 +23765,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 68",
-        "法人資金分數 54",
+        "法人資金分數 56",
         "趨勢結構分數 39",
         "相對強度排名前 67%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3012,
+          "contribution": 0.2991,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2384,
+          "contribution": 0.2438,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1711,
+          "contribution": 0.1699,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1476,
+          "contribution": 0.1466,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1417,
+          "contribution": 0.1407,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -23826,9 +23826,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7145726185396576,
       "volumeRatio20": 0.5302497354948725,
       "revenueMom21d": 0.0,
-      "foreign5": 766.6370000000027,
-      "trust5": -18.0,
-      "totalNet5": 748.6370000000027,
+      "foreign5": 1645.8180000000027,
+      "trust5": -21.0,
+      "totalNet5": 1624.8180000000027,
       "foreignNet": 1095.647,
       "trustNet": 0.0,
       "totalNet": 898.26,
@@ -23855,7 +23855,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 50",
+        "法人資金分數 54",
         "量能分數 48",
         "波動控制分數 39",
         "趨勢結構分數 21"
@@ -23863,27 +23863,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2851,
+          "contribution": 0.2998,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2716,
+          "contribution": 0.266,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2239,
+          "contribution": 0.2193,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1206,
+          "contribution": 0.1181,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0988,
+          "contribution": 0.0967,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -23917,9 +23917,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.856642619798626,
       "volumeRatio20": 0.5980640824626522,
       "revenueMom21d": 0.0,
-      "foreign5": 3304.161999999999,
-      "trust5": -1815.0,
-      "totalNet5": 1489.161999999999,
+      "foreign5": 3249.9429999999993,
+      "trust5": -1856.0,
+      "totalNet5": 1393.9429999999993,
       "foreignNet": 563.602,
       "trustNet": -340.0,
       "totalNet": 218.719,
@@ -23948,33 +23948,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 69",
         "量能分數 63",
-        "法人資金分數 48",
+        "法人資金分數 49",
         "相對強度排名前 54%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2563,
+          "contribution": 0.2561,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2345,
+          "contribution": 0.2343,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1804,
+          "contribution": 0.181,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1699,
+          "contribution": 0.1697,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.159,
+          "contribution": 0.1588,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -24008,9 +24008,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.903324165993998,
       "volumeRatio20": 1.0539717262494708,
       "revenueMom21d": 0.0,
-      "foreign5": -2882.503999999987,
-      "trust5": 7845.175,
-      "totalNet5": 4962.671000000013,
+      "foreign5": -7279.374999999987,
+      "trust5": 7574.0,
+      "totalNet5": 294.62500000001273,
       "foreignNet": 5236.159,
       "trustNet": 4147.0,
       "totalNet": 9446.046,
@@ -24039,33 +24039,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 92",
         "波動控制分數 59",
-        "法人資金分數 57",
+        "法人資金分數 54",
         "相對強度排名前 47%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3192,
+          "contribution": 0.3234,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2033,
+          "contribution": 0.2059,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.198,
+          "contribution": 0.1875,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1849,
+          "contribution": 0.1873,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0946,
+          "contribution": 0.0959,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -24099,9 +24099,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7586183783954791,
       "volumeRatio20": 0.4561357910753211,
       "revenueMom21d": 0.0,
-      "foreign5": -28253.77100000001,
-      "trust5": -1552.0,
-      "totalNet5": -29805.77100000001,
+      "foreign5": -27523.06600000001,
+      "trust5": -1345.0,
+      "totalNet5": -28868.06600000001,
       "foreignNet": -3065.433,
       "trustNet": 23.0,
       "totalNet": -2732.232,
@@ -24136,27 +24136,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3636,
+          "contribution": 0.3665,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.3241,
+          "contribution": 0.3267,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1787,
+          "contribution": 0.1801,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0727,
+          "contribution": 0.0733,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0609,
+          "contribution": 0.0534,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -24190,9 +24190,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.557745200183584,
       "volumeRatio20": 0.2083269287814216,
       "revenueMom21d": 0.0,
-      "foreign5": 7858.930999999996,
-      "trust5": 260.461,
-      "totalNet5": 8119.391999999996,
+      "foreign5": 11826.287999999995,
+      "trust5": 308.45,
+      "totalNet5": 12134.737999999996,
       "foreignNet": 666.1,
       "trustNet": 12.0,
       "totalNet": 698.987,
@@ -24219,35 +24219,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 89",
         "波動控制分數 89",
-        "法人資金分數 88",
         "趨勢結構分數 62",
         "相對強度排名前 44%"
       ],
       "explainability": [
         {
-          "factor": "Volatility Control",
-          "contribution": 0.2881,
-          "detail": "20日波動相對分數，越高代表越穩定"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.2822,
+          "contribution": 0.2864,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Volatility Control",
+          "contribution": 0.2864,
+          "detail": "20日波動相對分數，越高代表越穩定"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.201,
+          "contribution": 0.1998,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1799,
+          "contribution": 0.1789,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0488,
+          "contribution": 0.0485,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -24281,9 +24281,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.038758780230086,
       "volumeRatio20": 0.4129179014902913,
       "revenueMom21d": 0.0,
-      "foreign5": -1363.983,
-      "trust5": 0.0,
-      "totalNet5": -1363.983,
+      "foreign5": -970.2930000000001,
+      "trust5": -31.002,
+      "totalNet5": -1001.2950000000001,
       "foreignNet": 259.0,
       "trustNet": 0.0,
       "totalNet": 265.44,
@@ -24318,27 +24318,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2314,
+          "contribution": 0.2435,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2115,
+          "contribution": 0.2225,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2099,
+          "contribution": 0.2208,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1811,
+          "contribution": 0.1905,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1661,
+          "contribution": 0.1226,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -24372,9 +24372,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8184513038939452,
       "volumeRatio20": 0.3502294482819434,
       "revenueMom21d": 0.0,
-      "foreign5": 828.8839999999999,
-      "trust5": -24.0,
-      "totalNet5": 804.8839999999999,
+      "foreign5": 534.747,
+      "trust5": -29.0,
+      "totalNet5": 505.74699999999996,
       "foreignNet": -134.638,
       "trustNet": 0.0,
       "totalNet": -166.025,
@@ -24401,7 +24401,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 50",
+        "法人資金分數 48",
         "量能分數 43",
         "波動控制分數 37",
         "相對強度排名前 72%"
@@ -24409,27 +24409,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2773,
+          "contribution": 0.27,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2359,
+          "contribution": 0.2383,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2057,
+          "contribution": 0.2078,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1524,
+          "contribution": 0.154,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1286,
+          "contribution": 0.1299,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -24463,9 +24463,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.7946724024065066,
       "volumeRatio20": 2.9359239756452924,
       "revenueMom21d": 0.0,
-      "foreign5": -1329.794000000003,
-      "trust5": 2.0,
-      "totalNet5": -1327.794000000003,
+      "foreign5": -2277.841000000003,
+      "trust5": 3.0,
+      "totalNet5": -2274.841000000003,
       "foreignNet": 3988.0,
       "trustNet": 1.0,
       "totalNet": 3997.0,
@@ -24495,32 +24495,32 @@ export const stockSearchData = {
         "量能分數 97",
         "波動控制分數 72",
         "趨勢結構分數 57",
-        "法人資金分數 50"
+        "法人資金分數 49"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3132,
+          "contribution": 0.3143,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2305,
+          "contribution": 0.2313,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1853,
+          "contribution": 0.1859,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.16,
+          "contribution": 0.1572,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1109,
+          "contribution": 0.1113,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -24554,9 +24554,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5840051352878582,
       "volumeRatio20": 0.598991428324264,
       "revenueMom21d": 0.0,
-      "foreign5": -8191.906,
+      "foreign5": -7759.374,
       "trust5": -1.0,
-      "totalNet5": -8192.905999999999,
+      "totalNet5": -7760.374,
       "foreignNet": -1167.425,
       "trustNet": -1.0,
       "totalNet": -1330.968,
@@ -24645,9 +24645,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.126013515301417,
       "volumeRatio20": 1.041142640375748,
       "revenueMom21d": 0.0,
-      "foreign5": -727.3880000000006,
-      "trust5": -379.42000000000024,
-      "totalNet5": -1106.808000000001,
+      "foreign5": -466.0120000000006,
+      "trust5": -387.35400000000027,
+      "totalNet5": -853.3660000000009,
       "foreignNet": 78.438,
       "trustNet": -78.614,
       "totalNet": 45.702,
@@ -24677,33 +24677,33 @@ export const stockSearchData = {
         "量能分數 87",
         "波動控制分數 60",
         "相對強度排名前 68%",
-        "趨勢結構分數 26"
+        "法人資金分數 28"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3772,
+          "contribution": 0.3734,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.26,
+          "contribution": 0.2574,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1376,
+          "contribution": 0.1362,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Trend Structure",
-          "contribution": 0.115,
-          "detail": "ADX 與 MA20 趨勢結構"
+          "factor": "Institutional Flow",
+          "contribution": 0.1191,
+          "detail": "外資與投信近5日買超排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1102,
-          "detail": "外資與投信近5日買超排名"
+          "factor": "Trend Structure",
+          "contribution": 0.1139,
+          "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
     },
@@ -24736,9 +24736,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.3957363060097082,
       "volumeRatio20": 0.3199011757583291,
       "revenueMom21d": 0.0,
-      "foreign5": -6468.063000000002,
-      "trust5": 1129.3760000000002,
-      "totalNet5": -5338.687000000002,
+      "foreign5": -6882.365000000002,
+      "trust5": 1139.2830000000001,
+      "totalNet5": -5743.082000000001,
       "foreignNet": -569.947,
       "trustNet": 17.853,
       "totalNet": -608.349,
@@ -24765,7 +24765,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 51",
+        "法人資金分數 50",
         "趨勢結構分數 41",
         "波動控制分數 41",
         "相對強度排名前 72%"
@@ -24773,27 +24773,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2947,
+          "contribution": 0.2935,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2407,
+          "contribution": 0.2411,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2372,
+          "contribution": 0.2376,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1605,
+          "contribution": 0.1608,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0669,
+          "contribution": 0.067,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -24827,9 +24827,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5327485466939613,
       "volumeRatio20": 0.7528612925700626,
       "revenueMom21d": 0.0,
-      "foreign5": -776.7679999999999,
-      "trust5": 2409.364,
-      "totalNet5": 1632.596,
+      "foreign5": 349.4440000000001,
+      "trust5": 2641.364,
+      "totalNet5": 2990.808,
       "foreignNet": 96.274,
       "trustNet": 444.364,
       "totalNet": 563.584,
@@ -24856,35 +24856,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 81",
         "波動控制分數 65",
-        "法人資金分數 63",
         "相對強度排名前 46%",
         "量能分數 47"
       ],
       "explainability": [
         {
-          "factor": "Volatility Control",
-          "contribution": 0.2374,
-          "detail": "20日波動相對分數，越高代表越穩定"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.229,
+          "contribution": 0.2773,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Volatility Control",
+          "contribution": 0.2226,
+          "detail": "20日波動相對分數，越高代表越穩定"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1965,
+          "contribution": 0.1842,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1724,
+          "contribution": 0.1616,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1647,
+          "contribution": 0.1543,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -24918,9 +24918,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5320963453322842,
       "volumeRatio20": 0.2586934544198862,
       "revenueMom21d": 0.0485200823821956,
-      "foreign5": -2116.447000000001,
+      "foreign5": -1125.558000000001,
       "trust5": 0.0,
-      "totalNet5": -2116.447000000001,
+      "totalNet5": -1125.558000000001,
       "foreignNet": 48.778,
       "trustNet": 0.0,
       "totalNet": -94.219,
@@ -24949,33 +24949,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 57",
         "相對強度排名前 54%",
-        "法人資金分數 38",
+        "法人資金分數 43",
         "趨勢結構分數 25"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3133,
+          "contribution": 0.3053,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2551,
+          "contribution": 0.2486,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2123,
+          "contribution": 0.2325,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1359,
+          "contribution": 0.1325,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0834,
+          "contribution": 0.0812,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -25009,9 +25009,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.710821929596424,
       "volumeRatio20": 0.4170004196102355,
       "revenueMom21d": 0.0,
-      "foreign5": 903.0799999999999,
-      "trust5": -7.0,
-      "totalNet5": 896.0799999999999,
+      "foreign5": 449.531,
+      "trust5": -9.0,
+      "totalNet5": 440.531,
       "foreignNet": 271.764,
       "trustNet": 0.0,
       "totalNet": 256.558,
@@ -25039,34 +25039,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 62",
-        "法人資金分數 53",
+        "法人資金分數 49",
         "量能分數 40",
         "相對強度排名前 67%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2999,
+          "contribution": 0.3049,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.255,
+          "contribution": 0.2426,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.192,
+          "contribution": 0.1952,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1618,
+          "contribution": 0.1645,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0913,
+          "contribution": 0.0929,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -25100,9 +25100,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6244735784587773,
       "volumeRatio20": 0.4508985195705455,
       "revenueMom21d": 0.0,
-      "foreign5": 1218.3140000000003,
+      "foreign5": -212.90199999999982,
       "trust5": 33.0,
-      "totalNet5": 1251.3140000000003,
+      "totalNet5": -179.90199999999982,
       "foreignNet": 576.679,
       "trustNet": 33.0,
       "totalNet": 600.367,
@@ -25129,7 +25129,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 79",
+        "法人資金分數 63",
         "相對強度排名前 40%",
         "波動控制分數 48",
         "量能分數 36"
@@ -25137,27 +25137,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3081,
+          "contribution": 0.2646,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2349,
+          "contribution": 0.2497,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1887,
+          "contribution": 0.2005,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1423,
+          "contribution": 0.1512,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.126,
+          "contribution": 0.134,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -25191,9 +25191,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6679078131600366,
       "volumeRatio20": 0.3576516515143604,
       "revenueMom21d": 0.0,
-      "foreign5": -676.1520000000011,
+      "foreign5": -2198.494000000001,
       "trust5": 0.0,
-      "totalNet5": -676.1520000000011,
+      "totalNet5": -2198.494000000001,
       "foreignNet": -396.986,
       "trustNet": 0.0,
       "totalNet": -442.09,
@@ -25220,35 +25220,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 45",
         "相對強度排名前 57%",
+        "法人資金分數 39",
         "波動控制分數 33",
         "量能分數 33"
       ],
       "explainability": [
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.242,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Relative Strength",
-          "contribution": 0.2325,
+          "contribution": 0.2394,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2194,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.1779,
+          "contribution": 0.1832,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1774,
+          "contribution": 0.1826,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1703,
+          "contribution": 0.1753,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -25282,9 +25282,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9772080338201002,
       "volumeRatio20": 0.5854990508779642,
       "revenueMom21d": 0.0,
-      "foreign5": 17790.33399999998,
+      "foreign5": 18668.910999999982,
       "trust5": 0.0,
-      "totalNet5": 17790.33399999998,
+      "totalNet5": 18668.910999999982,
       "foreignNet": 5738.111,
       "trustNet": 0.0,
       "totalNet": 5675.405,
@@ -25312,24 +25312,24 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 79",
-        "法人資金分數 75",
+        "法人資金分數 74",
         "趨勢結構分數 73",
         "量能分數 67"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2218,
+          "contribution": 0.2219,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.21,
+          "contribution": 0.2098,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2053,
+          "contribution": 0.2054,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
@@ -25339,7 +25339,7 @@ export const stockSearchData = {
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1742,
+          "contribution": 0.1743,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -25373,9 +25373,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5273390415909207,
       "volumeRatio20": 0.5787902945835661,
       "revenueMom21d": 0.0,
-      "foreign5": -1080.0649999999998,
-      "trust5": 1050.0,
-      "totalNet5": -30.064999999999827,
+      "foreign5": 3167.8290000000006,
+      "trust5": 1650.0,
+      "totalNet5": 4817.829000000001,
       "foreignNet": 145.328,
       "trustNet": 0.0,
       "totalNet": 96.222,
@@ -25402,35 +25402,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 89",
         "趨勢結構分數 85",
         "波動控制分數 66",
-        "相對強度排名前 35%",
-        "法人資金分數 60"
+        "相對強度排名前 35%"
       ],
       "explainability": [
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2605,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.2707,
+          "contribution": 0.2472,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2118,
+          "contribution": 0.1934,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2075,
+          "contribution": 0.1895,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1902,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.1197,
+          "contribution": 0.1094,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -25464,9 +25464,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7037797943789582,
       "volumeRatio20": 0.6051400054015631,
       "revenueMom21d": 0.0,
-      "foreign5": 29681.799000000014,
-      "trust5": -1998.534,
-      "totalNet5": 27683.265000000014,
+      "foreign5": 41725.68100000002,
+      "trust5": 740.547,
+      "totalNet5": 42466.22800000002,
       "foreignNet": 3788.673,
       "trustNet": 80.962,
       "totalNet": 4107.91,
@@ -25494,34 +25494,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 97",
+        "法人資金分數 93",
         "趨勢結構分數 85",
-        "相對強度排名前 21%",
-        "法人資金分數 53"
+        "相對強度排名前 21%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2641,
+          "contribution": 0.2385,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.228,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.2306,
+          "contribution": 0.2082,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2164,
+          "contribution": 0.1954,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.145,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.1439,
+          "contribution": 0.1299,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -25555,9 +25555,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6059157241174093,
       "volumeRatio20": 1.0072910129341868,
       "revenueMom21d": 0.0,
-      "foreign5": 24130.413,
-      "trust5": -19117.467,
-      "totalNet5": 5012.946,
+      "foreign5": 25009.27,
+      "trust5": -18729.208,
+      "totalNet5": 6280.062000000002,
       "foreignNet": 2182.822,
       "trustNet": -1066.728,
       "totalNet": 1119.823,
@@ -25592,7 +25592,7 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2977,
+          "contribution": 0.2976,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
@@ -25607,12 +25607,12 @@ export const stockSearchData = {
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1763,
+          "contribution": 0.1762,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1495,
+          "contribution": 0.1497,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -25646,9 +25646,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4594615342634054,
       "volumeRatio20": 0.2708705357195006,
       "revenueMom21d": 0.0,
-      "foreign5": -55709.50299999998,
-      "trust5": -133.238,
-      "totalNet5": -55842.74099999998,
+      "foreign5": -45701.01199999998,
+      "trust5": -43.238,
+      "totalNet5": -45744.24999999998,
       "foreignNet": -2938.735,
       "trustNet": -10.792,
       "totalNet": -3385.534,
@@ -25678,33 +25678,33 @@ export const stockSearchData = {
         "相對強度排名前 67%",
         "趨勢結構分數 33",
         "波動控制分數 27",
-        "量能分數 11"
+        "法人資金分數 12"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2872,
+          "contribution": 0.285,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2846,
+          "contribution": 0.2824,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2364,
+          "contribution": 0.2346,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Volume Expansion",
-          "contribution": 0.0989,
-          "detail": "5日與20日量能放大排名"
+          "factor": "Institutional Flow",
+          "contribution": 0.0999,
+          "detail": "外資與投信近5日買超排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.0928,
-          "detail": "外資與投信近5日買超排名"
+          "factor": "Volume Expansion",
+          "contribution": 0.0982,
+          "detail": "5日與20日量能放大排名"
         }
       ]
     },
@@ -25737,9 +25737,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9775560289504844,
       "volumeRatio20": 0.5944320009454187,
       "revenueMom21d": 0.0,
-      "foreign5": 494.53499999999957,
-      "trust5": -378.43099999999976,
-      "totalNet5": 116.10399999999981,
+      "foreign5": 329.07599999999957,
+      "trust5": 88.80000000000022,
+      "totalNet5": 417.8759999999998,
       "foreignNet": 203.938,
       "trustNet": 12.5,
       "totalNet": 207.835,
@@ -25766,35 +25766,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 75",
         "波動控制分數 71",
         "量能分數 68",
-        "法人資金分數 43",
         "趨勢結構分數 40"
       ],
       "explainability": [
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2618,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.2783,
+          "contribution": 0.247,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2672,
+          "contribution": 0.2371,
           "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1682,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.1566,
+          "contribution": 0.139,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1297,
+          "contribution": 0.1151,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -25828,9 +25828,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.615185217026911,
       "volumeRatio20": 0.1778797941779989,
       "revenueMom21d": 0.0,
-      "foreign5": 84.53399999999999,
+      "foreign5": 73.59899999999999,
       "trust5": 0.0,
-      "totalNet5": 84.53399999999999,
+      "totalNet5": 73.59899999999999,
       "foreignNet": 131.019,
       "trustNet": 0.0,
       "totalNet": 131.177,
@@ -25865,27 +25865,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3873,
+          "contribution": 0.3902,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2662,
+          "contribution": 0.265,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1278,
+          "contribution": 0.1272,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1221,
+          "contribution": 0.1215,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0966,
+          "contribution": 0.0961,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -25919,9 +25919,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7064371042854437,
       "volumeRatio20": 0.566622607945051,
       "revenueMom21d": 0.0,
-      "foreign5": 21.82699999999997,
-      "trust5": 0.0,
-      "totalNet5": 21.82699999999997,
+      "foreign5": -224.92800000000005,
+      "trust5": 1.0,
+      "totalNet5": -223.92800000000005,
       "foreignNet": 104.854,
       "trustNet": 0.0,
       "totalNet": 107.64,
@@ -25949,34 +25949,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 84",
-        "法人資金分數 55",
+        "法人資金分數 60",
         "量能分數 49",
         "相對強度排名前 60%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3272,
+          "contribution": 0.3207,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2135,
+          "contribution": 0.2291,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1912,
+          "contribution": 0.1874,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1543,
+          "contribution": 0.1512,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1139,
+          "contribution": 0.1117,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -26010,9 +26010,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8361457621326043,
       "volumeRatio20": 0.3683625427576268,
       "revenueMom21d": 0.0,
-      "foreign5": 22.999999999999986,
+      "foreign5": 0.004999999999981242,
       "trust5": 0.0,
-      "totalNet5": 22.999999999999986,
+      "totalNet5": 0.004999999999981242,
       "foreignNet": 23.0,
       "trustNet": 0.0,
       "totalNet": 14.0,
@@ -26040,34 +26040,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 82",
-        "法人資金分數 55",
+        "法人資金分數 56",
         "量能分數 45",
         "相對強度排名前 60%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.322,
+          "contribution": 0.3206,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2157,
+          "contribution": 0.2191,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1769,
+          "contribution": 0.1761,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.159,
+          "contribution": 0.1583,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1264,
+          "contribution": 0.1259,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -26101,9 +26101,9 @@ export const stockSearchData = {
       "volumeRatio5": 2.8751069269007825,
       "volumeRatio20": 3.291408706766953,
       "revenueMom21d": 0.0,
-      "foreign5": 2394.512,
+      "foreign5": 2753.4139999999998,
       "trust5": -1.0,
-      "totalNet5": 2393.512,
+      "totalNet5": 2752.4139999999998,
       "foreignNet": 2025.156,
       "trustNet": -1.0,
       "totalNet": 2047.264,
@@ -26138,27 +26138,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2523,
+          "contribution": 0.2515,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2198,
+          "contribution": 0.2192,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2132,
+          "contribution": 0.2125,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1624,
+          "contribution": 0.1619,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1522,
+          "contribution": 0.1548,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -26192,9 +26192,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7030043793635843,
       "volumeRatio20": 0.3788025660563123,
       "revenueMom21d": 0.0,
-      "foreign5": -2139.0419999999995,
+      "foreign5": -2630.8919999999994,
       "trust5": 0.0,
-      "totalNet5": -2139.0419999999995,
+      "totalNet5": -2630.8919999999994,
       "foreignNet": 2.908,
       "trustNet": 0.0,
       "totalNet": 2.428,
@@ -26283,9 +26283,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7599659390064062,
       "volumeRatio20": 0.739788866561964,
       "revenueMom21d": 0.0,
-      "foreign5": -40343.57000000002,
-      "trust5": 46519.740000000005,
-      "totalNet5": 6176.169999999984,
+      "foreign5": -33564.35900000002,
+      "trust5": 50828.740000000005,
+      "totalNet5": 17264.380999999987,
       "foreignNet": -6691.789,
       "trustNet": 8897.74,
       "totalNet": 2146.951,
@@ -26320,27 +26320,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2574,
+          "contribution": 0.2569,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2235,
+          "contribution": 0.2231,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2044,
+          "contribution": 0.204,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1754,
+          "contribution": 0.1751,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1393,
+          "contribution": 0.1409,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -26374,9 +26374,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4668904699811766,
       "volumeRatio20": 0.1547526836360407,
       "revenueMom21d": 0.0,
-      "foreign5": -1009.6689999999999,
-      "trust5": 28.25499999999989,
-      "totalNet5": -981.414,
+      "foreign5": -279.54499999999985,
+      "trust5": 32.25499999999989,
+      "totalNet5": -247.28999999999996,
       "foreignNet": -24.686,
       "trustNet": 37.255,
       "totalNet": 16.832,
@@ -26403,35 +26403,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 62",
         "趨勢結構分數 54",
-        "法人資金分數 54",
         "相對強度排名前 59%",
         "波動控制分數 14"
       ],
       "explainability": [
         {
-          "factor": "Trend Structure",
-          "contribution": 0.3193,
-          "detail": "ADX 與 MA20 趨勢結構"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.3175,
+          "contribution": 0.3484,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Trend Structure",
+          "contribution": 0.3048,
+          "detail": "ADX 與 MA20 趨勢結構"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.2421,
+          "contribution": 0.2312,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0795,
+          "contribution": 0.0759,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0415,
+          "contribution": 0.0397,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -26465,9 +26465,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7305218389933263,
       "volumeRatio20": 0.5686719078134407,
       "revenueMom21d": 0.0,
-      "foreign5": 3303.5019999999995,
+      "foreign5": 1187.201,
       "trust5": 0.0,
-      "totalNet5": 3303.5019999999995,
+      "totalNet5": 1187.201,
       "foreignNet": 424.623,
       "trustNet": 0.0,
       "totalNet": 415.271,
@@ -26494,7 +26494,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 70",
+        "法人資金分數 67",
         "波動控制分數 59",
         "量能分數 52",
         "趨勢結構分數 21"
@@ -26502,27 +26502,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3246,
+          "contribution": 0.3157,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2739,
+          "contribution": 0.2775,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2384,
+          "contribution": 0.2415,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0958,
+          "contribution": 0.0971,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0673,
+          "contribution": 0.0682,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -26556,9 +26556,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.718229226306464,
       "volumeRatio20": 1.2859189470640644,
       "revenueMom21d": 0.0,
-      "foreign5": 272.64099999999974,
+      "foreign5": -430.61900000000026,
       "trust5": -115.0,
-      "totalNet5": 157.64099999999974,
+      "totalNet5": -545.6190000000003,
       "foreignNet": 579.914,
       "trustNet": 0.0,
       "totalNet": 641.621,
@@ -26588,33 +26588,33 @@ export const stockSearchData = {
         "量能分數 94",
         "波動控制分數 65",
         "相對強度排名前 44%",
-        "法人資金分數 43"
+        "趨勢結構分數 34"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3209,
+          "contribution": 0.3348,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2245,
+          "contribution": 0.2343,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1933,
+          "contribution": 0.2017,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1462,
-          "detail": "外資與投信近5日買超排名"
+          "factor": "Trend Structure",
+          "contribution": 0.12,
+          "detail": "ADX 與 MA20 趨勢結構"
         },
         {
-          "factor": "Trend Structure",
-          "contribution": 0.115,
-          "detail": "ADX 與 MA20 趨勢結構"
+          "factor": "Institutional Flow",
+          "contribution": 0.1092,
+          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -26647,9 +26647,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7938328363275614,
       "volumeRatio20": 0.3982936961388653,
       "revenueMom21d": 0.0361376330976723,
-      "foreign5": 106.63600000000008,
+      "foreign5": 36.10800000000011,
       "trust5": 0.0,
-      "totalNet5": 106.63600000000008,
+      "totalNet5": 36.10800000000011,
       "foreignNet": -56.04,
       "trustNet": 0.0,
       "totalNet": -56.306,
@@ -26677,34 +26677,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 74",
-        "法人資金分數 57",
+        "法人資金分數 56",
         "趨勢結構分數 53",
         "量能分數 46"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2719,
+          "contribution": 0.2725,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2097,
+          "contribution": 0.2079,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1954,
+          "contribution": 0.1958,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1686,
+          "contribution": 0.169,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1545,
+          "contribution": 0.1548,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -26738,9 +26738,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.2238273697382977,
       "volumeRatio20": 0.3390308905687293,
       "revenueMom21d": 0.0,
-      "foreign5": -505.7439999999995,
-      "trust5": -6.0,
-      "totalNet5": -511.7439999999995,
+      "foreign5": -721.0229999999996,
+      "trust5": -7.0,
+      "totalNet5": -728.0229999999996,
       "foreignNet": 110.14,
       "trustNet": 0.0,
       "totalNet": 110.229,
@@ -26768,34 +26768,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 45",
-        "法人資金分數 35",
         "相對強度排名前 67%",
+        "法人資金分數 33",
         "趨勢結構分數 20"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3134,
+          "contribution": 0.3183,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2432,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Relative Strength",
-          "contribution": 0.2287,
+          "contribution": 0.2323,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2315,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.1426,
+          "contribution": 0.1448,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.072,
+          "contribution": 0.0731,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -26829,9 +26829,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8041694198823006,
       "volumeRatio20": 0.4466678848737933,
       "revenueMom21d": 0.0,
-      "foreign5": -572.3209999999876,
+      "foreign5": 284.6930000000116,
       "trust5": 0.0,
-      "totalNet5": -572.3209999999876,
+      "totalNet5": 284.6930000000116,
       "foreignNet": 1020.113,
       "trustNet": 0.0,
       "totalNet": 1004.482,
@@ -26859,34 +26859,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 67",
+        "法人資金分數 61",
         "量能分數 50",
-        "法人資金分數 45",
         "相對強度排名前 78%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3364,
+          "contribution": 0.3127,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Volume Expansion",
-          "contribution": 0.2488,
-          "detail": "5日與20日量能放大排名"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.2264,
+          "contribution": 0.2811,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Volume Expansion",
+          "contribution": 0.2312,
+          "detail": "5日與20日量能放大排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1078,
+          "contribution": 0.1002,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0806,
+          "contribution": 0.0749,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -26920,9 +26920,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7139364051464708,
       "volumeRatio20": 0.3761383717980944,
       "revenueMom21d": 0.0,
-      "foreign5": -90012.46899999998,
-      "trust5": 28026.166000000012,
-      "totalNet5": -61986.30299999997,
+      "foreign5": -78648.957,
+      "trust5": 31447.649000000012,
+      "totalNet5": -47201.30799999998,
       "foreignNet": -6967.519,
       "trustNet": 4395.614,
       "totalNet": -2177.87,
@@ -27011,9 +27011,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4809586468612318,
       "volumeRatio20": 0.2642310512264157,
       "revenueMom21d": 0.0,
-      "foreign5": -260.5249999999999,
+      "foreign5": -729.5249999999999,
       "trust5": 0.0,
-      "totalNet5": -260.5249999999999,
+      "totalNet5": -729.5249999999999,
       "foreignNet": -148.0,
       "trustNet": 0.0,
       "totalNet": -171.141,
@@ -27040,7 +27040,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 50",
+        "法人資金分數 45",
         "趨勢結構分數 37",
         "相對強度排名前 66%",
         "量能分數 12"
@@ -27048,27 +27048,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3531,
+          "contribution": 0.3296,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.262,
+          "contribution": 0.2716,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2428,
+          "contribution": 0.2516,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0878,
+          "contribution": 0.091,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0543,
+          "contribution": 0.0562,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -27102,9 +27102,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.2726215306832347,
       "volumeRatio20": 0.9782023030586708,
       "revenueMom21d": 0.0,
-      "foreign5": 282.494,
-      "trust5": -3.0,
-      "totalNet5": 279.494,
+      "foreign5": 8.824000000000012,
+      "trust5": -4.0,
+      "totalNet5": 4.824000000000012,
       "foreignNet": 207.001,
       "trustNet": 0.0,
       "totalNet": 206.985,
@@ -27133,33 +27133,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 87",
         "波動控制分數 53",
-        "法人資金分數 49",
+        "法人資金分數 45",
         "相對強度排名前 82%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3883,
+          "contribution": 0.3955,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2365,
+          "contribution": 0.2409,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2188,
+          "contribution": 0.2044,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0807,
+          "contribution": 0.0821,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0757,
+          "contribution": 0.0771,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -27193,9 +27193,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8504433501516482,
       "volumeRatio20": 0.7628904945322293,
       "revenueMom21d": 0.0,
-      "foreign5": -94043.01099999998,
-      "trust5": 49993.94200000001,
-      "totalNet5": -44049.068999999974,
+      "foreign5": -109158.003,
+      "trust5": 66155.23700000001,
+      "totalNet5": -43002.76599999999,
       "foreignNet": -17276.062,
       "trustNet": 4074.06,
       "totalNet": -12704.63,
@@ -27230,27 +27230,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2612,
+          "contribution": 0.2614,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2176,
+          "contribution": 0.2177,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1965,
+          "contribution": 0.1966,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1862,
+          "contribution": 0.1863,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1385,
+          "contribution": 0.138,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -27284,9 +27284,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5164328639046644,
       "volumeRatio20": 0.453204811227663,
       "revenueMom21d": 0.0,
-      "foreign5": 3616.869999999999,
+      "foreign5": 1670.8699999999994,
       "trust5": 0.0,
-      "totalNet5": 3616.869999999999,
+      "totalNet5": 1670.8699999999994,
       "foreignNet": 188.831,
       "trustNet": 0.0,
       "totalNet": -7.368,
@@ -27313,7 +27313,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 71",
+        "法人資金分數 69",
         "相對強度排名前 43%",
         "波動控制分數 52",
         "趨勢結構分數 39"
@@ -27321,27 +27321,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2867,
+          "contribution": 0.2814,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2298,
+          "contribution": 0.2315,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2098,
+          "contribution": 0.2114,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1574,
+          "contribution": 0.1585,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1164,
+          "contribution": 0.1173,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -27375,9 +27375,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0337711204775992,
       "volumeRatio20": 0.5427058748419032,
       "revenueMom21d": 0.0,
-      "foreign5": -36766.83799999999,
-      "trust5": 63755.85499999999,
-      "totalNet5": 26989.017,
+      "foreign5": -41651.712999999996,
+      "trust5": 69710.85499999998,
+      "totalNet5": 28059.141999999985,
       "foreignNet": -7501.668,
       "trustNet": 16569.233,
       "totalNet": 9008.409,
@@ -27412,27 +27412,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2597,
+          "contribution": 0.2595,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2135,
+          "contribution": 0.2133,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1952,
+          "contribution": 0.1951,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1795,
+          "contribution": 0.1794,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1521,
+          "contribution": 0.1526,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -27466,9 +27466,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.450087477546342,
       "volumeRatio20": 1.1792889951190826,
       "revenueMom21d": 0.0,
-      "foreign5": -1290.0719999999983,
-      "trust5": 8909.664999999997,
-      "totalNet5": 7619.592999999999,
+      "foreign5": 1080.1820000000016,
+      "trust5": 9675.296999999997,
+      "totalNet5": 10755.479,
       "foreignNet": -5363.107,
       "trustNet": 5207.862,
       "totalNet": 14.55,
@@ -27497,34 +27497,34 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 100",
         "量能分數 91",
-        "趨勢結構分數 66",
-        "相對強度排名前 35%"
+        "法人資金分數 89",
+        "趨勢結構分數 66"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2593,
+          "contribution": 0.2424,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2377,
+          "contribution": 0.2223,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2156,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.172,
+          "contribution": 0.1608,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.17,
+          "contribution": 0.1589,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
-        },
-        {
-          "factor": "Institutional Flow",
-          "contribution": 0.161,
-          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -27557,9 +27557,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4785541539567627,
       "volumeRatio20": 0.5318217111557189,
       "revenueMom21d": 0.0,
-      "foreign5": 70.25900000000001,
+      "foreign5": -80.60899999999997,
       "trust5": 0.0,
-      "totalNet5": 70.25900000000001,
+      "totalNet5": -80.60899999999997,
       "foreignNet": 4.809,
       "trustNet": 0.0,
       "totalNet": -10.398,
@@ -27586,7 +27586,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 56",
+        "法人資金分數 53",
         "趨勢結構分數 46",
         "相對強度排名前 58%",
         "量能分數 31"
@@ -27594,27 +27594,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3049,
+          "contribution": 0.2945,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2497,
+          "contribution": 0.2535,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.228,
+          "contribution": 0.2314,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.168,
+          "contribution": 0.1705,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0494,
+          "contribution": 0.0501,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -27648,9 +27648,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.789487569730926,
       "volumeRatio20": 0.4524904610986268,
       "revenueMom21d": 0.0,
-      "foreign5": -23394.827000000016,
-      "trust5": -20394.643999999997,
-      "totalNet5": -43789.47100000001,
+      "foreign5": -38103.70400000002,
+      "trust5": -17081.643999999997,
+      "totalNet5": -55185.34800000001,
       "foreignNet": -638.961,
       "trustNet": -7065.903,
       "totalNet": -7100.689,
@@ -27685,27 +27685,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3566,
+          "contribution": 0.3592,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2996,
+          "contribution": 0.3018,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1637,
+          "contribution": 0.1649,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.151,
+          "contribution": 0.1521,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0292,
+          "contribution": 0.0221,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -27739,9 +27739,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5986010347909738,
       "volumeRatio20": 0.2722121923736442,
       "revenueMom21d": 0.0,
-      "foreign5": 1732.154999999998,
+      "foreign5": 457.8159999999982,
       "trust5": 0.0,
-      "totalNet5": 1732.154999999998,
+      "totalNet5": 457.8159999999982,
       "foreignNet": -278.4,
       "trustNet": 0.0,
       "totalNet": -267.806,
@@ -27768,35 +27768,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 68",
         "趨勢結構分數 63",
+        "法人資金分數 63",
         "波動控制分數 56",
         "相對強度排名前 58%"
       ],
       "explainability": [
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2707,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.2524,
+          "contribution": 0.2578,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2551,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.2214,
+          "contribution": 0.2261,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1693,
+          "contribution": 0.173,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0861,
+          "contribution": 0.088,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -27830,9 +27830,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8868540144776852,
       "volumeRatio20": 1.223003111280333,
       "revenueMom21d": 0.0,
-      "foreign5": -407.6379999999996,
-      "trust5": -512.0000000000001,
-      "totalNet5": -919.6379999999997,
+      "foreign5": -789.0969999999995,
+      "trust5": -541.0000000000001,
+      "totalNet5": -1330.0969999999998,
       "foreignNet": 318.138,
       "trustNet": -178.0,
       "totalNet": 89.156,
@@ -27860,34 +27860,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 81",
-        "法人資金分數 28",
+        "法人資金分數 25",
         "相對強度排名前 81%",
         "波動控制分數 15"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.5547,
+          "contribution": 0.5689,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1953,
+          "contribution": 0.1747,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1288,
+          "contribution": 0.1321,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1053,
+          "contribution": 0.108,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0159,
+          "contribution": 0.0163,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -27921,9 +27921,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5563853392058777,
       "volumeRatio20": 0.3723642715336139,
       "revenueMom21d": 0.0,
-      "foreign5": -2120.540000000002,
+      "foreign5": -2063.720000000001,
       "trust5": 1.0,
-      "totalNet5": -2119.540000000002,
+      "totalNet5": -2062.720000000001,
       "foreignNet": 118.849,
       "trustNet": 1.0,
       "totalNet": 131.771,
@@ -27950,7 +27950,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 47",
+        "法人資金分數 49",
         "波動控制分數 46",
         "量能分數 25",
         "相對強度排名前 77%"
@@ -27958,27 +27958,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3111,
+          "contribution": 0.3216,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.3044,
+          "contribution": 0.2998,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1643,
+          "contribution": 0.1618,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1498,
+          "contribution": 0.1475,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0704,
+          "contribution": 0.0693,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -28012,9 +28012,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7561509734316271,
       "volumeRatio20": 0.5737638525266499,
       "revenueMom21d": 0.0,
-      "foreign5": -120549.71099999998,
-      "trust5": 339.33000000000743,
-      "totalNet5": -120210.38099999998,
+      "foreign5": -97707.28799999999,
+      "trust5": 5002.295000000007,
+      "totalNet5": -92704.99299999997,
       "foreignNet": -20344.952,
       "trustNet": 1866.782,
       "totalNet": -18144.344,
@@ -28043,33 +28043,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 75",
         "量能分數 53",
-        "法人資金分數 42",
+        "法人資金分數 47",
         "相對強度排名前 69%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3241,
+          "contribution": 0.3174,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2294,
+          "contribution": 0.2247,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1825,
+          "contribution": 0.1991,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1338,
+          "contribution": 0.1311,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1303,
+          "contribution": 0.1277,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -28103,9 +28103,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7857653288384716,
       "volumeRatio20": 1.027171006152701,
       "revenueMom21d": 0.0,
-      "foreign5": -297.38200000000035,
+      "foreign5": -48.88300000000034,
       "trust5": 4.997,
-      "totalNet5": -292.38500000000033,
+      "totalNet5": -43.88600000000034,
       "foreignNet": 91.104,
       "trustNet": 8.997,
       "totalNet": 113.997,
@@ -28134,33 +28134,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 73",
         "波動控制分數 73",
-        "趨勢結構分數 64",
-        "法人資金分數 59"
+        "法人資金分數 64",
+        "趨勢結構分數 64"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2317,
+          "contribution": 0.2281,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2304,
+          "contribution": 0.2268,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Trend Structure",
-          "contribution": 0.2022,
-          "detail": "ADX 與 MA20 趨勢結構"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.1884,
+          "contribution": 0.2012,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Trend Structure",
+          "contribution": 0.199,
+          "detail": "ADX 與 MA20 趨勢結構"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1472,
+          "contribution": 0.1449,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -28194,9 +28194,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8417708500524627,
       "volumeRatio20": 0.8585101738536963,
       "revenueMom21d": 0.0,
-      "foreign5": -31842.1,
-      "trust5": 35409.839000000014,
-      "totalNet5": 3567.739000000016,
+      "foreign5": -30876.252,
+      "trust5": 37586.000000000015,
+      "totalNet5": 6709.748000000014,
       "foreignNet": -6252.124,
       "trustNet": 7433.0,
       "totalNet": 1192.193,
@@ -28231,27 +28231,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2674,
+          "contribution": 0.2673,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2108,
+          "contribution": 0.2106,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2052,
+          "contribution": 0.205,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1673,
+          "contribution": 0.1672,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1494,
+          "contribution": 0.1499,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -28285,9 +28285,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8787456150201601,
       "volumeRatio20": 0.369069866689463,
       "revenueMom21d": 0.0,
-      "foreign5": -181.7810000000001,
+      "foreign5": -235.00000000000009,
       "trust5": -3.0,
-      "totalNet5": -184.7810000000001,
+      "totalNet5": -238.00000000000009,
       "foreignNet": 5.0,
       "trustNet": 0.0,
       "totalNet": 4.0,
@@ -28316,33 +28316,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 47",
         "趨勢結構分數 44",
-        "法人資金分數 41",
+        "法人資金分數 40",
         "相對強度排名前 76%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2622,
+          "contribution": 0.2639,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.242,
+          "contribution": 0.2436,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2274,
+          "contribution": 0.2224,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1348,
+          "contribution": 0.1356,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1336,
+          "contribution": 0.1345,
           "detail": "20日波動相對分數，越高代表越穩定"
         }
       ]
@@ -28376,9 +28376,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4065385776384309,
       "volumeRatio20": 0.2518674169446088,
       "revenueMom21d": 0.0,
-      "foreign5": 2258.925,
-      "trust5": -246.0,
-      "totalNet5": 2012.9250000000002,
+      "foreign5": 2089.6139999999996,
+      "trust5": -1.0,
+      "totalNet5": 2088.6139999999996,
       "foreignNet": -142.282,
       "trustNet": 0.0,
       "totalNet": -139.356,
@@ -28408,32 +28408,32 @@ export const stockSearchData = {
         "波動控制分數 89",
         "趨勢結構分數 87",
         "相對強度排名前 33%",
-        "法人資金分數 51"
+        "法人資金分數 61"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2935,
+          "contribution": 0.2846,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2875,
+          "contribution": 0.2787,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2233,
+          "contribution": 0.2165,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1695,
+          "contribution": 0.1949,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0261,
+          "contribution": 0.0253,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -28467,9 +28467,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6490000692123078,
       "volumeRatio20": 0.2910701962179927,
       "revenueMom21d": 0.0,
-      "foreign5": -404.5259999999997,
+      "foreign5": -448.5219999999997,
       "trust5": 0.0,
-      "totalNet5": -404.5259999999997,
+      "totalNet5": -448.5219999999997,
       "foreignNet": -32.99,
       "trustNet": 0.0,
       "totalNet": -33.54,
@@ -28497,34 +28497,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 50",
-        "法人資金分數 49",
+        "法人資金分數 48",
         "趨勢結構分數 38",
         "相對強度排名前 73%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2607,
+          "contribution": 0.2618,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2536,
+          "contribution": 0.2504,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2005,
+          "contribution": 0.2014,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1432,
+          "contribution": 0.1438,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.142,
+          "contribution": 0.1426,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -28558,9 +28558,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4095145000154326,
       "volumeRatio20": 0.342682479943533,
       "revenueMom21d": 0.0,
-      "foreign5": -1695.3039999999985,
-      "trust5": -1.0,
-      "totalNet5": -1696.3039999999985,
+      "foreign5": -3737.9669999999983,
+      "trust5": -2.0,
+      "totalNet5": -3739.9669999999983,
       "foreignNet": -606.893,
       "trustNet": -1.0,
       "totalNet": -613.572,
@@ -28589,33 +28589,33 @@ export const stockSearchData = {
       "reasons": [
         "相對強度排名前 59%",
         "趨勢結構分數 38",
-        "法人資金分數 30",
-        "波動控制分數 29"
+        "波動控制分數 29",
+        "法人資金分數 25"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2694,
+          "contribution": 0.2786,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2514,
+          "contribution": 0.2599,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1988,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volatility Control",
-          "contribution": 0.1905,
+          "contribution": 0.1969,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1716,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.09,
+          "contribution": 0.093,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -28649,9 +28649,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0610731720250657,
       "volumeRatio20": 0.8291341147894288,
       "revenueMom21d": 0.0,
-      "foreign5": -4673.161999999998,
+      "foreign5": -5834.143999999998,
       "trust5": 0.0,
-      "totalNet5": -4673.161999999998,
+      "totalNet5": -5834.143999999998,
       "foreignNet": 1379.664,
       "trustNet": 0.0,
       "totalNet": 1377.703,
@@ -28680,33 +28680,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 80",
         "波動控制分數 45",
-        "法人資金分數 34",
+        "法人資金分數 33",
         "相對強度排名前 79%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.427,
+          "contribution": 0.43,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2417,
+          "contribution": 0.2434,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1834,
+          "contribution": 0.1776,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1138,
+          "contribution": 0.1146,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0341,
+          "contribution": 0.0344,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -28740,9 +28740,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6233276771391506,
       "volumeRatio20": 0.4620269119638568,
       "revenueMom21d": 0.0,
-      "foreign5": -2445.8579999999993,
-      "trust5": 3601.0350000000008,
-      "totalNet5": 1155.1770000000015,
+      "foreign5": 1792.308,
+      "trust5": -543.8049999999995,
+      "totalNet5": 1248.5030000000006,
       "foreignNet": 274.665,
       "trustNet": -75.889,
       "totalNet": 185.647,
@@ -28769,35 +28769,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 57",
         "波動控制分數 51",
+        "法人資金分數 49",
         "量能分數 37",
         "相對強度排名前 82%"
       ],
       "explainability": [
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.3315,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volatility Control",
-          "contribution": 0.2936,
+          "contribution": 0.3086,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2976,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.2132,
+          "contribution": 0.2241,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.101,
+          "contribution": 0.1061,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0606,
+          "contribution": 0.0637,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -28831,9 +28831,9 @@ export const stockSearchData = {
       "volumeRatio5": 2.709880645673852,
       "volumeRatio20": 3.0953062504445668,
       "revenueMom21d": 0.0,
-      "foreign5": 50.04999999999955,
+      "foreign5": -147.07500000000044,
       "trust5": 0.0,
-      "totalNet5": 50.04999999999955,
+      "totalNet5": -147.07500000000044,
       "foreignNet": 60.2,
       "trustNet": 0.0,
       "totalNet": 254.083,
@@ -28863,32 +28863,32 @@ export const stockSearchData = {
         "量能分數 99",
         "波動控制分數 83",
         "相對強度排名前 39%",
-        "法人資金分數 56"
+        "法人資金分數 52"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.287,
+          "contribution": 0.2898,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2395,
+          "contribution": 0.2418,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1764,
+          "contribution": 0.1781,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1608,
+          "contribution": 0.1526,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1364,
+          "contribution": 0.1377,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -28922,9 +28922,9 @@ export const stockSearchData = {
       "volumeRatio5": 2.0065180001808334,
       "volumeRatio20": 2.007113063226812,
       "revenueMom21d": 0.0,
-      "foreign5": 785.1870000000004,
-      "trust5": 119.0,
-      "totalNet5": 904.1870000000004,
+      "foreign5": 1059.6760000000004,
+      "trust5": 122.0,
+      "totalNet5": 1181.6760000000004,
       "foreignNet": 539.63,
       "trustNet": 119.0,
       "totalNet": 661.759,
@@ -28952,34 +28952,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 97",
-        "法人資金分數 78",
+        "法人資金分數 81",
         "波動控制分數 73",
         "相對強度排名前 34%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2691,
+          "contribution": 0.2668,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2144,
+          "contribution": 0.221,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2021,
+          "contribution": 0.2004,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1813,
+          "contribution": 0.1797,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1332,
+          "contribution": 0.132,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -29013,9 +29013,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.5626073896580004,
       "volumeRatio20": 1.6518884304250117,
       "revenueMom21d": 0.0,
-      "foreign5": -26856.68800000001,
-      "trust5": 8572.399000000001,
-      "totalNet5": -18284.289000000008,
+      "foreign5": -24959.83400000001,
+      "trust5": 9611.592,
+      "totalNet5": -15348.24200000001,
       "foreignNet": -9510.493,
       "trustNet": 4121.556,
       "totalNet": -4627.982,
@@ -29050,27 +29050,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2641,
+          "contribution": 0.2638,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2543,
+          "contribution": 0.2541,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1914,
+          "contribution": 0.1912,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1556,
+          "contribution": 0.1555,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1345,
+          "contribution": 0.1354,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -29104,9 +29104,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.738559422859369,
       "volumeRatio20": 0.4211450567707828,
       "revenueMom21d": 0.0,
-      "foreign5": 68.32300000000069,
+      "foreign5": -65.01699999999931,
       "trust5": 0.0,
-      "totalNet5": 68.32300000000069,
+      "totalNet5": -65.01699999999931,
       "foreignNet": 41.0,
       "trustNet": 0.0,
       "totalNet": 41.0,
@@ -29134,34 +29134,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 81",
-        "法人資金分數 56",
+        "法人資金分數 54",
         "量能分數 42",
         "相對強度排名前 59%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3298,
+          "contribution": 0.3324,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2286,
+          "contribution": 0.2225,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1727,
+          "contribution": 0.1741,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1671,
+          "contribution": 0.1684,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1018,
+          "contribution": 0.1026,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -29195,9 +29195,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.384764378859743,
       "volumeRatio20": 1.744893456944767,
       "revenueMom21d": 0.0,
-      "foreign5": -3941.0250000000005,
-      "trust5": -28.0,
-      "totalNet5": -3969.0250000000005,
+      "foreign5": -3780.7200000000003,
+      "trust5": -37.628,
+      "totalNet5": -3818.3480000000004,
       "foreignNet": 4156.433,
       "trustNet": -2.0,
       "totalNet": 4511.755,
@@ -29232,27 +29232,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3145,
+          "contribution": 0.3158,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.214,
+          "contribution": 0.2148,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2005,
+          "contribution": 0.2013,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2005,
+          "contribution": 0.2013,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0705,
+          "contribution": 0.0668,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -29286,9 +29286,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7898640136236675,
       "volumeRatio20": 0.3574781289641678,
       "revenueMom21d": 0.0,
-      "foreign5": 274.01500000000004,
-      "trust5": -16.221999999999998,
-      "totalNet5": 257.79300000000006,
+      "foreign5": -20.562000000000005,
+      "trust5": -13.588999999999999,
+      "totalNet5": -34.151,
       "foreignNet": 50.472,
       "trustNet": 2.16,
       "totalNet": 48.803,
@@ -29316,34 +29316,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 86",
-        "法人資金分數 46",
         "量能分數 42",
+        "法人資金分數 41",
         "相對強度排名前 63%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3653,
+          "contribution": 0.3728,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1946,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.1758,
+          "contribution": 0.1794,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1781,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1548,
+          "contribution": 0.158,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1095,
+          "contribution": 0.1117,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -29377,9 +29377,9 @@ export const stockSearchData = {
       "volumeRatio5": 2.816116278424888,
       "volumeRatio20": 3.930753051587881,
       "revenueMom21d": 0.0,
-      "foreign5": -405.5840000000007,
+      "foreign5": -448.5840000000007,
       "trust5": 0.0,
-      "totalNet5": -405.5840000000007,
+      "totalNet5": -448.5840000000007,
       "foreignNet": -421.153,
       "trustNet": 0.0,
       "totalNet": -420.887,
@@ -29414,27 +29414,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2881,
+          "contribution": 0.2888,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2117,
+          "contribution": 0.2122,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.19,
+          "contribution": 0.1904,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1703,
+          "contribution": 0.1707,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1398,
+          "contribution": 0.1378,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -29468,9 +29468,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7778818956605058,
       "volumeRatio20": 0.4407760249426055,
       "revenueMom21d": 0.0,
-      "foreign5": -10826.368,
-      "trust5": 3444.0,
-      "totalNet5": -7382.368,
+      "foreign5": -11175.479,
+      "trust5": 3420.0,
+      "totalNet5": -7755.478999999999,
       "foreignNet": 580.1,
       "trustNet": -167.0,
       "totalNet": 112.371,
@@ -29498,34 +29498,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 70",
-        "法人資金分數 50",
+        "法人資金分數 51",
         "量能分數 47",
         "相對強度排名前 67%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2999,
+          "contribution": 0.2994,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2163,
+          "contribution": 0.2176,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2002,
+          "contribution": 0.1999,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1427,
+          "contribution": 0.1425,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1409,
+          "contribution": 0.1406,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -29559,9 +29559,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6298762446321726,
       "volumeRatio20": 0.2166492498659663,
       "revenueMom21d": 0.0,
-      "foreign5": -2547.979,
+      "foreign5": -2435.959,
       "trust5": 0.0,
-      "totalNet5": -2547.979,
+      "totalNet5": -2435.959,
       "foreignNet": -264.0,
       "trustNet": 0.0,
       "totalNet": -262.0,
@@ -29588,7 +29588,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 38",
+        "法人資金分數 39",
         "波動控制分數 32",
         "量能分數 21",
         "相對強度排名前 81%"
@@ -29596,27 +29596,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3065,
+          "contribution": 0.3133,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.259,
+          "contribution": 0.2565,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1724,
+          "contribution": 0.1707,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1523,
+          "contribution": 0.1509,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1097,
+          "contribution": 0.1086,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -29650,9 +29650,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7856344510034344,
       "volumeRatio20": 0.7440124055410436,
       "revenueMom21d": 0.0,
-      "foreign5": -5689.175000000003,
-      "trust5": -1933.6290000000001,
-      "totalNet5": -7622.804000000003,
+      "foreign5": -4931.690000000003,
+      "trust5": -863.3580000000002,
+      "totalNet5": -5795.048000000003,
       "foreignNet": -832.176,
       "trustNet": -131.166,
       "totalNet": -848.558,
@@ -29687,27 +29687,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.4033,
+          "contribution": 0.4003,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2149,
+          "contribution": 0.2133,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2081,
+          "contribution": 0.2066,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1033,
+          "contribution": 0.1026,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0704,
+          "contribution": 0.0772,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -29741,9 +29741,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6227776469072499,
       "volumeRatio20": 0.2271684217358319,
       "revenueMom21d": 0.0,
-      "foreign5": -1693.4319999999998,
-      "trust5": -9.0,
-      "totalNet5": -1702.4319999999998,
+      "foreign5": -2130.087,
+      "trust5": -11.0,
+      "totalNet5": -2141.087,
       "foreignNet": -99.671,
       "trustNet": 0.0,
       "totalNet": -100.034,
@@ -29771,34 +29771,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 36",
-        "法人資金分數 27",
         "相對強度排名前 73%",
+        "法人資金分數 26",
         "量能分數 21"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3046,
+          "contribution": 0.3074,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2302,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Relative Strength",
-          "contribution": 0.2252,
+          "contribution": 0.2272,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2232,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.1727,
+          "contribution": 0.1743,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0672,
+          "contribution": 0.0678,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -29832,9 +29832,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9086738423630704,
       "volumeRatio20": 0.4384007577831862,
       "revenueMom21d": 0.0,
-      "foreign5": 245.19399999999865,
+      "foreign5": 41.64699999999863,
       "trust5": 0.0,
-      "totalNet5": 245.19399999999865,
+      "totalNet5": 41.64699999999863,
       "foreignNet": 330.773,
       "trustNet": 0.0,
       "totalNet": 302.588,
@@ -29861,7 +29861,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 59",
+        "法人資金分數 57",
         "量能分數 55",
         "波動控制分數 48",
         "相對強度排名前 86%"
@@ -29869,27 +29869,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.312,
+          "contribution": 0.3031,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2893,
+          "contribution": 0.293,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2535,
+          "contribution": 0.2567,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0763,
+          "contribution": 0.0773,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.069,
+          "contribution": 0.0699,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -29923,9 +29923,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.70823963992923,
       "volumeRatio20": 0.4160017072732956,
       "revenueMom21d": 0.0,
-      "foreign5": -4282.473999999993,
-      "trust5": -820.1459999999997,
-      "totalNet5": -5102.619999999993,
+      "foreign5": -2459.0509999999927,
+      "trust5": -36.146000000000186,
+      "totalNet5": -2495.196999999993,
       "foreignNet": -456.359,
       "trustNet": 2385.5,
       "totalNet": 1836.446,
@@ -29960,27 +29960,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3947,
+          "contribution": 0.3797,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1854,
+          "contribution": 0.1784,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.179,
+          "contribution": 0.1722,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1758,
+          "contribution": 0.1691,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0652,
+          "contribution": 0.1007,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -30014,9 +30014,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7817142334854361,
       "volumeRatio20": 0.5895921967126735,
       "revenueMom21d": 0.0,
-      "foreign5": -8.824999999999989,
-      "trust5": 15.982,
-      "totalNet5": 7.157000000000011,
+      "foreign5": 47.75799999999998,
+      "trust5": 0.0,
+      "totalNet5": 47.75799999999998,
       "foreignNet": 168.227,
       "trustNet": 0.0,
       "totalNet": 180.89,
@@ -30043,35 +30043,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 65",
         "量能分數 57",
+        "法人資金分數 57",
         "相對強度排名前 57%",
         "波動控制分數 31"
       ],
       "explainability": [
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.289,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.2523,
+          "contribution": 0.2624,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2608,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1888,
+          "contribution": 0.1963,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1378,
+          "contribution": 0.1433,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.132,
+          "contribution": 0.1372,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -30105,9 +30105,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.1059863161671146,
       "volumeRatio20": 0.7897233293475084,
       "revenueMom21d": 0.0,
-      "foreign5": 2469.9120000000003,
-      "trust5": -8215.826000000001,
-      "totalNet5": -5745.914000000001,
+      "foreign5": 4871.1810000000005,
+      "trust5": -8141.281,
+      "totalNet5": -3270.0999999999995,
       "foreignNet": 1313.37,
       "trustNet": -2219.951,
       "totalNet": -1216.063,
@@ -30136,33 +30136,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 80",
         "波動控制分數 74",
-        "法人資金分數 45",
+        "法人資金分數 49",
         "趨勢結構分數 43"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3083,
+          "contribution": 0.3041,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2843,
+          "contribution": 0.2804,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1731,
+          "contribution": 0.1845,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.165,
+          "contribution": 0.1627,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0692,
+          "contribution": 0.0683,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -30196,9 +30196,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.353614419708684,
       "volumeRatio20": 0.6182612255561709,
       "revenueMom21d": 0.0,
-      "foreign5": 614.8409999999991,
-      "trust5": 1463.0,
-      "totalNet5": 2077.840999999999,
+      "foreign5": 1807.7189999999991,
+      "trust5": 1571.0,
+      "totalNet5": 3378.718999999999,
       "foreignNet": -203.024,
       "trustNet": 748.0,
       "totalNet": 670.976,
@@ -30226,34 +30226,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 100",
-        "法人資金分數 81",
+        "法人資金分數 88",
         "量能分數 77",
         "趨勢結構分數 73"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2625,
+          "contribution": 0.258,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2131,
+          "contribution": 0.2267,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2014,
+          "contribution": 0.1979,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1926,
+          "contribution": 0.1893,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1304,
+          "contribution": 0.1281,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -30287,9 +30287,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.616714531573719,
       "volumeRatio20": 0.5955363133693341,
       "revenueMom21d": 0.0,
-      "foreign5": 1045.159,
-      "trust5": -406.7390000000002,
-      "totalNet5": 638.4199999999998,
+      "foreign5": 1456.986,
+      "trust5": -593.4310000000003,
+      "totalNet5": 863.5549999999998,
       "foreignNet": 318.092,
       "trustNet": 82.051,
       "totalNet": 410.751,
@@ -30316,7 +30316,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 46",
+        "法人資金分數 47",
         "量能分數 45",
         "波動控制分數 38",
         "相對強度排名前 81%"
@@ -30324,27 +30324,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2759,
+          "contribution": 0.2807,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2705,
+          "contribution": 0.2687,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.226,
+          "contribution": 0.2245,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1146,
+          "contribution": 0.1139,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.113,
+          "contribution": 0.1123,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -30378,9 +30378,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6269592525233928,
       "volumeRatio20": 0.2025194293187231,
       "revenueMom21d": 0.0,
-      "foreign5": -173.52599999999998,
+      "foreign5": -228.1760000000001,
       "trust5": 0.0,
-      "totalNet5": -173.52599999999998,
+      "totalNet5": -228.1760000000001,
       "foreignNet": -173.146,
       "trustNet": 0.0,
       "totalNet": -174.271,
@@ -30408,34 +30408,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 53",
-        "法人資金分數 52",
+        "法人資金分數 51",
         "趨勢結構分數 46",
         "相對強度排名前 63%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2565,
+          "contribution": 0.2575,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2499,
+          "contribution": 0.247,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2214,
+          "contribution": 0.2223,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1765,
+          "contribution": 0.1772,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0956,
+          "contribution": 0.096,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -30469,9 +30469,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.422894757300283,
       "volumeRatio20": 0.2355005425572998,
       "revenueMom21d": 0.0,
-      "foreign5": -4225.467,
+      "foreign5": -5181.325999999999,
       "trust5": 0.0,
-      "totalNet5": -4225.467,
+      "totalNet5": -5181.325999999999,
       "foreignNet": 151.629,
       "trustNet": 0.0,
       "totalNet": 94.175,
@@ -30498,7 +30498,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 35",
+        "法人資金分數 34",
         "趨勢結構分數 33",
         "相對強度排名前 73%",
         "波動控制分數 14"
@@ -30506,27 +30506,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3004,
+          "contribution": 0.2906,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2819,
+          "contribution": 0.2858,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.229,
+          "contribution": 0.2322,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1189,
+          "contribution": 0.1206,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0698,
+          "contribution": 0.0708,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -30560,9 +30560,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4858576602831712,
       "volumeRatio20": 0.5265898928257441,
       "revenueMom21d": 0.0,
-      "foreign5": -2702.363000000003,
+      "foreign5": -3167.353000000003,
       "trust5": -1.0,
-      "totalNet5": -2703.363000000003,
+      "totalNet5": -3168.353000000003,
       "foreignNet": -685.852,
       "trustNet": -1.0,
       "totalNet": -848.991,
@@ -30592,32 +30592,32 @@ export const stockSearchData = {
         "波動控制分數 62",
         "相對強度排名前 52%",
         "量能分數 31",
-        "法人資金分數 28"
+        "法人資金分數 27"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3233,
+          "contribution": 0.3241,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2518,
+          "contribution": 0.2524,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1627,
+          "contribution": 0.1631,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1455,
+          "contribution": 0.1433,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1167,
+          "contribution": 0.117,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -30651,9 +30651,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8351172801854437,
       "volumeRatio20": 0.9529772227819407,
       "revenueMom21d": 0.0,
-      "foreign5": -993.414,
-      "trust5": 58.09300000000002,
-      "totalNet5": -935.3209999999999,
+      "foreign5": -1074.505,
+      "trust5": 208.606,
+      "totalNet5": -865.8990000000001,
       "foreignNet": -88.322,
       "trustNet": 20.025,
       "totalNet": -67.935,
@@ -30682,33 +30682,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 74",
         "波動控制分數 74",
-        "法人資金分數 55",
+        "法人資金分數 58",
         "相對強度排名前 56%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2608,
+          "contribution": 0.2577,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2583,
+          "contribution": 0.2552,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1934,
+          "contribution": 0.203,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1528,
+          "contribution": 0.151,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1348,
+          "contribution": 0.1332,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -30742,9 +30742,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.98111530243496,
       "volumeRatio20": 0.3683086792602504,
       "revenueMom21d": 0.0,
-      "foreign5": -6309.396000000004,
+      "foreign5": -4474.261000000004,
       "trust5": 0.0,
-      "totalNet5": -6309.396000000004,
+      "totalNet5": -4474.261000000004,
       "foreignNet": -1558.94,
       "trustNet": 0.0,
       "totalNet": -1567.307,
@@ -30773,33 +30773,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 51",
         "波動控制分數 37",
-        "法人資金分數 33",
+        "法人資金分數 35",
         "相對強度排名前 81%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3285,
+          "contribution": 0.3251,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2392,
+          "contribution": 0.2368,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2118,
+          "contribution": 0.2198,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.119,
+          "contribution": 0.1178,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1015,
+          "contribution": 0.1005,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -30833,9 +30833,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5324440245609925,
       "volumeRatio20": 0.3293312443350196,
       "revenueMom21d": 0.0,
-      "foreign5": -50.096000000000004,
+      "foreign5": -95.161,
       "trust5": 0.0,
-      "totalNet5": -50.096000000000004,
+      "totalNet5": -95.161,
       "foreignNet": 17.105,
       "trustNet": 0.0,
       "totalNet": 16.855,
@@ -30863,34 +30863,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 72",
-        "法人資金分數 54",
+        "法人資金分數 53",
         "趨勢結構分數 22",
         "量能分數 20"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3861,
+          "contribution": 0.387,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2869,
+          "contribution": 0.2853,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1168,
+          "contribution": 0.1171,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.106,
+          "contribution": 0.1062,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1042,
+          "contribution": 0.1044,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -30924,9 +30924,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7671839868875004,
       "volumeRatio20": 0.2895919196582002,
       "revenueMom21d": 0.0,
-      "foreign5": -334.67300000000023,
+      "foreign5": 79.47499999999977,
       "trust5": 0.0,
-      "totalNet5": -334.67300000000023,
+      "totalNet5": 79.47499999999977,
       "foreignNet": 160.995,
       "trustNet": 0.0,
       "totalNet": 160.995,
@@ -30954,34 +30954,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 59",
-        "法人資金分數 49",
+        "法人資金分數 58",
         "量能分數 35",
         "相對強度排名前 73%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3143,
+          "contribution": 0.3009,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2618,
+          "contribution": 0.2934,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1873,
+          "contribution": 0.1793,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1424,
+          "contribution": 0.1363,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0942,
+          "contribution": 0.0902,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -31015,9 +31015,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7118978575093281,
       "volumeRatio20": 0.5305941685208798,
       "revenueMom21d": 0.0,
-      "foreign5": 145.56999999999985,
-      "trust5": -4.0,
-      "totalNet5": 141.56999999999985,
+      "foreign5": 273.0239999999999,
+      "trust5": -3.0,
+      "totalNet5": 270.0239999999999,
       "foreignNet": 50.152,
       "trustNet": 0.0,
       "totalNet": 50.152,
@@ -31047,33 +31047,33 @@ export const stockSearchData = {
         "波動控制分數 99",
         "趨勢結構分數 56",
         "相對強度排名前 50%",
-        "量能分數 48"
+        "法人資金分數 49"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.331,
+          "contribution": 0.3279,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1871,
+          "contribution": 0.1853,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1671,
+          "contribution": 0.1655,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Volume Expansion",
-          "contribution": 0.1594,
-          "detail": "5日與20日量能放大排名"
+          "factor": "Institutional Flow",
+          "contribution": 0.1634,
+          "detail": "外資與投信近5日買超排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1554,
-          "detail": "外資與投信近5日買超排名"
+          "factor": "Volume Expansion",
+          "contribution": 0.1579,
+          "detail": "5日與20日量能放大排名"
         }
       ]
     },
@@ -31106,9 +31106,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0050226783782752,
       "volumeRatio20": 1.0301627313291015,
       "revenueMom21d": 0.0,
-      "foreign5": -238.6159999999999,
+      "foreign5": -193.6979999999999,
       "trust5": 0.0,
-      "totalNet5": -238.6159999999999,
+      "totalNet5": -193.6979999999999,
       "foreignNet": 7.112,
       "trustNet": 0.0,
       "totalNet": 4.032,
@@ -31137,33 +31137,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 92",
         "量能分數 83",
-        "法人資金分數 50",
+        "法人資金分數 52",
         "相對強度排名前 64%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.313,
+          "contribution": 0.3117,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.283,
+          "contribution": 0.2818,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1718,
+          "contribution": 0.1752,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1243,
+          "contribution": 0.1238,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1079,
+          "contribution": 0.1074,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -31197,9 +31197,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9626808137361316,
       "volumeRatio20": 0.6389591665251106,
       "revenueMom21d": 0.0,
-      "foreign5": -2602.576,
-      "trust5": 702.0,
-      "totalNet5": -1900.576,
+      "foreign5": 1551.0000000000002,
+      "trust5": 1165.0,
+      "totalNet5": 2716.0,
       "foreignNet": -622.742,
       "trustNet": -8.0,
       "totalNet": -615.011,
@@ -31227,35 +31227,35 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 92",
+        "法人資金分數 87",
         "趨勢結構分數 84",
-        "量能分數 70",
-        "相對強度排名前 44%"
+        "量能分數 70"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2581,
+          "contribution": 0.2365,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2228,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.2352,
+          "contribution": 0.2155,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1969,
+          "contribution": 0.1804,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1581,
+          "contribution": 0.1449,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
-        },
-        {
-          "factor": "Institutional Flow",
-          "contribution": 0.1518,
-          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -31288,9 +31288,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.6292998669123746,
       "volumeRatio20": 1.7752220615920666,
       "revenueMom21d": 0.0,
-      "foreign5": 1616.0610000000006,
-      "trust5": -18.410999999999916,
-      "totalNet5": 1597.6500000000008,
+      "foreign5": 814.0770000000008,
+      "trust5": 0.0,
+      "totalNet5": 814.0770000000008,
       "foreignNet": 240.584,
       "trustNet": 0.0,
       "totalNet": 286.085,
@@ -31320,33 +31320,33 @@ export const stockSearchData = {
         "量能分數 96",
         "趨勢結構分數 77",
         "波動控制分數 70",
-        "相對強度排名前 36%"
+        "法人資金分數 65"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2648,
+          "contribution": 0.2568,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2147,
+          "contribution": 0.2082,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1931,
+          "contribution": 0.1873,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Relative Strength",
-          "contribution": 0.1782,
-          "detail": "10日動能、52週位置與均線乖離綜合排名"
+          "factor": "Institutional Flow",
+          "contribution": 0.1749,
+          "detail": "外資與投信近5日買超排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1492,
-          "detail": "外資與投信近5日買超排名"
+          "factor": "Relative Strength",
+          "contribution": 0.1728,
+          "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
     },
@@ -31379,9 +31379,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8781093509341055,
       "volumeRatio20": 0.3947561415294283,
       "revenueMom21d": 0.0,
-      "foreign5": 24438.976999999963,
-      "trust5": -14790.246000000003,
-      "totalNet5": 9648.73099999996,
+      "foreign5": 26804.696999999964,
+      "trust5": -14307.246,
+      "totalNet5": 12497.450999999965,
       "foreignNet": 5367.028,
       "trustNet": -6519.159,
       "totalNet": -939.349,
@@ -31416,27 +31416,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2991,
+          "contribution": 0.2999,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2961,
+          "contribution": 0.2957,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2219,
+          "contribution": 0.2216,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.0953,
+          "contribution": 0.0952,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0876,
+          "contribution": 0.0875,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -31470,9 +31470,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6504835180204922,
       "volumeRatio20": 0.608218723501556,
       "revenueMom21d": 0.0,
-      "foreign5": -30659.391000000003,
-      "trust5": 32892.748,
-      "totalNet5": 2233.3569999999963,
+      "foreign5": -22665.407000000003,
+      "trust5": 33902.799,
+      "totalNet5": 11237.391999999996,
       "foreignNet": 1230.933,
       "trustNet": 1679.886,
       "totalNet": 3221.912,
@@ -31501,33 +31501,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 98",
         "趨勢結構分數 64",
-        "相對強度排名前 49%",
-        "法人資金分數 51"
+        "法人資金分數 52",
+        "相對強度排名前 49%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3111,
+          "contribution": 0.3106,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2044,
+          "contribution": 0.2041,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
-          "factor": "Relative Strength",
-          "contribution": 0.1628,
-          "detail": "10日動能、52週位置與均線乖離綜合排名"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.1626,
+          "contribution": 0.164,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Relative Strength",
+          "contribution": 0.1626,
+          "detail": "10日動能、52週位置與均線乖離綜合排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.1591,
+          "contribution": 0.1588,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -31561,9 +31561,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5686135232396198,
       "volumeRatio20": 0.2131711086461036,
       "revenueMom21d": 0.0,
-      "foreign5": -13138.357999999998,
-      "trust5": -59.76800000000364,
-      "totalNet5": -13198.126000000002,
+      "foreign5": -14563.606,
+      "trust5": 40.23199999999636,
+      "totalNet5": -14523.374000000003,
       "foreignNet": 923.606,
       "trustNet": -34.578,
       "totalNet": 955.787,
@@ -31590,36 +31590,36 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 42",
         "相對強度排名前 68%",
         "趨勢結構分數 29",
-        "波動控制分數 26",
-        "量能分數 16"
+        "波動控制分數 26"
       ],
       "explainability": [
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.292,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.2718,
+          "contribution": 0.2198,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2445,
+          "contribution": 0.1977,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2211,
+          "contribution": 0.1788,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1382,
+          "contribution": 0.1118,
           "detail": "5日與20日量能放大排名"
-        },
-        {
-          "factor": "Institutional Flow",
-          "contribution": 0.1244,
-          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -31652,9 +31652,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7482608159563646,
       "volumeRatio20": 0.3525016134903894,
       "revenueMom21d": 0.0,
-      "foreign5": -682.6969999999997,
-      "trust5": 5.999999999999432,
-      "totalNet5": -676.6970000000002,
+      "foreign5": -1433.5949999999996,
+      "trust5": -100.64700000000056,
+      "totalNet5": -1534.2420000000002,
       "foreignNet": -96.304,
       "trustNet": -1.0,
       "totalNet": -103.32,
@@ -31681,35 +31681,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 55",
         "波動控制分數 50",
         "相對強度排名前 58%",
-        "量能分數 37"
+        "量能分數 37",
+        "法人資金分數 25"
       ],
       "explainability": [
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.267,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volatility Control",
-          "contribution": 0.2448,
+          "contribution": 0.2866,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.205,
+          "contribution": 0.24,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1801,
+          "contribution": 0.2109,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1416,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.1031,
+          "contribution": 0.1208,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -31743,9 +31743,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.824860553387326,
       "volumeRatio20": 0.5379295399390145,
       "revenueMom21d": 0.0,
-      "foreign5": 1024.6110000000015,
-      "trust5": -6.0,
-      "totalNet5": 1018.6110000000015,
+      "foreign5": 1030.3360000000014,
+      "trust5": -7.0,
+      "totalNet5": 1023.3360000000014,
       "foreignNet": 252.014,
       "trustNet": 0.0,
       "totalNet": 233.836,
@@ -31780,22 +31780,22 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.33,
+          "contribution": 0.3295,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3104,
+          "contribution": 0.3114,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1951,
+          "contribution": 0.1948,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1184,
+          "contribution": 0.1182,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
@@ -31834,9 +31834,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4738635831101051,
       "volumeRatio20": 0.4768281443482224,
       "revenueMom21d": 0.0,
-      "foreign5": -460.5609999999998,
-      "trust5": 19.999999999999545,
-      "totalNet5": -440.56100000000026,
+      "foreign5": -578.8999999999997,
+      "trust5": 21.999999999999545,
+      "totalNet5": -556.9000000000002,
       "foreignNet": 110.129,
       "trustNet": 5.0,
       "totalNet": 107.35,
@@ -31871,27 +31871,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2491,
+          "contribution": 0.2465,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2314,
+          "contribution": 0.2322,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2043,
+          "contribution": 0.205,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2007,
+          "contribution": 0.2014,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1144,
+          "contribution": 0.1148,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -31925,9 +31925,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7512649476272346,
       "volumeRatio20": 0.9838882617576972,
       "revenueMom21d": 0.0,
-      "foreign5": -36005.759,
-      "trust5": 42185.396,
-      "totalNet5": 6179.637000000002,
+      "foreign5": -37831.416,
+      "trust5": 47660.0,
+      "totalNet5": 9828.584000000003,
       "foreignNet": -7119.972,
       "trustNet": 8055.0,
       "totalNet": 896.683,
@@ -31962,27 +31962,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2845,
+          "contribution": 0.2842,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1988,
+          "contribution": 0.1987,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1936,
+          "contribution": 0.1934,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1756,
+          "contribution": 0.1754,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1475,
+          "contribution": 0.1483,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -32016,9 +32016,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.637217575745086,
       "volumeRatio20": 0.4148787148719107,
       "revenueMom21d": 0.0,
-      "foreign5": -407.5689999999999,
-      "trust5": 11.39,
-      "totalNet5": -396.1789999999999,
+      "foreign5": 158.08300000000006,
+      "trust5": 8.39,
+      "totalNet5": 166.47300000000007,
       "foreignNet": 66.638,
       "trustNet": 12.39,
       "totalNet": 80.069,
@@ -32045,7 +32045,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 59",
+        "法人資金分數 69",
         "波動控制分數 42",
         "量能分數 34",
         "趨勢結構分數 34"
@@ -32053,27 +32053,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3082,
+          "contribution": 0.3433,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2221,
+          "contribution": 0.2108,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1803,
+          "contribution": 0.1712,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1777,
+          "contribution": 0.1686,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1117,
+          "contribution": 0.1061,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -32107,9 +32107,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7928805471532521,
       "volumeRatio20": 0.4468836603455261,
       "revenueMom21d": 0.0,
-      "foreign5": -909.2510000000003,
+      "foreign5": -994.7380000000003,
       "trust5": 0.0,
-      "totalNet5": -909.2510000000003,
+      "totalNet5": -994.7380000000003,
       "foreignNet": -46.0,
       "trustNet": 0.0,
       "totalNet": -46.282,
@@ -32137,34 +32137,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 49",
-        "法人資金分數 43",
+        "法人資金分數 44",
         "波動控制分數 38",
         "相對強度排名前 78%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2843,
+          "contribution": 0.2833,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2484,
+          "contribution": 0.251,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2207,
+          "contribution": 0.2199,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1245,
+          "contribution": 0.1241,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.122,
+          "contribution": 0.1216,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -32198,9 +32198,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6995439300893519,
       "volumeRatio20": 0.4687781948291512,
       "revenueMom21d": 0.0,
-      "foreign5": -8438.197,
-      "trust5": -85.63300000000004,
-      "totalNet5": -8523.83,
+      "foreign5": -8433.067,
+      "trust5": 30.544999999999845,
+      "totalNet5": -8402.521999999999,
       "foreignNet": -1134.345,
       "trustNet": 1124.086,
       "totalNet": 0.525,
@@ -32227,36 +32227,36 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 44",
         "量能分數 43",
         "趨勢結構分數 39",
-        "相對強度排名前 65%",
-        "波動控制分數 34"
+        "相對強度排名前 65%"
       ],
       "explainability": [
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2246,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.2558,
+          "contribution": 0.2189,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2352,
+          "contribution": 0.2013,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2114,
+          "contribution": 0.1809,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2037,
+          "contribution": 0.1743,
           "detail": "20日波動相對分數，越高代表越穩定"
-        },
-        {
-          "factor": "Institutional Flow",
-          "contribution": 0.094,
-          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -32289,9 +32289,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0258184240808028,
       "volumeRatio20": 0.7548784968828782,
       "revenueMom21d": 0.0,
-      "foreign5": 11944.306000000011,
-      "trust5": -12098.611,
-      "totalNet5": -154.30499999998938,
+      "foreign5": 14527.068000000012,
+      "trust5": -11725.552000000001,
+      "totalNet5": 2801.5160000000105,
       "foreignNet": 7918.954,
       "trustNet": -1504.418,
       "totalNet": 6888.866,
@@ -32319,34 +32319,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 77",
-        "法人資金分數 49",
+        "法人資金分數 50",
         "波動控制分數 49",
         "趨勢結構分數 28"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3431,
+          "contribution": 0.3422,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2175,
+          "contribution": 0.2196,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2171,
+          "contribution": 0.2165,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1242,
+          "contribution": 0.1239,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0981,
+          "contribution": 0.0978,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -32380,9 +32380,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8805438858703964,
       "volumeRatio20": 0.3535781402550904,
       "revenueMom21d": 0.0,
-      "foreign5": -1207.6360000000032,
+      "foreign5": -2930.723000000003,
       "trust5": -1.0,
-      "totalNet5": -1208.6360000000032,
+      "totalNet5": -2931.723000000003,
       "foreignNet": 1018.427,
       "trustNet": -1.0,
       "totalNet": 1050.301,
@@ -32417,27 +32417,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2353,
+          "contribution": 0.2407,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2214,
+          "contribution": 0.2266,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2006,
+          "contribution": 0.2052,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1784,
+          "contribution": 0.1825,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1643,
+          "contribution": 0.145,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -32471,9 +32471,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8701672073754863,
       "volumeRatio20": 0.6672277224601981,
       "revenueMom21d": 0.0,
-      "foreign5": 246.85499999999996,
-      "trust5": 359.0,
-      "totalNet5": 605.855,
+      "foreign5": 934.5579999999999,
+      "trust5": 377.45,
+      "totalNet5": 1312.0079999999998,
       "foreignNet": 295.246,
       "trustNet": 101.0,
       "totalNet": 399.246,
@@ -32501,34 +32501,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 97",
-        "法人資金分數 75",
+        "法人資金分數 82",
         "量能分數 68",
         "相對強度排名前 48%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2981,
+          "contribution": 0.292,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2288,
+          "contribution": 0.2445,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2072,
+          "contribution": 0.203,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1602,
+          "contribution": 0.1569,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1058,
+          "contribution": 0.1036,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -32562,9 +32562,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5634659570159591,
       "volumeRatio20": 0.3518311202657901,
       "revenueMom21d": 0.0,
-      "foreign5": 208.31000000000057,
+      "foreign5": 515.7830000000006,
       "trust5": 0.0,
-      "totalNet5": 208.31000000000057,
+      "totalNet5": 515.7830000000006,
       "foreignNet": 36.0,
       "trustNet": 0.0,
       "totalNet": 41.0,
@@ -32592,34 +32592,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 78",
-        "法人資金分數 58",
+        "法人資金分數 63",
         "相對強度排名前 48%",
         "趨勢結構分數 31"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3216,
+          "contribution": 0.3154,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2406,
+          "contribution": 0.2552,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2133,
+          "contribution": 0.2092,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1283,
+          "contribution": 0.1258,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0962,
+          "contribution": 0.0944,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -32653,9 +32653,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8145229269728772,
       "volumeRatio20": 0.3702470310287122,
       "revenueMom21d": 0.0541199646841938,
-      "foreign5": 223.9829999999999,
-      "trust5": -22.914999999999964,
-      "totalNet5": 201.06799999999993,
+      "foreign5": 171.22199999999992,
+      "trust5": 65.78800000000001,
+      "totalNet5": 237.00999999999993,
       "foreignNet": -302.018,
       "trustNet": 231.0,
       "totalNet": -106.339,
@@ -32683,34 +32683,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 76",
-        "法人資金分數 45",
+        "法人資金分數 72",
         "量能分數 44",
         "相對強度排名前 63%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3201,
+          "contribution": 0.2869,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1877,
+          "contribution": 0.272,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1865,
+          "contribution": 0.1671,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1558,
+          "contribution": 0.1396,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1499,
+          "contribution": 0.1343,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -32744,9 +32744,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5365089573035576,
       "volumeRatio20": 0.3528512985057185,
       "revenueMom21d": 0.0,
-      "foreign5": 321114.218,
-      "trust5": -286179.94,
-      "totalNet5": 34934.27799999999,
+      "foreign5": -7929.1539999999995,
+      "trust5": -95.0,
+      "totalNet5": -8024.1539999999995,
       "foreignNet": 4666.978,
       "trustNet": -50.0,
       "totalNet": 4638.307,
@@ -32776,33 +32776,33 @@ export const stockSearchData = {
         "波動控制分數 96",
         "趨勢結構分數 69",
         "相對強度排名前 50%",
-        "法人資金分數 50"
+        "量能分數 22"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3358,
+          "contribution": 0.3826,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.239,
+          "contribution": 0.2723,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1753,
+          "contribution": 0.1997,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1746,
-          "detail": "外資與投信近5日買超排名"
+          "factor": "Volume Expansion",
+          "contribution": 0.0858,
+          "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Volume Expansion",
-          "contribution": 0.0753,
-          "detail": "5日與20日量能放大排名"
+          "factor": "Institutional Flow",
+          "contribution": 0.0596,
+          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -32835,9 +32835,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6761828867036962,
       "volumeRatio20": 0.3131563322675025,
       "revenueMom21d": 0.0,
-      "foreign5": 48.013000000000005,
+      "foreign5": 865.678,
       "trust5": 0.0,
-      "totalNet5": 48.013000000000005,
+      "totalNet5": 865.678,
       "foreignNet": 45.0,
       "trustNet": 0.0,
       "totalNet": 37.0,
@@ -32865,34 +32865,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 90",
-        "法人資金分數 56",
+        "法人資金分數 66",
         "相對強度排名前 55%",
         "趨勢結構分數 39"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3478,
+          "contribution": 0.3349,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2138,
+          "contribution": 0.2429,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.172,
+          "contribution": 0.1656,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1509,
+          "contribution": 0.1453,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1155,
+          "contribution": 0.1113,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -32926,9 +32926,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7896234063614198,
       "volumeRatio20": 0.3859348052689803,
       "revenueMom21d": 0.0,
-      "foreign5": -4664.887,
-      "trust5": -75.885,
-      "totalNet5": -4740.772,
+      "foreign5": -2967.228,
+      "trust5": -76.885,
+      "totalNet5": -3044.1130000000003,
       "foreignNet": -61.0,
       "trustNet": 26.115,
       "totalNet": -41.926,
@@ -32963,27 +32963,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2973,
+          "contribution": 0.2947,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2156,
+          "contribution": 0.2136,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2055,
+          "contribution": 0.2036,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1955,
+          "contribution": 0.1938,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0862,
+          "contribution": 0.0943,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -33017,9 +33017,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5322158542030413,
       "volumeRatio20": 0.3627705664690779,
       "revenueMom21d": 0.0,
-      "foreign5": 13765.077999999996,
-      "trust5": -47.362,
-      "totalNet5": 13717.715999999997,
+      "foreign5": 22799.086999999996,
+      "trust5": -105.362,
+      "totalNet5": 22693.724999999995,
       "foreignNet": 1970.601,
       "trustNet": -94.083,
       "totalNet": 1905.518,
@@ -33048,33 +33048,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 97",
         "趨勢結構分數 61",
-        "法人資金分數 59",
+        "法人資金分數 57",
         "相對強度排名前 47%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3319,
+          "contribution": 0.3335,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2079,
+          "contribution": 0.2089,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2016,
+          "contribution": 0.1977,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1831,
+          "contribution": 0.184,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0755,
+          "contribution": 0.0759,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -33108,9 +33108,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8714078370169784,
       "volumeRatio20": 1.0390674289674109,
       "revenueMom21d": 0.0,
-      "foreign5": 2734.3,
-      "trust5": -4263.285,
-      "totalNet5": -1528.9849999999997,
+      "foreign5": 2762.205,
+      "trust5": -4215.285,
+      "totalNet5": -1453.08,
       "foreignNet": 912.0,
       "trustNet": -909.285,
       "totalNet": 13.342,
@@ -33139,33 +33139,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 90",
         "量能分數 78",
-        "法人資金分數 46",
+        "法人資金分數 47",
         "相對強度排名前 64%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3175,
+          "contribution": 0.3165,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2762,
+          "contribution": 0.2753,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.163,
+          "contribution": 0.1657,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1279,
+          "contribution": 0.1275,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1153,
+          "contribution": 0.115,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -33199,9 +33199,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.661846680322765,
       "volumeRatio20": 0.2440747322668899,
       "revenueMom21d": 0.0,
-      "foreign5": -1937.2350000000033,
+      "foreign5": -2506.5010000000034,
       "trust5": 6.999999999999545,
-      "totalNet5": -1930.2350000000038,
+      "totalNet5": -2499.501000000004,
       "foreignNet": 807.09,
       "trustNet": 7.0,
       "totalNet": 779.295,
@@ -33236,27 +33236,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2937,
+          "contribution": 0.2929,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2804,
+          "contribution": 0.2807,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1521,
+          "contribution": 0.1523,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1511,
+          "contribution": 0.1513,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1226,
+          "contribution": 0.1227,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -33290,9 +33290,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7026309936999477,
       "volumeRatio20": 0.625830055063664,
       "revenueMom21d": 0.0,
-      "foreign5": -11127.182,
+      "foreign5": -5528.495999999999,
       "trust5": -3.0,
-      "totalNet5": -11130.182,
+      "totalNet5": -5531.495999999999,
       "foreignNet": 1372.0,
       "trustNet": -3.0,
       "totalNet": 1434.187,
@@ -33327,27 +33327,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3085,
+          "contribution": 0.3046,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.262,
+          "contribution": 0.2587,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1789,
+          "contribution": 0.1767,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1532,
+          "contribution": 0.1513,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0974,
+          "contribution": 0.1086,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -33381,9 +33381,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6370031416064837,
       "volumeRatio20": 0.6414548582352081,
       "revenueMom21d": 0.0,
-      "foreign5": 3307.558,
-      "trust5": 30.0,
-      "totalNet5": 3337.558,
+      "foreign5": 1114.973,
+      "trust5": 35.0,
+      "totalNet5": 1149.973,
       "foreignNet": 754.0,
       "trustNet": 10.0,
       "totalNet": 769.772,
@@ -33410,7 +33410,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 82",
+        "法人資金分數 79",
         "波動控制分數 63",
         "相對強度排名前 46%",
         "量能分數 50"
@@ -33418,27 +33418,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.281,
+          "contribution": 0.2741,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2144,
+          "contribution": 0.2165,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1861,
+          "contribution": 0.1878,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1719,
+          "contribution": 0.1735,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1466,
+          "contribution": 0.148,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -33472,9 +33472,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4207532630592371,
       "volumeRatio20": 0.4281904197195706,
       "revenueMom21d": 0.0,
-      "foreign5": 16639.585,
-      "trust5": -24718.246,
-      "totalNet5": -8078.661,
+      "foreign5": -11109.020999999999,
+      "trust5": 151.0,
+      "totalNet5": -10958.020999999999,
       "foreignNet": -161.741,
       "trustNet": -4.0,
       "totalNet": -146.922,
@@ -33502,34 +33502,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "相對強度排名前 48%",
-        "法人資金分數 49",
         "趨勢結構分數 48",
+        "法人資金分數 45",
         "波動控制分數 31"
       ],
       "explainability": [
         {
           "factor": "Relative Strength",
-          "contribution": 0.2586,
+          "contribution": 0.2627,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2433,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.2402,
+          "contribution": 0.244,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2312,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.1527,
+          "contribution": 0.1552,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1052,
+          "contribution": 0.1069,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -33563,9 +33563,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.1963176814199057,
       "volumeRatio20": 0.901015095291034,
       "revenueMom21d": 0.0,
-      "foreign5": 317.222,
-      "trust5": -200.0,
-      "totalNet5": 117.22199999999998,
+      "foreign5": 153.502,
+      "trust5": -70.0,
+      "totalNet5": 83.50200000000001,
       "foreignNet": 91.0,
       "trustNet": -70.0,
       "totalNet": 30.624,
@@ -33594,33 +33594,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 84",
         "波動控制分數 61",
-        "法人資金分數 43",
+        "法人資金分數 42",
         "相對強度排名前 75%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3666,
+          "contribution": 0.3674,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2644,
+          "contribution": 0.2649,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1855,
+          "contribution": 0.1837,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1078,
+          "contribution": 0.108,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0758,
+          "contribution": 0.0759,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -33654,9 +33654,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6098183408179084,
       "volumeRatio20": 0.619185922826555,
       "revenueMom21d": 0.0,
-      "foreign5": 2041.2839999999997,
-      "trust5": 17.591,
-      "totalNet5": 2058.8749999999995,
+      "foreign5": 4209.092,
+      "trust5": -6.0,
+      "totalNet5": 4203.092,
       "foreignNet": -548.362,
       "trustNet": -6.0,
       "totalNet": -546.421,
@@ -33684,34 +33684,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 86",
-        "法人資金分數 79",
         "趨勢結構分數 65",
+        "法人資金分數 60",
         "相對強度排名前 46%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.261,
+          "contribution": 0.2775,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2394,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.1958,
+          "contribution": 0.2081,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1913,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1624,
+          "contribution": 0.1727,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1415,
+          "contribution": 0.1504,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -33745,9 +33745,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0419206721425438,
       "volumeRatio20": 1.031753458078008,
       "revenueMom21d": 0.0,
-      "foreign5": -2201.5009999999997,
-      "trust5": -10.378,
-      "totalNet5": -2211.879,
+      "foreign5": -2184.033,
+      "trust5": -4.121,
+      "totalNet5": -2188.154,
       "foreignNet": -707.0,
       "trustNet": -1.0,
       "totalNet": -729.763,
@@ -33782,27 +33782,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3095,
+          "contribution": 0.3071,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.268,
+          "contribution": 0.2659,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2246,
+          "contribution": 0.2228,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1169,
+          "contribution": 0.116,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0811,
+          "contribution": 0.0881,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -33836,9 +33836,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8778528417260141,
       "volumeRatio20": 0.6709685161028124,
       "revenueMom21d": 0.0310356440206314,
-      "foreign5": -146.51199999999955,
-      "trust5": 30.0,
-      "totalNet5": -116.51199999999955,
+      "foreign5": -89.56899999999956,
+      "trust5": 29.0,
+      "totalNet5": -60.56899999999956,
       "foreignNet": -44.0,
       "trustNet": 0.0,
       "totalNet": -54.555,
@@ -33867,33 +33867,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 74",
         "量能分數 69",
-        "法人資金分數 64",
+        "法人資金分數 65",
         "趨勢結構分數 40"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.274,
+          "contribution": 0.2728,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2552,
+          "contribution": 0.2541,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.237,
+          "contribution": 0.2405,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1486,
+          "contribution": 0.148,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0851,
+          "contribution": 0.0847,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -33927,9 +33927,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7844247407225412,
       "volumeRatio20": 0.658089416462907,
       "revenueMom21d": 0.0,
-      "foreign5": -6894.105000000002,
+      "foreign5": -8127.138000000003,
       "trust5": 6.0,
-      "totalNet5": -6888.105000000002,
+      "totalNet5": -8121.138000000003,
       "foreignNet": -2374.736,
       "trustNet": 6.0,
       "totalNet": -2594.835,
@@ -33958,33 +33958,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 62",
         "波動控制分數 44",
-        "法人資金分數 43",
+        "法人資金分數 42",
         "相對強度排名前 64%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3076,
+          "contribution": 0.3083,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.22,
+          "contribution": 0.2206,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.211,
+          "contribution": 0.2091,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1774,
+          "contribution": 0.1778,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.084,
+          "contribution": 0.0842,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -34018,9 +34018,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.168360341666007,
       "volumeRatio20": 0.6679028983698458,
       "revenueMom21d": 0.0,
-      "foreign5": 499.1599999999999,
-      "trust5": 3.4849999999999977,
-      "totalNet5": 502.6449999999999,
+      "foreign5": 157.08299999999997,
+      "trust5": 6.8969999999999985,
+      "totalNet5": 163.97999999999996,
       "foreignNet": -265.0,
       "trustNet": 12.604,
       "totalNet": -251.16,
@@ -34049,33 +34049,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 77",
         "波動控制分數 76",
-        "法人資金分數 71",
+        "法人資金分數 69",
         "趨勢結構分數 46"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2539,
+          "contribution": 0.2558,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2496,
+          "contribution": 0.2514,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2345,
+          "contribution": 0.2289,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1508,
+          "contribution": 0.1519,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1112,
+          "contribution": 0.112,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -34109,9 +34109,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.1892086206741446,
       "volumeRatio20": 0.9487284861525564,
       "revenueMom21d": 0.0,
-      "foreign5": -7109.414000000002,
+      "foreign5": -6602.557000000002,
       "trust5": -6.0,
-      "totalNet5": -7115.414000000002,
+      "totalNet5": -6608.557000000002,
       "foreignNet": -1696.202,
       "trustNet": -6.0,
       "totalNet": -1704.801,
@@ -34146,27 +34146,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3409,
+          "contribution": 0.3412,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3027,
+          "contribution": 0.303,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.171,
+          "contribution": 0.1712,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1113,
+          "contribution": 0.1114,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.074,
+          "contribution": 0.0732,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -34200,9 +34200,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7032043917312788,
       "volumeRatio20": 0.3617864098102968,
       "revenueMom21d": 0.0,
-      "foreign5": -386.0300000000002,
-      "trust5": 63.7,
-      "totalNet5": -322.3300000000002,
+      "foreign5": -578.9460000000003,
+      "trust5": 148.7,
+      "totalNet5": -430.24600000000027,
       "foreignNet": -44.733,
       "trustNet": -25.0,
       "totalNet": -71.994,
@@ -34237,27 +34237,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.388,
+          "contribution": 0.3853,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2163,
+          "contribution": 0.2173,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1991,
+          "contribution": 0.2,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1404,
+          "contribution": 0.141,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0562,
+          "contribution": 0.0564,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -34291,9 +34291,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0233882527331684,
       "volumeRatio20": 0.4592405247291117,
       "revenueMom21d": 0.0,
-      "foreign5": -1163.9610000000005,
-      "trust5": -35.82899999999999,
-      "totalNet5": -1199.7900000000004,
+      "foreign5": -1814.0000000000005,
+      "trust5": -22.42299999999999,
+      "totalNet5": -1836.4230000000005,
       "foreignNet": -442.0,
       "trustNet": 0.0,
       "totalNet": -448.252,
@@ -34328,27 +34328,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.359,
+          "contribution": 0.3606,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.241,
+          "contribution": 0.2421,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1777,
+          "contribution": 0.1785,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.114,
+          "contribution": 0.1145,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1083,
+          "contribution": 0.1043,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -34382,9 +34382,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.3831457057260405,
       "volumeRatio20": 0.2755883675930625,
       "revenueMom21d": 0.0,
-      "foreign5": -369.1239999999997,
+      "foreign5": -352.0939999999997,
       "trust5": 0.0,
-      "totalNet5": -369.1239999999997,
+      "totalNet5": -352.0939999999997,
       "foreignNet": 0.946,
       "trustNet": 0.0,
       "totalNet": 0.936,
@@ -34419,22 +34419,22 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.4003,
+          "contribution": 0.4005,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2443,
+          "contribution": 0.2439,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1875,
+          "contribution": 0.1876,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1225,
+          "contribution": 0.1226,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
@@ -34473,9 +34473,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8980556846173033,
       "volumeRatio20": 0.4523404741615506,
       "revenueMom21d": 0.0,
-      "foreign5": -9460.722000000005,
-      "trust5": -338.0220000000018,
-      "totalNet5": -9798.744000000008,
+      "foreign5": -5733.891000000005,
+      "trust5": -301.9200000000018,
+      "totalNet5": -6035.811000000007,
       "foreignNet": 415.136,
       "trustNet": -58.0,
       "totalNet": 378.136,
@@ -34510,27 +34510,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3607,
+          "contribution": 0.3593,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.239,
+          "contribution": 0.2381,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2037,
+          "contribution": 0.2029,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1401,
+          "contribution": 0.1395,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0565,
+          "contribution": 0.0602,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -34564,9 +34564,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4928201188908839,
       "volumeRatio20": 0.1489534429002253,
       "revenueMom21d": 0.0,
-      "foreign5": -826.4,
+      "foreign5": -350.4,
       "trust5": 0.0,
-      "totalNet5": -826.4,
+      "totalNet5": -350.4,
       "foreignNet": 43.1,
       "trustNet": 0.0,
       "totalNet": 43.1,
@@ -34593,7 +34593,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 44",
+        "法人資金分數 49",
         "趨勢結構分數 39",
         "波動控制分數 37",
         "相對強度排名前 71%"
@@ -34601,27 +34601,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2765,
+          "contribution": 0.3003,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2506,
+          "contribution": 0.2423,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.232,
+          "contribution": 0.2244,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1846,
+          "contribution": 0.1785,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0564,
+          "contribution": 0.0545,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -34655,9 +34655,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6493656734224124,
       "volumeRatio20": 0.3713035752962195,
       "revenueMom21d": 0.0,
-      "foreign5": 803.241,
+      "foreign5": 1016.741,
       "trust5": 0.0,
-      "totalNet5": 803.241,
+      "totalNet5": 1016.741,
       "foreignNet": 515.641,
       "trustNet": 0.0,
       "totalNet": 488.151,
@@ -34684,35 +34684,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 66",
         "波動控制分數 66",
-        "法人資金分數 64",
         "量能分數 32",
         "相對強度排名前 75%"
       ],
       "explainability": [
         {
-          "factor": "Volatility Control",
-          "contribution": 0.3204,
-          "detail": "20日波動相對分數，越高代表越穩定"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.3108,
+          "contribution": 0.3181,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Volatility Control",
+          "contribution": 0.3169,
+          "detail": "20日波動相對分數，越高代表越穩定"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.1563,
+          "contribution": 0.1546,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1215,
+          "contribution": 0.1202,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0911,
+          "contribution": 0.0901,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -34746,9 +34746,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6106196652921688,
       "volumeRatio20": 0.396049788692457,
       "revenueMom21d": 0.0,
-      "foreign5": 108.20699999999887,
+      "foreign5": -13.193000000001135,
       "trust5": 0.0,
-      "totalNet5": 108.20699999999887,
+      "totalNet5": -13.193000000001135,
       "foreignNet": 126.149,
       "trustNet": 0.0,
       "totalNet": 125.829,
@@ -34776,34 +34776,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 69",
-        "法人資金分數 57",
+        "法人資金分數 56",
         "趨勢結構分數 43",
         "量能分數 31"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3159,
+          "contribution": 0.3182,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2596,
+          "contribution": 0.2541,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1937,
+          "contribution": 0.1952,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1414,
+          "contribution": 0.1424,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0894,
+          "contribution": 0.09,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -34837,9 +34837,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.8297408686144132,
       "volumeRatio20": 1.5049800908021904,
       "revenueMom21d": 0.0,
-      "foreign5": -892.5440000000001,
-      "trust5": 183.0,
-      "totalNet5": -709.5440000000001,
+      "foreign5": 274.976,
+      "trust5": 196.0,
+      "totalNet5": 470.976,
       "foreignNet": -683.103,
       "trustNet": 198.0,
       "totalNet": -487.045,
@@ -34868,33 +34868,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 95",
         "波動控制分數 95",
-        "趨勢結構分數 73",
-        "法人資金分數 58"
+        "法人資金分數 75",
+        "趨勢結構分數 73"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2542,
+          "contribution": 0.2427,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2528,
+          "contribution": 0.2414,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Trend Structure",
-          "contribution": 0.1935,
-          "detail": "ADX 與 MA20 趨勢結構"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.1542,
+          "contribution": 0.1923,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Trend Structure",
+          "contribution": 0.1848,
+          "detail": "ADX 與 MA20 趨勢結構"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1454,
+          "contribution": 0.1388,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -34928,9 +34928,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4769568788937869,
       "volumeRatio20": 0.3864779713805275,
       "revenueMom21d": 0.0,
-      "foreign5": -11118.427000000003,
-      "trust5": -34.000000000000114,
-      "totalNet5": -11152.427000000003,
+      "foreign5": -13587.508000000003,
+      "trust5": -8.000000000000114,
+      "totalNet5": -13595.508000000003,
       "foreignNet": -784.387,
       "trustNet": 0.0,
       "totalNet": -732.78,
@@ -34965,27 +34965,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2931,
+          "contribution": 0.2911,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2615,
+          "contribution": 0.2597,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1662,
+          "contribution": 0.165,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1569,
+          "contribution": 0.1558,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1223,
+          "contribution": 0.1283,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -35019,9 +35019,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5476616165159537,
       "volumeRatio20": 0.2797817787594513,
       "revenueMom21d": 0.0,
-      "foreign5": 30.065999999999292,
+      "foreign5": -433.0150000000007,
       "trust5": 0.0,
-      "totalNet5": 30.065999999999292,
+      "totalNet5": -433.0150000000007,
       "foreignNet": 76.38,
       "trustNet": 0.0,
       "totalNet": 39.954,
@@ -35048,7 +35048,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 55",
+        "法人資金分數 48",
         "波動控制分數 40",
         "趨勢結構分數 31",
         "相對強度排名前 71%"
@@ -35056,27 +35056,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3177,
+          "contribution": 0.289,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2326,
+          "contribution": 0.2424,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1794,
+          "contribution": 0.187,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1668,
+          "contribution": 0.1738,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1035,
+          "contribution": 0.1078,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -35110,9 +35110,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.1284954359577262,
       "volumeRatio20": 0.6817275972261241,
       "revenueMom21d": 0.0,
-      "foreign5": -821.5250000000002,
-      "trust5": -1924.432,
-      "totalNet5": -2745.9570000000003,
+      "foreign5": -811.0670000000002,
+      "trust5": -1563.434,
+      "totalNet5": -2374.501,
       "foreignNet": -7.393,
       "trustNet": -731.447,
       "totalNet": -749.85,
@@ -35147,27 +35147,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3339,
+          "contribution": 0.3334,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2901,
+          "contribution": 0.2897,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1735,
+          "contribution": 0.1732,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1209,
+          "contribution": 0.1207,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0816,
+          "contribution": 0.083,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -35201,9 +35201,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.329065048942088,
       "volumeRatio20": 1.1996140659928092,
       "revenueMom21d": 0.0,
-      "foreign5": -200.03699999999967,
+      "foreign5": -231.96699999999964,
       "trust5": 0.0,
-      "totalNet5": -200.03699999999967,
+      "totalNet5": -231.96699999999964,
       "foreignNet": -99.0,
       "trustNet": 0.0,
       "totalNet": -91.112,
@@ -35238,27 +35238,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2775,
+          "contribution": 0.2778,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2521,
+          "contribution": 0.2523,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1911,
+          "contribution": 0.1913,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1569,
+          "contribution": 0.1561,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1224,
+          "contribution": 0.1226,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -35292,9 +35292,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.2736405215681654,
       "volumeRatio20": 1.3317201565761878,
       "revenueMom21d": 0.0,
-      "foreign5": -1647.7650000000008,
-      "trust5": 1628.341,
-      "totalNet5": -19.424000000000888,
+      "foreign5": -1625.8530000000007,
+      "trust5": 1811.3609999999999,
+      "totalNet5": 185.50799999999913,
       "foreignNet": -418.209,
       "trustNet": 246.674,
       "totalNet": -171.301,
@@ -35323,33 +35323,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 93",
         "量能分數 91",
-        "法人資金分數 58",
+        "法人資金分數 60",
         "相對強度排名前 53%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.277,
+          "contribution": 0.2755,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2725,
+          "contribution": 0.271,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1742,
+          "contribution": 0.1787,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1401,
+          "contribution": 0.1394,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1361,
+          "contribution": 0.1354,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -35383,9 +35383,9 @@ export const stockSearchData = {
       "volumeRatio5": 2.075122731145115,
       "volumeRatio20": 1.9990913843242164,
       "revenueMom21d": 0.0,
-      "foreign5": 1310.1050000000023,
+      "foreign5": 0.30600000000231375,
       "trust5": 0.0,
-      "totalNet5": 1310.1050000000023,
+      "totalNet5": 0.30600000000231375,
       "foreignNet": 1200.295,
       "trustNet": 0.0,
       "totalNet": 1196.7,
@@ -35414,33 +35414,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 98",
         "波動控制分數 80",
-        "法人資金分數 67",
+        "法人資金分數 56",
         "趨勢結構分數 41"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2999,
+          "contribution": 0.3105,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2453,
+          "contribution": 0.2539,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2063,
+          "contribution": 0.1782,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1267,
+          "contribution": 0.1311,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1219,
+          "contribution": 0.1262,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -35474,9 +35474,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0186372388873055,
       "volumeRatio20": 0.9484956529970352,
       "revenueMom21d": 0.0,
-      "foreign5": 5058.348999999999,
-      "trust5": -24709.238,
-      "totalNet5": -19650.889000000003,
+      "foreign5": 4536.438,
+      "trust5": -30233.801,
+      "totalNet5": -25697.362999999998,
       "foreignNet": 767.828,
       "trustNet": -6157.286,
       "totalNet": -4481.149,
@@ -35511,27 +35511,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2942,
+          "contribution": 0.2939,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.241,
+          "contribution": 0.2407,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1772,
+          "contribution": 0.177,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.151,
+          "contribution": 0.1508,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1366,
+          "contribution": 0.1376,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -35565,9 +35565,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.696851960462668,
       "volumeRatio20": 0.3919785669418891,
       "revenueMom21d": 0.0,
-      "foreign5": -112.61300000000313,
-      "trust5": -9.0,
-      "totalNet5": -121.61300000000313,
+      "foreign5": 982.0809999999968,
+      "trust5": -19.0,
+      "totalNet5": 963.0809999999968,
       "foreignNet": 606.253,
       "trustNet": -4.0,
       "totalNet": 599.253,
@@ -35595,34 +35595,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 99",
+        "法人資金分數 51",
         "相對強度排名前 55%",
-        "趨勢結構分數 43",
-        "法人資金分數 40"
+        "趨勢結構分數 43"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3759,
+          "contribution": 0.3608,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1863,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1712,
+          "contribution": 0.1643,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1628,
+          "contribution": 0.1562,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1522,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.1379,
+          "contribution": 0.1324,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -35656,9 +35656,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8077000806138187,
       "volumeRatio20": 0.7474755554310447,
       "revenueMom21d": 0.0,
-      "foreign5": -47096.732,
-      "trust5": -33.0,
-      "totalNet5": -47129.732,
+      "foreign5": -25148.650999999998,
+      "trust5": -94.0,
+      "totalNet5": -25242.650999999998,
       "foreignNet": -14648.828,
       "trustNet": -81.0,
       "totalNet": -14754.727,
@@ -35693,27 +35693,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3673,
+          "contribution": 0.3697,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.254,
+          "contribution": 0.2556,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.192,
+          "contribution": 0.1932,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1361,
+          "contribution": 0.1369,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0506,
+          "contribution": 0.0445,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -35747,9 +35747,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5905281437821577,
       "volumeRatio20": 0.1974829598208034,
       "revenueMom21d": 0.0,
-      "foreign5": 408.80300000000045,
+      "foreign5": 263.31800000000044,
       "trust5": 0.0,
-      "totalNet5": 408.80300000000045,
+      "totalNet5": 263.31800000000044,
       "foreignNet": -47.831,
       "trustNet": 0.0,
       "totalNet": -54.831,
@@ -35778,33 +35778,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 79",
         "趨勢結構分數 62",
-        "法人資金分數 61",
+        "法人資金分數 60",
         "相對強度排名前 64%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.309,
+          "contribution": 0.3096,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2423,
+          "contribution": 0.2428,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2389,
+          "contribution": 0.2374,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1419,
+          "contribution": 0.1422,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0679,
+          "contribution": 0.0681,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -35838,9 +35838,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.496978481014832,
       "volumeRatio20": 0.5550435034395342,
       "revenueMom21d": -0.0405618585139099,
-      "foreign5": -188.22200000000007,
-      "trust5": 111.0,
-      "totalNet5": -77.22200000000007,
+      "foreign5": -621.397,
+      "trust5": 122.0,
+      "totalNet5": -499.39700000000005,
       "foreignNet": -141.17,
       "trustNet": 53.0,
       "totalNet": -89.065,
@@ -35868,34 +35868,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 69",
-        "法人資金分數 65",
+        "法人資金分數 60",
         "相對強度排名前 57%",
         "趨勢結構分數 38"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2782,
+          "contribution": 0.284,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2608,
+          "contribution": 0.2453,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1722,
+          "contribution": 0.1758,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1533,
+          "contribution": 0.1565,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1355,
+          "contribution": 0.1383,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -35929,9 +35929,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7650850925782726,
       "volumeRatio20": 0.4910694029308305,
       "revenueMom21d": 0.0,
-      "foreign5": -75.65900000000067,
-      "trust5": -48.01900000000045,
-      "totalNet5": -123.67800000000113,
+      "foreign5": 346.76299999999935,
+      "trust5": -41.643000000000455,
+      "totalNet5": 305.11999999999887,
       "foreignNet": 327.205,
       "trustNet": -9.465,
       "totalNet": 324.126,
@@ -35961,33 +35961,33 @@ export const stockSearchData = {
         "波動控制分數 96",
         "趨勢結構分數 52",
         "量能分數 49",
-        "相對強度排名前 56%"
+        "法人資金分數 46"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3441,
+          "contribution": 0.3349,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1876,
+          "contribution": 0.1826,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.176,
+          "contribution": 0.1713,
           "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Relative Strength",
-          "contribution": 0.1564,
-          "detail": "10日動能、52週位置與均線乖離綜合排名"
+          "factor": "Institutional Flow",
+          "contribution": 0.159,
+          "detail": "外資與投信近5日買超排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1359,
-          "detail": "外資與投信近5日買超排名"
+          "factor": "Relative Strength",
+          "contribution": 0.1522,
+          "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
     },
@@ -36020,9 +36020,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5796497194954108,
       "volumeRatio20": 0.2160121922475273,
       "revenueMom21d": 0.0,
-      "foreign5": -4237.605,
-      "trust5": -40.802,
-      "totalNet5": -4278.406999999999,
+      "foreign5": -4723.625,
+      "trust5": -39.906,
+      "totalNet5": -4763.531,
       "foreignNet": -170.585,
       "trustNet": -2.0,
       "totalNet": -175.701,
@@ -36051,33 +36051,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 55",
         "相對強度排名前 64%",
-        "法人資金分數 20",
-        "趨勢結構分數 20"
+        "趨勢結構分數 20",
+        "法人資金分數 18"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3712,
+          "contribution": 0.3751,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2452,
+          "contribution": 0.2478,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1344,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.1331,
+          "contribution": 0.1345,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1255,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.116,
+          "contribution": 0.1172,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -36111,9 +36111,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7748902783120714,
       "volumeRatio20": 0.3246739913707729,
       "revenueMom21d": 0.0,
-      "foreign5": -846.0400000000006,
-      "trust5": -712.0,
-      "totalNet5": -1558.0400000000006,
+      "foreign5": 2398.4269999999997,
+      "trust5": -592.0,
+      "totalNet5": 1806.4269999999997,
       "foreignNet": 262.138,
       "trustNet": -24.0,
       "totalNet": 159.027,
@@ -36141,35 +36141,35 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 68",
+        "法人資金分數 50",
         "相對強度排名前 58%",
-        "量能分數 37",
-        "趨勢結構分數 34"
+        "量能分數 37"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3329,
+          "contribution": 0.2944,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.216,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.2054,
+          "contribution": 0.1817,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1823,
+          "contribution": 0.1612,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.166,
+          "contribution": 0.1468,
           "detail": "ADX 與 MA20 趨勢結構"
-        },
-        {
-          "factor": "Institutional Flow",
-          "contribution": 0.1134,
-          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -36202,9 +36202,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9544650874758938,
       "volumeRatio20": 0.6912565417382005,
       "revenueMom21d": -0.1124996067233085,
-      "foreign5": 250.718,
+      "foreign5": 174.18099999999998,
       "trust5": 0.0,
-      "totalNet5": 250.718,
+      "totalNet5": 174.18099999999998,
       "foreignNet": 99.094,
       "trustNet": 0.0,
       "totalNet": 113.284,
@@ -36249,12 +36249,12 @@ export const stockSearchData = {
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1915,
+          "contribution": 0.1912,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1861,
+          "contribution": 0.1862,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
@@ -36293,9 +36293,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7483574624330517,
       "volumeRatio20": 0.3954480742256465,
       "revenueMom21d": 0.0,
-      "foreign5": 74.11000000000003,
+      "foreign5": -68.88999999999997,
       "trust5": 0.0,
-      "totalNet5": 74.11000000000003,
+      "totalNet5": -68.88999999999997,
       "foreignNet": -16.0,
       "trustNet": 0.0,
       "totalNet": -22.62,
@@ -36323,34 +36323,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 97",
-        "法人資金分數 56",
+        "法人資金分數 54",
         "趨勢結構分數 47",
         "相對強度排名前 59%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3426,
+          "contribution": 0.3455,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1994,
+          "contribution": 0.1925,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1677,
+          "contribution": 0.1691,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1452,
+          "contribution": 0.1465,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1451,
+          "contribution": 0.1464,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -36384,9 +36384,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7989700437623057,
       "volumeRatio20": 0.4822520570046554,
       "revenueMom21d": 0.0,
-      "foreign5": -35.13099999999908,
+      "foreign5": -158.8479999999991,
       "trust5": 0.0,
-      "totalNet5": -35.13099999999908,
+      "totalNet5": -158.8479999999991,
       "foreignNet": -65.41,
       "trustNet": 0.0,
       "totalNet": -66.235,
@@ -36414,34 +36414,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 78",
-        "法人資金分數 54",
         "量能分數 52",
+        "法人資金分數 52",
         "相對強度排名前 66%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3278,
+          "contribution": 0.3304,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2271,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.2192,
+          "contribution": 0.221,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2208,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.145,
+          "contribution": 0.1462,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0809,
+          "contribution": 0.0815,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -36475,9 +36475,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6231466816547874,
       "volumeRatio20": 0.271848279063016,
       "revenueMom21d": 0.0,
-      "foreign5": -487.0970000000007,
+      "foreign5": -2665.2800000000007,
       "trust5": 0.0,
-      "totalNet5": -487.0970000000007,
+      "totalNet5": -2665.2800000000007,
       "foreignNet": -209.176,
       "trustNet": 0.0,
       "totalNet": -209.176,
@@ -36504,35 +36504,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 47",
         "波動控制分數 40",
+        "法人資金分數 38",
         "趨勢結構分數 37",
         "相對強度排名前 64%"
       ],
       "explainability": [
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2569,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volatility Control",
-          "contribution": 0.2184,
+          "contribution": 0.2294,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2193,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.2034,
+          "contribution": 0.2137,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1955,
+          "contribution": 0.2054,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1258,
+          "contribution": 0.1322,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -36566,9 +36566,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7854901260396999,
       "volumeRatio20": 0.3922743868009062,
       "revenueMom21d": 0.0,
-      "foreign5": -233.6859999999994,
+      "foreign5": -359.7839999999994,
       "trust5": 0.0,
-      "totalNet5": -233.6859999999994,
+      "totalNet5": -359.7839999999994,
       "foreignNet": -53.98,
       "trustNet": 0.0,
       "totalNet": -53.98,
@@ -36596,34 +36596,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 87",
-        "法人資金分數 51",
+        "法人資金分數 49",
         "量能分數 44",
         "趨勢結構分數 39"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.342,
+          "contribution": 0.3448,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1977,
+          "contribution": 0.1913,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1714,
+          "contribution": 0.1728,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.154,
+          "contribution": 0.1553,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1348,
+          "contribution": 0.1359,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -36657,9 +36657,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5532575272294952,
       "volumeRatio20": 0.275652256126099,
       "revenueMom21d": 0.0,
-      "foreign5": 208.14200000000002,
-      "trust5": -14.668,
-      "totalNet5": 193.47400000000002,
+      "foreign5": 176.621,
+      "trust5": -8.928,
+      "totalNet5": 167.693,
       "foreignNet": -30.21,
       "trustNet": -1.0,
       "totalNet": -29.971,
@@ -36688,33 +36688,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 99",
         "相對強度排名前 54%",
-        "法人資金分數 45",
+        "法人資金分數 46",
         "趨勢結構分數 38"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.4007,
+          "contribution": 0.3993,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1877,
+          "contribution": 0.1871,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1828,
+          "contribution": 0.1854,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.155,
+          "contribution": 0.1545,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0738,
+          "contribution": 0.0736,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -36748,9 +36748,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9791281138597212,
       "volumeRatio20": 0.4359977420861174,
       "revenueMom21d": 0.0,
-      "foreign5": -283.5439999999995,
+      "foreign5": -313.85099999999954,
       "trust5": 0.0,
-      "totalNet5": -283.5439999999995,
+      "totalNet5": -313.85099999999954,
       "foreignNet": -312.371,
       "trustNet": 0.0,
       "totalNet": -315.166,
@@ -36780,32 +36780,32 @@ export const stockSearchData = {
         "波動控制分數 75",
         "量能分數 57",
         "趨勢結構分數 53",
-        "法人資金分數 50"
+        "法人資金分數 49"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2733,
+          "contribution": 0.2737,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2081,
+          "contribution": 0.2084,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1959,
+          "contribution": 0.1962,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1824,
+          "contribution": 0.1812,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1402,
+          "contribution": 0.1404,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -36839,9 +36839,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7202593462000045,
       "volumeRatio20": 0.2643809919746893,
       "revenueMom21d": 0.0,
-      "foreign5": -427.09099999999995,
-      "trust5": -335.0,
-      "totalNet5": -762.0909999999999,
+      "foreign5": -143.08999999999997,
+      "trust5": -95.0,
+      "totalNet5": -238.08999999999997,
       "foreignNet": 62.92,
       "trustNet": -1.0,
       "totalNet": 62.642,
@@ -36871,33 +36871,33 @@ export const stockSearchData = {
         "波動控制分數 91",
         "趨勢結構分數 75",
         "相對強度排名前 61%",
-        "量能分數 30"
+        "法人資金分數 35"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3433,
+          "contribution": 0.3362,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2839,
+          "contribution": 0.278,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1487,
+          "contribution": 0.1456,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Volume Expansion",
-          "contribution": 0.1123,
-          "detail": "5日與20日量能放大排名"
+          "factor": "Institutional Flow",
+          "contribution": 0.1303,
+          "detail": "外資與投信近5日買超排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1119,
-          "detail": "外資與投信近5日買超排名"
+          "factor": "Volume Expansion",
+          "contribution": 0.1099,
+          "detail": "5日與20日量能放大排名"
         }
       ]
     },
@@ -36930,9 +36930,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.298221402774943,
       "volumeRatio20": 1.3338808580871118,
       "revenueMom21d": 0.0,
-      "foreign5": 571.145,
+      "foreign5": -150.20400000000006,
       "trust5": 0.0,
-      "totalNet5": 571.145,
+      "totalNet5": -150.20400000000006,
       "foreignNet": 157.141,
       "trustNet": 0.0,
       "totalNet": 157.475,
@@ -36961,34 +36961,34 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 91",
         "波動控制分數 88",
-        "法人資金分數 63",
-        "相對強度排名前 40%"
+        "相對強度排名前 40%",
+        "趨勢結構分數 55"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.256,
+          "contribution": 0.2637,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2469,
+          "contribution": 0.2544,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1757,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Relative Strength",
-          "contribution": 0.1682,
+          "contribution": 0.1733,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1532,
+          "contribution": 0.1578,
           "detail": "ADX 與 MA20 趨勢結構"
+        },
+        {
+          "factor": "Institutional Flow",
+          "contribution": 0.1507,
+          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -37021,9 +37021,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5540290305238635,
       "volumeRatio20": 0.288958019306629,
       "revenueMom21d": 0.0,
-      "foreign5": 39.971,
+      "foreign5": 21.055000000000003,
       "trust5": 0.0,
-      "totalNet5": 39.971,
+      "totalNet5": 21.055000000000003,
       "foreignNet": 1.09,
       "trustNet": 0.0,
       "totalNet": 3.09,
@@ -37052,33 +37052,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 93",
         "趨勢結構分數 78",
-        "法人資金分數 55",
+        "法人資金分數 56",
         "相對強度排名前 55%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3202,
+          "contribution": 0.3191,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2684,
+          "contribution": 0.2675,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1901,
+          "contribution": 0.1929,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1549,
+          "contribution": 0.1544,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0663,
+          "contribution": 0.0661,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -37112,9 +37112,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.4232919433130686,
       "volumeRatio20": 1.5718214343789902,
       "revenueMom21d": 0.0,
-      "foreign5": 1148.516,
-      "trust5": 11.0,
-      "totalNet5": 1159.516,
+      "foreign5": 1583.533,
+      "trust5": -36.0,
+      "totalNet5": 1547.533,
       "foreignNet": 854.115,
       "trustNet": 0.0,
       "totalNet": 851.03,
@@ -37143,33 +37143,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 94",
         "波動控制分數 87",
-        "法人資金分數 77",
+        "法人資金分數 53",
         "趨勢結構分數 28"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3065,
+          "contribution": 0.3319,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2844,
+          "contribution": 0.308,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2498,
+          "contribution": 0.1875,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0922,
+          "contribution": 0.0998,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0671,
+          "contribution": 0.0727,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -37203,9 +37203,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4476734545568228,
       "volumeRatio20": 0.5374934888877365,
       "revenueMom21d": 0.0,
-      "foreign5": 4708.115,
-      "trust5": 0.0,
-      "totalNet5": 4708.115,
+      "foreign5": 4326.365,
+      "trust5": -3.0,
+      "totalNet5": 4323.365,
       "foreignNet": -1316.246,
       "trustNet": -5.0,
       "totalNet": -1317.837,
@@ -37233,34 +37233,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 95",
-        "法人資金分數 71",
         "趨勢結構分數 69",
+        "法人資金分數 61",
         "相對強度排名前 52%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3026,
+          "contribution": 0.3131,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2284,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.2195,
+          "contribution": 0.2271,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2015,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1545,
+          "contribution": 0.1599,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.095,
+          "contribution": 0.0983,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -37294,9 +37294,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6624313180897742,
       "volumeRatio20": 0.4364275498273975,
       "revenueMom21d": 0.0,
-      "foreign5": -6164.749000000001,
-      "trust5": 2696.666,
-      "totalNet5": -3468.0830000000005,
+      "foreign5": -1169.0600000000009,
+      "trust5": 2712.1749999999997,
+      "totalNet5": 1543.1149999999989,
       "foreignNet": -344.47,
       "trustNet": -22.796,
       "totalNet": -514.14,
@@ -37324,34 +37324,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 78",
-        "法人資金分數 52",
+        "法人資金分數 63",
         "相對強度排名前 60%",
         "量能分數 39"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3163,
+          "contribution": 0.3037,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2121,
+          "contribution": 0.2433,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1615,
+          "contribution": 0.1551,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1569,
+          "contribution": 0.1507,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1532,
+          "contribution": 0.1472,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -37385,9 +37385,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6076989910529514,
       "volumeRatio20": 0.2337766213066821,
       "revenueMom21d": 0.0,
-      "foreign5": 120.72999999999934,
+      "foreign5": 65.51899999999932,
       "trust5": 0.0,
-      "totalNet5": 120.72999999999934,
+      "totalNet5": 65.51899999999932,
       "foreignNet": 43.0,
       "trustNet": 0.0,
       "totalNet": 43.0,
@@ -37422,17 +37422,17 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2772,
+          "contribution": 0.2773,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2661,
+          "contribution": 0.2658,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2161,
+          "contribution": 0.2162,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
@@ -37476,9 +37476,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5821459636270805,
       "volumeRatio20": 0.1823899819545181,
       "revenueMom21d": 0.0,
-      "foreign5": -229.53600000000262,
+      "foreign5": -67.22800000000264,
       "trust5": 0.0,
-      "totalNet5": -229.53600000000262,
+      "totalNet5": -67.22800000000264,
       "foreignNet": -48.83,
       "trustNet": 0.0,
       "totalNet": -46.83,
@@ -37505,7 +37505,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 51",
+        "法人資金分數 54",
         "趨勢結構分數 37",
         "波動控制分數 32",
         "相對強度排名前 83%"
@@ -37513,27 +37513,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3307,
+          "contribution": 0.3449,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2446,
+          "contribution": 0.2394,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.211,
+          "contribution": 0.2065,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1081,
+          "contribution": 0.1058,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1055,
+          "contribution": 0.1033,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -37567,9 +37567,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6352431182255946,
       "volumeRatio20": 0.3770551537865015,
       "revenueMom21d": 0.0,
-      "foreign5": -1117.2909999999988,
-      "trust5": -1.0,
-      "totalNet5": -1118.2909999999988,
+      "foreign5": -1434.6949999999988,
+      "trust5": -4.0,
+      "totalNet5": -1438.6949999999988,
       "foreignNet": 192.557,
       "trustNet": -1.0,
       "totalNet": 153.597,
@@ -37597,34 +37597,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 65",
-        "法人資金分數 33",
         "量能分數 32",
+        "法人資金分數 31",
         "相對強度排名前 72%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3817,
+          "contribution": 0.3869,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1936,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.1861,
+          "contribution": 0.1886,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1826,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1634,
+          "contribution": 0.1657,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0752,
+          "contribution": 0.0762,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -37658,9 +37658,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.675732972643397,
       "volumeRatio20": 0.3744819595830772,
       "revenueMom21d": 0.0,
-      "foreign5": -34.88000000000001,
+      "foreign5": -103.88000000000001,
       "trust5": 0.0,
-      "totalNet5": -34.88000000000001,
+      "totalNet5": -103.88000000000001,
       "foreignNet": 6.0,
       "trustNet": 0.0,
       "totalNet": 4.822,
@@ -37688,34 +37688,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 76",
-        "法人資金分數 54",
+        "法人資金分數 53",
         "趨勢結構分數 39",
         "量能分數 34"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3341,
+          "contribution": 0.3354,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2381,
+          "contribution": 0.235,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1715,
+          "contribution": 0.1722,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.151,
+          "contribution": 0.1516,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1054,
+          "contribution": 0.1058,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -37749,9 +37749,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.43435396139841,
       "volumeRatio20": 0.5722297247221264,
       "revenueMom21d": 0.0,
-      "foreign5": 581.3929999999973,
+      "foreign5": 273.2039999999974,
       "trust5": 10.0,
-      "totalNet5": 591.3929999999973,
+      "totalNet5": 283.2039999999974,
       "foreignNet": -101.997,
       "trustNet": 0.0,
       "totalNet": -98.525,
@@ -37778,7 +37778,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 73",
+        "法人資金分數 71",
         "波動控制分數 69",
         "相對強度排名前 55%",
         "趨勢結構分數 36"
@@ -37786,27 +37786,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2872,
+          "contribution": 0.2813,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2699,
+          "contribution": 0.2721,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.177,
+          "contribution": 0.1785,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1425,
+          "contribution": 0.1437,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1234,
+          "contribution": 0.1244,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -37840,9 +37840,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4190988746910165,
       "volumeRatio20": 0.2579457739933322,
       "revenueMom21d": 0.0,
-      "foreign5": -2920.462,
-      "trust5": -86.0,
-      "totalNet5": -3006.462,
+      "foreign5": -4608.842,
+      "trust5": -91.0,
+      "totalNet5": -4699.842,
       "foreignNet": 23.702,
       "trustNet": -31.0,
       "totalNet": -13.008,
@@ -37872,32 +37872,32 @@ export const stockSearchData = {
         "波動控制分數 42",
         "相對強度排名前 67%",
         "趨勢結構分數 23",
-        "法人資金分數 20"
+        "法人資金分數 17"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3294,
+          "contribution": 0.3369,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.2593,
+          "contribution": 0.2653,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1838,
+          "contribution": 0.188,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1591,
+          "contribution": 0.14,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0684,
+          "contribution": 0.07,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -37962,33 +37962,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 94",
         "波動控制分數 54",
-        "法人資金分數 33",
+        "法人資金分數 32",
         "趨勢結構分數 10"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.4869,
+          "contribution": 0.4885,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2808,
+          "contribution": 0.2817,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1693,
+          "contribution": 0.1667,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0505,
+          "contribution": 0.0506,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0124,
+          "contribution": 0.0125,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -38022,9 +38022,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6335154089267451,
       "volumeRatio20": 0.1249877808279281,
       "revenueMom21d": 0.0,
-      "foreign5": -109.452,
+      "foreign5": -297.5,
       "trust5": -6.0,
-      "totalNet5": -115.452,
+      "totalNet5": -303.5,
       "foreignNet": -44.0,
       "trustNet": 0.0,
       "totalNet": -40.0,
@@ -38053,33 +38053,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 73",
         "趨勢結構分數 43",
-        "法人資金分數 41",
+        "法人資金分數 37",
         "量能分數 19"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3798,
+          "contribution": 0.3869,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2231,
+          "contribution": 0.2272,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2133,
+          "contribution": 0.1988,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0968,
+          "contribution": 0.0986,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.087,
+          "contribution": 0.0886,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -38113,9 +38113,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.182405787516827,
       "volumeRatio20": 1.0232653322003895,
       "revenueMom21d": 0.0,
-      "foreign5": -1092.3739999999996,
-      "trust5": -1.0,
-      "totalNet5": -1093.3739999999996,
+      "foreign5": -1066.7429999999997,
+      "trust5": 0.0,
+      "totalNet5": -1066.7429999999997,
       "foreignNet": -363.022,
       "trustNet": -1.0,
       "totalNet": -366.245,
@@ -38144,34 +38144,34 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 91",
         "量能分數 87",
-        "相對強度排名前 61%",
-        "趨勢結構分數 36"
+        "法人資金分數 43",
+        "相對強度排名前 61%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3167,
+          "contribution": 0.3054,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3032,
+          "contribution": 0.2925,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1468,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1371,
+          "contribution": 0.1323,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1276,
+          "contribution": 0.1231,
           "detail": "ADX 與 MA20 趨勢結構"
-        },
-        {
-          "factor": "Institutional Flow",
-          "contribution": 0.1154,
-          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -38204,9 +38204,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6565226941092539,
       "volumeRatio20": 0.339559994740228,
       "revenueMom21d": 0.0,
-      "foreign5": -4833.648,
+      "foreign5": -6004.247,
       "trust5": 149.0,
-      "totalNet5": -4684.648,
+      "totalNet5": -5855.247,
       "foreignNet": -346.9,
       "trustNet": 149.0,
       "totalNet": -199.703,
@@ -38233,7 +38233,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 48",
+        "法人資金分數 47",
         "波動控制分數 34",
         "量能分數 30",
         "相對強度排名前 73%"
@@ -38241,27 +38241,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2988,
+          "contribution": 0.2953,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2084,
+          "contribution": 0.2095,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.189,
+          "contribution": 0.1899,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.167,
+          "contribution": 0.1678,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1368,
+          "contribution": 0.1375,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -38295,9 +38295,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4754277296761737,
       "volumeRatio20": 0.1755256272115659,
       "revenueMom21d": 0.0,
-      "foreign5": -481.60000000000025,
+      "foreign5": -435.10000000000025,
       "trust5": 0.0,
-      "totalNet5": -481.60000000000025,
+      "totalNet5": -435.10000000000025,
       "foreignNet": 26.0,
       "trustNet": 0.0,
       "totalNet": 24.0,
@@ -38325,34 +38325,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 84",
-        "法人資金分數 47",
+        "法人資金分數 48",
         "相對強度排名前 69%",
         "趨勢結構分數 26"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.4295,
+          "contribution": 0.4275,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2398,
+          "contribution": 0.2433,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1562,
+          "contribution": 0.1555,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1352,
+          "contribution": 0.1346,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0392,
+          "contribution": 0.0391,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -38386,9 +38386,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.1875402156900652,
       "volumeRatio20": 0.5009625786544244,
       "revenueMom21d": 0.0,
-      "foreign5": -326.8709999999994,
+      "foreign5": -26.50999999999945,
       "trust5": 23.822,
-      "totalNet5": -303.0489999999994,
+      "totalNet5": -2.6879999999994517,
       "foreignNet": -159.642,
       "trustNet": 23.822,
       "totalNet": -143.946,
@@ -38415,35 +38415,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 67",
         "波動控制分數 66",
         "量能分數 65",
-        "法人資金分數 61",
         "相對強度排名前 78%"
       ],
       "explainability": [
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2757,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volatility Control",
-          "contribution": 0.2811,
+          "contribution": 0.2745,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2772,
+          "contribution": 0.2707,
           "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2584,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Relative Strength",
-          "contribution": 0.0943,
+          "contribution": 0.0921,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0891,
+          "contribution": 0.087,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -38477,9 +38477,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7985092958672368,
       "volumeRatio20": 0.4297800044626507,
       "revenueMom21d": 0.0,
-      "foreign5": 588.9620000000001,
-      "trust5": -82.0,
-      "totalNet5": 506.9620000000001,
+      "foreign5": 802.3650000000001,
+      "trust5": -1.9290000000000003,
+      "totalNet5": 800.4360000000001,
       "foreignNet": 377.321,
       "trustNet": 0.0,
       "totalNet": 377.321,
@@ -38508,34 +38508,34 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 82",
         "趨勢結構分數 72",
-        "相對強度排名前 48%",
-        "量能分數 48"
+        "法人資金分數 55",
+        "相對強度排名前 48%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2741,
+          "contribution": 0.267,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2378,
+          "contribution": 0.2316,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1776,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1722,
+          "contribution": 0.1677,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1602,
+          "contribution": 0.1561,
           "detail": "5日與20日量能放大排名"
-        },
-        {
-          "factor": "Institutional Flow",
-          "contribution": 0.1555,
-          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -38568,9 +38568,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.2074126790315072,
       "volumeRatio20": 1.225571464023272,
       "revenueMom21d": 0.0,
-      "foreign5": 319.5670000000005,
+      "foreign5": -25.432999999999538,
       "trust5": 0.0,
-      "totalNet5": 319.5670000000005,
+      "totalNet5": -25.432999999999538,
       "foreignNet": 436.951,
       "trustNet": 0.0,
       "totalNet": 449.505,
@@ -38599,33 +38599,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 94",
         "量能分數 89",
-        "法人資金分數 60",
+        "法人資金分數 55",
         "相對強度排名前 50%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2862,
+          "contribution": 0.2904,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2712,
+          "contribution": 0.2752,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1821,
+          "contribution": 0.1699,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1505,
+          "contribution": 0.1528,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.11,
+          "contribution": 0.1116,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -38659,9 +38659,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.50150296555551,
       "volumeRatio20": 0.7092348569843733,
       "revenueMom21d": -0.1347987264450466,
-      "foreign5": 8502.799,
-      "trust5": -5200.66,
-      "totalNet5": 3302.139000000001,
+      "foreign5": 8427.759,
+      "trust5": -4563.528,
+      "totalNet5": 3864.2309999999998,
       "foreignNet": 403.089,
       "trustNet": -17.547,
       "totalNet": 369.695,
@@ -38690,33 +38690,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 91",
         "趨勢結構分數 58",
-        "法人資金分數 49",
+        "法人資金分數 50",
         "量能分數 44"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.321,
+          "contribution": 0.3203,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2048,
+          "contribution": 0.2044,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1745,
+          "contribution": 0.1762,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1569,
+          "contribution": 0.1566,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1428,
+          "contribution": 0.1424,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -38750,9 +38750,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6648740435796958,
       "volumeRatio20": 0.3566538226283262,
       "revenueMom21d": 0.0,
-      "foreign5": -1277.1229999999998,
+      "foreign5": -4063.0460000000003,
       "trust5": 0.0,
-      "totalNet5": -1277.1229999999998,
+      "totalNet5": -4063.0460000000003,
       "foreignNet": -500.01,
       "trustNet": 0.0,
       "totalNet": -831.966,
@@ -38780,34 +38780,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 47",
-        "法人資金分數 41",
+        "法人資金分數 35",
         "量能分數 33",
         "趨勢結構分數 32"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2708,
+          "contribution": 0.2805,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2342,
+          "contribution": 0.2068,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1855,
+          "contribution": 0.1922,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1815,
+          "contribution": 0.188,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1279,
+          "contribution": 0.1325,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -38841,9 +38841,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7860841548449147,
       "volumeRatio20": 0.5386063573436254,
       "revenueMom21d": 0.0,
-      "foreign5": 538.1320000000006,
+      "foreign5": 368.2120000000006,
       "trust5": 0.0,
-      "totalNet5": 538.1320000000006,
+      "totalNet5": 368.2120000000006,
       "foreignNet": 284.122,
       "trustNet": 0.0,
       "totalNet": 283.334,
@@ -38878,22 +38878,22 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2624,
+          "contribution": 0.2626,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2614,
+          "contribution": 0.2611,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2301,
+          "contribution": 0.2302,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1836,
+          "contribution": 0.1837,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
@@ -38932,9 +38932,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.873602512691182,
       "volumeRatio20": 0.3492345822246853,
       "revenueMom21d": 0.0,
-      "foreign5": 7978.997,
-      "trust5": -7042.457999999999,
-      "totalNet5": 936.5390000000016,
+      "foreign5": 333.07599999999996,
+      "trust5": 69.17,
+      "totalNet5": 402.246,
       "foreignNet": -12.224,
       "trustNet": -6.891,
       "totalNet": -14.614,
@@ -38962,34 +38962,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 83",
-        "法人資金分數 49",
+        "法人資金分數 75",
         "相對強度排名前 52%",
         "趨勢結構分數 47"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3065,
+          "contribution": 0.28,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1792,
+          "contribution": 0.2502,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1766,
+          "contribution": 0.1614,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1718,
+          "contribution": 0.1569,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1659,
+          "contribution": 0.1515,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -39023,9 +39023,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0120169231070495,
       "volumeRatio20": 0.4206651163635471,
       "revenueMom21d": 0.0,
-      "foreign5": -9547.60700000005,
-      "trust5": -127.2930000000109,
-      "totalNet5": -9674.900000000061,
+      "foreign5": -5751.392000000052,
+      "trust5": -57.293000000010906,
+      "totalNet5": -5808.685000000062,
       "foreignNet": 5430.306,
       "trustNet": -61.532,
       "totalNet": 5544.016,
@@ -39060,27 +39060,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.365,
+          "contribution": 0.361,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2427,
+          "contribution": 0.2401,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1671,
+          "contribution": 0.1653,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1628,
+          "contribution": 0.1611,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0624,
+          "contribution": 0.0725,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -39114,9 +39114,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5769753111272028,
       "volumeRatio20": 0.2270507733505542,
       "revenueMom21d": 0.0,
-      "foreign5": -219.5990000000001,
+      "foreign5": -291.60000000000014,
       "trust5": 0.0,
-      "totalNet5": -219.5990000000001,
+      "totalNet5": -291.60000000000014,
       "foreignNet": 9.0,
       "trustNet": 0.0,
       "totalNet": 9.0,
@@ -39144,34 +39144,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 68",
-        "法人資金分數 51",
+        "法人資金分數 50",
         "趨勢結構分數 34",
         "相對強度排名前 78%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3546,
+          "contribution": 0.3565,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2649,
+          "contribution": 0.261,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1784,
+          "contribution": 0.1793,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1126,
+          "contribution": 0.1132,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0895,
+          "contribution": 0.0899,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -39205,9 +39205,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8398803232004007,
       "volumeRatio20": 0.4815633735710266,
       "revenueMom21d": 0.0,
-      "foreign5": -4343.697000000005,
+      "foreign5": -3894.0470000000046,
       "trust5": 0.0,
-      "totalNet5": -4343.697000000005,
+      "totalNet5": -3894.0470000000046,
       "foreignNet": 317.54,
       "trustNet": 0.0,
       "totalNet": 302.6,
@@ -39237,32 +39237,32 @@ export const stockSearchData = {
         "波動控制分數 71",
         "量能分數 54",
         "趨勢結構分數 46",
-        "法人資金分數 34"
+        "法人資金分數 36"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.306,
+          "contribution": 0.3047,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2315,
+          "contribution": 0.2305,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1977,
+          "contribution": 0.1968,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.148,
+          "contribution": 0.1517,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1168,
+          "contribution": 0.1163,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -39296,9 +39296,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8961036807843306,
       "volumeRatio20": 0.5209355177640589,
       "revenueMom21d": 0.0,
-      "foreign5": -1947.845,
+      "foreign5": -1219.863,
       "trust5": 0.0,
-      "totalNet5": -1947.845,
+      "totalNet5": -1219.863,
       "foreignNet": 96.108,
       "trustNet": 0.0,
       "totalNet": 102.423,
@@ -39328,33 +39328,33 @@ export const stockSearchData = {
         "趨勢結構分數 63",
         "量能分數 59",
         "波動控制分數 58",
-        "相對強度排名前 61%"
+        "法人資金分數 42"
       ],
       "explainability": [
         {
           "factor": "Trend Structure",
-          "contribution": 0.2452,
+          "contribution": 0.2417,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2296,
+          "contribution": 0.2262,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2233,
+          "contribution": 0.22,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Relative Strength",
-          "contribution": 0.152,
-          "detail": "10日動能、52週位置與均線乖離綜合排名"
+          "factor": "Institutional Flow",
+          "contribution": 0.1623,
+          "detail": "外資與投信近5日買超排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1499,
-          "detail": "外資與投信近5日買超排名"
+          "factor": "Relative Strength",
+          "contribution": 0.1498,
+          "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
     },
@@ -39387,9 +39387,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5573517398664581,
       "volumeRatio20": 0.2971809954827903,
       "revenueMom21d": 0.0,
-      "foreign5": 6020.187,
-      "trust5": -1706.0,
-      "totalNet5": 4314.187,
+      "foreign5": 633.9989999999998,
+      "trust5": -1541.0,
+      "totalNet5": -907.0010000000002,
       "foreignNet": 346.75,
       "trustNet": -375.0,
       "totalNet": -78.813,
@@ -39417,34 +39417,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 77",
-        "法人資金分數 51",
         "趨勢結構分數 43",
+        "法人資金分數 42",
         "相對強度排名前 79%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3625,
+          "contribution": 0.378,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2385,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.2022,
+          "contribution": 0.2109,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2059,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1005,
+          "contribution": 0.1048,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0963,
+          "contribution": 0.1005,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -39478,9 +39478,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9285197045098308,
       "volumeRatio20": 0.5692565135345494,
       "revenueMom21d": 0.0,
-      "foreign5": -2296.489,
-      "trust5": -477.24199999999996,
-      "totalNet5": -2773.7309999999998,
+      "foreign5": -796.042,
+      "trust5": -485.4,
+      "totalNet5": -1281.442,
       "foreignNet": -42.898,
       "trustNet": -179.53,
       "totalNet": -248.837,
@@ -39515,27 +39515,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3786,
+          "contribution": 0.3688,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2547,
+          "contribution": 0.2481,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1535,
+          "contribution": 0.1496,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1401,
+          "contribution": 0.1365,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0731,
+          "contribution": 0.097,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -39569,9 +39569,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7249777087553823,
       "volumeRatio20": 0.5352256385931228,
       "revenueMom21d": -0.2791140692494236,
-      "foreign5": -5367.5960000000005,
+      "foreign5": -5773.5960000000005,
       "trust5": -2.0000000000002274,
-      "totalNet5": -5369.5960000000005,
+      "totalNet5": -5775.5960000000005,
       "foreignNet": 60.206,
       "trustNet": -2.0,
       "totalNet": 56.172,
@@ -39606,27 +39606,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3156,
+          "contribution": 0.3176,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2669,
+          "contribution": 0.2686,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1618,
+          "contribution": 0.1629,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1282,
+          "contribution": 0.129,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1274,
+          "contribution": 0.1219,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -39660,9 +39660,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4539564999925282,
       "volumeRatio20": 0.1655883822479185,
       "revenueMom21d": 0.0,
-      "foreign5": -914.6720000000003,
-      "trust5": -516.819,
-      "totalNet5": -1431.4910000000002,
+      "foreign5": -791.6450000000004,
+      "trust5": -825.5260000000001,
+      "totalNet5": -1617.1710000000005,
       "foreignNet": 154.51,
       "trustNet": 1.0,
       "totalNet": 156.51,
@@ -39692,32 +39692,32 @@ export const stockSearchData = {
         "波動控制分數 81",
         "趨勢結構分數 52",
         "相對強度排名前 69%",
-        "法人資金分數 23"
+        "法人資金分數 24"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.419,
+          "contribution": 0.4173,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2682,
+          "contribution": 0.2671,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1605,
+          "contribution": 0.1598,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1185,
+          "contribution": 0.1222,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0338,
+          "contribution": 0.0336,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -39751,9 +39751,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7245562626838483,
       "volumeRatio20": 0.501608468487558,
       "revenueMom21d": 0.0,
-      "foreign5": -1307.3249999999987,
-      "trust5": -28.003999999999884,
-      "totalNet5": -1335.3289999999986,
+      "foreign5": -510.4629999999987,
+      "trust5": -17.525999999999886,
+      "totalNet5": -527.9889999999986,
       "foreignNet": 263.962,
       "trustNet": 0.0,
       "totalNet": 271.036,
@@ -39788,27 +39788,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3797,
+          "contribution": 0.3709,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1858,
+          "contribution": 0.1815,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1782,
+          "contribution": 0.174,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1507,
+          "contribution": 0.1472,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1056,
+          "contribution": 0.1264,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -39842,9 +39842,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5908400424185992,
       "volumeRatio20": 0.4118715030269403,
       "revenueMom21d": -0.3656659319852375,
-      "foreign5": -1197.156,
-      "trust5": -8.0,
-      "totalNet5": -1205.156,
+      "foreign5": -1638.156,
+      "trust5": -10.0,
+      "totalNet5": -1648.156,
       "foreignNet": 147.0,
       "trustNet": 0.0,
       "totalNet": 154.448,
@@ -39873,33 +39873,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 77",
         "量能分數 31",
-        "法人資金分數 29",
-        "相對強度排名前 72%"
+        "相對強度排名前 72%",
+        "法人資金分數 28"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.4009,
+          "contribution": 0.4049,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1607,
+          "contribution": 0.1623,
           "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1528,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Relative Strength",
-          "contribution": 0.1443,
+          "contribution": 0.1457,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1443,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.1413,
+          "contribution": 0.1427,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -39933,9 +39933,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0705616759272634,
       "volumeRatio20": 0.5199306504117234,
       "revenueMom21d": 0.0,
-      "foreign5": 2059.405999999998,
-      "trust5": -3038.0270000000037,
-      "totalNet5": -978.6210000000056,
+      "foreign5": 6895.366999999998,
+      "trust5": -1649.3970000000038,
+      "totalNet5": 5245.969999999995,
       "foreignNet": 6734.35,
       "trustNet": -299.355,
       "totalNet": 6527.821,
@@ -39965,32 +39965,32 @@ export const stockSearchData = {
         "量能分數 65",
         "波動控制分數 64",
         "趨勢結構分數 52",
-        "法人資金分數 46"
+        "法人資金分數 51"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2675,
+          "contribution": 0.2616,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2629,
+          "contribution": 0.2572,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2143,
+          "contribution": 0.2095,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1876,
+          "contribution": 0.2055,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0677,
+          "contribution": 0.0662,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -40024,9 +40024,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7065655295363136,
       "volumeRatio20": 0.3379252340416455,
       "revenueMom21d": 0.0,
-      "foreign5": -1020.6659999999997,
+      "foreign5": -2128.843,
       "trust5": 1.0,
-      "totalNet5": -1019.6659999999997,
+      "totalNet5": -2127.843,
       "foreignNet": -460.0,
       "trustNet": 1.0,
       "totalNet": -450.95,
@@ -40053,7 +40053,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 51",
+        "法人資金分數 49",
         "波動控制分數 35",
         "量能分數 33",
         "趨勢結構分數 31"
@@ -40061,27 +40061,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3179,
+          "contribution": 0.3084,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2166,
+          "contribution": 0.2196,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2065,
+          "contribution": 0.2094,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1927,
+          "contribution": 0.1954,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0663,
+          "contribution": 0.0672,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -40115,9 +40115,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7258646816743981,
       "volumeRatio20": 0.3778806085900981,
       "revenueMom21d": 0.0,
-      "foreign5": 237.37199999999996,
-      "trust5": -64.277,
-      "totalNet5": 173.09499999999997,
+      "foreign5": -677.658,
+      "trust5": -66.277,
+      "totalNet5": -743.9350000000001,
       "foreignNet": 154.0,
       "trustNet": -56.277,
       "totalNet": 75.718,
@@ -40145,34 +40145,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 67",
-        "法人資金分數 43",
         "量能分數 38",
+        "法人資金分數 29",
         "趨勢結構分數 21"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3712,
+          "contribution": 0.4027,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2386,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.2113,
+          "contribution": 0.2291,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1741,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.1165,
+          "contribution": 0.1264,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0624,
+          "contribution": 0.0677,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -40206,9 +40206,9 @@ export const stockSearchData = {
       "volumeRatio5": 2.389281479953733,
       "volumeRatio20": 0.5762387369097748,
       "revenueMom21d": 0.0,
-      "foreign5": 34.04800000000029,
+      "foreign5": -57.989999999999704,
       "trust5": 110.0,
-      "totalNet5": 144.0480000000003,
+      "totalNet5": 52.010000000000296,
       "foreignNet": 9.469,
       "trustNet": 0.0,
       "totalNet": -22.071,
@@ -40236,24 +40236,24 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 76",
-        "法人資金分數 69",
+        "法人資金分數 68",
         "趨勢結構分數 33",
         "相對強度排名前 93%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.4059,
+          "contribution": 0.4061,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3645,
+          "contribution": 0.3642,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1777,
+          "contribution": 0.1778,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
@@ -40297,9 +40297,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6469134793338175,
       "volumeRatio20": 0.2547905171550218,
       "revenueMom21d": 0.0,
-      "foreign5": -2706.119000000002,
+      "foreign5": -2357.259000000002,
       "trust5": 0.0,
-      "totalNet5": -2706.119000000002,
+      "totalNet5": -2357.259000000002,
       "foreignNet": -331.5,
       "trustNet": 0.0,
       "totalNet": -339.686,
@@ -40327,34 +40327,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 57",
-        "法人資金分數 37",
+        "法人資金分數 39",
         "相對強度排名前 73%",
         "量能分數 24"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3488,
+          "contribution": 0.3439,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2254,
+          "contribution": 0.2363,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1666,
+          "contribution": 0.1642,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1472,
+          "contribution": 0.1451,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1119,
+          "contribution": 0.1104,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -40388,9 +40388,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.96930996057214,
       "volumeRatio20": 0.5784205420117933,
       "revenueMom21d": 0.0,
-      "foreign5": -453.03900000000004,
+      "foreign5": -1104.309,
       "trust5": -2.0,
-      "totalNet5": -455.03900000000004,
+      "totalNet5": -1106.309,
       "foreignNet": 305.44,
       "trustNet": -2.0,
       "totalNet": 293.669,
@@ -40419,33 +40419,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 67",
         "量能分數 66",
-        "法人資金分數 38",
+        "法人資金分數 33",
         "相對強度排名前 72%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.301,
+          "contribution": 0.3078,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2978,
+          "contribution": 0.3045,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1698,
+          "contribution": 0.1511,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1255,
+          "contribution": 0.1283,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1059,
+          "contribution": 0.1083,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -40479,9 +40479,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.3563635124474978,
       "volumeRatio20": 2.6793653111816407,
       "revenueMom21d": 0.0,
-      "foreign5": 501.72699999999986,
+      "foreign5": 485.41099999999983,
       "trust5": 0.0,
-      "totalNet5": 501.72699999999986,
+      "totalNet5": 485.41099999999983,
       "foreignNet": 1046.135,
       "trustNet": 0.0,
       "totalNet": 1010.443,
@@ -40525,34 +40525,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 95",
-        "法人資金分數 62",
+        "法人資金分數 63",
         "波動控制分數 26",
         "趨勢結構分數 25"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.4511,
+          "contribution": 0.4483,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.292,
+          "contribution": 0.2964,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1234,
+          "contribution": 0.1227,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1191,
+          "contribution": 0.1184,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0144,
+          "contribution": 0.0143,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -40586,9 +40586,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7298508005518369,
       "volumeRatio20": 0.7075204849263043,
       "revenueMom21d": 0.0,
-      "foreign5": 292.10299999999995,
+      "foreign5": 400.98599999999993,
       "trust5": 0.0,
-      "totalNet5": 292.10299999999995,
+      "totalNet5": 400.98599999999993,
       "foreignNet": -26.761,
       "trustNet": 0.0,
       "totalNet": -28.473,
@@ -40616,34 +40616,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 80",
+        "法人資金分數 62",
         "量能分數 61",
-        "法人資金分數 60",
         "趨勢結構分數 40"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3251,
+          "contribution": 0.3217,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Volume Expansion",
-          "contribution": 0.2463,
-          "detail": "5日與20日量能放大排名"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.2412,
+          "contribution": 0.2491,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Volume Expansion",
+          "contribution": 0.2437,
+          "detail": "5日與20日量能放大排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.1613,
+          "contribution": 0.1596,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0261,
+          "contribution": 0.0259,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -40677,9 +40677,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4804622362338037,
       "volumeRatio20": 0.2689780061411623,
       "revenueMom21d": 0.0,
-      "foreign5": -10.02899999999996,
+      "foreign5": -29.195999999999962,
       "trust5": 0.0,
-      "totalNet5": -10.02899999999996,
+      "totalNet5": -29.195999999999962,
       "foreignNet": 14.991,
       "trustNet": 0.0,
       "totalNet": 13.619,
@@ -40706,7 +40706,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 54",
+        "法人資金分數 55",
         "波動控制分數 46",
         "趨勢結構分數 28",
         "量能分數 13"
@@ -40714,27 +40714,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3559,
+          "contribution": 0.3589,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2993,
+          "contribution": 0.2979,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1834,
+          "contribution": 0.1826,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0828,
+          "contribution": 0.0824,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0786,
+          "contribution": 0.0782,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -40768,9 +40768,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.735341424254096,
       "volumeRatio20": 0.2718597097194842,
       "revenueMom21d": -0.0226592923870557,
-      "foreign5": 306.097,
+      "foreign5": 69.577,
       "trust5": 0.0,
-      "totalNet5": 306.097,
+      "totalNet5": 69.577,
       "foreignNet": 21.0,
       "trustNet": 0.0,
       "totalNet": 19.391,
@@ -40797,7 +40797,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 60",
+        "法人資金分數 57",
         "波動控制分數 53",
         "量能分數 32",
         "相對強度排名前 83%"
@@ -40805,27 +40805,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3415,
+          "contribution": 0.3319,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.3003,
+          "contribution": 0.3047,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1813,
+          "contribution": 0.184,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0955,
+          "contribution": 0.0969,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0814,
+          "contribution": 0.0826,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -40859,9 +40859,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5901603461681912,
       "volumeRatio20": 0.2846292018230857,
       "revenueMom21d": 0.0,
-      "foreign5": -289.88900000000046,
+      "foreign5": -356.6000000000005,
       "trust5": 0.0,
-      "totalNet5": -289.88900000000046,
+      "totalNet5": -356.6000000000005,
       "foreignNet": 13.3,
       "trustNet": 0.0,
       "totalNet": 13.074,
@@ -40889,34 +40889,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 96",
-        "法人資金分數 50",
+        "法人資金分數 49",
         "趨勢結構分數 45",
         "相對強度排名前 68%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3912,
+          "contribution": 0.3926,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2024,
+          "contribution": 0.1994,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1849,
+          "contribution": 0.1856,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1309,
+          "contribution": 0.1314,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0906,
+          "contribution": 0.0909,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -40950,9 +40950,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9015771298785574,
       "volumeRatio20": 0.4741081711356852,
       "revenueMom21d": 0.0,
-      "foreign5": -441.40100000000047,
+      "foreign5": -521.1200000000007,
       "trust5": 0.0,
-      "totalNet5": -441.40100000000047,
+      "totalNet5": -521.1200000000007,
       "foreignNet": -465.165,
       "trustNet": 0.0,
       "totalNet": -443.165,
@@ -40981,33 +40981,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 79",
         "量能分數 57",
-        "法人資金分數 48",
+        "法人資金分數 47",
         "趨勢結構分數 41"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3166,
+          "contribution": 0.318,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2256,
+          "contribution": 0.2266,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1911,
+          "contribution": 0.1875,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1652,
+          "contribution": 0.1659,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1015,
+          "contribution": 0.102,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -41041,9 +41041,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7804126126976624,
       "volumeRatio20": 0.481802320482846,
       "revenueMom21d": 0.0,
-      "foreign5": -4064.0239999999944,
-      "trust5": -216.411,
-      "totalNet5": -4280.434999999994,
+      "foreign5": -4508.970999999994,
+      "trust5": -346.411,
+      "totalNet5": -4855.381999999994,
       "foreignNet": 154.905,
       "trustNet": -36.748,
       "totalNet": 163.36,
@@ -41078,27 +41078,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.4211,
+          "contribution": 0.4261,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2219,
+          "contribution": 0.2245,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1666,
+          "contribution": 0.1686,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1111,
+          "contribution": 0.1124,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0792,
+          "contribution": 0.0683,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -41132,9 +41132,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8294372181098724,
       "volumeRatio20": 0.6039128515447909,
       "revenueMom21d": 0.0,
-      "foreign5": -724.2329999999945,
-      "trust5": -76.00000000000023,
-      "totalNet5": -800.2329999999947,
+      "foreign5": 190.68800000000545,
+      "trust5": -7.000000000000227,
+      "totalNet5": 183.68800000000522,
       "foreignNet": 985.168,
       "trustNet": -3.0,
       "totalNet": 988.402,
@@ -41163,34 +41163,34 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 92",
         "量能分數 62",
-        "相對強度排名前 63%",
-        "趨勢結構分數 34"
+        "法人資金分數 47",
+        "相對強度排名前 63%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3633,
+          "contribution": 0.339,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2458,
+          "contribution": 0.2293,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1714,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1447,
+          "contribution": 0.1351,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1342,
+          "contribution": 0.1253,
           "detail": "ADX 與 MA20 趨勢結構"
-        },
-        {
-          "factor": "Institutional Flow",
-          "contribution": 0.1119,
-          "detail": "外資與投信近5日買超排名"
         }
       ]
     },
@@ -41223,9 +41223,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6420126561665939,
       "volumeRatio20": 0.5322662707856914,
       "revenueMom21d": 0.0,
-      "foreign5": -396.5549999999997,
-      "trust5": -2.0000000000002274,
-      "totalNet5": -398.55499999999995,
+      "foreign5": -590.6039999999997,
+      "trust5": -1.0000000000002274,
+      "totalNet5": -591.6039999999999,
       "foreignNet": 24.396,
       "trustNet": 0.0,
       "totalNet": 20.76,
@@ -41254,33 +41254,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 85",
         "量能分數 43",
-        "法人資金分數 38",
+        "法人資金分數 36",
         "相對強度排名前 77%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.4231,
+          "contribution": 0.427,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2156,
+          "contribution": 0.2176,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1911,
+          "contribution": 0.1835,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1158,
+          "contribution": 0.1169,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0544,
+          "contribution": 0.0549,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -41314,9 +41314,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4036769422417239,
       "volumeRatio20": 0.2642097546399611,
       "revenueMom21d": 0.0,
-      "foreign5": -241.16200000000003,
-      "trust5": 0.0,
-      "totalNet5": -241.16200000000003,
+      "foreign5": -211.25500000000002,
+      "trust5": 1.0,
+      "totalNet5": -210.25500000000002,
       "foreignNet": 2.0,
       "trustNet": 0.0,
       "totalNet": -4.0,
@@ -41344,34 +41344,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 78",
-        "法人資金分數 50",
+        "法人資金分數 60",
         "趨勢結構分數 42",
         "相對強度排名前 87%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.4086,
+          "contribution": 0.3883,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2614,
+          "contribution": 0.2982,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2211,
+          "contribution": 0.2101,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0656,
+          "contribution": 0.0624,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0432,
+          "contribution": 0.041,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -41405,9 +41405,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6256581304582092,
       "volumeRatio20": 0.9844151136828098,
       "revenueMom21d": 0.0,
-      "foreign5": -1749.825,
-      "trust5": 1770.327,
-      "totalNet5": 20.501999999999953,
+      "foreign5": -1085.774,
+      "trust5": 1881.616,
+      "totalNet5": 795.8420000000001,
       "foreignNet": -288.0,
       "trustNet": 311.993,
       "totalNet": 61.568,
@@ -41434,35 +41434,35 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
+        "法人資金分數 62",
         "量能分數 60",
-        "法人資金分數 58",
         "趨勢結構分數 46",
         "波動控制分數 40"
       ],
       "explainability": [
         {
-          "factor": "Volume Expansion",
-          "contribution": 0.2745,
-          "detail": "5日與20日量能放大排名"
-        },
-        {
           "factor": "Institutional Flow",
-          "contribution": 0.267,
+          "contribution": 0.2814,
           "detail": "外資與投信近5日買超排名"
         },
         {
+          "factor": "Volume Expansion",
+          "contribution": 0.2691,
+          "detail": "5日與20日量能放大排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.2117,
+          "contribution": 0.2075,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1842,
+          "contribution": 0.1806,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0626,
+          "contribution": 0.0614,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -41496,9 +41496,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8153194157911464,
       "volumeRatio20": 0.6343822249005724,
       "revenueMom21d": 0.0,
-      "foreign5": -1900.6079999999984,
+      "foreign5": -2118.547999999998,
       "trust5": -593.0,
-      "totalNet5": -2493.6079999999984,
+      "totalNet5": -2711.547999999998,
       "foreignNet": 1014.0,
       "trustNet": -589.0,
       "totalNet": 428.0,
@@ -41533,27 +41533,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3577,
+          "contribution": 0.3569,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2492,
+          "contribution": 0.2486,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1757,
+          "contribution": 0.1753,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1431,
+          "contribution": 0.1427,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0743,
+          "contribution": 0.0765,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -41587,9 +41587,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4800489563321279,
       "volumeRatio20": 0.2089631871845046,
       "revenueMom21d": 0.0,
-      "foreign5": 38.556000000000665,
-      "trust5": 36.856,
-      "totalNet5": 75.41200000000066,
+      "foreign5": -5.4989999999993415,
+      "trust5": 37.010999999999996,
+      "totalNet5": 31.512000000000654,
       "foreignNet": 9.0,
       "trustNet": 56.903,
       "totalNet": 64.374,
@@ -41616,7 +41616,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 67",
+        "法人資金分數 68",
         "波動控制分數 61",
         "相對強度排名前 78%",
         "趨勢結構分數 21"
@@ -41624,27 +41624,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3698,
+          "contribution": 0.3729,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.3354,
+          "contribution": 0.3337,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1233,
+          "contribution": 0.1227,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1172,
+          "contribution": 0.1166,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0544,
+          "contribution": 0.0541,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -41678,9 +41678,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6726270365265749,
       "volumeRatio20": 0.3745363286900712,
       "revenueMom21d": 0.0,
-      "foreign5": -177.44099999999906,
+      "foreign5": -319.5999999999991,
       "trust5": 0.0,
-      "totalNet5": -177.44099999999906,
+      "totalNet5": -319.5999999999991,
       "foreignNet": 43.398,
       "trustNet": 0.0,
       "totalNet": 47.1,
@@ -41708,34 +41708,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 64",
-        "法人資金分數 52",
+        "法人資金分數 49",
         "量能分數 34",
         "趨勢結構分數 33"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3202,
+          "contribution": 0.3243,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2583,
+          "contribution": 0.2488,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1717,
+          "contribution": 0.1739,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1636,
+          "contribution": 0.1657,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0862,
+          "contribution": 0.0873,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -41769,9 +41769,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0504139265544212,
       "volumeRatio20": 0.9222060207542302,
       "revenueMom21d": 0.0,
-      "foreign5": 538.9520000000005,
-      "trust5": 1306.9150000000004,
-      "totalNet5": 1845.8670000000009,
+      "foreign5": 248.54300000000057,
+      "trust5": 1396.4710000000005,
+      "totalNet5": 1645.014000000001,
       "foreignNet": 300.834,
       "trustNet": 233.847,
       "totalNet": 539.249,
@@ -41799,34 +41799,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 81",
-        "法人資金分數 80",
         "波動控制分數 80",
+        "法人資金分數 78",
         "趨勢結構分數 40"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2644,
+          "contribution": 0.2658,
           "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2601,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volatility Control",
-          "contribution": 0.2601,
+          "contribution": 0.2615,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2562,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.1294,
+          "contribution": 0.1301,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.086,
+          "contribution": 0.0865,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -41860,9 +41860,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4181843421890523,
       "volumeRatio20": 0.2404918912863027,
       "revenueMom21d": 0.0,
-      "foreign5": -520.672,
+      "foreign5": -685.17,
       "trust5": 0.0,
-      "totalNet5": -520.672,
+      "totalNet5": -685.17,
       "foreignNet": -120.852,
       "trustNet": 0.0,
       "totalNet": -121.025,
@@ -41890,34 +41890,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 56",
-        "法人資金分數 46",
+        "法人資金分數 45",
         "趨勢結構分數 35",
         "相對強度排名前 88%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3581,
+          "contribution": 0.3602,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2947,
+          "contribution": 0.2906,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2203,
+          "contribution": 0.2216,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.076,
+          "contribution": 0.0764,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0509,
+          "contribution": 0.0512,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -41951,9 +41951,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.1203720686947682,
       "volumeRatio20": 0.5104551203585934,
       "revenueMom21d": 0.0,
-      "foreign5": 201.594,
+      "foreign5": 210.71499999999997,
       "trust5": 0.0,
-      "totalNet5": 201.594,
+      "totalNet5": 210.71499999999997,
       "foreignNet": 198.0,
       "trustNet": 0.0,
       "totalNet": 199.847,
@@ -41982,33 +41982,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 65",
         "波動控制分數 64",
-        "法人資金分數 58",
+        "法人資金分數 60",
         "相對強度排名前 61%"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2533,
+          "contribution": 0.2516,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2498,
+          "contribution": 0.2481,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2256,
+          "contribution": 0.2308,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1534,
+          "contribution": 0.1524,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1178,
+          "contribution": 0.117,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -42042,9 +42042,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0478782611368564,
       "volumeRatio20": 0.9236734559249066,
       "revenueMom21d": 0.0,
-      "foreign5": 560.7160000000009,
+      "foreign5": -244.911999999999,
       "trust5": 0.0,
-      "totalNet5": 560.7160000000009,
+      "totalNet5": -244.911999999999,
       "foreignNet": 922.0,
       "trustNet": 0.0,
       "totalNet": 922.0,
@@ -42074,32 +42074,32 @@ export const stockSearchData = {
         "量能分數 81",
         "波動控制分數 76",
         "趨勢結構分數 70",
-        "法人資金分數 62"
+        "法人資金分數 51"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2452,
+          "contribution": 0.2543,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2297,
+          "contribution": 0.2381,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2111,
+          "contribution": 0.2189,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1884,
+          "contribution": 0.1584,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1257,
+          "contribution": 0.1303,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -42133,9 +42133,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6435759185687511,
       "volumeRatio20": 0.5811239021636923,
       "revenueMom21d": 0.0,
-      "foreign5": -59.971999999999895,
+      "foreign5": -180.46899999999988,
       "trust5": 0.0,
-      "totalNet5": -59.971999999999895,
+      "totalNet5": -180.46899999999988,
       "foreignNet": 23.0,
       "trustNet": 0.0,
       "totalNet": 20.203,
@@ -42163,34 +42163,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 81",
-        "法人資金分數 53",
+        "法人資金分數 52",
         "量能分數 47",
         "趨勢結構分數 37"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3366,
+          "contribution": 0.339,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2218,
+          "contribution": 0.2162,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1943,
+          "contribution": 0.1957,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1528,
+          "contribution": 0.1539,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0946,
+          "contribution": 0.0952,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -42224,9 +42224,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0586521364977333,
       "volumeRatio20": 0.9965143200304168,
       "revenueMom21d": 0.0,
-      "foreign5": 337.85199999999554,
-      "trust5": -39.000000000000455,
-      "totalNet5": 298.8519999999951,
+      "foreign5": -732.1890000000045,
+      "trust5": -1.8820000000004549,
+      "totalNet5": -734.0710000000049,
       "foreignNet": 449.283,
       "trustNet": -1.0,
       "totalNet": 421.507,
@@ -42255,33 +42255,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 88",
         "量能分數 84",
-        "法人資金分數 45",
-        "趨勢結構分數 41"
+        "趨勢結構分數 41",
+        "法人資金分數 35"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3017,
+          "contribution": 0.3128,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2878,
+          "contribution": 0.2984,
           "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1557,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.1418,
+          "contribution": 0.147,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.1247,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Relative Strength",
-          "contribution": 0.1129,
+          "contribution": 0.117,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -42315,9 +42315,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.2428395273462614,
       "volumeRatio20": 0.7069875429186208,
       "revenueMom21d": 0.0,
-      "foreign5": 545.1230000000012,
+      "foreign5": 817.8220000000013,
       "trust5": 0.0,
-      "totalNet5": 545.1230000000012,
+      "totalNet5": 817.8220000000013,
       "foreignNet": 567.01,
       "trustNet": 0.0,
       "totalNet": 569.01,
@@ -42346,33 +42346,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 88",
         "量能分數 80",
-        "法人資金分數 62",
+        "法人資金分數 65",
         "相對強度排名前 67%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2987,
+          "contribution": 0.2957,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2696,
+          "contribution": 0.267,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2107,
+          "contribution": 0.2184,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1121,
+          "contribution": 0.111,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.109,
+          "contribution": 0.1079,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -42406,9 +42406,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7058749990149874,
       "volumeRatio20": 0.4378198970807625,
       "revenueMom21d": 0.0,
-      "foreign5": -604.023,
-      "trust5": -355.0,
-      "totalNet5": -959.023,
+      "foreign5": -357.361,
+      "trust5": -223.0,
+      "totalNet5": -580.361,
       "foreignNet": -154.0,
       "trustNet": 1.0,
       "totalNet": -154.438,
@@ -42438,33 +42438,33 @@ export const stockSearchData = {
         "波動控制分數 88",
         "趨勢結構分數 42",
         "量能分數 41",
-        "相對強度排名前 73%"
+        "法人資金分數 30"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.392,
+          "contribution": 0.386,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1865,
+          "contribution": 0.1837,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1825,
+          "contribution": 0.1797,
           "detail": "5日與20日量能放大排名"
         },
         {
-          "factor": "Relative Strength",
-          "contribution": 0.121,
-          "detail": "10日動能、52週位置與均線乖離綜合排名"
+          "factor": "Institutional Flow",
+          "contribution": 0.1313,
+          "detail": "外資與投信近5日買超排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.118,
-          "detail": "外資與投信近5日買超排名"
+          "factor": "Relative Strength",
+          "contribution": 0.1192,
+          "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
     },
@@ -42497,9 +42497,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5803717039591421,
       "volumeRatio20": 0.3832123590679579,
       "revenueMom21d": 0.0,
-      "foreign5": -6011.788,
-      "trust5": -14.0,
-      "totalNet5": -6025.788,
+      "foreign5": -8161.463,
+      "trust5": 1.0,
+      "totalNet5": -8160.463,
       "foreignNet": -1446.915,
       "trustNet": -2.0,
       "totalNet": -1438.97,
@@ -42527,34 +42527,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 72",
+        "法人資金分數 41",
         "量能分數 28",
-        "相對強度排名前 74%",
-        "法人資金分數 21"
+        "相對強度排名前 74%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.4349,
+          "contribution": 0.3874,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.2198,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Volume Expansion",
-          "contribution": 0.168,
+          "contribution": 0.1496,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1592,
+          "contribution": 0.1418,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.1243,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Trend Structure",
-          "contribution": 0.1136,
+          "contribution": 0.1012,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -42588,9 +42588,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7157640033689132,
       "volumeRatio20": 0.5937451612791594,
       "revenueMom21d": 0.0,
-      "foreign5": -1638.8270000000025,
-      "trust5": -2487.919000000001,
-      "totalNet5": -4126.746000000003,
+      "foreign5": -2893.909000000003,
+      "trust5": -2109.1210000000005,
+      "totalNet5": -5003.030000000003,
       "foreignNet": 584.2,
       "trustNet": -671.096,
       "totalNet": -66.34,
@@ -42625,27 +42625,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.4148,
+          "contribution": 0.4204,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2369,
+          "contribution": 0.2401,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.172,
+          "contribution": 0.1743,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0977,
+          "contribution": 0.099,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0785,
+          "contribution": 0.0662,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -42679,9 +42679,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.515357578504308,
       "volumeRatio20": 0.3956112788620231,
       "revenueMom21d": 0.0,
-      "foreign5": -871.3729999999999,
+      "foreign5": -915.3729999999999,
       "trust5": 0.0,
-      "totalNet5": -871.3729999999999,
+      "totalNet5": -915.3729999999999,
       "foreignNet": -28.91,
       "trustNet": 0.0,
       "totalNet": -36.337,
@@ -42709,34 +42709,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 81",
-        "法人資金分數 43",
+        "法人資金分數 44",
         "趨勢結構分數 41",
         "量能分數 24"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.394,
+          "contribution": 0.3929,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2121,
+          "contribution": 0.2144,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.199,
+          "contribution": 0.1984,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1175,
+          "contribution": 0.1172,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0774,
+          "contribution": 0.0771,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -42770,9 +42770,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6106633984695553,
       "volumeRatio20": 0.4771778511255207,
       "revenueMom21d": 0.0,
-      "foreign5": -215.59399999999908,
+      "foreign5": -453.6779999999991,
       "trust5": 0.0,
-      "totalNet5": -215.59399999999908,
+      "totalNet5": -453.6779999999991,
       "foreignNet": -8.981,
       "trustNet": 0.0,
       "totalNet": -8.67,
@@ -42800,34 +42800,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 80",
-        "法人資金分數 51",
+        "法人資金分數 47",
         "量能分數 37",
         "趨勢結構分數 34"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3446,
+          "contribution": 0.35,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2206,
+          "contribution": 0.2085,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1596,
+          "contribution": 0.1621,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1491,
+          "contribution": 0.1515,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.126,
+          "contribution": 0.1279,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -42861,9 +42861,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7586475628086478,
       "volumeRatio20": 0.283298860679169,
       "revenueMom21d": 0.0,
-      "foreign5": -79.87899999999821,
+      "foreign5": 320.4910000000018,
       "trust5": -1.0,
-      "totalNet5": -80.87899999999821,
+      "totalNet5": 319.4910000000018,
       "foreignNet": 66.36,
       "trustNet": -1.0,
       "totalNet": 123.397,
@@ -42891,34 +42891,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 60",
-        "法人資金分數 44",
+        "法人資金分數 52",
         "量能分數 34",
         "趨勢結構分數 30"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3103,
+          "contribution": 0.2984,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2273,
+          "contribution": 0.2571,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1744,
+          "contribution": 0.1677,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1567,
+          "contribution": 0.1507,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1312,
+          "contribution": 0.1262,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -42952,9 +42952,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4972849884273232,
       "volumeRatio20": 0.4380130919592069,
       "revenueMom21d": 0.0,
-      "foreign5": -711.3750000000002,
-      "trust5": 148.0,
-      "totalNet5": -563.3750000000002,
+      "foreign5": -146.1640000000002,
+      "trust5": 146.0,
+      "totalNet5": -0.16400000000018622,
       "foreignNet": 110.071,
       "trustNet": 1.0,
       "totalNet": 108.356,
@@ -42981,7 +42981,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 58",
+        "法人資金分數 67",
         "波動控制分數 55",
         "趨勢結構分數 28",
         "量能分數 26"
@@ -42989,27 +42989,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3357,
+          "contribution": 0.3659,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.3136,
+          "contribution": 0.2994,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1626,
+          "contribution": 0.1552,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1516,
+          "contribution": 0.1447,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0364,
+          "contribution": 0.0347,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -43043,9 +43043,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9349786033076584,
       "volumeRatio20": 0.5218232377680737,
       "revenueMom21d": 0.0,
-      "foreign5": -14.0,
+      "foreign5": 53.0,
       "trust5": 0.0,
-      "totalNet5": -14.0,
+      "totalNet5": 53.0,
       "foreignNet": 133.0,
       "trustNet": 0.0,
       "totalNet": 131.924,
@@ -43074,33 +43074,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 86",
         "量能分數 61",
-        "法人資金分數 54",
+        "法人資金分數 57",
         "趨勢結構分數 46"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3077,
+          "contribution": 0.3047,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2178,
+          "contribution": 0.2157,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1934,
+          "contribution": 0.2012,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1639,
+          "contribution": 0.1624,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1172,
+          "contribution": 0.1161,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -43134,9 +43134,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4865349260717068,
       "volumeRatio20": 0.3773936314688552,
       "revenueMom21d": 0.0,
-      "foreign5": -4237.413000000003,
+      "foreign5": -4487.198000000004,
       "trust5": -581.5,
-      "totalNet5": -4818.913000000003,
+      "totalNet5": -5068.698000000004,
       "foreignNet": 27.0,
       "trustNet": -117.5,
       "totalNet": -109.464,
@@ -43166,32 +43166,32 @@ export const stockSearchData = {
         "波動控制分數 77",
         "量能分數 21",
         "趨勢結構分數 18",
-        "法人資金分數 15"
+        "法人資金分數 14"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.5325,
+          "contribution": 0.5351,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1436,
+          "contribution": 0.1443,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1227,
+          "contribution": 0.1233,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1046,
+          "contribution": 0.1002,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0967,
+          "contribution": 0.0971,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -43225,9 +43225,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8445404976047534,
       "volumeRatio20": 0.6824350024213487,
       "revenueMom21d": 0.0,
-      "foreign5": 7371.417999999984,
-      "trust5": -1301.4729999999872,
-      "totalNet5": 6069.944999999997,
+      "foreign5": 4595.295999999983,
+      "trust5": -1172.9749999999872,
+      "totalNet5": 3422.320999999996,
       "foreignNet": 1083.164,
       "trustNet": -393.711,
       "totalNet": -1734.651,
@@ -43256,28 +43256,28 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 68",
         "波動控制分數 62",
-        "法人資金分數 51",
+        "法人資金分數 50",
         "趨勢結構分數 41"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2985,
+          "contribution": 0.2999,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2714,
+          "contribution": 0.2726,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2265,
+          "contribution": 0.223,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.182,
+          "contribution": 0.1828,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
@@ -43316,9 +43316,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7160132525950001,
       "volumeRatio20": 0.4087534247575071,
       "revenueMom21d": 0.0,
-      "foreign5": -328.418,
-      "trust5": -137.0,
-      "totalNet5": -465.418,
+      "foreign5": -346.39300000000003,
+      "trust5": -134.0,
+      "totalNet5": -480.39300000000003,
       "foreignNet": 0.0,
       "trustNet": -55.0,
       "totalNet": -58.045,
@@ -43347,33 +43347,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 44",
         "量能分數 40",
-        "法人資金分數 32",
+        "法人資金分數 31",
         "趨勢結構分數 25"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.2981,
+          "contribution": 0.3003,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2699,
+          "contribution": 0.272,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2191,
+          "contribution": 0.2131,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1676,
+          "contribution": 0.1689,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0453,
+          "contribution": 0.0457,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -43407,9 +43407,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9332512248410212,
       "volumeRatio20": 1.0422842651957815,
       "revenueMom21d": 0.0,
-      "foreign5": -59401.362,
-      "trust5": -21174.540999999997,
-      "totalNet5": -80575.90299999999,
+      "foreign5": -53465.833999999995,
+      "trust5": -22958.663,
+      "totalNet5": -76424.497,
       "foreignNet": -5420.01,
       "trustNet": -4165.717,
       "totalNet": -9821.647,
@@ -43444,27 +43444,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.4029,
+          "contribution": 0.4031,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3358,
+          "contribution": 0.3359,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1393,
+          "contribution": 0.1394,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.114,
+          "contribution": 0.1141,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0079,
+          "contribution": 0.0075,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -43498,9 +43498,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7554631985131249,
       "volumeRatio20": 0.5109814691170413,
       "revenueMom21d": 0.0,
-      "foreign5": -277.8169999999995,
+      "foreign5": -370.6879999999995,
       "trust5": 10.0,
-      "totalNet5": -267.8169999999995,
+      "totalNet5": -360.6879999999995,
       "foreignNet": -50.217,
       "trustNet": 5.0,
       "totalNet": -45.153,
@@ -43527,7 +43527,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 60",
+        "法人資金分數 59",
         "波動控制分數 50",
         "量能分數 49",
         "相對強度排名前 81%"
@@ -43535,27 +43535,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3113,
+          "contribution": 0.3067,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2603,
+          "contribution": 0.262,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2535,
+          "contribution": 0.2552,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0997,
+          "contribution": 0.1003,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0753,
+          "contribution": 0.0758,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -43589,9 +43589,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7993211617806664,
       "volumeRatio20": 0.9732813543613638,
       "revenueMom21d": 0.0,
-      "foreign5": -7451.697000000004,
-      "trust5": 11877.822,
-      "totalNet5": 4426.124999999996,
+      "foreign5": -6576.672000000004,
+      "trust5": 13368.949,
+      "totalNet5": 6792.276999999996,
       "foreignNet": -2984.147,
       "trustNet": 2541.254,
       "totalNet": -438.889,
@@ -43620,33 +43620,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 85",
         "量能分數 73",
-        "法人資金分數 54",
+        "法人資金分數 55",
         "趨勢結構分數 50"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3085,
+          "contribution": 0.3073,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2642,
+          "contribution": 0.2631,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1953,
+          "contribution": 0.1985,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1828,
+          "contribution": 0.1821,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0492,
+          "contribution": 0.049,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -43680,9 +43680,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.3408987998855308,
       "volumeRatio20": 0.8663943613429815,
       "revenueMom21d": 0.0,
-      "foreign5": -530.0660000000009,
+      "foreign5": -465.09300000000087,
       "trust5": 0.0,
-      "totalNet5": -530.0660000000009,
+      "totalNet5": -465.09300000000087,
       "foreignNet": -112.0,
       "trustNet": 0.0,
       "totalNet": -120.641,
@@ -43711,33 +43711,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 85",
         "波動控制分數 84",
-        "法人資金分數 46",
+        "法人資金分數 47",
         "趨勢結構分數 22"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3419,
+          "contribution": 0.3399,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.3374,
+          "contribution": 0.3355,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1852,
+          "contribution": 0.1898,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0892,
+          "contribution": 0.0887,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0463,
+          "contribution": 0.0461,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -43771,9 +43771,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.96109226544488,
       "volumeRatio20": 0.8795042914750414,
       "revenueMom21d": 0.0,
-      "foreign5": -197.0,
+      "foreign5": -253.0,
       "trust5": 0.0,
-      "totalNet5": -197.0,
+      "totalNet5": -253.0,
       "foreignNet": 68.0,
       "trustNet": 0.0,
       "totalNet": 67.803,
@@ -43801,34 +43801,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "量能分數 78",
-        "法人資金分數 51",
+        "法人資金分數 50",
         "波動控制分數 38",
         "趨勢結構分數 21"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3917,
+          "contribution": 0.3933,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2575,
+          "contribution": 0.2545,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1898,
+          "contribution": 0.1905,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1066,
+          "contribution": 0.107,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0545,
+          "contribution": 0.0547,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -43862,9 +43862,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7967737236455814,
       "volumeRatio20": 0.2376697716663498,
       "revenueMom21d": 0.0,
-      "foreign5": -187.73200000000026,
+      "foreign5": -141.14400000000026,
       "trust5": 0.0,
-      "totalNet5": -187.73200000000026,
+      "totalNet5": -141.14400000000026,
       "foreignNet": -8.184,
       "trustNet": 0.0,
       "totalNet": -9.326,
@@ -43891,7 +43891,7 @@ export const stockSearchData = {
       "isDispositionEntering": false,
       "isDispositionEnding": false,
       "reasons": [
-        "法人資金分數 51",
+        "法人資金分數 53",
         "波動控制分數 47",
         "量能分數 35",
         "趨勢結構分數 17"
@@ -43899,27 +43899,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3193,
+          "contribution": 0.3239,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2933,
+          "contribution": 0.2913,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2162,
+          "contribution": 0.2147,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1053,
+          "contribution": 0.1046,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.066,
+          "contribution": 0.0656,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -43953,9 +43953,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.4667058838642253,
       "volumeRatio20": 0.3934039162753748,
       "revenueMom21d": 0.0,
-      "foreign5": -3374.106,
+      "foreign5": -3969.589,
       "trust5": 0.0,
-      "totalNet5": -3374.106,
+      "totalNet5": -3969.589,
       "foreignNet": 7.0,
       "trustNet": 0.0,
       "totalNet": 0.999,
@@ -43983,34 +43983,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 83",
-        "法人資金分數 36",
+        "法人資金分數 35",
         "相對強度排名前 71%",
         "趨勢結構分數 23"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.434,
+          "contribution": 0.4351,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1875,
+          "contribution": 0.1854,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1503,
+          "contribution": 0.1507,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1204,
+          "contribution": 0.1208,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1077,
+          "contribution": 0.108,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -44044,9 +44044,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7190322138040265,
       "volumeRatio20": 0.4632151786058111,
       "revenueMom21d": 0.0,
-      "foreign5": -8261.283999999981,
-      "trust5": -269.5,
-      "totalNet5": -8530.783999999981,
+      "foreign5": -13630.842999999983,
+      "trust5": -14.0,
+      "totalNet5": -13644.842999999983,
       "foreignNet": 3535.434,
       "trustNet": 2.0,
       "totalNet": 3769.732,
@@ -44081,27 +44081,27 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3972,
+          "contribution": 0.3936,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.2293,
+          "contribution": 0.2273,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1756,
+          "contribution": 0.1741,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1265,
+          "contribution": 0.1253,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0714,
+          "contribution": 0.0798,
           "detail": "外資與投信近5日買超排名"
         }
       ]
@@ -44135,9 +44135,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5467014169794301,
       "volumeRatio20": 0.2934157927465845,
       "revenueMom21d": 0.0,
-      "foreign5": -206.69700000000057,
+      "foreign5": -257.6970000000006,
       "trust5": 0.0,
-      "totalNet5": -206.69700000000057,
+      "totalNet5": -257.6970000000006,
       "foreignNet": 41.99,
       "trustNet": 0.0,
       "totalNet": 39.654,
@@ -44165,34 +44165,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 87",
-        "法人資金分數 51",
+        "法人資金分數 50",
         "趨勢結構分數 34",
         "相對強度排名前 80%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.4108,
+          "contribution": 0.4123,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.242,
+          "contribution": 0.2391,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1623,
+          "contribution": 0.1629,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0954,
+          "contribution": 0.0958,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0895,
+          "contribution": 0.0899,
           "detail": "5日與20日量能放大排名"
         }
       ]
@@ -44226,9 +44226,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.9365792381122288,
       "volumeRatio20": 0.3234274447654088,
       "revenueMom21d": 0.0,
-      "foreign5": -1114.1659999999981,
-      "trust5": -1409.6999999999994,
-      "totalNet5": -2523.8659999999973,
+      "foreign5": -3082.7349999999983,
+      "trust5": -958.9469999999995,
+      "totalNet5": -4041.681999999998,
       "foreignNet": -471.722,
       "trustNet": -1.0,
       "totalNet": -465.405,
@@ -44257,33 +44257,33 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 46",
         "趨勢結構分數 29",
-        "法人資金分數 21",
+        "法人資金分數 15",
         "波動控制分數 13"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.4005,
+          "contribution": 0.4195,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2533,
+          "contribution": 0.2653,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1785,
+          "contribution": 0.1395,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.1097,
+          "contribution": 0.1149,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.058,
+          "contribution": 0.0608,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -44317,9 +44317,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.7559629397777896,
       "volumeRatio20": 0.3976905112547524,
       "revenueMom21d": 0.0,
-      "foreign5": -132.067,
+      "foreign5": -207.986,
       "trust5": 0.0,
-      "totalNet5": -132.067,
+      "totalNet5": -207.986,
       "foreignNet": -17.0,
       "trustNet": 0.0,
       "totalNet": -16.272,
@@ -44347,34 +44347,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 90",
-        "法人資金分數 52",
+        "法人資金分數 51",
         "趨勢結構分數 43",
         "量能分數 42"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3591,
+          "contribution": 0.3602,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2084,
+          "contribution": 0.2062,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1703,
+          "contribution": 0.1708,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1667,
+          "contribution": 0.1671,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0955,
+          "contribution": 0.0958,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -44408,9 +44408,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6776405219902287,
       "volumeRatio20": 0.3826488351356762,
       "revenueMom21d": 0.0,
-      "foreign5": -457.1229999999999,
+      "foreign5": -365.20999999999987,
       "trust5": -1.0,
-      "totalNet5": -458.1229999999999,
+      "totalNet5": -366.20999999999987,
       "foreignNet": 83.5,
       "trustNet": -1.0,
       "totalNet": 85.292,
@@ -44438,34 +44438,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 85",
-        "法人資金分數 38",
+        "法人資金分數 39",
         "量能分數 35",
         "趨勢結構分數 30"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.4083,
+          "contribution": 0.4067,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1841,
+          "contribution": 0.1872,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1693,
+          "contribution": 0.1687,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1422,
+          "contribution": 0.1417,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0961,
+          "contribution": 0.0957,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -44499,9 +44499,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.394830068992127,
       "volumeRatio20": 0.2200688252125705,
       "revenueMom21d": 0.0,
-      "foreign5": -549.710000000002,
-      "trust5": -17.237,
-      "totalNet5": -566.9470000000019,
+      "foreign5": -507.50000000000193,
+      "trust5": -19.888999999999996,
+      "totalNet5": -527.3890000000019,
       "foreignNet": -65.0,
       "trustNet": -5.303,
       "totalNet": -69.598,
@@ -44536,12 +44536,12 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.4776,
+          "contribution": 0.4774,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1739,
+          "contribution": 0.1744,
           "detail": "外資與投信近5日買超排名"
         },
         {
@@ -44551,7 +44551,7 @@ export const stockSearchData = {
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.1527,
+          "contribution": 0.1526,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
@@ -44590,9 +44590,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6830355880378628,
       "volumeRatio20": 0.521973967286679,
       "revenueMom21d": 0.0,
-      "foreign5": 9007.567000000003,
-      "trust5": -14745.377,
-      "totalNet5": -5737.809999999998,
+      "foreign5": 9318.833000000002,
+      "trust5": -14136.836,
+      "totalNet5": -4818.002999999997,
       "foreignNet": -789.376,
       "trustNet": -1628.838,
       "totalNet": -2438.446,
@@ -44620,34 +44620,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 85",
-        "法人資金分數 48",
+        "法人資金分數 49",
         "量能分數 45",
         "趨勢結構分數 43"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3498,
+          "contribution": 0.3491,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2004,
+          "contribution": 0.2021,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1879,
+          "contribution": 0.1875,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1778,
+          "contribution": 0.1775,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0841,
+          "contribution": 0.0839,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -44681,9 +44681,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6345472318306099,
       "volumeRatio20": 0.6494926783325778,
       "revenueMom21d": 0.0,
-      "foreign5": 14706.656999999997,
-      "trust5": -17621.342,
-      "totalNet5": -2914.685000000003,
+      "foreign5": 15111.942999999996,
+      "trust5": -17526.314,
+      "totalNet5": -2414.371000000003,
       "foreignNet": 1508.748,
       "trustNet": -2350.232,
       "totalNet": -741.385,
@@ -44772,9 +44772,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.5773834746709721,
       "volumeRatio20": 0.5946800507889506,
       "revenueMom21d": 0.0,
-      "foreign5": 18.247999999999998,
+      "foreign5": -6.429000000000001,
       "trust5": 0.0,
-      "totalNet5": 18.247999999999998,
+      "totalNet5": -6.429000000000001,
       "foreignNet": -1.0,
       "trustNet": 0.0,
       "totalNet": -2.893,
@@ -44802,34 +44802,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 91",
-        "法人資金分數 54",
+        "法人資金分數 56",
         "趨勢結構分數 50",
         "量能分數 43"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.362,
+          "contribution": 0.3604,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.216,
+          "contribution": 0.2195,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.199,
+          "contribution": 0.1981,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.1686,
+          "contribution": 0.1678,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0545,
+          "contribution": 0.0542,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -44863,9 +44863,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.0734154528390163,
       "volumeRatio20": 0.8982137076121277,
       "revenueMom21d": 0.0,
-      "foreign5": -104.59100000000021,
+      "foreign5": -126.76400000000021,
       "trust5": 0.0,
-      "totalNet5": -104.59100000000021,
+      "totalNet5": -126.76400000000021,
       "foreignNet": 65.229,
       "trustNet": 0.0,
       "totalNet": 103.88,
@@ -44900,17 +44900,17 @@ export const stockSearchData = {
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3171,
+          "contribution": 0.317,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2704,
+          "contribution": 0.2703,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2032,
+          "contribution": 0.2035,
           "detail": "外資與投信近5日買超排名"
         },
         {
@@ -44954,9 +44954,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.6076781820704915,
       "volumeRatio20": 0.8366180654552611,
       "revenueMom21d": 0.0,
-      "foreign5": -3139.288,
-      "trust5": -2194.000000000001,
-      "totalNet5": -5333.2880000000005,
+      "foreign5": -2573.788,
+      "trust5": -2171.000000000001,
+      "totalNet5": -4744.7880000000005,
       "foreignNet": 348.0,
       "trustNet": -864.0,
       "totalNet": -520.0,
@@ -44986,32 +44986,32 @@ export const stockSearchData = {
         "波動控制分數 67",
         "量能分數 54",
         "趨勢結構分數 34",
-        "法人資金分數 14"
+        "法人資金分數 15"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3742,
+          "contribution": 0.3709,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3032,
+          "contribution": 0.3005,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1916,
+          "contribution": 0.1899,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.0772,
+          "contribution": 0.0855,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0537,
+          "contribution": 0.0532,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -45045,9 +45045,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.8844709845770868,
       "volumeRatio20": 0.7559279938810097,
       "revenueMom21d": 0.0,
-      "foreign5": -370.8389999999996,
-      "trust5": -4211.620000000003,
-      "totalNet5": -4582.459000000003,
+      "foreign5": 385.15400000000045,
+      "trust5": -3959.4050000000025,
+      "totalNet5": -3574.251000000002,
       "foreignNet": 604.115,
       "trustNet": -1086.884,
       "totalNet": -508.679,
@@ -45077,32 +45077,32 @@ export const stockSearchData = {
         "量能分數 72",
         "波動控制分數 51",
         "趨勢結構分數 43",
-        "法人資金分數 26"
+        "法人資金分數 39"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3764,
+          "contribution": 0.3522,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.2635,
+          "contribution": 0.2466,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.2247,
+          "contribution": 0.2102,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1328,
+          "contribution": 0.1886,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0026,
+          "contribution": 0.0025,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -45136,9 +45136,9 @@ export const stockSearchData = {
       "volumeRatio5": 2.0026615730729884,
       "volumeRatio20": 2.3057441111467725,
       "revenueMom21d": 0.0,
-      "foreign5": -11254.338000000002,
-      "trust5": 2588.840000000001,
-      "totalNet5": -8665.498,
+      "foreign5": -10737.402000000002,
+      "trust5": 2513.261000000001,
+      "totalNet5": -8224.141000000001,
       "foreignNet": -1447.2,
       "trustNet": 107.0,
       "totalNet": -4972.986,
@@ -45167,28 +45167,28 @@ export const stockSearchData = {
       "reasons": [
         "量能分數 98",
         "波動控制分數 68",
-        "法人資金分數 50",
+        "法人資金分數 51",
         "趨勢結構分數 9"
       ],
       "explainability": [
         {
           "factor": "Volume Expansion",
-          "contribution": 0.4291,
+          "contribution": 0.4272,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Volatility Control",
-          "contribution": 0.3009,
+          "contribution": 0.2996,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.2179,
+          "contribution": 0.2214,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0377,
+          "contribution": 0.0376,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
@@ -45227,9 +45227,9 @@ export const stockSearchData = {
       "volumeRatio5": 1.016001119140915,
       "volumeRatio20": 0.6227727027353515,
       "revenueMom21d": -0.0472778588029052,
-      "foreign5": -1229.161000000001,
+      "foreign5": -1136.087000000001,
       "trust5": 0.0,
-      "totalNet5": -1229.161000000001,
+      "totalNet5": -1136.087000000001,
       "foreignNet": -197.0,
       "trustNet": 0.0,
       "totalNet": -197.0,
@@ -45258,33 +45258,33 @@ export const stockSearchData = {
       "reasons": [
         "波動控制分數 81",
         "量能分數 71",
-        "法人資金分數 41",
+        "法人資金分數 43",
         "相對強度排名前 81%"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3555,
+          "contribution": 0.3529,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.3095,
+          "contribution": 0.3072,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.1806,
+          "contribution": 0.1867,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0827,
+          "contribution": 0.0821,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.0716,
+          "contribution": 0.0711,
           "detail": "ADX 與 MA20 趨勢結構"
         }
       ]
@@ -45318,9 +45318,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.3747867358896715,
       "volumeRatio20": 0.3202082771670916,
       "revenueMom21d": 0.0,
-      "foreign5": 289.942,
+      "foreign5": 297.548,
       "trust5": -1.0,
-      "totalNet5": 288.942,
+      "totalNet5": 296.548,
       "foreignNet": 230.102,
       "trustNet": -1.0,
       "totalNet": 227.114,
@@ -45348,34 +45348,34 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 66",
-        "法人資金分數 50",
+        "法人資金分數 52",
         "趨勢結構分數 27",
         "量能分數 11"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.4182,
+          "contribution": 0.4153,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
           "factor": "Institutional Flow",
-          "contribution": 0.3214,
+          "contribution": 0.3262,
           "detail": "外資與投信近5日買超排名"
         },
         {
           "factor": "Trend Structure",
-          "contribution": 0.1699,
+          "contribution": 0.1687,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Volume Expansion",
-          "contribution": 0.0708,
+          "contribution": 0.0703,
           "detail": "5日與20日量能放大排名"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0197,
+          "contribution": 0.0196,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
@@ -45409,9 +45409,9 @@ export const stockSearchData = {
       "volumeRatio5": 0.581083884105392,
       "volumeRatio20": 0.7119115648238219,
       "revenueMom21d": 0.0,
-      "foreign5": 472.5,
+      "foreign5": -292.5,
       "trust5": 0.0,
-      "totalNet5": 472.5,
+      "totalNet5": -292.5,
       "foreignNet": 74.0,
       "trustNet": 0.0,
       "totalNet": 74.004,
@@ -45439,43 +45439,43 @@ export const stockSearchData = {
       "isDispositionEnding": false,
       "reasons": [
         "波動控制分數 79",
-        "法人資金分數 61",
         "量能分數 50",
+        "法人資金分數 50",
         "趨勢結構分數 30"
       ],
       "explainability": [
         {
           "factor": "Volatility Control",
-          "contribution": 0.3548,
+          "contribution": 0.3741,
           "detail": "20日波動相對分數，越高代表越穩定"
         },
         {
-          "factor": "Institutional Flow",
-          "contribution": 0.2745,
-          "detail": "外資與投信近5日買超排名"
-        },
-        {
           "factor": "Volume Expansion",
-          "contribution": 0.2236,
+          "contribution": 0.2357,
           "detail": "5日與20日量能放大排名"
         },
         {
+          "factor": "Institutional Flow",
+          "contribution": 0.235,
+          "detail": "外資與投信近5日買超排名"
+        },
+        {
           "factor": "Trend Structure",
-          "contribution": 0.1335,
+          "contribution": 0.1408,
           "detail": "ADX 與 MA20 趨勢結構"
         },
         {
           "factor": "Relative Strength",
-          "contribution": 0.0136,
+          "contribution": 0.0143,
           "detail": "10日動能、52週位置與均線乖離綜合排名"
         }
       ]
     }
   ],
   "runContext": {
-    "runId": "20260629_20260630_130156_prod",
+    "runId": "20260629_20260630_134927_prod",
     "strategyVersion": "official_rank_portfolio",
     "asOfDate": "2026-06-29",
-    "configHash": "sha256:0cfdb40509559b73495363bca0564b728688a7b1d536d797f31e734bb11a48d2"
+    "configHash": "sha256:3465b1265fb586109894068d3bdb4460b57d8f593126d806f65e24e36bd31ac4"
   }
 };

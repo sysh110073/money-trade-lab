@@ -17,6 +17,7 @@ for item in [ROOT, PROJECT_ROOT, SCRIPT_ROOT, ML_SCRIPT_ROOT]:
 
 from scripts.check_data_health import _read_js_export  # noqa: E402
 from scripts.export_feature_snapshot import export_snapshot  # noqa: E402
+from scripts.portfolio_api import load_portfolio, save_portfolio  # noqa: E402
 from scripts.send_line_holdings import already_notified, write_notification_marker  # noqa: E402
 from run_portfolio_strategy_wfa import _replacement_cost_penalty, _run_portfolio  # noqa: E402
 from run_rank_portfolio_backtest import _rank, _signal_diagnostics  # noqa: E402
@@ -139,6 +140,15 @@ def check_feature_snapshot_export() -> None:
         assert manifest_path.exists()
         assert manifest["rows"] == 2
         assert manifest["latest_date"] == "2026-01-02"
+
+
+def check_portfolio_api_storage() -> None:
+    with tempfile.TemporaryDirectory() as tmp:
+        path = Path(tmp) / "portfolio.json"
+        saved = save_portfolio([{"symbol": "2330", "buyDate": "2026-01-02", "buyPrice": "100", "shares": "1000"}], path)
+        assert saved[0]["symbol"] == "2330"
+        assert saved[0]["highestPriceSeen"] == 100.0
+        assert load_portfolio(path)[0]["shares"] == 1000
 
 
 def check_rank_is_same_day_cross_section() -> None:
@@ -321,6 +331,7 @@ def main() -> None:
     check_price_series_contract_defaults()
     check_research_metrics_bounds()
     check_feature_snapshot_export()
+    check_portfolio_api_storage()
     check_rank_is_same_day_cross_section()
     check_signal_diagnostics_explains_no_entries()
     check_signal_execution_lag_and_limit_up_block()

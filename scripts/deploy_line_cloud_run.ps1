@@ -1,12 +1,17 @@
 param(
-    [string]$ProjectRoot = "C:\Users\huang\Desktop\money_trade",
+    [string]$ProjectRoot = "",
     [string]$ProjectId = "select-stock-list",
     [string]$Region = "asia-east1",
     [string]$ServiceName = "money-trade-line-push"
 )
 
 $ErrorActionPreference = "Stop"
-$ProjectRoot = (Resolve-Path -LiteralPath $ProjectRoot).Path
+$ProjectRoot = if ([string]::IsNullOrWhiteSpace($ProjectRoot)) {
+    (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot "..")).Path
+}
+else {
+    (Resolve-Path -LiteralPath $ProjectRoot).Path
+}
 $EnvFile = Join-Path $ProjectRoot ".env"
 $SourceDir = Join-Path $ProjectRoot "cloud_line"
 $GcloudCandidates = @(

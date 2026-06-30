@@ -200,6 +200,7 @@ def _check_frontend_data(
         "rotation": folder / "rotationData.js",
         "stock_search": folder / "stockSearchData.js",
         "equity": folder / "equityData.js",
+        "attribution": folder / "attributionData.js",
         "sentiment": folder / "sentimentData.js",
     }
     payloads: dict[str, dict[str, Any]] = {}
@@ -212,7 +213,7 @@ def _check_frontend_data(
             _add_check(checks, f"frontend_{key}.parseable", str(path), f"error: {exc}", "parseable")
 
     if run_id or config_hash:
-        for key in ["dashboard", "rotation", "stock_search", "equity"]:
+        for key in ["dashboard", "rotation", "stock_search", "equity", "attribution"]:
             payload = payloads.get(key)
             if not payload:
                 continue

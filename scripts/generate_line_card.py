@@ -7,6 +7,7 @@ import pandas as pd
 from PIL import Image, ImageChops, ImageDraw, ImageFont, ImageOps
 
 
+ROOT = Path(__file__).resolve().parents[1]
 WIDTH = 1080
 HEIGHT = 1920
 MARGIN = 64
@@ -159,7 +160,7 @@ def create_daily_card(
     )
 
     # Background Decorations
-    artifacts_dir = Path(r"C:\Users\huang\.gemini\antigravity\brain\9da0552b-16f1-467d-821e-1094ff40a7fb")
+    artifacts_dir = ROOT / "cat_picture"
     fish_img = load_and_rembg_image(list(artifacts_dir.glob("q_fish*.png"))[0] if list(artifacts_dir.glob("q_fish*.png")) else Path("nonexistent"), (180, 180))
     wand_img = load_and_rembg_image(list(artifacts_dir.glob("q_wand*.png"))[0] if list(artifacts_dir.glob("q_wand*.png")) else Path("nonexistent"), (200, 200))
     
@@ -307,7 +308,7 @@ def create_daily_card(
     text_plain(draw, (WIDTH // 2, 1870), "僅供策略追蹤，不構成投資建議", 21, MUTED, anchor="ma")
 
     # Cat Stickers on TOP of everything else
-    cat_dir = Path(r"C:\Users\huang\Desktop\money_trade\cat_picture")
+    cat_dir = ROOT / "cat_picture"
     if cat_dir.exists() and cat_dir.is_dir():
         cat_images = list(cat_dir.glob("*.jpg")) + list(cat_dir.glob("*.png"))
         if cat_images:
